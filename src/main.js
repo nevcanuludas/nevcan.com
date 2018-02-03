@@ -4,8 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import 'bootstrap/dist/css/bootstrap.css'
+import Sidebar from './components/Sidebar/Sidebar'
 
 Vue.config.productionTip = false
+
+Vue.component('app-sidebar', Sidebar)
 
 /* eslint-disable no-new */
 new Vue({
