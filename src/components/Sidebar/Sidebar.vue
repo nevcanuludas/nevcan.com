@@ -1,5 +1,5 @@
-<template src="./Sidebar.html"></template>
+<template lang="pug" src="./Sidebar.pug"></template>
 
-<script></script>
+<script src="./Sidebar.js"></script>
 
 <style lang="sass" src="./Sidebar.sass" scoped></style>

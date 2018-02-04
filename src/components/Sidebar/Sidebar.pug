@@ -1,0 +1,36 @@
+mixin social-media-item(href, title)
+  li
+    a(href=href target="_blank" title=title)
+    i.fa(class!=attributes.class)
+
+#sidebar
+  aside.portrait.hidden-sm-down
+
+    .portrait__img
+      a(href="#")
+        img.img-fluid(src="../../assets/portrait-gue-v2.png" alt="Nevcan Uludaş")
+
+    .portrait__description
+      h1.portrait__description__name Nevcan Uludaş
+      a(href="http://neptunsualti.com/" target="_blank" title="Neptün Sualtı Merkezi")
+        img.portrait__description__img(src="../../assets/neptun-icon-white.png" alt="Neptün Sualtı Merkezi")
+      h2.portrait__description__title Dalış Eğitmeni
+
+    .portrait__footer
+      ul.social-media
+        +social-media-item("https://medium.com/neptunsualti", "Medium")(class="fa-medium")
+        +social-media-item("https://instagram.com/nevcanuludas", "Instagram")(class="fa-instagram")
+        +social-media-item("https://www.facebook.com/daliskursu", "Facebook Page")(class="fa-facebook")
+        +social-media-item("https://linkedin.com/in/nevcanuludas", "Linkedin")(class="fa-linkedin")
+        +social-media-item("https://twitter.com/nevcanuludas", "Twitter")(class="fa-twitter")
+
+  aside.portrait-mobile.hidden-md-up
+    .row
+      .col-4
+        .portrait__img
+          img.img-fluid(src="../../assets/portrait-gue-v2.png" alt="Nevcan Uludaş")
+
+      .col-8
+        .portrait__description
+            h1.portrait__description__name Nevcan Uludaş
+            h2.portrait__description__title Dalış Eğitmeni

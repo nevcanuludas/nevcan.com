@@ -1,11 +1,10 @@
-<template>
-  <div id="app">
-    <app-sidebar></app-sidebar>
-    <main class="content">
-      <img src="./assets/logo.png">
-      <router-view/>
-    </main>
-  </div>
+<template lang="pug">
+#app
+  app-sidebar
+  main.content
+    img(src="./assets/logo.png")
+    router-view
+  app-footer
 </template>
 
 <script>
