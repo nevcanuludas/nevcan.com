@@ -1,2 +1,71 @@
-h1
-  color: red
+@import "../../styles/settings.sass"
+
+#sidebar
+  color: #FFF
+
+.portrait
+  position: fixed
+  width: $sidebar-width
+  height: 100vh
+  overflow-y: auto
+  text-align: center
+  background: url(../../assets/sidebar-bg-sea.jpg) left top no-repeat
+  background-color: #010422
+  padding: 3em 2em 1em
+  -webkit-transition: width 0.5s ease
+  -moz-transition: width 0.5s ease
+  -o-transition: width 0.5s ease
+  transition: width 0.5s ease
+  box-shadow: 0 0 0.75em rgba(0, 0, 0, 0.35)
+  z-index: 1
+
+  .portrait__img
+    width: 60%
+    margin: auto
+
+  .portrait__description
+    margin: 1em 0
+
+    .portrait__description__img
+      max-height: 5em
+      margin-bottom: 1em
+
+  .portrait__footer
+    position: -webkit-sticky
+    position: sticky
+    top: calc(100% - 70px)
+
+    .social-media
+      margin: 0
+      padding: 0
+
+      li
+        display: inline-block
+        font-size: 2em
+        margin: .3em
+
+        a
+          color: #FFF
+
+          &:hover
+            color: $neptun-light
+
+      @media (max-width: 900px)
+        li
+          font-size: 1.6em
+
+.portrait-mobile
+  margin-bottom: 2em
+  padding: 1em
+  text-align: left
+  background: url(../../assets/sidebar-bg-sea.jpg) center no-repeat
+  background-color: #010422
+
+  .portrait__description
+    padding-top: 5vw
+
+    h1
+      font-size: 8vw
+
+    h2
+      font-size: 7vw
