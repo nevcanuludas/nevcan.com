@@ -1,9 +1,9 @@
 <template lang="pug">
-#app
+#app.container-flueid
   app-sidebar
   main.content
-    img(src="./assets/logo.png")
     router-view
+    app-about-me
     app-footer
 </template>
 

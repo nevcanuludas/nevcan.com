@@ -6,16 +6,18 @@ import router from './router'
 import 'bootstrap/dist/css/bootstrap.css'
 import AppSidebar from './components/Sidebar/Sidebar'
 import AppFooter from './components/Footer/Footer'
+import AppAboutMe from './components/AboutMe/AboutMe'
 
 Vue.config.productionTip = false
 
 Vue.component('app-sidebar', AppSidebar)
 Vue.component('app-footer', AppFooter)
+Vue.component('app-about-me', AppAboutMe)
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  components: { App, AppSidebar, AppFooter },
+  components: { App, AppSidebar, AppFooter, AppAboutMe },
   template: '<App/>'
 })

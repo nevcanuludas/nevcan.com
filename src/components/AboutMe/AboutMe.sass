@@ -1,0 +1,94 @@
+@import "../../styles/settings.sass"
+
+#aboutme
+  font-size: 1.25em
+
+  .company-list > *
+    margin: 15px 0
+    opacity: 0.65
+    -webkit-transition: opacity 0.2s linear
+    -moz-transition: opacity 0.2s linear
+    -o-transition: opacity 0.2s linear
+    transition: opacity 0.2s linear
+
+    &:hover
+      opacity: 1
+
+  .emedu-list-1
+    position: relative
+    margin: 0
+    padding: 2em 0
+    list-style-type: none
+
+    &:before
+      content: ''
+      position: absolute
+      top: 0
+      left: 2em
+      height: 100%
+      width: 0.1em
+      background: #969696
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(150, 150, 150, 0)), color-stop(10%, #969696), color-stop(90%, #969696), color-stop(100%, rgba(150, 150, 150, 0)))
+      background: -webkit-linear-gradient(top, rgba(150, 150, 150, 0) 0%, #969696 10%, #969696 90%, rgba(150, 150, 150, 0) 100%)
+      background: -moz-linear-gradient(top, rgba(150, 150, 150, 0) 0%, #969696 10%, #969696 90%, rgba(150, 150, 150, 0) 100%)
+      background: -o-linear-gradient(top, rgba(150, 150, 150, 0) 0%, #969696 10%, #969696 90%, rgba(150, 150, 150, 0) 100%)
+      background: linear-gradient(top, rgba(150, 150, 150, 0) 0%, #969696 10%, #969696 90%, rgba(150, 150, 150, 0) 100%)
+
+    li
+      position: relative
+      margin: 1.25em 0 1.25em 4em
+      padding: 1em
+      border-radius: 0.5em
+      border: 2px solid #969696
+      background-color: #fefefe
+
+      &:before
+        content: ''
+        position: absolute
+        top: 1.3em
+        left: -2.55em
+        width: 1em
+        height: 1em
+        background: #0086ef
+        border-radius: 0.5em
+
+    li.milestone
+      background-color: #fbfbde
+
+    .emedu-list-1__date
+      background: rgba(0,134,239,0.9)
+      position: absolute
+      top: 0
+      right: 0
+      padding: 0.25em 0.75em
+      border-top-right-radius: 0.4em
+      color: #FFF
+      font-size: 0.9em
+      font-weight: 600
+
+    .emedu-list-1__location
+      margin: 0 0 0.5em 0
+      font-size: 1.1em
+      font-weight: 700
+
+    .emedu-list-1__title
+      padding: 0 0 0 1em
+      font-weight: 300
+
+    .emedu-list-1__desc
+      padding: 0 0 0 1em
+      color: #000
+      font-size: 0.9em
+      font-style: italic
+
+  @media (max-width: 575px) // Mobile View XS
+    .emedu-list-1
+
+      &:before
+        left: .5em
+
+      li
+        margin-left: 2.5em
+
+      .emedu-list-1__location
+        margin-top: 1em
