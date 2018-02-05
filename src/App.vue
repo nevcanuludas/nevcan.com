@@ -5,6 +5,7 @@
     router-view
     app-about-me
     app-footer
+  app-footer-mobile-message
 </template>
 
 <script>
