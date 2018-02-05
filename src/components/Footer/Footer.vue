@@ -1,5 +1,5 @@
 <template lang="pug" src="./Footer.pug"></template>
 
-<script src="./Footer.js"></script>
+<script></script>
 
 <style lang="sass" src="./Footer.sass" scoped></style>

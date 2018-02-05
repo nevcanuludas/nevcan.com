@@ -4,7 +4,7 @@
   main.content
     img(src="./assets/logo.png")
     router-view
-  app-footer
+    app-footer
 </template>
 
 <script>
