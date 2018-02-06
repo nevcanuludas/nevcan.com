@@ -2,8 +2,9 @@
 #app.container-flueid
   app-sidebar
   main.content
-    router-view
+    // router-view
     app-about-me
+    app-certificates
     app-footer
   app-footer-mobile-message
 </template>
