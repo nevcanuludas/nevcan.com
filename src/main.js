@@ -10,6 +10,7 @@ import AppFooterMobileMessage from './components/FooterMobileMessage/FooterMobil
 import AppAboutMe from './components/AboutMe/AboutMe'
 import AppCertificates from './components/Certificates/Certificates'
 import AppCourses from './components/Courses/Courses'
+import AppServices from './components/Services/Services'
 
 Vue.config.productionTip = false
 
@@ -19,11 +20,12 @@ Vue.component('app-footer-mobile-message', AppFooterMobileMessage)
 Vue.component('app-about-me', AppAboutMe)
 Vue.component('app-certificates', AppCertificates)
 Vue.component('app-courses', AppCourses)
+Vue.component('app-services', AppServices)
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  components: { App, AppSidebar, AppFooter, AppFooterMobileMessage, AppAboutMe, AppCertificates, AppCourses },
+  components: { App, AppSidebar, AppFooter, AppFooterMobileMessage, AppAboutMe, AppCertificates, AppCourses, AppServices },
   template: '<App/>'
 })

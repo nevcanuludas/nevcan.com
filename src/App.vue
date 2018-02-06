@@ -6,6 +6,7 @@
     app-about-me
     app-certificates
     app-courses
+    app-services
     app-footer
   app-footer-mobile-message
 </template>
