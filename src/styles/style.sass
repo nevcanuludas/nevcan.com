@@ -8,9 +8,16 @@
   background-color: #f0f0f0
 
   main.content
-    width: $content-width
     margin-left: $sidebar-width
+    width: $content-width
     padding: 3em 0
+    font-size: 1.25em
+
+    a
+      color: $neptun-light
+
+      &:hover
+        color: $neptun-dark
 
   .pp
     padding: 3em
@@ -84,3 +91,22 @@
 
   .section-heading
     margin-top: 2em
+
+//////////////////////////////////////////////////
+//                 IMAGE CANVAS                 //
+//////////////////////////////////////////////////
+
+.canvas
+  margin: 0
+  width: 100%
+  height: 100%
+  padding: .5em .5em 0
+  -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2)
+  -moz-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2)
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2)
+  background-color: #fefefe
+  text-align: center
+  line-height: 2em
+
+  p
+    margin: 0
