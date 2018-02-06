@@ -1,0 +1,27 @@
+mixin courses-list-item(href, src, name)
+  .col-4.col-lg-3
+    .canvas
+      a(href=href)
+        img.img-fluid(src="../../assets/courses/list/" + src, alt=name)
+        p= name
+
+section#courses
+
+  h2.page-heading Verdiğim Eğitimler
+
+  .pp
+    .row.courses-list
+      +courses-list-item("#", "1star.jpg", "1* Dalıcı")
+      +courses-list-item("#", "2star.jpg", "2* Dalıcı")
+      +courses-list-item("#", "3star.jpg", "3* Dalıcı")
+      +courses-list-item("#", "modified.jpg", "Modifiye Dalıcı")
+      +courses-list-item("#", "wreck.jpg", "Batık")
+      +courses-list-item("#", "dpv.jpg", "DPV")
+      +courses-list-item("#", "drysuit.jpg", "Kuru Elbise")
+      +courses-list-item("#", "ice.jpg", "Buz Dalışı")
+      +courses-list-item("#", "dcd.jpg", "Mağara Dalışı")
+      +courses-list-item("#", "nitrox.jpg", "Nitrox")
+      +courses-list-item("#", "sidemount.jpg", "Sidemount")
+      +courses-list-item("#", "zerotohero.jpg", "Zero to Hero")
+      +courses-list-item("#", "freediving.jpg", "Serbest Dalış")
+      +courses-list-item("#", "handicap.jpg", "Engelli Dalıcı")
