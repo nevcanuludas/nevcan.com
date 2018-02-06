@@ -7,6 +7,7 @@
     app-certificates
     app-courses
     app-services
+    app-contact
     app-footer
   app-footer-mobile-message
 </template>
