@@ -1,5 +1,5 @@
 <template lang="pug">
-#app.container-flueid
+#app
   app-sidebar
   main.content
     // router-view
