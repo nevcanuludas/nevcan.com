@@ -2,5 +2,47 @@ section#contact
 
   h2.page-heading İletişim
 
+  #google-maps
+
   .pp
-    p Contact Component
+    .row
+
+      .col-4
+        .contact-info
+          span Nevcan Uludaş
+          br
+          a(href='tel:+905555435144') +90 (555) 543 5144
+          br
+          a(href='mailto:nevcan@neptunsualti.com') nevcan@neptunsualti.com
+          br
+          a(href='http://neptunsualti.com/', target='_blank') www.neptunsualti.com
+          br
+          a(href='http://gueturkey.com/', target='_blank') www.gueturkey.com
+
+        .row.contact-icons
+          .col-6
+            a(href="https://api.whatsapp.com/send?phone=905555435144&text=Dalış%20kursları%20hakkında%20bilgi%20almak%20istiyorum" target="_blank" title="Whatsapp")
+              i.fa.fa-whatsapp
+          .col-6
+            a(href="https://www.messenger.com/t/daliskursu" target="_blank" title="Facebook Messenger")
+              i.fa.fa-commenting
+
+        iframe(src="https://embed.rateyourdive.com/en/widget.php?id=8283" height="250" width="" frameborder="0" scrolling="no" target="_blank")
+
+      .col-8
+        form
+
+          .form-group
+            label(for='form_name') Ad Soyad
+            input#form_name.form-control(type='text', placeholder='Ad Soyad')
+
+          .form-group.has-warning
+            label(for='form_email') Email
+            input#form_email.form-control.form-control-warning(type='email', placeholder='Lütfen e-mail adresinizi doğru girin')
+            small.form-control-feedback E-mail adresiniz üzerinden bilgilendirme yapılacaktır.
+
+          .form-group
+            label(for='form_message') Mesajınız
+            textarea#form_message.form-control(rows='6')
+
+          button.btn.btn-primary.pull-right(type='submit' disabled) Mesajı Gönder
