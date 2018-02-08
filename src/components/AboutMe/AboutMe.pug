@@ -3,16 +3,16 @@ mixin company-list-item(href, title, src)
     a(href=href target="_blank" title=title)
       img.img-fluid(src='../../assets/logos/' + src, alt=title)
 
-mixin career-item(date, location, title, desc)
+mixin career-item(date, title, location, desc)
   li(class!=attributes.class)
-    .emedu-list-1__date= date
-    .emedu-list-1__location= location
-    .emedu-list-1__title= title
-    .emedu-list-1__desc= desc
+    .career-list__date= date
+    .career-list__title= title
+    .career-list__location= location
+    .career-list__desc= desc
 
 section#aboutme
 
-  h2.page-heading Hakkımda
+  h3.page-heading Hakkımda
 
   .pp
     p Merhaba, ben Nevcan Uludaş.
@@ -20,9 +20,9 @@ section#aboutme
     p Bugün <a href="http://neptunsualti.com" target="_blank">#[strong Neptün Sualtı Merkezi]</a>'nin kurucusu ve aynı zamanda eğitmeniyim. Bunun yanı sıra dünya çapında sualtını koruma ve keşif girişimlerini desteklemek için eğitim programları gerçekleştirmekte ve pek çok farklı sualtı keşif projelerinde yer almaktayım.
     p Kulüplerimde #[strong Sportif Dalış] (#[abbr(title="Self Contained Underwater Breathing Apparatus") SCUBA]), #[strong Serbest Dalış] (Freediving) ve engelli arkadaşlarımız için özel dalış eğitimleri veriyorum. Ayrıca bireysel olarak #[span(title="Nitrox, Heliox, Trimix, Hydrox") karışım gazlarla], kapalı devre sistemlerle (#[abbr(title="Closed Circuit Rebreather") CCR]) ve gerçek tutkum olan mağara dalışlarıyla yakından ilgileniyorum.
 
-    h3.section-heading Kariyer:
+    h4.section-heading Kariyer:
 
-    .emedu-list-1
+    .career-list
       +career-item("2017", "GUE üyesi oldum ve GUE Turkey topluluğunu kurdum", "", "")(class="milestone")
       +career-item("2015'den beri", "Neptün Sualtı Merkezi", "İstanbul (HQ), Enez / Edirne (747)", "Kurucu | Dalış Eğitmeni, Rehber & Uzman Dalıcı Eğitmeni")
       +career-item("2015", "Neptün Sualtı Merkezi'ni kurdum ☺", "", "")(class="milestone")
@@ -33,7 +33,7 @@ section#aboutme
       +career-item("2008-2010", "Octopus Dalış Merkezi (177)", "Kemer / Antalya", "Dalış Lideri")
       +career-item("2008", "İlk kez sualtında nefes aldım ☺", "", "")(class="milestone")
 
-    h3.section-heading Üyesi olduğum kurum ve kuruluşlar:
+    h4.section-heading Üyesi olduğum kurum ve kuruluşlar:
 
     .row.company-list
       +company-list-item("https://www.gue.com/", "Global Underwater Explorers", "gue.png")

@@ -1,20 +1,19 @@
-@import "./settings.sass"
+@import '../../node_modules/reset-css/_reset.scss'
+@import './settings.sass'
 
-html, body
-  background-color: #f0f0f0
+html, body, #app
+  background-color: $content-bgc
 
 #app
   font-family: 'Avenir', Helvetica, Arial, sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-  color: #2c3e50
-  background-color: #f0f0f0
+  color: $content-color
 
   main.content
     margin-left: $sidebar-width
     width: $content-width
     padding: .6em 0 3em
-    font-size: 1.25em
 
     a
       color: $neptun-light
@@ -41,7 +40,7 @@ html, body
       transition: all 0.5s ease
 
   .pp
-    padding: 3em
+    padding: 4em
 
   @media (max-width: $sm)
     main.content
@@ -85,13 +84,13 @@ html, body
   color: #FFF
   margin: 0
   padding: .8em 1.85em
-  font-weight: 700
+  font-weight: 700 !important
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3)
-  font-size: 1.6em
 
 .section-heading
   position: relative
-  margin-top: 3em
+  margin: 3em 0 1em
+  line-height: 1.3em
 
 .section-heading:after,
 .section-heading:before
@@ -137,9 +136,18 @@ html, body
   text-align: center
   line-height: 2em
 
+  &.upsidedown
+
+    img
+      vertical-align: middle
+
+    p
+      line-height: 1.7em
+
   p
     margin: 0
     font-weight: 900
+    line-height: 1em
 
 .pp > .row > *
   margin-bottom: 1.5em

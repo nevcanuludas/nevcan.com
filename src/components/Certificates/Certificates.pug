@@ -5,15 +5,15 @@ mixin certificates-list-item(href, src, name)
         img.img-fluid(src="../../assets/certificates/" + src, alt=name)
         p= name
 
-mixin skill-list-1-item(company, level)
+mixin skill-list-horizontal-item(company, level)
   li
-    .skill-list-1__bar(style!=attributes.style)
+    .skill-list-horizontal__bar(style!=attributes.style)
       strong= company
       span.pull-right= level
 
-mixin skill-list-2-item(genre, company)
+mixin skill-list-vertical-item(genre, company)
   li
-    .skill-list-2__bar(style!=attributes.style)
+    .skill-list-vertical__bar(style!=attributes.style)
       strong= genre
       span.company= company
 
@@ -21,7 +21,7 @@ mixin skill-list-2-item(genre, company)
 
 section#certificates
 
-  h2.page-heading Brövelerim
+  h3.page-heading Brövelerim
 
   .pp
     .row.certificates-list
@@ -32,19 +32,19 @@ section#certificates
       +certificates-list-item("#", "ils.png", "Cankurtarma")
       +certificates-list-item("#", "poseidon.png", "Diğer Belgeler")
 
-    h3.section-heading Eğitmenlik Düzeyi:
+    h4.section-heading Eğitmenlik Düzeyi:
 
-    ul.skill-list-1
-      +skill-list-1-item("TSSF/CMAS", "2* Dalış Eğitmeni")(style="width: calc(100%*5/6)")
-      +skill-list-1-item("PROTEC", "2* Dalış Eğitmeni")(style="width: calc(100%*5/6)")
-      +skill-list-1-item("PROTEC", "Serbest Dalış Eğitmeni")(style="width: calc(100%*4/6)")
+    ul.skill-list-horizontal
+      +skill-list-horizontal-item("TSSF/CMAS", "2* Dalış Eğitmeni")(style="width: calc(100%*5/6)")
+      +skill-list-horizontal-item("PROTEC", "2* Dalış Eğitmeni")(style="width: calc(100%*5/6)")
+      +skill-list-horizontal-item("PROTEC", "Serbest Dalış Eğitmeni")(style="width: calc(100%*4/6)")
 
-    h3.section-heading Kişisel Gelişim:
+    h4.section-heading Kişisel Gelişim:
 
-    ul.skill-list-2
-      +skill-list-2-item("Mağara Dalışı", "GUE")(style="height: 40%")
-      +skill-list-2-item("CCR", "SF2")(style="height: 60%")
-      +skill-list-2-item("Carkurtarma", "ILS/TSSF")(style="height: 85%")
+    ul.skill-list-vertical
+      +skill-list-vertical-item("Mağara Dalışı", "GUE")(style="height: 40%")
+      +skill-list-vertical-item("CCR", "SF2")(style="height: 60%")
+      +skill-list-vertical-item("Carkurtarma", "ILS/TSSF")(style="height: 85%")
 
       .label-beginner Beginner
       .line-beginner

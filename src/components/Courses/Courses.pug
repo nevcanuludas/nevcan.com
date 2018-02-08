@@ -1,13 +1,13 @@
 mixin courses-list-item(href, src, name)
   .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-3
-    .canvas
+    .canvas.upsidedown
       a(href=href)
         p= name
         img.img-fluid(src="../../assets/courses/list/" + src, alt=name)
 
 section#courses
 
-  h2.page-heading Verdiğim Eğitimler
+  h3.page-heading Verdiğim Eğitimler
 
   .pp
     .row.courses-list

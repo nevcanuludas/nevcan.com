@@ -2,8 +2,11 @@
 
 #aboutme
 
+  p
+    margin-bottom: 1em
+
   .company-list > *
-    margin: 15px 0
+    margin: 1em 0
     opacity: 0.65
     -webkit-transition: opacity 0.2s linear
     -moz-transition: opacity 0.2s linear
@@ -13,7 +16,7 @@
     &:hover
       opacity: 1
 
-  .emedu-list-1
+  .career-list
     position: relative
     margin: 0
     padding: 2em 0
@@ -36,9 +39,10 @@
     li
       position: relative
       margin: 1.25em 0 1.25em 4em
-      padding: 1em
-      border-radius: 0.5em
       border: 2px solid #969696
+      border-radius: 0.5em
+      padding: 1.3em
+      line-height: 1.6em
       background-color: #fefefe
 
       &:before
@@ -54,40 +58,42 @@
     li.milestone
       background-color: #fbfbde
 
-    .emedu-list-1__date
+      .career-list__title
+        margin: 0
+
+    .career-list__date
       background: rgba(0,134,239,0.9)
       position: absolute
       top: 0
       right: 0
-      padding: 0.25em 0.75em
+      padding: .5em .8em
       border-top-right-radius: 0.4em
       color: #FFF
-      font-size: 0.9em
+      font-size: 1.1em
       font-weight: 600
 
-    .emedu-list-1__location
+    .career-list__title
       margin: 0 0 0.5em 0
-      font-size: 1.1em
+      font-size: 1.3em
       font-weight: 700
 
-    .emedu-list-1__title
+    .career-list__location
       padding: 0 0 0 1em
+      font-size: 1.2em
       font-weight: 300
 
-    .emedu-list-1__desc
+    .career-list__desc
       padding: 0 0 0 1em
+      font-size: 1.2em
       color: #000
-      font-size: 0.9em
       font-style: italic
 
   @media (max-width: $xs)
-    .emedu-list-1
+    .career-list
 
       &:before
         left: .5em
 
       li
         margin-left: 2.5em
-
-      .emedu-list-1__location
-        margin-top: 1em
+        padding-top: 3.5em
