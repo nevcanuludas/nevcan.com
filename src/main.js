@@ -3,7 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import $ from 'jquery'
 import 'bootstrap/dist/css/bootstrap.css'
+import AppMainMenu from './components/MainMenu/MainMenu'
 import AppSidebar from './components/Sidebar/Sidebar'
 import AppFooter from './components/Footer/Footer'
 import AppFooterMobileMessage from './components/FooterMobileMessage/FooterMobileMessage'
@@ -15,6 +17,7 @@ import AppContact from './components/Contact/Contact'
 
 Vue.config.productionTip = false
 
+Vue.component('app-main-menu', AppMainMenu)
 Vue.component('app-sidebar', AppSidebar)
 Vue.component('app-footer', AppFooter)
 Vue.component('app-footer-mobile-message', AppFooterMobileMessage)
@@ -28,6 +31,24 @@ Vue.component('app-contact', AppContact)
 new Vue({
   el: '#app',
   router,
-  components: { App, AppSidebar, AppFooter, AppFooterMobileMessage, AppAboutMe, AppCertificates, AppCourses, AppServices, AppContact },
-  template: '<App/>'
+  components: { App, AppMainMenu, AppSidebar, AppFooter, AppFooterMobileMessage, AppAboutMe, AppCertificates, AppCourses, AppServices, AppContact },
+  template: '<App/>',
+  mounted: function () {
+    activeMainmenu()
+  }
 })
+
+function toggleMainmenu () {
+  $('#mainmenu').toggleClass('active')
+  $('#mainmenu .mainmenu-btn i.fa').toggleClass('fa-bars')
+  $('#mainmenu .mainmenu-btn i.fa').toggleClass('fa-times')
+}
+
+function activeMainmenu () {
+  $('#mainmenu .mainmenu-btn').click(function () {
+    toggleMainmenu()
+  })
+  $('#mainmenu .mainmenu a').click(function () {
+    toggleMainmenu()
+  })
+}

@@ -1,0 +1,66 @@
+#mainmenu
+  .mainmenu-btn
+    position: fixed
+    top: .15em
+    right: .15em
+    border-radius: 4px
+    padding: 0 .2em
+    font-size: 2em
+    background-color: rgba(0, 0, 0, .2)
+    cursor: pointer
+    z-index: 9
+
+    button
+      border: none
+      color: rgba(255, 255, 255, .7)
+      background: transparent
+      cursor: pointer
+
+      &:focus
+        outline: none
+
+    &:hover
+      background-color: rgba(0, 0, 0, .4)
+
+      button
+        color: rgba(255, 255, 255, .9)
+
+  .mainmenu
+    position: fixed
+    text-outline: -50%
+    left: -50%
+    display: none
+    padding: 2.5em 0
+    width: 200%
+    height: 200%
+    font-size: 2em
+    font-weight: 600
+    line-height: 2.5em
+    text-align: center
+    background-color: rgba(0, 0, 0, .85)
+    z-index: 8
+
+    ul
+      padding: 0
+      list-style: none
+
+      li
+        margin: 0 auto
+        width: 100%
+        max-width: 767px
+
+        a
+          display: inline-block
+          width: 100%
+          color: #FFF
+
+        &:hover
+          background-color: rgba(255, 255, 255, .6)
+          cursor: pointer
+
+          a
+            color: #000
+
+  &.active
+    .mainmenu
+      display: block

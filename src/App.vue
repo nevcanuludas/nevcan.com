@@ -1,5 +1,6 @@
 <template lang="pug">
 #app
+  app-main-menu
   app-sidebar
   main.content
     // router-view
