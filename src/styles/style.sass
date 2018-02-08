@@ -1,5 +1,8 @@
 @import "./settings.sass"
 
+html, body
+  background-color: #f0f0f0
+
 #app
   font-family: 'Avenir', Helvetica, Arial, sans-serif
   -webkit-font-smoothing: antialiased
@@ -10,7 +13,7 @@
   main.content
     margin-left: $sidebar-width
     width: $content-width
-    padding: 3em 0
+    padding: .6em 0 3em
     font-size: 1.25em
 
     a
@@ -19,10 +22,28 @@
       &:hover
         color: $neptun-dark
 
+
+  @media (max-width: $md)
+    main.content
+      margin-left: 295px
+      width: calc(100% - 295px)
+
+  @media (min-width: $lg1)
+    main.content
+      margin-left: 25%
+      width: calc(100% - 25%)
+
+  @media (min-width: $sm1)
+    main.content
+      -webkit-transition: all 0.5s ease
+      -moz-transition: all 0.5s ease
+      -o-transition: all 0.5s ease
+      transition: all 0.5s ease
+
   .pp
     padding: 3em
 
-  @media (max-width: 767px) // Mobile View XS and SM
+  @media (max-width: $sm)
     main.content
       width: 100%
       margin-left: 0
@@ -30,9 +51,17 @@
     .pp
       padding: 1.5em
 
-  @media (max-width: 575px) // Mobile View XS
+  @media (max-width: $xs)
     main.content
-      padding-bottom: 8em
+      padding-bottom: 6em
+
+    .pp
+      padding: 1.5em 1em
+
+      .row > *
+        padding-right: 7px
+        padding-left: 7px
+        margin-bottom: .7em
 
 
 
@@ -85,7 +114,7 @@
 .section-heading:before
   bottom: -5px
 
-@media (max-width: 767px) // Mobile View XS and SM
+@media (max-width: $sm)
   .page-heading
     padding: .75em
 

@@ -1,7 +1,7 @@
 @import "../../styles/settings.sass"
 
 .footer
-  margin: 5em auto 1em
+  margin: 3em auto 1em
   color: #BBB
   font-size: .6em
   line-height: 2em
@@ -20,6 +20,17 @@
         &:hover
           color: #2d3e50 !important
 
-@media (max-width: 767px) // Mobile View XS and SM
+
+
+@media (max-width: $sm)
+
   .footer
     padding: 0 2.6em
+
+
+
+@media (max-width: $xs)
+
+  .footer .social-media
+    font-size: 1.1em
+    line-height: 3em
