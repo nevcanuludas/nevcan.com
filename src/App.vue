@@ -3,12 +3,7 @@
   app-main-menu
   app-sidebar
   main.content
-    // router-view
-    app-about-me
-    app-certificates
-    app-courses
-    app-services
-    app-contact
+    router-view
     app-footer
   app-footer-mobile-message
 </template>
