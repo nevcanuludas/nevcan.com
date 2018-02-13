@@ -1,5 +1,14 @@
 <template lang="pug" src="./Courses.pug"></template>
 
-<script></script>
+<script>
+export default {
+  name: 'Courses',
+  data () {
+    return {
+      sectionTitle: 'Verdiğim Eğitimler'
+    }
+  }
+}
+</script>
 
 <style lang="sass" src="./Courses.sass" scoped></style>

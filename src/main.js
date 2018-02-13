@@ -31,11 +31,16 @@ Vue.component('app-contact', AppContact)
 new Vue({
   el: '#app',
   router,
-  components: { App, AppMainMenu, AppSidebar, AppFooter, AppFooterMobileMessage, AppAboutMe, AppCertificates, AppCourses, AppServices, AppContact },
+  components: { App, AppMainMenu, AppSidebar, AppFooter, AppFooterMobileMessage },
   template: '<App/>',
   mounted: function () {
     activeMainmenu()
   }
+})
+
+new Vue({
+  el: '#home',
+  components: { AppAboutMe, AppCertificates, AppCourses, AppServices, AppContact }
 })
 
 function toggleMainmenu () {
