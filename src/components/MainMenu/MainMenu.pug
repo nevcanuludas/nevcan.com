@@ -1,18 +1,21 @@
 #mainmenu
 
-  .mainmenu-btn
+  .mainmenu-btn(v-on:click= "isActive = !isActive")
     button
-      i.fa.fa-bars
+      i.fa.fa-bars(v-if= "!isActive")
+      i.fa.fa-times(v-if= "isActive")
 
-  .mainmenu
+  .mainmenu(v-if= "isActive")
     ul
       li
-        a(href='#aboutme') Hakkımda
+        a(v-on:click= "isActive = !isActive", href='#aboutme') Hakkımda
       li
-        a(href='#certificates') Brövelerim
+        a(v-on:click= "isActive = !isActive",href='#certificates') Brövelerim
       li
-        a(href='#courses') Verdiğim Eğitimler
+        a(v-on:click= "isActive = !isActive",href='#courses') Verdiğim Eğitimler
       li
-        a(href='#services') Verdiğim Hizmerler
+        a(v-on:click= "isActive = !isActive",href='#services') Verdiğim Hizmerler
       li
-        a(href='#contact') İletişim
+        a(v-on:click= "isActive = !isActive",href='#contact') İletişim
+      li
+        a(v-on:click= "isActive = !isActive",href='/#/scheduled-classes') Etkinlik Takvimi

@@ -3,7 +3,6 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import $ from 'jquery'
 import 'bootstrap/dist/css/bootstrap.css'
 import AppMainMenu from './components/MainMenu/MainMenu'
 import AppSidebar from './components/Sidebar/Sidebar'
@@ -32,28 +31,10 @@ new Vue({
   el: '#app',
   router,
   components: { App, AppMainMenu, AppSidebar, AppFooter, AppFooterMobileMessage },
-  template: '<App/>',
-  mounted: function () {
-    activeMainmenu()
-  }
+  template: '<App/>'
 })
 
 new Vue({
   el: '#home',
   components: { AppAboutMe, AppCertificates, AppCourses, AppServices, AppContact }
 })
-
-function toggleMainmenu () {
-  $('#mainmenu').toggleClass('active')
-  $('#mainmenu .mainmenu-btn i.fa').toggleClass('fa-bars')
-  $('#mainmenu .mainmenu-btn i.fa').toggleClass('fa-times')
-}
-
-function activeMainmenu () {
-  $('#mainmenu .mainmenu-btn').click(function () {
-    toggleMainmenu()
-  })
-  $('#mainmenu .mainmenu a').click(function () {
-    toggleMainmenu()
-  })
-}
