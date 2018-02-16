@@ -8,8 +8,22 @@
 </template>
 
 <script>
+// Local Components Import
+import AppAboutMe from './AboutMe/AboutMe'
+import AppCertificates from './Certificates/Certificates'
+import AppCourses from './Courses/Courses'
+import AppServices from './Services/Services'
+import AppContact from './Contact/Contact'
+
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    'app-about-me': AppAboutMe,
+    'app-certificates': AppCertificates,
+    'app-courses': AppCourses,
+    'app-services': AppServices,
+    'app-contact': AppContact
+  }
 }
 </script>
 
