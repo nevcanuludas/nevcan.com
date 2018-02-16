@@ -25,12 +25,3 @@ new Vue({
   components: { App, AppMainMenu, AppSidebar, AppFooter, AppFooterMobileMessage },
   template: '<App/>'
 })
-
-new Vue({
-  el: '#home'
-})
-
-new Vue({
-  el: '#scheduledClasses',
-  components: { AppScheduledClasses }
-})
