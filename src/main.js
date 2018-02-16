@@ -3,7 +3,6 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import $ from 'jquery'
 import 'bootstrap/dist/css/bootstrap.css'
 import AppMainMenu from './components/MainMenu/MainMenu'
 import AppSidebar from './components/Sidebar/Sidebar'
@@ -14,6 +13,7 @@ import AppCertificates from './components/Certificates/Certificates'
 import AppCourses from './components/Courses/Courses'
 import AppServices from './components/Services/Services'
 import AppContact from './components/Contact/Contact'
+import AppScheduledClasses from './components/ScheduledClasses/ScheduledClasses'
 
 Vue.config.productionTip = false
 
@@ -26,16 +26,14 @@ Vue.component('app-certificates', AppCertificates)
 Vue.component('app-courses', AppCourses)
 Vue.component('app-services', AppServices)
 Vue.component('app-contact', AppContact)
+Vue.component('app-scheduled-classes', AppScheduledClasses)
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   components: { App, AppMainMenu, AppSidebar, AppFooter, AppFooterMobileMessage },
-  template: '<App/>',
-  mounted: function () {
-    activeMainmenu()
-  }
+  template: '<App/>'
 })
 
 new Vue({
@@ -43,17 +41,7 @@ new Vue({
   components: { AppAboutMe, AppCertificates, AppCourses, AppServices, AppContact }
 })
 
-function toggleMainmenu () {
-  $('#mainmenu').toggleClass('active')
-  $('#mainmenu .mainmenu-btn i.fa').toggleClass('fa-bars')
-  $('#mainmenu .mainmenu-btn i.fa').toggleClass('fa-times')
-}
-
-function activeMainmenu () {
-  $('#mainmenu .mainmenu-btn').click(function () {
-    toggleMainmenu()
-  })
-  $('#mainmenu .mainmenu a').click(function () {
-    toggleMainmenu()
-  })
-}
+new Vue({
+  el: '#scheduledClasses',
+  components: { AppScheduledClasses }
+})
