@@ -13,6 +13,7 @@ import AppCertificates from './components/Certificates/Certificates'
 import AppCourses from './components/Courses/Courses'
 import AppServices from './components/Services/Services'
 import AppContact from './components/Contact/Contact'
+import AppScheduledClasses from './components/ScheduledClasses/ScheduledClasses'
 
 Vue.config.productionTip = false
 
@@ -25,6 +26,7 @@ Vue.component('app-certificates', AppCertificates)
 Vue.component('app-courses', AppCourses)
 Vue.component('app-services', AppServices)
 Vue.component('app-contact', AppContact)
+Vue.component('app-scheduled-classes', AppScheduledClasses)
 
 /* eslint-disable no-new */
 new Vue({
@@ -37,4 +39,9 @@ new Vue({
 new Vue({
   el: '#home',
   components: { AppAboutMe, AppCertificates, AppCourses, AppServices, AppContact }
+})
+
+new Vue({
+  el: '#scheduledClasses',
+  components: { AppScheduledClasses }
 })

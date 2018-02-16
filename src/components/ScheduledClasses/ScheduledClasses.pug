@@ -1,0 +1,22 @@
+section#scheduledClasses
+
+  h3.page-heading {{ sectionTitle }}
+
+  .pp
+
+    table.table.table-striped.table-hover
+      thead.thead-inverse
+        tr
+          th #
+          th Tarih
+          th Kurs Adı
+          th Lokasyon
+          th Durum
+      tbody
+        tr(v-for="(trip, index) in trips")
+          th(scope='row') {{ trip.index }}
+          td {{ trip.date }}
+          td
+            a(href="#") {{ trip.name }}
+          td {{ trip.location }}
+          td {{ trip.status }}
