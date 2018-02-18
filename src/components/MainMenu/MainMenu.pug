@@ -5,7 +5,7 @@
       i.fa.fa-bars(v-if= "!isActive")
       i.fa.fa-times(v-if= "isActive")
 
-  .mainmenu(v-if= "isActive")
+  nav.mainmenu(v-if= "isActive")
     ul
       li
         a(v-on:click= "isActive = !isActive", href='/#aboutme') Hakkımda
@@ -17,5 +17,5 @@
         a(v-on:click= "isActive = !isActive", href='/#services') Verdiğim Hizmerler
       li
         a(v-on:click= "isActive = !isActive", href='/#contact') İletişim
-      li
-        a(v-on:click= "isActive = !isActive", href='/scheduled-classes') Etkinlik Takvimi
+      li(v-on:click= "isActive = !isActive")
+        router-link(to='/scheduled-classes' exact) Etkinlik Takvimi
