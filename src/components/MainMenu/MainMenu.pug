@@ -5,17 +5,17 @@
       i.fa.fa-bars(v-if= "!isActive")
       i.fa.fa-times(v-if= "isActive")
 
-  .mainmenu(v-if= "isActive")
+  nav.mainmenu(v-if= "isActive")
     ul
       li
-        a(v-on:click= "isActive = !isActive", href='#aboutme') Hakkımda
+        a(v-on:click= "isActive = !isActive", href='/#aboutme') Hakkımda
       li
-        a(v-on:click= "isActive = !isActive",href='#certificates') Brövelerim
+        a(v-on:click= "isActive = !isActive", href='/#certificates') Brövelerim
       li
-        a(v-on:click= "isActive = !isActive",href='#courses') Verdiğim Eğitimler
+        a(v-on:click= "isActive = !isActive", href='/#courses') Verdiğim Eğitimler
       li
-        a(v-on:click= "isActive = !isActive",href='#services') Verdiğim Hizmerler
+        a(v-on:click= "isActive = !isActive", href='/#services') Verdiğim Hizmerler
       li
-        a(v-on:click= "isActive = !isActive",href='#contact') İletişim
-      li
-        a(v-on:click= "isActive = !isActive",href='/#/scheduled-classes') Etkinlik Takvimi
+        a(v-on:click= "isActive = !isActive", href='/#contact') İletişim
+      li(v-on:click= "isActive = !isActive")
+        router-link(to='/scheduled-classes' exact) Etkinlik Takvimi
