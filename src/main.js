@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueResource from 'vue-resource'
 import 'bootstrap/dist/css/bootstrap.css'
 import AppMainMenu from './components/MainMenu/MainMenu'
 import AppSidebar from './components/Sidebar/Sidebar'
@@ -11,6 +12,7 @@ import AppFooterMobileMessage from './components/FooterMobileMessage/FooterMobil
 import AppScheduledClasses from './components/ScheduledClasses/ScheduledClasses'
 
 Vue.config.productionTip = false
+Vue.use(VueResource)
 
 Vue.component('app-main-menu', AppMainMenu)
 Vue.component('app-sidebar', AppSidebar)

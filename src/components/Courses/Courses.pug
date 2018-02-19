@@ -8,6 +8,6 @@ section#courses
       template(v-for='course in courses')
         .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-3
           .canvas.upsidedown
-            a(:href= 'course.link')
+            router-link(:to="'/courses/' + course.id")
               p {{ course.name }}
-              img.img-fluid(:src= 'imagePath', :alt= 'course.name')
+              img.img-fluid(:src= "'/static/img/list/' + course.imageUrl + '.jpg'", :alt= 'course.name')
