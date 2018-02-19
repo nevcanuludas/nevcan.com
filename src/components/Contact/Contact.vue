@@ -8,6 +8,11 @@ export default {
       sectionTitle: 'İletişim',
       isVisible: false
     }
+  },
+  methods: {
+    visible () {
+      this.isVisible = true
+    }
   }
 }
 </script>
