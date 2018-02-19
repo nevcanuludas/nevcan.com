@@ -5,7 +5,8 @@ export default {
   name: 'Contact',
   data () {
     return {
-      sectionTitle: 'İletişim'
+      sectionTitle: 'İletişim',
+      isVisible: false
     }
   }
 }
