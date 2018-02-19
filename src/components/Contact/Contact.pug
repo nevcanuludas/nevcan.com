@@ -9,11 +9,13 @@ section#contact
 
       .col-sm-6.col-lg-5.col-xl-4
         .contact-info
-          span Nevcan Uludaş
+          strong Nevcan Uludaş
           br
-          a(href='tel:+905555435144') +90 (555) 543 5144
-          br
-          a(href='mailto:nevcan@neptunsualti.com') nevcan@neptunsualti.com
+          span(v-if='!isVisible' @dblclick='isVisible = !isVisible').show-info [İletişim bilgilerini görmek için çift tıklayın]
+          span(v-else)
+            a(href='tel:+905555435144') +90 (555) 543 5144
+            br
+            a(href='mailto:nevcan@neptunsualti.com') nevcan@neptunsualti.com
           br
           a(href='http://neptunsualti.com/', target='_blank') www.neptunsualti.com
           br
