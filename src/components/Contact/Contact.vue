@@ -12,6 +12,10 @@ export default {
   methods: {
     visible () {
       this.isVisible = true
+    },
+    formSubmit (e) {
+      alert('Form Submited')
+      e.preventDefault()
     }
   }
 }

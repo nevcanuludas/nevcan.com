@@ -33,7 +33,7 @@ section#contact
         iframe(src="https://embed.rateyourdive.com/en/widget.php?id=8283" height="280" width="100%" frameborder="0" scrolling="no" target="_blank")
 
       .col-sm-6.col-lg-7.col-xl-8
-        form
+        form(v-on:submit='formSubmit')
 
           .form-group
             label(for='form_name') Ad Soyad
