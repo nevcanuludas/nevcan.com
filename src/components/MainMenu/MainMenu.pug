@@ -1,9 +1,8 @@
 #mainmenu
 
   .mainmenu-btn(v-on:click= "isActive = !isActive")
-    button
-      i.fa.fa-bars(v-if= "!isActive")
-      i.fa.fa-times(v-if= "isActive")
+    i.fa.fa-bars(v-if= "!isActive")
+    i.fa.fa-times(v-if= "isActive")
 
   nav.mainmenu(v-if= "isActive")
     ul
@@ -13,11 +12,11 @@
           span Hakkımda
       li.col-6.col-md-4
         a(v-on:click= "isActive = !isActive", href='/#certificates')
-          i.fa.fa-book
+          i.fa.fa-id-card-o
           span Brövelerim
       li.col-6.col-md-4
         a(v-on:click= "isActive = !isActive", href='/#courses')
-          i.fa.fa-id-card-o
+          i.fa.fa-book
           span Verdiğim Eğitimler
       li.col-6.col-md-4
         a(v-on:click= "isActive = !isActive", href='/#services')
