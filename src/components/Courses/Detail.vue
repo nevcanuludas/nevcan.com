@@ -8,7 +8,7 @@ export default {
       path: this.$route.params.id,
       isVisible: false,
       courseTitle: '',
-      coursePrice: '',
+      coursePrice: 'Kurs ücreti belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
       courseNote: '',
       courseScope: '',
       courseImages: '',
@@ -38,7 +38,7 @@ export default {
       courses: [
         {
           title: '1* Dalıcı Kursu',
-          price: '250€',
+          price: 'Kurs ücreti 250€´dur.',
           scope: 'Kursun amacı başlangıç seviyesinde bir dalıcı yetirştirmektir. Temel teorik ve pratik eğitimleri alarak max 18 metreye kadar dalışlar gerçekleştirebilirler. Kurs sonunda isteğe bağlı olarak TSSF/CMAS veya ProTec belgesi alabilirsiniz. Alınan belgeler tüm dünyada geçerlidir.',
           images: [
             { src: '', alt: 'TSSF/CMAS 1* Dalıcı Sertifikası' },
@@ -66,7 +66,7 @@ export default {
         },
         {
           title: '2* Dalıcı Kursu',
-          price: '250€',
+          price: 'Kurs ücreti 250€´dur.',
           scope: 'Kursun amacı yeterli temel becerilere sahip dalıcının kurtarma, derin dalış, gece dalışı becerilerini arttırmaktır. Kurs sonunda isteğe bağlı olarak TSSF/CMAS veya ProTec belgesi alabilirsiniz. Alınan belgeler tüm dünyada geçerlidir.',
           images: [
             { src: '', alt: 'TSSF/CMAS 2* Dalıcı Sertifikası' },
@@ -96,7 +96,7 @@ export default {
         },
         {
           title: '3* Dalıcı Kursu',
-          price: '250€',
+          price: 'Kurs ücreti 250€´dur.',
           scope: 'Kursun amacı profesyonelliğe ilk adımı atmak isteyen dalıcı adaylarının liderlik becerilerini artıtmaktır. Kurs sonunda isteğe bağlı olarak TSSF/CMAS veya ProTec belgesi alabilirsiniz. Alınan belgeler tüm dünyada geçerlidir.',
           images: [
             { src: '', alt: 'TSSF/CMAS 3* Dalıcı Sertifikası' },
@@ -126,7 +126,7 @@ export default {
         },
         {
           title: 'Modifiye Dalıcı Kursları',
-          price: '550€',
+          price: 'Kurs ücreti 550€´dur.',
           scope: `
           Kursun amacı WRSTC üyelerinin (NAUI, PADI, PDIC, SDI, SSI, SNSI, RAID, ACUC, DAN, IDEA, NASDS, ProTec), Dünya Sualtı Aktiviteleri Konfederasyonu (CMAS) ve bu konfederasyona bağlı olan federasyonların (TSSF) ve DIR Diving felsefesini geliştiren (ISE, GUE, UTD) üst düzey ekollerin sistemlerin standartlarının harmanlanması sonucu oluşan genişletilmiş bir eğitim programı ile adayları bilgili, tecrübeli ve farkındalık sahibi seçkin dalıcılar haline getirmektir. Kurs sonunda katılımcıların başarılı bir şekilde tamamlamasının ardından TSSF/CMAS ve ProTec sertifikalarına beraber sahip olur.
           \n \n
@@ -155,7 +155,7 @@ export default {
         },
         {
           title: 'Batık Dalışı Uzmanlığı',
-          price: '100€',
+          price: 'Kurs ücreti 100€´dur.',
           scope: "Kursun amacı 30m'ye kadar olan derinliklerdeki batıklara güvenle penatrasyon dalışları gerçekleştirebilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Batık Dalışı Uzmanı (WRECK) belgesini almaya hak kazanırlar.",
           prerequisites: [
             '16 yaşını doldurmuş olmak',
@@ -177,7 +177,7 @@ export default {
         },
         {
           title: 'DPV Uzmanlığı',
-          price: '150€',
+          price: 'Kurs ücreti 150€´dur.',
           scope: 'Kursun amacı daha geniş menzillere daha az efor harcarayak dalışları gerçekleştirebilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec DPV Uzmanı (scooter) belgesini almaya hak kazanırlar.',
           prerequisites: [
             '15 yaşını doldurmuş olmak',
@@ -199,7 +199,7 @@ export default {
         },
         {
           title: 'Kuru Elbise Uzmanlığı',
-          price: '100€',
+          price: 'Kurs ücreti 100€´dur.',
           note: 'Kursa katılmak isteyenlerin kendi kuru elbiseleri olmak zorundadır. Kuru elbiseler boy/kilo oranından dolayı kişiye özel üretilir ve bir dalış merkezinde üzerinize uygun bir kuru elbise bulma ihtimaliniz oldukça düşüktür. Mümkünse sıkıştırılmış neopren kuru elbiselerden kaçınmalı ve trilamine veya kevlar elbiseler tercih edilmelidir.',
           scope: 'Kursun amacı dalış konforunu arttırmak ve daha soğuk sularda dalış yapabilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Kuru Elbise (drysuit) belgesini almaya hak kazanırlar.',
           prerequisites: [
@@ -222,7 +222,7 @@ export default {
         },
         {
           title: 'Buz Dalışı Uzmanlığı',
-          price: '100€',
+          price: 'Kurs ücreti 100€´dur.',
           scope: 'Kursun amacı 4 derecenin altında ve limitli çıkışın bulunduğu buz altında gerçekleştirilen dalışları yapabilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Buz Dalışı (ice diving) belgesini almaya hak kazanırlar.',
           prerequisites: [
             '15 yaşını doldurmuş olmak',
@@ -244,7 +244,7 @@ export default {
         },
         {
           title: 'Mağara Keşif Dalışı Uzmanlığı',
-          price: '150€',
+          price: 'Kurs ücreti 150€´dur.',
           scope: 'Kursun amacı güneş ışığının girmediği, üstü kapalı bölgelerde 40 metre kuralı çerçevesinde güvenli dalışlar yapabilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Mağara Keşif Dalışı (Discover Cave Diver) uzmanlığı belgesini almaya hak kazanırlar.',
           prerequisites: [
             '15 yaşını doldurmuş olmak',
@@ -266,7 +266,7 @@ export default {
         },
         {
           title: 'Nitrox Uzmanlığı',
-          price: '100€',
+          price: 'Kurs ücreti 100€´dur.',
           scope: 'Kursun amacı 22% ile 40% arasında oksijence zengin hava tüpü ile daha az yorgunluk hissi ve daha uzun dip zamanı ile dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Nitrox1 Dalıcı belgesini almaya hak kazanırlar.',
           prerequisites: [
             '16 yaşını doldurmuş olmak',
@@ -288,7 +288,7 @@ export default {
         },
         {
           title: 'Sidemount Uzmanlığı',
-          price: '150€',
+          price: 'Kurs ücreti 150€´dur.',
           scope: 'Kursun amacı yanlara takılan 2 tüp ile daha esnek ve konforlu dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Sidemount Dalıcı belgesini almaya hak kazanırlar.',
           prerequisites: [
             '18 yaşını doldurmuş olmak',
@@ -345,7 +345,7 @@ export default {
         },
         {
           title: 'Serbest Dalış Kursu (Lv1)',
-          price: '200€',
+          price: 'Kurs ücreti 200€´dur.',
           scope: 'Kursun amacı 10 metre derinliğe kadar minimum 1 dakika dip zamanlı dalışları güvenle gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Serbest Dalıcı (Snorkel Diver) belgesini almaya hak kazanırlar.',
           hasPadiClasses: true,
           prerequisites: [
@@ -367,7 +367,7 @@ export default {
         },
         {
           title: 'Engelli Dalıcı Kursu',
-          price: '200€',
+          price: 'Kurs ücreti 200€´dur.',
           scope: 'Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Engelli Dalıcı (Handicap Diver) belgesini almaya hak kazanırlar.',
           prerequisites: [
             '14 yaşını doldurmuş olmak',
@@ -390,7 +390,7 @@ export default {
   created () {
     var c = this.courses[this.dict[this.path]]
     this.courseTitle = c.title
-    this.coursePrice = c.price
+    c.price && (this.coursePrice = c.price)
     this.courseNote = c.note
     this.courseScope = c.scope
     this.courseHasPadiClass = c.hasPadiClasses
@@ -398,6 +398,11 @@ export default {
     this.coursePrerequisites = c.prerequisites
     this.courseIncludes = c.includes
     this.courseQuota = c.quota
+  },
+  methods: {
+    visible () {
+      this.isVisible = true
+    }
   }
 }
 </script>
