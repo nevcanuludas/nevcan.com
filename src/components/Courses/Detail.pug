@@ -2,21 +2,21 @@ section#courseDetails
 
   h3.page-heading Verdiğim Eğitimler
 
+  h1.article-heading {{ courseTitle }}
+
   .container
 
-    h1 {{ courseTitle }}
-
-    h4 Kurs Ücreti
+    h4.section-heading Kurs Ücreti
     p(v-if='!isVisible' @dblclick='isVisible = !isVisible' v-finger:doubletap='visible') [Ücret bilgisini görmek için çift tıklayın]
     p(v-else) {{ coursePrice }}
 
-    tempalte(v-if='courseNote')
+    template(v-if='courseNote')
       .alert.alert-info
         strong ÖNEMLİ:
         |
         | {{ courseNote }}
 
-    h4 Kapsam
+    h4.section-heading Kapsam
     p {{ courseScope }}
 
     template(v-for='image in courseImages')
@@ -30,22 +30,23 @@ section#courseDetails
       |
       | adresini ziyaret edebilirler.
 
-    h4 Ön Şartlar:
+    h4.section-heading Ön Şartlar:
     ol
       template(v-for='prerequisite in coursePrerequisites')
         li {{ prerequisite }}
 
-    h4 Kurs Ücretine Dahil Olanlar:
+    h4.section-heading Kurs Ücretine Dahil Olanlar:
     ul
       template(v-for='included in courseIncludes')
         li {{ included }}
 
-    h4 Kurs Ücretine Dahil Olmayanlar:
+    h4.section-heading Kurs Ücretine Dahil Olmayanlar:
     p {{ courseNotIncluded }}
 
-    h4 Kontenjan:
+    h4.section-heading Kontenjan:
     p {{ courseQuota }}
 
-    button Tüm Kurslar'a Geri Dön
+  //- router-link(:to='router.go(-1)')
+    button.btn.btn-secondary Tüm Kurslar'a Geri Dön
 
-    p Alternatif Kurs Önerileri Component'i
+  p Alternatif Kurs Önerileri Component'i
