@@ -8,6 +8,15 @@ export default {
       sectionTitle: 'İletişim',
       isVisible: false
     }
+  },
+  methods: {
+    visible () {
+      this.isVisible = true
+    },
+    formSubmit (e) {
+      alert('Form Submited')
+      e.preventDefault()
+    }
   }
 }
 </script>
