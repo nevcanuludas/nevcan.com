@@ -7,8 +7,8 @@ section#courseDetails
     h1 {{ courseTitle }}
 
     h4 Kurs Ücreti
-    p(v-if='!isVisible' @dblclick='isVisible = !isVisible') [Ücret bilgisini görmek için çift tıklayın]
-    p(v-else) Kurs ücreti {{ coursePrice }}'dur.
+    p(v-if='!isVisible' @dblclick='isVisible = !isVisible' v-finger:doubletap='visible') [Ücret bilgisini görmek için çift tıklayın]
+    p(v-else) {{ coursePrice }}
 
     tempalte(v-if='courseNote')
       .alert.alert-info
