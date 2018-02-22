@@ -14,5 +14,14 @@ export default new Router({
     { path: '/courses/:id', component: CourseDetails, name: 'CourseDetails' },
     { path: '/scheduled-classes', component: ScheduledClasses, name: 'ScheduledClasses' },
     { path: '*', component: NotFoundComponent }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        selector: to.hash
+      }
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 })
