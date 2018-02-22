@@ -7,20 +7,20 @@ export default {
     return {
       sectionTitle: 'Verdiğim Eğitimler',
       courses: [
-        { id: '1', imageUrl: '1star', name: '1* Dalıcı' },
-        { id: '2', imageUrl: '2star', name: '2* Dalıcı' },
-        { id: '3', imageUrl: '3star', name: '3* Dalıcı' },
-        { id: '4', imageUrl: 'modified', name: 'Modifiye Dalıcı' },
-        { id: '5', imageUrl: 'wreck', name: 'Batık' },
-        { id: '6', imageUrl: 'dpv', name: 'DPV' },
-        { id: '7', imageUrl: 'drysuit', name: 'Kuru Elbise' },
-        { id: '8', imageUrl: 'ice', name: 'Buz Dalışı' },
-        { id: '9', imageUrl: 'dcd', name: 'Mağara Dalışı' },
-        { id: '10', imageUrl: 'nitrox', name: 'Nitrox' },
-        { id: '11', imageUrl: 'sidemount', name: 'Sidemount' },
-        { id: '12', imageUrl: 'zerotohero', name: 'Zero to Hero' },
-        { id: '13', imageUrl: 'freediving', name: 'Serbest Dalış' },
-        { id: '14', imageUrl: 'handicap', name: 'Engelli Dalıcı' }
+        { id: '1-yildiz-dalici', imageUrl: '1star', name: '1* Dalıcı' },
+        { id: '2-yildiz-dalici', imageUrl: '2star', name: '2* Dalıcı' },
+        { id: '3-yildiz-dalici', imageUrl: '3star', name: '3* Dalıcı' },
+        { id: 'modifiye-dalici', imageUrl: 'modified', name: 'Modifiye Dalıcı' },
+        { id: 'batik-dalisi-uzmanligi', imageUrl: 'wreck', name: 'Batık' },
+        { id: 'dpv-uzmanligi', imageUrl: 'dpv', name: 'DPV' },
+        { id: 'kuru-elbise-uzmanligi', imageUrl: 'drysuit', name: 'Kuru Elbise' },
+        { id: 'buz-dalisi-uzmanligi', imageUrl: 'ice', name: 'Buz Dalışı' },
+        { id: 'magara-kesif-dalisi-uzmanligi', imageUrl: 'dcd', name: 'Mağara Dalışı' },
+        { id: 'nitrox-uzmanligi', imageUrl: 'nitrox', name: 'Nitrox' },
+        { id: 'sidemount-uzmanligi', imageUrl: 'sidemount', name: 'Sidemount' },
+        { id: 'zero-to-hero-egitimi', imageUrl: 'zerotohero', name: 'Zero to Hero' },
+        { id: 'serbest-dalis-egitimi', imageUrl: 'freediving', name: 'Serbest Dalış' },
+        { id: 'engelli-dalici-egitimi', imageUrl: 'handicap', name: 'Engelli Dalıcı' }
       ]
     }
   }
