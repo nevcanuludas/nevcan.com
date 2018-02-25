@@ -7,6 +7,22 @@ export default {
     return {
       isActive: false
     }
+  },
+  methods: {
+    toggleMenu () {
+      this.isActive = !this.isActive
+      if (this.isActive) {
+        console.log('Menü Aktif')
+      }
+    },
+    consoleLog () {
+      var val = document.getElementById('esc').value
+      console.log(val)
+      val = ''
+    },
+    getFocus () {
+      document.getElementById('esc').focus()
+    }
   }
 }
 </script>

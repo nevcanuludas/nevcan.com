@@ -1,10 +1,13 @@
 #mainmenu
 
-  .mainmenu-btn(v-on:click= "isActive = !isActive")
-    i.fa.fa-bars(v-if= "!isActive")
-    i.fa.fa-times(v-if= "isActive")
+  .mainmenu-btn(v-on:click= 'toggleMenu')
+    i.fa.fa-bars(v-if= '!isActive')
+    i.fa.fa-times(v-if= 'isActive')
 
   nav.mainmenu(v-if= "isActive")
+
+    input#esc(type='text' @keyup.esc='toggleMenu' @keyup.enter='consoleLog' autofocus)
+
     ul
       li.col-6.col-md-4
         a(v-on:click= "isActive = !isActive", href='/#aboutme')
