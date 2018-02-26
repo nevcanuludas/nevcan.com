@@ -15,4 +15,4 @@ section#courses
           .canvas.upsidedown
             router-link(:to="'/courses/' + course.id")
               p {{ course.name }}
-              img.img-fluid(:src= "'/static/img/list/' + course.imageUrl + '.jpg'", :alt= 'course.name')
+              img.img-fluid(:src= "'/static/img/courses-list/' + course.imageUrl + '.jpg'", :alt= 'course.name')
