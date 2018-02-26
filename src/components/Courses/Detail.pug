@@ -51,7 +51,8 @@ section#courseDetails
     h4.section-heading Kontenjan:
     p {{ courseQuota }}
 
-  //- router-link(:to='router.go(-1)')
-    button.btn.btn-secondary Tüm Kurslar'a Geri Dön
+    .back-to-list
+      a(href='/#courses')
+        .btn.btn-lg.btn-secondary Tüm Kurslara Geri Dön
 
   //- p Alternatif Kurs Önerileri Component'i
