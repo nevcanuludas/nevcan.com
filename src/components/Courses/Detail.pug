@@ -26,12 +26,10 @@ section#courseDetails
           figcaption {{ image.alt }}
 
     .alert.alert-success(v-if='courseHasPadiClass')
-      strong NOT:
-      | PADI belgesi almak isteyenler
-      |
+      strong NOT:&nbsp;
+      | PADI belgesi almak isteyenler&nbsp;
       a(href="http://neptunsualti.com/kurslar-padi.html?ref=nevcancom_courseDetails", target="_blank") neptunsualti.com
-      |
-      | adresini ziyaret edebilirler.
+      | &nbsp;adresini ziyaret edebilirler.
 
     h4.section-heading Ön Şartlar:
     ol
@@ -53,6 +51,8 @@ section#courseDetails
 
     .back-to-list
       a(href='/#courses')
-        .btn.btn-lg.btn-secondary Tüm Kurslara Geri Dön
+        .btn.btn-lg.btn-secondary
+          i.fa.fa-angle-double-left(aria-hidden="true")
+          | &nbsp; Tüm Kurslara Geri Dön
 
   //- p Alternatif Kurs Önerileri Component'i
