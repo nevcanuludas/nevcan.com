@@ -19,8 +19,11 @@ section#courseDetails
     h4.section-heading Kapsam
     p {{ courseScope }}
 
-    template(v-for='image in courseImages')
-      img(src="image.src", alt="image.alt")
+    .row.course-images
+      template(v-for='image in courseImages')
+        figure.col
+          img(:src="image.src", :alt="image.alt").img-fluid
+          figcaption {{ image.alt }}
 
     .alert.alert-success(v-if='courseHasPadiClass')
       strong NOT:
@@ -35,13 +38,15 @@ section#courseDetails
       template(v-for='prerequisite in coursePrerequisites')
         li {{ prerequisite }}
 
-    h4.section-heading Kurs Ücretine Dahil Olanlar:
-    ul
-      template(v-for='included in courseIncludes')
-        li {{ included }}
-
-    h4.section-heading Kurs Ücretine Dahil Olmayanlar:
-    p {{ courseNotIncluded }}
+    .row
+      .col-12.col-lg-6
+        h4.section-heading Kurs Ücretine Dahil Olanlar:
+        ul
+          template(v-for='included in courseIncludes')
+            li {{ included }}
+      .col-12.col-lg-6
+        h4.section-heading Kurs Ücretine Dahil Olmayanlar:
+        p {{ courseNotIncluded }}
 
     h4.section-heading Kontenjan:
     p {{ courseQuota }}
@@ -49,4 +54,4 @@ section#courseDetails
   //- router-link(:to='router.go(-1)')
     button.btn.btn-secondary Tüm Kurslar'a Geri Dön
 
-  p Alternatif Kurs Önerileri Component'i
+  //- p Alternatif Kurs Önerileri Component'i

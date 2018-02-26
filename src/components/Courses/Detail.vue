@@ -41,8 +41,8 @@ export default {
           price: 'Kurs ücreti 250€´dur.',
           scope: 'Kursun amacı başlangıç seviyesinde bir dalıcı yetirştirmektir. Temel teorik ve pratik eğitimleri alarak max 18 metreye kadar dalışlar gerçekleştirebilirler. Kurs sonunda isteğe bağlı olarak TSSF/CMAS veya ProTec belgesi alabilirsiniz. Alınan belgeler tüm dünyada geçerlidir.',
           images: [
-            { src: '', alt: 'TSSF/CMAS 1* Dalıcı Sertifikası' },
-            { src: '', alt: 'ProTec 1* Dalıcı Sertifikası' }
+            { src: '/static/img/courses-temp/tssf-back-1.png', alt: 'TSSF/CMAS 1* Dalıcı Sertifikası' },
+            { src: '/static/img/courses-temp/protec-org-1-2star.jpeg', alt: 'ProTec 1* Dalıcı Sertifikası' }
           ],
           hasPadiClasses: true,
           prerequisites: [
@@ -69,8 +69,8 @@ export default {
           price: 'Kurs ücreti 250€´dur.',
           scope: 'Kursun amacı yeterli temel becerilere sahip dalıcının kurtarma, derin dalış, gece dalışı becerilerini arttırmaktır. Kurs sonunda isteğe bağlı olarak TSSF/CMAS veya ProTec belgesi alabilirsiniz. Alınan belgeler tüm dünyada geçerlidir.',
           images: [
-            { src: '', alt: 'TSSF/CMAS 2* Dalıcı Sertifikası' },
-            { src: '', alt: 'ProTec 2* Dalıcı Sertifikası' }
+            { src: '/static/img/courses-temp/tssf-back-2.png', alt: 'TSSF/CMAS 2* Dalıcı Sertifikası' },
+            { src: '/static/img/courses-temp/protec-org-1-2star.jpeg', alt: 'ProTec 2* Dalıcı Sertifikası' }
           ],
           hasPadiClasses: true,
           prerequisites: [
@@ -99,8 +99,8 @@ export default {
           price: 'Kurs ücreti 250€´dur.',
           scope: 'Kursun amacı profesyonelliğe ilk adımı atmak isteyen dalıcı adaylarının liderlik becerilerini artıtmaktır. Kurs sonunda isteğe bağlı olarak TSSF/CMAS veya ProTec belgesi alabilirsiniz. Alınan belgeler tüm dünyada geçerlidir.',
           images: [
-            { src: '', alt: 'TSSF/CMAS 3* Dalıcı Sertifikası' },
-            { src: '', alt: 'ProTec 3* Dalıcı Sertifikası' }
+            { src: '/static/img/courses-temp/tssf-back-3.png', alt: 'TSSF/CMAS 3* Dalıcı Sertifikası' },
+            { src: '/static/img/courses-temp/protec-org-3star.jpeg', alt: 'ProTec 3* Dalıcı Sertifikası' }
           ],
           hasPadiClasses: true,
           prerequisites: [
@@ -157,6 +157,10 @@ export default {
           title: 'Batık Dalışı Uzmanlığı',
           price: 'Kurs ücreti 100€´dur.',
           scope: "Kursun amacı 30m'ye kadar olan derinliklerdeki batıklara güvenle penatrasyon dalışları gerçekleştirebilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Batık Dalışı Uzmanı (WRECK) belgesini almaya hak kazanırlar.",
+          images: [
+            { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF/CMAS Batık Dalışı Uzmanlığı Sertifikası' },
+            { src: '/static/img/courses-temp/protec-org-wreck.jpeg', alt: 'ProTec Batık Dalışı Uzmanlığı Sertifikası' }
+          ],
           prerequisites: [
             '16 yaşını doldurmuş olmak',
             '18 yaşının altındakiler için veli onayı',
@@ -179,6 +183,9 @@ export default {
           title: 'DPV Uzmanlığı',
           price: 'Kurs ücreti 150€´dur.',
           scope: 'Kursun amacı daha geniş menzillere daha az efor harcarayak dalışları gerçekleştirebilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec DPV Uzmanı (scooter) belgesini almaya hak kazanırlar.',
+          images: [
+            { src: '/static/img/courses-temp/protec-org-dpv.jpeg', alt: 'ProTec DPV Dalışı Uzmanlığı Sertifikası' }
+          ],
           prerequisites: [
             '15 yaşını doldurmuş olmak',
             '18 yaşının altındakiler için veli onayı',
@@ -202,6 +209,9 @@ export default {
           price: 'Kurs ücreti 100€´dur.',
           note: 'Kursa katılmak isteyenlerin kendi kuru elbiseleri olmak zorundadır. Kuru elbiseler boy/kilo oranından dolayı kişiye özel üretilir ve bir dalış merkezinde üzerinize uygun bir kuru elbise bulma ihtimaliniz oldukça düşüktür. Mümkünse sıkıştırılmış neopren kuru elbiselerden kaçınmalı ve trilamine veya kevlar elbiseler tercih edilmelidir.',
           scope: 'Kursun amacı dalış konforunu arttırmak ve daha soğuk sularda dalış yapabilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Kuru Elbise (drysuit) belgesini almaya hak kazanırlar.',
+          images: [
+            { src: '/static/img/courses-temp/protec-org-drysuit.jpeg', alt: 'ProTec Kuru Elbise Uzmanlığı Sertifikası' }
+          ],
           prerequisites: [
             '15 yaşını doldurmuş olmak',
             '18 yaşının altındakiler için veli onayı',
@@ -224,6 +234,9 @@ export default {
           title: 'Buz Dalışı Uzmanlığı',
           price: 'Kurs ücreti 100€´dur.',
           scope: 'Kursun amacı 4 derecenin altında ve limitli çıkışın bulunduğu buz altında gerçekleştirilen dalışları yapabilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Buz Dalışı (ice diving) belgesini almaya hak kazanırlar.',
+          images: [
+            { src: '/static/img/courses-temp/protec-org-ice.jpeg', alt: 'ProTec Buz Dalışı Uzmanlığı Sertifikası' }
+          ],
           prerequisites: [
             '15 yaşını doldurmuş olmak',
             '18 yaşının altındakiler için veli onayı',
@@ -246,6 +259,9 @@ export default {
           title: 'Mağara Keşif Dalışı Uzmanlığı',
           price: 'Kurs ücreti 150€´dur.',
           scope: 'Kursun amacı güneş ışığının girmediği, üstü kapalı bölgelerde 40 metre kuralı çerçevesinde güvenli dalışlar yapabilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Mağara Keşif Dalışı (Discover Cave Diver) uzmanlığı belgesini almaya hak kazanırlar.',
+          images: [
+            { src: '/static/img/courses-temp/protec-org-cave.jpeg', alt: 'ProTec Mağara Keşif Dalışı Uzmanlığı Sertifikası' }
+          ],
           prerequisites: [
             '15 yaşını doldurmuş olmak',
             '18 yaşının altındakiler için veli onayı',
@@ -268,6 +284,10 @@ export default {
           title: 'Nitrox Uzmanlığı',
           price: 'Kurs ücreti 100€´dur.',
           scope: 'Kursun amacı 22% ile 40% arasında oksijence zengin hava tüpü ile daha az yorgunluk hissi ve daha uzun dip zamanı ile dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Nitrox1 Dalıcı belgesini almaya hak kazanırlar.',
+          images: [
+            { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF Nitrox Dalışı Uzmanlığı Sertifikası' },
+            { src: '/static/img/courses-temp/protec-org-nitrox.jpeg', alt: 'ProTec Nitrox Dalışı Uzmanlığı Sertifikası' }
+          ],
           prerequisites: [
             '16 yaşını doldurmuş olmak',
             '18 yaşının altındakiler için veli onayı',
@@ -290,6 +310,9 @@ export default {
           title: 'Sidemount Uzmanlığı',
           price: 'Kurs ücreti 150€´dur.',
           scope: 'Kursun amacı yanlara takılan 2 tüp ile daha esnek ve konforlu dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Sidemount Dalıcı belgesini almaya hak kazanırlar.',
+          images: [
+            { src: '/static/img/courses-temp/protec-org-sidemount.jpeg', alt: 'ProTec Sidemount Dalışı Uzmanlığı Sertifikası' }
+          ],
           prerequisites: [
             '18 yaşını doldurmuş olmak',
             '2* Dalıcı yada dengi bir belgeye sahip olmak',
@@ -369,6 +392,9 @@ export default {
           title: 'Engelli Dalıcı Kursu',
           price: 'Kurs ücreti 200€´dur.',
           scope: 'Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Engelli Dalıcı (Handicap Diver) belgesini almaya hak kazanırlar.',
+          images: [
+            { src: '/static/img/courses-temp/protec-org-handicap.jpeg', alt: 'ProTec Engelli Dalıcı Sertifikası' }
+          ],
           prerequisites: [
             '14 yaşını doldurmuş olmak',
             '18 yaşının altındakiler için veli onayı',
