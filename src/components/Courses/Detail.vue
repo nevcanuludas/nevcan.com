@@ -385,7 +385,7 @@ export default {
             'Eğitmen giderleri',
             'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
           ],
-          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
+          quota: 'Teorik ve pratik eğitimler 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
         {
