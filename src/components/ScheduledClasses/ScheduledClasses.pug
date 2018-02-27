@@ -4,19 +4,28 @@ section#scheduledClasses
 
   .pp
 
-    table.table.table-striped.table-hover
+    table.table.table-striped.table-hover.hidden-xs-down
       thead.thead-inverse
         tr
-          th #
           th Tarih
           th Kurs Adı
           th Lokasyon
           th Durum
       tbody
-        tr(v-for="(trip, index) in trips")
-          th(scope='row') {{ trip.index }}
+        tr(v-for='trip in trips')
           td {{ trip.date }}
           td
-            a(href="#") {{ trip.name }}
+            a(:href='trip.url') {{ trip.name }}
           td {{ trip.location }}
           td {{ trip.status }}
+
+    .card-columns.hidden-sm-up
+      .card.mb-3(v-for='trip in trips' :class!= 'trip.class')
+        .card-header {{ trip.date }}
+        .card-body
+          .trip-name
+            a(:href='trip.url') {{ trip.name }}
+          .trip-location
+            i.fa.fa-map-marker &nbsp;
+            | {{ trip.location }}
+          .trip-status {{ trip.status }}

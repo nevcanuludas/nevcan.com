@@ -7,12 +7,36 @@ export default {
     return {
       sectionTitle: 'Programlanmış Eğitimler',
       trips: [
-        {date: '23.04.2018', name: 'Serbest Dalış Eğitimi (Lv1)', location: 'İbrice', status: 'Beklemede'},
-        {date: '30.04.2018', name: '1* Dalıcı Eğitimi', location: 'Enez', status: 'Dolu'},
-        {date: '07.05.2018', name: 'Sidemount Eğitimi', location: 'Sivas', status: 'Katılımcı (2/4)'},
-        {date: '15.05.2018', name: 'Eğitmen Eğitimi', location: 'İstanbul', status: 'Beklemede'},
-        {date: '14.05.2018', name: 'Nitrox Eğitimi', location: 'Antalya', status: 'Katılımcı (1/4)'}
+        {startDate: new Date('2018-01-21'), date: '21.01.2018', name: 'A Eğitimi', url: '/courses/', location: 'Antalya', status: 'Kontenjan (1/4)', class: ''},
+        {startDate: new Date('2018-02-26'), date: '26.02.2018', name: 'B Eğitimi', url: '/courses/', location: 'Antalya', status: 'Kontenjan (2/4)', class: ''},
+        {startDate: new Date('2018-04-23'), date: '23.04.2018', name: 'Serbest Dalış Eğitimi (Lv1)', url: '/courses/serbest-dalis-egitimi', location: 'İbrice Limanı', status: 'Beklemede', class: ''},
+        {startDate: new Date('2018-04-30'), date: '30.04.2018', name: '1* Dalıcı Eğitimi', url: '/courses/1-yildiz-dalici', location: 'Enez', status: 'Dolu', class: ''},
+        {startDate: new Date('2018-05-07'), date: '07.05.2018', name: 'Sidemount Uzmanlığı Eğitimi', url: 'courses/sidemount-uzmanligi', location: 'Sivas', status: 'Kontenjan (2/4)', class: ''},
+        {startDate: new Date('2018-05-14'), date: '14.05.2018', name: 'Nitrox Uzmanlığı Eğitimi', url: '/courses/nitrox-uzmanligi', location: 'Antalya', status: 'Kontenjan (1/8)', class: ''},
+        {startDate: new Date('2018-05-15'), date: '15.05.2018', name: '1 ve 2 Yıldız Eğitmen Eğitimi', url: '/courses/', location: 'İstanbul', status: 'Dolu', class: ''}
       ]
+    }
+  },
+  mounted: function () {
+    var currentDate = new Date()
+
+    for (var i = 0; i < this.trips.length; i++) {
+      var startDate = this.trips[i].startDate
+      var status = this.trips[i].status
+
+      if (startDate <= currentDate) {
+        console.log(this.trips[i].name + ' ' + this.trips[i].date + ' tarihinde yapılmıştır.')
+        this.trips.shift()
+        i = -1
+      } else {
+        if (status === 'Dolu') {
+          this.trips[i].class = 'card-outline-danger'
+        } else if (status === 'Beklemede') {
+          this.trips[i].class = 'card-outline-secondary'
+        } else {
+          this.trips[i].class = 'card-outline-success'
+        }
+      }
     }
   }
 }
