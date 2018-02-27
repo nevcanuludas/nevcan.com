@@ -10,7 +10,7 @@ export default {
     }
   },
   methods: {
-    visible () {
+    makeVisible () {
       this.isVisible = true
     },
     formSubmit (e) {
