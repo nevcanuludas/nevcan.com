@@ -17,7 +17,7 @@ section#courseDetails
         | {{ courseNote }}
 
     h4.section-heading Kapsam
-    p {{ courseScope }}
+    pre {{ courseScope }}
 
     .row.course-images
       template(v-for='image in courseImages')
@@ -37,12 +37,12 @@ section#courseDetails
         li {{ prerequisite }}
 
     .row
-      .col-12.col-lg-6
+      .col-12.col-xl-6
         h4.section-heading Kurs Ücretine Dahil Olanlar:
         ul
           template(v-for='included in courseIncludes')
             li {{ included }}
-      .col-12.col-lg-6
+      .col-12.col-xl-6
         h4.section-heading Kurs Ücretine Dahil Olmayanlar:
         p {{ courseNotIncluded }}
 
@@ -53,6 +53,6 @@ section#courseDetails
       a(href='/#courses')
         .btn.btn-lg.btn-secondary
           i.fa.fa-angle-double-left(aria-hidden="true")
-          | &nbsp; Tüm Kurslara Geri Dön
+          | &nbsp; Tüm Kurslar
 
   //- p Alternatif Kurs Önerileri Component'i
