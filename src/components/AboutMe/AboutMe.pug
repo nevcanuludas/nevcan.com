@@ -3,8 +3,8 @@ mixin company-list-item(href, title, src)
     a(href=href target="_blank" title=title)
       img.img-fluid(src='../../assets/logos/' + src, alt=title)
 
-mixin career-item(date, title, location, desc)
-  li(class!=attributes.class)
+mixin career-item(date, title, location, desc, isVisible)
+  li(class!=attributes.class v-show=isVisible)
     .career-list__date= date
     .career-list__title= title
     .career-list__location= location
@@ -21,17 +21,23 @@ section#aboutme
     p Kulüplerimde #[strong Sportif Dalış] (#[abbr(title="Self Contained Underwater Breathing Apparatus") SCUBA]), #[strong Serbest Dalış] (Freediving) ve engelli arkadaşlarımız için özel dalış eğitimleri veriyorum. Ayrıca bireysel olarak #[span(title="Nitrox, Heliox, Trimix, Hydrox") karışım gazlarla], kapalı devre sistemlerle (#[abbr(title="Closed Circuit Rebreather") CCR]) ve gerçek tutkum olan mağara dalışlarıyla yakından ilgileniyorum.
 
     h4.section-heading Kariyer:
+    .career-filter.w-100
+      .btn-group.float-right(role="group" aria-label="Career Filter")
+        button(type="button" @click="showAll").btn.btn-sm.btn-secondary Tümü
+        button(type="button" @click="showCenters").btn.btn-sm.btn-secondary Dalış Merkezleri
+        button(type="button" @click="showMileStones").btn.btn-sm.btn-secondary Kilometre Taşları
 
     .career-list
-      +career-item("2017", "GUE üyesi oldum ve GUE Turkey topluluğunu kurdum", "", "")(class="milestone")
-      +career-item("2015'den beri", "Neptün Sualtı Merkezi", "İstanbul (HQ), Enez / Edirne (747)", "Kurucu | Dalış Eğitmeni, Rehber & Uzman Dalıcı Eğitmeni")
-      +career-item("2015", "Neptün Sualtı Merkezi'ni kurdum ☺", "", "")(class="milestone")
-      +career-item("2015", "Mavi Ege Dalış Merkezi (508)", "İbrice / Saros Körfezi", "Dalış Eğitmeni, Rehber &  Uzman Dalıcı, Gemici")
-      +career-item("2013-2014", "Four Seasons Divers Club (599)", "İstanbul", "Dalış Eğitmeni, Rehber Dalıcı")
-      +career-item("2011-2012", "Olympia Dalış Merkezi (324)", "Kuşadası / Aydın", "Dalış Eğitmeni")
-      +career-item("2011", "Dalış eğitmeni oldum", "", "")(class="milestone")
-      +career-item("2008-2010", "Octopus Dalış Merkezi (177)", "Kemer / Antalya", "Dalış Lideri")
-      +career-item("2008", "İlk kez sualtında nefes aldım ☺", "", "")(class="milestone")
+      //- +career-item("2018'den beri", "Pendik S.A.S.", "İstanbul (842)", "Dalış Eğitmeni, Rehber & Uzman Dalıcı Eğitmeni", "isCenterVisible")
+      +career-item("2017", "GUE üyesi oldum 🎉 ve GUE Turkey topluluğunu kurdum 🇹🇷", "", "", "isMileStoneVisible")(class="milestone")
+      +career-item("2015'den beri", "Neptün Sualtı Merkezi", "İstanbul (HQ), Enez / Edirne (747)", "Kurucu | Dalış Eğitmeni, Rehber & Uzman Dalıcı Eğitmeni", "isCenterVisible")
+      +career-item("2015", "Neptün Sualtı Merkezi'ni kurdum 🔱", "", "", "isMileStoneVisible")(class="milestone")
+      //- +career-item("2015", "Mavi Ege Dalış Merkezi (508)", "İbrice / Saros Körfezi", "Dalış Eğitmeni, Rehber &  Uzman Dalıcı, Gemici", "isCenterVisible")
+      +career-item("2013-2014", "Four Seasons Divers Club (599)", "İstanbul", "Dalış Eğitmeni, Rehber Dalıcı", "isCenterVisible")
+      +career-item("2011-2012", "Olympia Dalış Merkezi (324)", "Kuşadası / Aydın", "Dalış Eğitmeni", "isCenterVisible")
+      +career-item("2011", "Dalış eğitmeni oldum 🧜‍♂", "", "", "isMileStoneVisible")(class="milestone")
+      +career-item("2008-2010", "Octopus Dalış Merkezi (177)", "Kemer / Antalya", "Dalış Lideri", "isCenterVisible")
+      +career-item("2008", "İlk kez sualtında nefes aldım 🤩", "", "", "isMileStoneVisible")(class="milestone")
 
     h4.section-heading Üyesi olduğum kurum ve kuruluşlar:
 
