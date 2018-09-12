@@ -1,5 +1,5 @@
 mixin services-list-item(href, src, name)
-  .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-4
+  .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-3
     .canvas
       a(href=href)
         img.img-fluid(src="../../assets/services/list/" + src, alt=name)
@@ -14,6 +14,7 @@ section#services
       +services-list-item("#", "dsd.jpg", "Deneme Dalışı")
       +services-list-item("#", "refresh.jpg", "Tazeleme Dalışı")
       +services-list-item("#", "improvement.jpg", "Gelişim Dalışı")
-      +services-list-item("#", "beinginstructor.jpg", "Eğitmenliğe Hazırlık")
+      +services-list-item("#", "beinginstructor.jpg", "Eğitmenlik Kursuna Hazırlık")
+      +services-list-item("#", "beinggue.jpg", "GUE Kurslarına Hazırlık")
       +services-list-item("#", "photography.jpg", "Sualtı Fotoğraf Çekimi")
       +services-list-item("#", "consulting.jpg", "Kurumsal Danışmanlık")
