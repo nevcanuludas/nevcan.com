@@ -1,13 +1,3 @@
-mixin certificates-list-item(href, src, name)
-  .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-4
-    a(href=href)
-      .canvas-overlay
-        .btn
-          i.fa.fa-search
-      .canvas
-        img.img-fluid(src="../../assets/certificates/" + src, alt=name)
-        p= name
-
 mixin skill-list-horizontal-item(company, level)
   li
     .skill-list-horizontal__bar(style!=attributes.style)
@@ -28,19 +18,25 @@ section#certificates
 
   .pp
     .row.certificates-list
-      +certificates-list-item("#", "gue.png", "GUE")
-      +certificates-list-item("#", "tssf.png", "TSSF/CMAS")
-      +certificates-list-item("#", "protec.png", "ProTec")
-      +certificates-list-item("#", "ssi.png", "SSI")
-      +certificates-list-item("#", "ils.png", "Cankurtarma")
-      +certificates-list-item("#", "poseidon.png", "Diğer Belgeler")
+      template(v-for='certificate in certificates')
+        .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-4
+          router-link(:to="'/certificates/' + certificate.id")
+            .canvas-overlay
+              .btn
+                i.fa.fa-search
+            .canvas
+              img.img-fluid(:src= "'/static/img/certificate-list/' + certificate.imageUrl + '.png'", :alt= 'certificate.name')
+              p {{ certificate.name }}
 
     h4.section-heading Eğitmenlik Düzeyi:
 
     ul.skill-list-horizontal
       +skill-list-horizontal-item("TSSF/CMAS", "2* Dalış Eğitmeni")(style="width: calc(100%*5/6)")
+      +skill-list-horizontal-item("TSSF", "Engelli Dalıcı Eğitmeni")(style="width: calc(100%*5/6)")
+      +skill-list-horizontal-item("TSSF", "Uzman Dalıcı Eğitmeni")(style="width: calc(100%*17/17)")
       +skill-list-horizontal-item("PROTEC", "2* Dalış Eğitmeni")(style="width: calc(100%*5/6)")
       +skill-list-horizontal-item("PROTEC", "Serbest Dalış Eğitmeni")(style="width: calc(100%*4/6)")
+      +skill-list-horizontal-item("PROTEC", "Uzman Dalıcı Eğitmeni")(style="width: calc(100%*8/22)")
 
     h4.section-heading Kişisel Gelişim:
 

@@ -1,0 +1,26 @@
+section#certificateDetails
+
+  h3.page-heading Brövelerim
+
+  h1.article-heading {{ certificateTitle }}
+
+  .container
+
+    p {{ certificateScope }}
+
+    .row.certificate-images
+      template(v-for='image in certificateImages')
+        figure.col-12.col-sm-6.col-md-12.col-lg-6.mb-5
+          .flip-container(@mouseover='flip' @mouseleave='flip_back')
+            .flipper
+              .front
+                img(:src="image.src", :alt="image.alt").img-fluid
+              .back
+                img(:src="image.src", :alt="image.alt").img-fluid
+          figcaption {{ image.alt }}
+
+    .back-to-list
+      a(href='/#certificates')
+        .btn.btn-lg.btn-secondary
+          i.fa.fa-angle-double-left(aria-hidden="true")
+          | &nbsp; Tüm Brövelerim
