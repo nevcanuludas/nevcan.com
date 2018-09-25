@@ -16,7 +16,15 @@ section#conservation
 
   .pp
     .row.conservation-list
-      +conservation-list-item("#", "pb-marmara.jpg", "PB Marmara")
+      template(v-for='conservation in conservations')
+        .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-4
+          router-link(:to="'/conservation/' + conservation.id")
+            .canvas-overlay
+              .btn
+                i.fa.fa-search
+            .canvas
+              img.img-fluid(:src= "'/static/img/conservation-list/' + conservation.imageUrl + '.jpg'", :alt= 'conservation.name')
+              p {{ conservation.name }}
 
     h4.section-heading Üyesi olduğum gönüllü organizyonlar:
 

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import CertificateDetails from '@/components/Certificates/Detail'
 import CourseDetails from '@/components/Courses/Detail'
+import ConservationDetails from '@/components/Conservation/Detail'
 import ScheduledClasses from '@/components/ScheduledClasses/ScheduledClasses'
 import NotFoundComponent from '@/components/NotFoundComponent/NotFoundComponent'
 
@@ -14,6 +15,7 @@ export default new Router({
     { path: '/', component: Home, name: 'Home' },
     { path: '/certificates/:id', component: CertificateDetails, name: 'CertificateDetails' },
     { path: '/courses/:id', component: CourseDetails, name: 'CourseDetails' },
+    { path: '/conservation/:id', component: ConservationDetails, name: 'ConservationDetails' },
     { path: '/scheduled-classes', component: ScheduledClasses, name: 'ScheduledClasses' },
     { path: '*', component: NotFoundComponent }
   ],

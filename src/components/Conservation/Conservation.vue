@@ -5,7 +5,10 @@ export default {
   name: 'Conservation',
   data () {
     return {
-      sectionTitle: 'Koruma & Keşif Projeleri'
+      sectionTitle: 'Koruma & Keşif Projeleri',
+      conservations: [
+        { id: 'pb-marmara', imageUrl: 'pb-marmara', name: 'Project Baseline: Marmara' }
+      ]
     }
   }
 }
