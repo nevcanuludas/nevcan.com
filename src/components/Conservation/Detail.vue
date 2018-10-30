@@ -10,13 +10,13 @@ export default {
       conservationScope: '',
       // JS Dictionary - Associative Arrays in JavaScript
       dict: {
-        'pb-marmara': 0,
+        'pb-marmara': 0
       },
       // Conservations JSON
       conservations: [
         {
           title: 'Project Baseline: Marmara',
-          scope: 'Saros körfezinde kurulan ilk istasyon ile görüş canlilik orani vs. vs. ölçümlenmektedir.'
+          scope: 'Marmara bölgesi boyunca su koşulları ve denizanası sayılarını takip ediyoruz. Bu sayede zaman içerisinde gidişatı daha iyi görebileceğiz. Saros körfezinde ve İzmit körfezinde kurduğumuz iki farklı istasyon verileri toplamaya başladı bile. Sizde farkındalık sahibi bir dalıcı olarak bu projede bize destek olabilirsiniz.'
         }
       ]
     }
