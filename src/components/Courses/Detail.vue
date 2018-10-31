@@ -24,18 +24,24 @@ export default {
         '3-yildiz-dalici': 2,
         'modifiye-dalici': 3,
         'batik-dalisi-uzmanligi': 4,
-        'dpv-uzmanligi': 5,
-        'kuru-elbise-uzmanligi': 6,
-        'buz-dalisi-uzmanligi': 7,
-        'magara-kesif-dalisi-uzmanligi': 8,
-        'nitrox-uzmanligi': 9,
-        'sidemount-uzmanligi': 10,
-        'zero-to-hero-egitimi': 11,
-        'serbest-dalis-egitimi': 12,
-        'engelli-dalici-egitimi': 13
+        'derin-dalis-uzmanligi': 5,
+        'dpv-uzmanligi': 6,
+        'kuru-elbise-uzmanligi': 7,
+        'buz-dalisi-uzmanligi': 8,
+        'magara-kesif-dalisi-uzmanligi': 9,
+        'nitrox-uzmanligi': 10,
+        'sidemount-uzmanligi': 11,
+        'ilkyardim-uzmanligi': 12,
+        'tanitim-dalisi-uzmanligi': 13,
+        'yon-bulma-uzmanligi': 14,
+        'zero-to-hero-egitimi': 15,
+        'serbest-dalis-egitimi': 16,
+        'engelli-dalici-egitimi': 17,
+        'engelli-dalici-egitmen-asistani': 18
       },
       // Courses JSON
       courses: [
+        // 1* Dalıcı Kursu
         {
           title: '1* Dalıcı Kursu',
           price: 'Kurs ücreti 250€´dur.',
@@ -64,6 +70,7 @@ export default {
           quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // 2* Dalıcı Kursu
         {
           title: '2* Dalıcı Kursu',
           price: 'Kurs ücreti 250€´dur.',
@@ -94,6 +101,7 @@ export default {
           quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // 3* Dalıcı Kursu
         {
           title: '3* Dalıcı Kursu',
           price: 'Kurs ücreti 250€´dur.',
@@ -105,7 +113,7 @@ export default {
           hasPadiClasses: true,
           prerequisites: [
             '18 yaşını doldurmuş olmak',
-            '2* Dalıcı yada dengi bir belgeye sahip olmak',
+            '2* Dalıcı (yada dengi) bir belgeye sahip olmak',
             'TSSF/CMAS için 2* Dalıcı belgesine sahip olduktan sonra 50 kayıtlı dalış yapmış olmak',
             'ProTec için 2* Dalıcı belgesine sahip olduktan sonra 60 kayıtlı dalış yapmış olmak',
             'İlköğretim diplomasına sahip olmak',
@@ -124,6 +132,7 @@ export default {
           quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // Modifiye Dalıcı Kursları
         {
           title: 'Modifiye Dalıcı Kursları',
           price: 'Kurs ücreti 550€´dur.',
@@ -135,12 +144,14 @@ export default {
             'Yeterli seviyede yüzme bilmek',
             'Dalış yapmanıza engel bir sağlık sorununuzun buunmaması',
             '2 ve 3 yildiz bilgileri de girilmeli !important',
+            '---------------------------------------------',
             '2* Modifiye Dalıcı için gerekli Ön Şartlar:',
             '15 yaşını doldurmuş olmak,',
             '18 yaşının altındakiler için veli onayı,',
             '1* Dalıcı (yada dengi) belgeye sahip olmak,',
             '1* Dalıcı belgesini aldıktan sonra 20 kayıtlı dalış yapmış olmak,',
             'Dalış yapmanıza engel bir sağlık sorununuzun bulunmaması.',
+            '---------------------------------------------',
             '3* Modifiye Dalıcı için gerekli Ön Şartlar:',
             '18 yaşını doldurmuş olmak,',
             '2* Dalıcı (yada dengi) belgeye sahip olmak,',
@@ -162,10 +173,11 @@ export default {
           quota: 'Teorik eğitimler ve pratik eğitimler 2:1 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // Batık Dalışı Uzmanlığı
         {
           title: 'Batık Dalışı Uzmanlığı',
           price: 'Kurs ücreti 100€´dur.',
-          scope: "Kursun amacı 30m'ye kadar olan derinliklerdeki batıklara güvenle penatrasyon dalışları gerçekleştirebilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Batık Dalışı Uzmanı (WRECK) belgesini almaya hak kazanırlar.",
+          scope: "Kursun amacı 30m'ye kadar olan derinliklerdeki batıklara güvenle penatrasyon dalışları gerçekleştirebilmektir. Kurslar TSSF ve ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ister TSSF ister ProTec Batık Dalışı Uzmanı (WRECK) belgesini almaya hak kazanırlar.",
           images: [
             { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF/CMAS Batık Dalışı Uzmanlığı Sertifikası' },
             { src: '/static/img/courses-temp/protec-org-wreck.jpeg', alt: 'ProTec Batık Dalışı Uzmanlığı Sertifikası' }
@@ -188,6 +200,29 @@ export default {
           quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // Derin Dalış Uzmanlığı
+        {
+          title: 'Derin Dalış Uzmanlığı',
+          price: 'Kurs ücreti 100€´dur.',
+          scope: "Kursun amacı 40m'ye kadar güvenle dalışları gerçekleştirebilmektir. Kurslar TSSF standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar TSSF Derin Dalış Uzmanı belgesini almaya hak kazanırlar.",
+          images: [
+            { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF/CMAS Derin Dalış Uzmanlığı Sertifikası' }
+          ],
+          prerequisites: [
+
+          ],
+          includes: [
+            '2 saatlik teorik eğitim',
+            '2 derin dalış',
+            'Dalışlarda kullanılacak ekipmanlar',
+            'Sertifika ücreti',
+            'Eğitmen giderleri',
+            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
+          ],
+          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
+          alternativeCourses: []
+        },
+        // DPV Uzmanlığı
         {
           title: 'DPV Uzmanlığı',
           price: 'Kurs ücreti 150€´dur.',
@@ -213,6 +248,7 @@ export default {
           quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 2:1 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // Kuru Elbise Uzmanlığı
         {
           title: 'Kuru Elbise Uzmanlığı',
           price: 'Kurs ücreti 100€´dur.',
@@ -239,6 +275,7 @@ export default {
           quota: 'Teorik eğitimler max 6:1, pratik eğitimler ise 3:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // Buz Dalışı Uzmanlığı
         {
           title: 'Buz Dalışı Uzmanlığı',
           price: 'Kurs ücreti 100€´dur.',
@@ -264,6 +301,7 @@ export default {
           quota: 'Teorik eğitimler max 6:1, pratik eğitimler ise 3:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // Mağara Keşif Dalışı Uzmanlığı
         {
           title: 'Mağara Keşif Dalışı Uzmanlığı',
           price: 'Kurs ücreti 150€´dur.',
@@ -289,6 +327,7 @@ export default {
           quota: 'Teorik eğitimler max 4:1, pratik eğitimler ise 2:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // Nitrox Uzmanlığı
         {
           title: 'Nitrox Uzmanlığı',
           price: 'Kurs ücreti 100€´dur.',
@@ -315,6 +354,7 @@ export default {
           quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // Sidemount Uzmanlığı
         {
           title: 'Sidemount Uzmanlığı',
           price: 'Kurs ücreti 150€´dur.',
@@ -339,6 +379,52 @@ export default {
           quota: 'Teorik eğitimler max 4:1, pratik eğitimler ise 2:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // İlkyardım Uzmanlığı
+        {
+          title: 'İlkyardım Uzmanlığı',
+          price: 'Kurs ücreti ?? €´dur.',
+          scope: 'Kursun amacı ...',
+          images: [
+            { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF İlkyardım Uzmanlığı Sertifikası' }
+          ],
+          prerequisites: [
+          ],
+          includes: [
+          ],
+          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
+          alternativeCourses: []
+        },
+        // Tanıtım Dalışı Uzmanlığı
+        {
+          title: 'Tanıtım Dalışı Uzmanlığı',
+          price: 'Kurs ücreti 100€´dur.',
+          scope: 'Kursun amacı su altı ile ilk kez buluşacak kişileri max 5 metre derinliğe kadar daldırabilmek için gerekli olan eğitimin alınmasıdır. TSSF Tanıtım dalışı uzmanları bir dalış okuluna bağlı çalışabilirler.',
+          images: [
+            { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF Tanıtım Dalışı Uzmanlığı Sertifikası' }
+          ],
+          prerequisites: [
+          ],
+          includes: [
+          ],
+          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
+          alternativeCourses: []
+        },
+        // Yön Bulma Uzmanlığı
+        {
+          title: 'Yön Bulma Uzmanlığı',
+          price: 'Kurs ücreti 100€´dur.',
+          scope: 'Kursun amacı ...',
+          images: [
+            { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF Yön Bulma Uzmanlığı Sertifikası' }
+          ],
+          prerequisites: [
+          ],
+          includes: [
+          ],
+          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
+          alternativeCourses: []
+        },
+        // Zero to Hero
         {
           title: 'Zero to Hero',
           scope: `Kursun amacı dalış konusunda hiçbir bilgisi olmayan ya da çok az bilgisi ve tecrübesi olan katılımcıların ileri seviye dalış bilgi ve tecrübesine ulaştırmaktır. Kurs kapsamında aşağıdaki eğitimler verilecektir ve sonunda başarılı olanlar aşağıda belirtilen dalıcı belgelerini almaya hak kazanırlar;\n
@@ -372,6 +458,7 @@ export default {
           quota: 'Teorik eğitimler ve  pratik eğitimler 2:1 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // Serbest Dalış Kursu (Lv1)
         {
           title: 'Serbest Dalış Kursu (Lv1)',
           price: 'Kurs ücreti 200€´dur.',
@@ -395,6 +482,7 @@ export default {
           quota: 'Teorik ve pratik eğitimler 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // Engelli Dalıcı Kursu
         {
           title: 'Engelli Dalıcı Kursu',
           price: 'Kurs ücreti 200€´dur.',
@@ -416,6 +504,20 @@ export default {
             'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
           ],
           quota: 'Teorik eğitimler max 4:1, pratik eğitimler ise 1:2 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.'
+        },
+        // Engelli Dalıcı Eğitmen Asistanı Kursu
+        {
+          title: 'Engelli Dalıcı Eğitmen Asistanı Kursu',
+          price: 'Kurs ücreti 200€´dur.',
+          scope: 'Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmelerini sağlamaktır. Kurs sonunda başarılı olanlar TSSF Engelli Dalıcı Eğitmen Asistanı belgesini almaya hak kazanırlar.',
+          images: [
+            { src: '/static/img/courses-temp/protec-org-handicap.jpeg', alt: 'TSSF Engelli Dalıcı Eğitmen Asistanı Sertifikası' }
+          ],
+          prerequisites: [
+          ],
+          includes: [
+          ],
+          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.'
         }
       ]
     }

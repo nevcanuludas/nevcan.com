@@ -25,7 +25,7 @@ export default {
         { id: 'zero-to-hero-egitimi', imageUrl: 'zerotohero', name: 'Zero to Hero' },
         { id: 'serbest-dalis-egitimi', imageUrl: 'freediving', name: 'Serbest Dalış' },
         { id: 'engelli-dalici-egitimi', imageUrl: 'handicap', name: 'Engelli Dalıcı' },
-        { id: 'engelli-dalici-egitimen-asistani', imageUrl: 'edea', name: 'Engelli Dalıcı Eğitmen Asistanı' }
+        { id: 'engelli-dalici-egitmen-asistani', imageUrl: 'edea', name: 'Engelli Dalıcı Eğitmen Asistanı' }
       ]
     }
   }
