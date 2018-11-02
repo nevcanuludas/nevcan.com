@@ -10,11 +10,11 @@ section#services
   h3.page-heading {{ sectionTitle }}
 
   .pp
+
     .row.services-list
-      +services-list-item("#", "dsd.jpg", "Deneme Dalışı")
-      +services-list-item("#", "refresh.jpg", "Tazeleme Dalışı")
-      +services-list-item("#", "improvement.jpg", "Gelişim Dalışı")
-      +services-list-item("#", "beinginstructor.jpg", "Eğitmenlik Kursuna Hazırlık")
-      +services-list-item("#", "beinggue.jpg", "GUE Kurslarına Hazırlık")
-      +services-list-item("#", "photography.jpg", "Sualtı Fotoğraf Çekimi")
-      +services-list-item("#", "consulting.jpg", "Kurumsal Danışmanlık")
+      template(v-for='service in services')
+        .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-3
+          .canvas.upsidedown
+            router-link(:to="'/services/' + service.id")
+              p {{ service.name }}
+              img.img-fluid(:src= "'/static/img/services-list/' + service.imageUrl + '.jpg'", :alt= 'service.name')
