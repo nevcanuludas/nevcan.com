@@ -12,6 +12,7 @@ import AppSidebar from './components/Sidebar/Sidebar'
 import AppFooter from './components/Footer/Footer'
 import AppFooterMobileMessage from './components/FooterMobileMessage/FooterMobileMessage'
 import AppScheduledClasses from './components/ScheduledClasses/ScheduledClasses'
+import AppMapbox from './components/Mapbox/Mapbox'
 
 Vue.config.productionTip = false
 Vue.use(VueResource)
@@ -23,6 +24,7 @@ Vue.component('app-sidebar', AppSidebar)
 Vue.component('app-footer', AppFooter)
 Vue.component('app-footer-mobile-message', AppFooterMobileMessage)
 Vue.component('app-scheduled-classes', AppScheduledClasses)
+Vue.component('app-mapbox', AppMapbox)
 
 /* eslint-disable no-new */
 new Vue({

@@ -2,6 +2,48 @@
 
 #certificates
 
+  .certificates-list
+    position: relative
+
+    .canvas-overlay
+      position: absolute
+      opacity: 0
+      width: calc(100% - 30px)
+      height: 100%
+      text-align: center
+      background-color: rgba(0, 0, 0, .5)
+      overflow: hidden
+
+      .btn
+        margin-top: 30%
+        color: #dedede
+        font-size: 1.5em
+        border: 1px solid #dedede
+        border-radius: 4px
+        transition: opacity .2s ease .2s
+        opacity: 0
+
+        &:hover
+          background-color: #dedede
+          color: $sidebar-bgc
+
+      &::before
+        position: absolute
+        display: block
+        top: -1em
+        right: -1em
+        width: 2em
+        height: 2em
+        content: ''
+        background-color: $neptun-light
+        transform: rotate(45deg)
+
+      &:hover
+        opacity: 1
+
+        .btn
+          opacity: 1
+
   .skill-list-horizontal
     margin: 1em 0 4em 0
     padding: 0
@@ -92,10 +134,10 @@
           &:after
             content: ")"
 
-    .label-beginner,
-    .label-inter,
+    .label-beg,
+    .label-int,
     .label-adv,
-    .label-guru
+    .label-ins
       position: absolute
       left: 0
       color: rgba(70, 70, 70, 0.5)
@@ -104,10 +146,10 @@
       letter-spacing: 0.02em
       line-height: 1.5em
 
-    .line-beginner,
-    .line-inter,
+    .line-beg,
+    .line-int,
     .line-adv,
-    .line-guru
+    .line-ins
       position: absolute
       left: 0
       border-top: 1px dashed rgba(0, 0, 0, 0.2)
@@ -115,18 +157,18 @@
       height: 1px
       z-index: 0
 
-    .label-beginner,
-    .line-beginner
+    .label-beg,
+    .line-beg
       bottom: 25%
 
-    .label-inter,
-    .line-inter
+    .label-int,
+    .line-int
       bottom: 50%
 
     .label-adv,
     .line-adv
       bottom: 75%
 
-    .label-guru,
-    .line-guru
+    .label-ins,
+    .line-ins
       bottom: 100%

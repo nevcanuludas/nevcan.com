@@ -5,7 +5,15 @@ export default {
   name: 'Certificates',
   data () {
     return {
-      sectionTitle: 'Brövelerim'
+      sectionTitle: 'Brövelerim',
+      certificates: [
+        { id: 'gue', imageUrl: 'gue', name: 'GUE' },
+        { id: 'tssf', imageUrl: 'tssf', name: 'TSSF/CMAS' },
+        { id: 'protec', imageUrl: 'protec', name: 'ProTec' },
+        { id: 'ssi', imageUrl: 'ssi', name: 'SSI' },
+        { id: 'lifeguard', imageUrl: 'ils', name: 'Cankurtarma' },
+        { id: 'others', imageUrl: 'poseidon', name: 'Diğer Belgeler' }
+      ]
     }
   }
 }

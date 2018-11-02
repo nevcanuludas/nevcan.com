@@ -1,0 +1,12 @@
+vue-mapbox-map(
+  id='map'
+  :access-token='scene.accessToken'
+  :interactive='false'
+  :geocoder='false'
+  :lng='scene.lng'
+  :lat='scene.lat'
+  :zoom='scene.zoom'
+  :pitch='scene.pitch'
+  :bearing='scene.bearing'
+  @mapbox-ready='setMap'
+)

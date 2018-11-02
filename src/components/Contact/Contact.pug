@@ -2,7 +2,8 @@ section#contact
 
   h3.page-heading {{ sectionTitle }}
 
-  #google-maps
+  #contact-map-section
+    app-mapbox
 
   .pp
     .row
@@ -11,7 +12,7 @@ section#contact
         .contact-info
           strong Nevcan Uludaş
           br
-          span(v-if='!isVisible' @dblclick='isVisible = !isVisible' v-finger:doubletap='visible').show-info [İletişim bilgilerini görmek için çift tıklayın]
+          span(v-if='!isVisible' @dblclick='isVisible = !isVisible' v-finger:doubletap='makeVisible').show-info [İletişim bilgilerini görmek için çift tıklayın]
           span(v-else)
             a(href='tel:+905555435144') +90 (555) 543 5144
             br

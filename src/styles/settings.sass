@@ -49,9 +49,26 @@ h3
 h4
   font-size: 1.8em
 
-p
+ol, ul
+  list-style: unset
+  margin-left: 1em
+
+ol
+  list-style-type: decimal
+
+ul
+  list-style-type: dot
+
+ol, ul, p, pre
   font-size: 1.25em
   line-height: 1.5em
+
+pre
+  white-space: pre-wrap
+  white-space: -moz-pre-wrap
+  white-space: -pre-wrap
+  white-space: -o-pre-wrap
+  word-wrap: break-word
 
 strong
   font-weight: 600
@@ -76,3 +93,4 @@ a:hover
 ::selection
   background: #FF0
   color: #000
+  text-shadow: none !important

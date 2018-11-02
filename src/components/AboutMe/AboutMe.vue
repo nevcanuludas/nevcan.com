@@ -5,7 +5,23 @@ export default {
   name: 'AboutMe',
   data () {
     return {
-      sectionTitle: 'Hakkımda'
+      sectionTitle: 'Hakkımda',
+      isCenterVisible: true,
+      isMileStoneVisible: true
+    }
+  },
+  methods: {
+    showCenters () {
+      this.isCenterVisible = true
+      this.isMileStoneVisible = false
+    },
+    showMileStones () {
+      this.isCenterVisible = false
+      this.isMileStoneVisible = true
+    },
+    showAll () {
+      this.isCenterVisible = true
+      this.isMileStoneVisible = true
     }
   }
 }
