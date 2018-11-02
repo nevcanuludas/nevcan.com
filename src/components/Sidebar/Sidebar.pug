@@ -11,12 +11,15 @@ include ../Shared/Mixin.pug
       .portrait__description__name Nevcan Uludaş
       a(href="http://neptunsualti.com/" target="_blank" title="Neptün Sualtı Merkezi")
         img.portrait__description__img(src="../../assets/neptun-icon-white.png" alt="Neptün Sualtı Merkezi")
-      .portrait__description__title Dalış Eğitmeni
+      .portrait__description__title {{ tr.title }}
 
-      label(for="locale")
-        select(v-model="locale")
-          option(value='tr') Türkçe
-          option(value='en') English
+      label(for="locale") Dil Seçimi:&nbsp;
+      select(v-model="locale")
+        option(value="tr") 🇹🇷
+        option(value="en") 🇺🇸
+      //- p Mesaj: {{ $t('message') }}
+      //- YUKARIDAKİ GİBİ OLMALI, AŞAĞIDAKİ TEST İÇİN YAZILDI
+      p Seçim: {{ tr.message }}
 
     .portrait__footer
       ul.social-media
@@ -36,4 +39,4 @@ include ../Shared/Mixin.pug
       .col-8
         .portrait__description
             .portrait__description__name Nevcan Uludaş
-            .portrait__description__title Dalış Eğitmeni
+            .portrait__description__title {{ tr.title }}

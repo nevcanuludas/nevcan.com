@@ -28,6 +28,7 @@
     "vue-strap": "^1.1.40"
   },
   "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.1",
