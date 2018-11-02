@@ -9,22 +9,26 @@
     input#esc(type='text' @keyup.esc='toggleMenu' @keyup.enter='consoleLog' autofocus)
 
     ul
-      li.col-6.col-md-4
+      li.col-6.col-md-3
         a(v-on:click= "isActive = !isActive", href='/#aboutme')
           i.fa.fa-user
           span Hakkımda
-      li.col-6.col-md-4
+      li.col-6.col-md-3
         a(v-on:click= "isActive = !isActive", href='/#certificates')
           i.fa.fa-id-card-o
           span Brövelerim
-      li.col-6.col-md-4
+      li.col-6.col-md-3
         a(v-on:click= "isActive = !isActive", href='/#courses')
           i.fa.fa-book
           span Verdiğim Eğitimler
-      li.col-6.col-md-4
+      li.col-6.col-md-3
         a(v-on:click= "isActive = !isActive", href='/#services')
           i.fa.fa-handshake-o
           span Verdiğim Hizmerler
+      li.col-6.col-md-4
+        a(v-on:click= "isActive = !isActive", href='/#conservation')
+          i.fa.fa-globe
+          span Koruma & Keşif Projeleri
       li.col-6.col-md-4
         a(v-on:click= "isActive = !isActive", href='/#contact')
           i.fa.fa-envelope
