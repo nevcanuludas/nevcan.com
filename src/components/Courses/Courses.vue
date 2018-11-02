@@ -20,12 +20,12 @@ export default {
         { id: 'nitrox-uzmanligi', imageUrl: 'nitrox', name: 'Nitrox', isVisible: true },
         { id: 'sidemount-uzmanligi', imageUrl: 'sidemount', name: 'Sidemount', isVisible: true },
         { id: 'ilkyardim-uzmanligi', imageUrl: 'firstaid', name: 'İlkyardım', isVisible: true },
-        { id: 'tanitim-dalisi-uzmanligi', imageUrl: 'dsd', name: 'Tanıtım Dalışı Uzm.', isVisible: true },
+        { id: 'tanitim-dalisi-uzmanligi', imageUrl: 'dsd', name: 'Tanıtım Dalışı Uzmanlığı', isVisible: true },
         { id: 'yon-bulma-uzmanligi', imageUrl: 'navigation', name: 'Yön Bulma', isVisible: true },
         { id: 'zero-to-hero-egitimi', imageUrl: 'zerotohero', name: 'Zero to Hero', isVisible: true },
         { id: 'serbest-dalis-egitimi', imageUrl: 'freediving', name: 'Serbest Dalış', isVisible: true },
         { id: 'engelli-dalici-egitimi', imageUrl: 'handicap', name: 'Engelli Dalıcı', isVisible: true },
-        { id: 'engelli-dalici-egitmen-asistani', imageUrl: 'edea', name: 'Engelli Dalıcı Eğ. As.', isVisible: true }
+        { id: 'engelli-dalici-egitmen-asistani', imageUrl: 'edea', name: 'Engelli Dalıcı Eğitmen Asistanı', isVisible: true }
       ]
     }
   },
