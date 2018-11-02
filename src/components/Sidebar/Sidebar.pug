@@ -13,6 +13,11 @@ include ../Shared/Mixin.pug
         img.portrait__description__img(src="../../assets/neptun-icon-white.png" alt="Neptün Sualtı Merkezi")
       .portrait__description__title Dalış Eğitmeni
 
+      label(for="locale")
+        select(v-model="locale")
+          option(value='tr') Türkçe
+          option(value='en') English
+
     .portrait__footer
       ul.social-media
         +social-media-item("https://medium.com/neptunsualti", "Medium")(class="fa-medium")

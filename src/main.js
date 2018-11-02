@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import VueResource from 'vue-resource'
 import VueFinger from 'vue-finger'
+import VueI18n from 'vue-i18n'
 import 'bootstrap/dist/css/bootstrap.css'
 import AppMainMenu from './components/MainMenu/MainMenu'
 import AppSidebar from './components/Sidebar/Sidebar'
@@ -16,6 +17,7 @@ import AppMapbox from './components/Mapbox/Mapbox'
 Vue.config.productionTip = false
 Vue.use(VueResource)
 Vue.use(VueFinger)
+Vue.use(VueI18n)
 
 Vue.component('app-main-menu', AppMainMenu)
 Vue.component('app-sidebar', AppSidebar)
