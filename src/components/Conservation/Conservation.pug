@@ -3,12 +3,7 @@ mixin company-list-item(href, title, src)
     a(href=href target="_blank" title=title)
       img.img-fluid(src='../../assets/logos/' + src, alt=title)
 
-mixin conservation-list-item(href, src, name)
-  .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-3
-    .canvas
-      a(href=href)
-        img.img-fluid(src="../../assets/conservation/list/" + src, alt=name)
-        p= name
+//- Mixin Ends
 
 section#conservation
 
