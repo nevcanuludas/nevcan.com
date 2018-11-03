@@ -1,0 +1,33 @@
+mixin career-item(date, title, location, desc, isVisible)
+  li(class!=attributes.class v-show=isVisible)
+    .career-list__date= date
+    .career-list__title= title
+    .career-list__location= location
+    .career-list__desc= desc
+
+section#career-list
+
+  h4.section-heading Kariyer:
+
+  .career-filter
+    .btn-group(role="group" aria-label="Career Filter")
+      button(type="button" @click="showAll").btn.btn-sm.btn-secondary Tümü
+      button(type="button" @click="showCenters").btn.btn-sm.btn-secondary Dalış Merkezleri
+      button(type="button" @click="showMileStones").btn.btn-sm.btn-secondary Kilometre Taşları
+
+  .career-list
+    +career-item("Eylül 2018", "GUE Turkey 'Official Affiliate' olarak seçildi 🎉", "", "", "isMileStoneVisible")(class="milestone")
+    +career-item("2018'den beri", "Pendik S.A.S.", "İstanbul (842)", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni, Engelli Dalıcı Eğitmeni", "isCenterVisible")
+    +career-item("Ekim 2017", "GUE üyesi oldum 😎 ve GUE Turkey topluluğunu kurdum 🇹🇷", "", "", "isMileStoneVisible")(class="milestone")
+    div(v-if="!isShowMoreActive")
+      +career-item("2016-2017", "Ainos Neptün Sualtı Merkezi", "İstanbul (HQ), Enez / Edirne (747)", "Kurucu | Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni", "isCenterVisible")
+      +career-item("2015", "Mavi Ege Dalış Merkezi (508)", "İbrice / Saros Körfezi", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı, Gemici", "isCenterVisible")
+      +career-item("Kasım 2014", "Neptün Sualtı Merkezi'ni kurdum 🔱", "", "", "isMileStoneVisible")(class="milestone")
+      +career-item("2013-2014", "Four Seasons Divers Club (599)", "İstanbul", "Dalış Eğitmeni, Rehber Dalıcı", "isCenterVisible")
+      +career-item("2011-2012", "Olympia Dalış Merkezi (324)", "Kuşadası / Aydın", "Dalış Eğitmeni", "isCenterVisible")
+      +career-item("2011", "Dalış eğitmeni oldum 🧜‍♂", "", "", "isMileStoneVisible")(class="milestone")
+      +career-item("2008-2010", "Octopus Dalış Merkezi (177)", "Kemer / Antalya", "Dalış Lideri", "isCenterVisible")
+      +career-item("Nisan 2008", "İlk kez sualtında nefes aldım 🤩", "", "", "isMileStoneVisible")(class="milestone")
+
+  .w-100.text-center
+    button.btn.btn-sm.show-more(@click="isShowMoreActive = false" v-show="isShowMoreActive") Tümünü Göster

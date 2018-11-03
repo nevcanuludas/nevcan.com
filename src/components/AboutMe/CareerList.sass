@@ -1,0 +1,97 @@
+@import "../../styles/settings.sass"
+
+#career-list
+
+  .career-filter 
+    width: 100%
+    text-align: right
+    z-index: 2
+    
+    .btn-group
+      display: unset
+
+  .career-list
+    position: relative
+    margin: 0
+    padding-bottom: 1em
+    list-style-type: none
+
+    &:before
+      content: ''
+      position: absolute
+      margin-top: -2em
+      top: 0
+      left: 2em
+      height: 100%
+      width: 0.1em
+      background: #969696
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(150, 150, 150, 0)), color-stop(10%, #969696), color-stop(90%, #969696), color-stop(100%, rgba(150, 150, 150, 0)))
+      background: -webkit-linear-gradient(top, rgba(150, 150, 150, 0) 0%, #969696 10%, #969696 90%, rgba(150, 150, 150, 0) 100%)
+      background: -moz-linear-gradient(top, rgba(150, 150, 150, 0) 0%, #969696 10%, #969696 90%, rgba(150, 150, 150, 0) 100%)
+      background: -o-linear-gradient(top, rgba(150, 150, 150, 0) 0%, #969696 10%, #969696 90%, rgba(150, 150, 150, 0) 100%)
+      background: linear-gradient(top, rgba(150, 150, 150, 0) 0%, #969696 10%, #969696 90%, rgba(150, 150, 150, 0) 100%)
+
+    li
+      position: relative
+      margin: 1.25em 0 1.25em 4em
+      border: 2px solid #969696
+      border-radius: 0.5em
+      padding: 1.3em
+      line-height: 1.6em
+      background-color: #fefefe
+
+      &:before
+        content: ''
+        position: absolute
+        top: 1.3em
+        left: -2.55em
+        width: 1em
+        height: 1em
+        background: #0086ef
+        border-radius: 0.5em
+
+    li.milestone
+      background-color: #fbfbde
+
+      .career-list__title
+        margin: 0
+
+    .career-list__date
+      background: rgba(0,134,239,0.9)
+      position: absolute
+      top: 0
+      right: 0
+      padding: .5em .8em
+      border-top-right-radius: 0.4em
+      color: #FFF
+      font-size: 1.1em
+      font-weight: 600
+
+    .career-list__title
+      margin: 0 0 0.5em 0
+      font-size: 1.3em
+      font-weight: 700
+
+    .career-list__location
+      padding: 0 0 0 1em
+      font-size: 1.2em
+      font-weight: 300
+
+    .career-list__desc
+      padding: 0 0 0 1em
+      font-size: 1.2em
+      color: #000
+      font-style: italic
+
+  .show-more
+    margin-bottom: 1em
+
+  @media (max-width: $xs)
+    .career-list
+
+      &:before
+        left: .5em
+
+      li
+        margin-left: 2.5em
+        padding-top: 3.5em

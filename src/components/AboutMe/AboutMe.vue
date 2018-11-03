@@ -1,28 +1,20 @@
 <template lang="pug" src="./AboutMe.pug"></template>
 
 <script>
+// Local Components Import
+import AppCareerList from './CareerList'
+import AppCompanyList from './CompanyList'
+
 export default {
   name: 'AboutMe',
   data () {
     return {
-      sectionTitle: 'Hakkımda',
-      isCenterVisible: true,
-      isMileStoneVisible: true
+      sectionTitle: 'Hakkımda'
     }
   },
-  methods: {
-    showCenters () {
-      this.isCenterVisible = true
-      this.isMileStoneVisible = false
-    },
-    showMileStones () {
-      this.isCenterVisible = false
-      this.isMileStoneVisible = true
-    },
-    showAll () {
-      this.isCenterVisible = true
-      this.isMileStoneVisible = true
-    }
+  components: {
+    'app-career-list': AppCareerList,
+    'app-company-list': AppCompanyList
   }
 }
 </script>
