@@ -9,9 +9,10 @@ import 'bootstrap/dist/css/bootstrap.css'
 import AppMainMenu from './components/MainMenu/MainMenu'
 import AppSidebar from './components/Sidebar/Sidebar'
 import AppFooter from './components/Footer/Footer'
+import AppMapbox from './components/Mapbox/Mapbox'
 import AppFooterMobileMessage from './components/FooterMobileMessage/FooterMobileMessage'
 import AppScheduledClasses from './components/ScheduledClasses/ScheduledClasses'
-import AppMapbox from './components/Mapbox/Mapbox'
+import AppFaq from './components/Faq/Faq'
 
 Vue.config.productionTip = false
 Vue.use(VueResource)
@@ -20,9 +21,10 @@ Vue.use(VueFinger)
 Vue.component('app-main-menu', AppMainMenu)
 Vue.component('app-sidebar', AppSidebar)
 Vue.component('app-footer', AppFooter)
+Vue.component('app-mapbox', AppMapbox)
 Vue.component('app-footer-mobile-message', AppFooterMobileMessage)
 Vue.component('app-scheduled-classes', AppScheduledClasses)
-Vue.component('app-mapbox', AppMapbox)
+Vue.component('app-faq', AppFaq)
 
 /* eslint-disable no-new */
 new Vue({

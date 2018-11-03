@@ -46,7 +46,7 @@
 
     ul
       margin: 0 auto
-      max-width: $sm
+      max-width: $md
       padding: 0
       list-style: none
 
@@ -76,9 +76,23 @@
           *
             color: #000
 
-@media (max-width: $sm)
+@media (max-width: $md)
     nav.mainmenu
-      padding-top: calc(50vh - 310px) !important
+      padding-top: calc(50vh - 270px) !important
 
       li
         margin-bottom: 1em !important
+
+@media (max-width: $sm)
+    nav.mainmenu
+      padding-top: calc(50vh - 250px) !important
+
+      ul
+        font-size: 1em
+
+        li
+          margin-bottom: 1em !important
+          padding: 0 !important
+
+          i
+            font-size: 2em !important
