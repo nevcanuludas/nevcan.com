@@ -3,15 +3,12 @@ section#faq
   h3.page-heading {{ sectionTitle }}
 
   .pp
-    ul.list-group
-      li.list-group-item.justify-content-between
-        | Yüzme öğretiyor musunuz?
-        span.badge.badge-default.badge-pill 14
-      
-      li.list-group-item.justify-content-between
-        | Yüzme bilmiyorum, dalış yapabilir miyim?
-        span.badge.badge-default.badge-pill 2
 
-      li.list-group-item.justify-content-between
-        | Daha önce hiç dalmadım, nasıl başlayabilirim?
-        span.badge.badge-default.badge-pill 1
+    ul.list-group
+      template(v-for='question in faq')
+        li.list-group-item.list-group-item-action(@click='activate(question.id)' :class='{ active : active_el == question.id }')
+          span.badge.badge-default.badge-pill {{ question.id }}
+          span {{ question.q }}
+        li.list-group-item.d-none
+            strong Cevap:&nbsp;
+            span {{ question.a }}

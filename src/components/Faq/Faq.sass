@@ -1,0 +1,31 @@
+@import "../../styles/settings.sass"
+  
+#faq
+
+  span.badge
+    margin-right: 1em
+    background-color: $neptun-light
+  
+  span.badge + span
+    max-width: calc(100% - 51px)
+
+  ul.list-group
+    margin-left: 0
+
+  ul > li.list-group-item-action:hover
+    cursor: pointer
+
+  .active
+    background-color: $neptun-light
+    border-color: unset
+
+    span.badge
+      background-color: $neptun-dark
+
+  .active + .d-none
+    display: block !important
+    border-bottom-width: 3px
+
+  @media (max-width: $sm)
+    .pp
+      padding: 1.5em .3em

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "q": "Yüzme dersi veriyor musunuz?",
+    "a": "Hayır 😁"
+  },
+  {
+    "id": 2,
+    "q": "Yüzme bilmiyorum, yine de dalış yapabilir miyim?",
+    "a": "Türkiye Sualtı Sporları Federasyonu`nun yönetmeliğine göre dalış kursuna katılabilmek için yeterli seviyede yüzme bilinmesi gerekmektedir."
+  },
+  {
+    "id": 3,
+    "q": "Dalmak istiyorum ama daha önce hiç dalmadım, nasıl başlayabilirim?",
+    "a": "Daha önce hiç dalış yapmadıysanız önünüzde iki seçenek var. Birincisi deneme dalışı yapabilirsiniz. Su altında nefes almanın nasıl bir his olduğunu tecrübe edersiniz. İkinci seçenek ise sertifikalı dalıcı kurslarına katılabilirsiniz. Kurs sonunda başarılı olursanız tüm dünyada geçerli dalıcı sertifikasına sahip olursunuz."
+  },
+  {
+    "id": 4,
+    "q": "CMAS ile PADI arasındaki farklar nedir?",
+    "a": "Öncelikle CMAS bir konfederasyon, PADI ise özel bir şirkettir. Her iki sistemin de temel eğitim programı birbirine çok benzemektedir. %10 oranında teorik ve pratik eğitimlerde farklılıklar vardır, ancak bu sizi daha iyi ya da daha kötü bir dalıcı yapmaz. TFFS, CMAS ile beraber çalışmaktadır. O yüzden Federasyonun Türkiye`deki Türk dalıcıları takip edebilmesi için, PADI belgesine sahip dalıcılar ayrıca dalıcı izin kimliği almaları gerekir."
+  },
+  {
+    "id": 5,
+    "q": "Köpekbalığı bize saldırır mı?",
+    "a": "2008 yılından beri aktif olarak dalış yapıyorum ve köpekbalığı koyu isimli dalış noktası haricinde hiç bir yerde köpekbalığı ile karşılaşmadım. Ayrıca şunu unutmayın; siz köpekbalığının besin zincirinde değilsiniz. O yüzden endişelenecek birşey yok 😉"
+  },
+  {
+    "id": 6,
+    "q": "Bir tüp ile ne kadar süre sualtında kalabiliriz?",
+    "a": "Bu sorunun maalesef net bir cevabı yok. Bulunduğunuz derinlik, suyun sıcaklığı, akıntı durumu, nefes alıp verme sıklığınız, fiziksel ve mental hazırlık, bcd/kuru elbise kullanımı gibi faktörler bu sürenin kişiden kişiye değişiklik göstermesine neden olacaktır. Ama fikir sahibi olmak için kabaca bir cevap vermek gerekirse 45 dakika diyebiliriz. Aynı tüpü aynı dalışta 30 dakikadan önce bitirebilen de var, 2 saatin üzerinde kullanabilen de var. "
+  },
+  {
+    "id": 7,
+    "q": "En fazla kaç metreye daldın?",
+    "a": "Ben sportif dalışın yanı sıra teknik dalış ile de ilgileniyorum. Sportif dalışın maksimum limiti eğitim dalışlarında 42 metredir. Ancak teknik dalışta ilgili eğitimi alarak, doğru ekipmanlar, doğru gazlar ve doğru planlama ile 105 metre derinliğe indim."
+  },
+  {
+    "id": 8,
+    "q": "Kurs almadan dalış yapamaz mıyım?",
+    "a": "Dalış yapmanın kurallarını araba kullanmaya benzetebilirsiniz. Ehliyetiniz olmadan nasıl araba kullanamıyorsanız, bröveniz olmadan da dalış yapamazsınız. Otomobil sınıfı ehliyeti olan biri nasıl kamyonet kullanamıyorsa, dalıcılar da ilgili uzmanlıkların eğitimini almadan o tarz dalışları yapamıyorlar. En önemlisi trafik kurallarına uymazsanız kaza riski nasıl artıyorsa, dalışta da limitlerin dışına çıkarsanız aynı şekilde kaza riskiniz artmaktadır."
+  },
+  {
+    "id": 9,
+    "q": "Hangi sistemi (CMAS, PADI, SSI vb.) tercih etmeliyim?",
+    "a": "Herhangi bir sistemin bir diğerinden üstünlüğü yoktur. Farkı yaratan eğitmendir."
+  },
+  {
+    "id": 10,
+    "q": "Nitrox kursunu alırsam daha derine dalabilir miyim?",
+    "a": "Nitrox dalışları daha derinde değil aksine daha sığ sularda yapılır. Bunun nedeni içerisinde bulunan yüksek oksijenin kısmi basıncının daha erken limitlere ulaşmasıdır. Peki neden nitrox dalışı yapmalıyım sorusu akla geliyor. Bunun da cevabı dip süresini güvenle uzatabilmek için."
+  }
+]
