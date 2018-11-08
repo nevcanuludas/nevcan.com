@@ -1,0 +1,21 @@
+[
+  { "id": "1-yildiz-dalici", "imageUrl": "1star", "name": "1* Dalıcı", "isVisible": true },
+  { "id": "2-yildiz-dalici", "imageUrl": "2star", "name": "2* Dalıcı", "isVisible": true },
+  { "id": "3-yildiz-dalici", "imageUrl": "3star", "name": "3* Dalıcı", "isVisible": true },
+  { "id": "modifiye-dalici", "imageUrl": "modified", "name": "Modifiye Dalıcı", "isVisible": true },
+  { "id": "batik-dalisi-uzmanligi", "imageUrl": "wreck", "name": "Batık Dalışı", "isVisible": true },
+  { "id": "derin-dalis-uzmanligi", "imageUrl": "deep", "name": "Derin Dalış", "isVisible": true },
+  { "id": "dpv-uzmanligi", "imageUrl": "dpv", "name": "DPV", "isVisible": true },
+  { "id": "kuru-elbise-uzmanligi", "imageUrl": "drysuit", "name": "Kuru Elbise", "isVisible": true },
+  { "id": "buz-dalisi-uzmanligi", "imageUrl": "ice", "name": "Buz Dalışı", "isVisible": true },
+  { "id": "magara-kesif-dalisi-uzmanligi", "imageUrl": "dcd", "name": "Mağara Dalışı", "isVisible": true },
+  { "id": "nitrox-uzmanligi", "imageUrl": "nitrox", "name": "Nitrox", "isVisible": true },
+  { "id": "sidemount-uzmanligi", "imageUrl": "sidemount", "name": "Sidemount", "isVisible": true },
+  { "id": "ilkyardim-uzmanligi", "imageUrl": "firstaid", "name": "İlkyardım", "isVisible": true },
+  { "id": "tanitim-dalisi-uzmanligi", "imageUrl": "dsd", "name": "Tanıtım Dalışı Uzmanlığı", "isVisible": true },
+  { "id": "yon-bulma-uzmanligi", "imageUrl": "navigation", "name": "Yön Bulma", "isVisible": true },
+  { "id": "zero-to-hero-egitimi", "imageUrl": "zerotohero", "name": "Zero to Hero", "isVisible": true },
+  { "id": "serbest-dalis-egitimi", "imageUrl": "freediving", "name": "Serbest Dalış", "isVisible": true },
+  { "id": "engelli-dalici-egitimi", "imageUrl": "handicap", "name": "Engelli Dalıcı", "isVisible": true },
+  { "id": "engelli-dalici-egitmen-asistani", "imageUrl": "edea", "name": "Engelli Dalıcı Eğitmen Asistanı", "isVisible": true }
+]
