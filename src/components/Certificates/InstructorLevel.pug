@@ -1,0 +1,21 @@
+mixin skill-list-horizontal-item(company, level)
+  li
+    .skill-list-horizontal__bar(class!=attributes.class style!=attributes.style)
+      strong= company
+      span.pull-right= level
+
+//- Mixin Ends
+
+section
+
+  h4.section-heading Eğitmenlik Düzeyi:
+
+  ul.skill-list-horizontal
+    +skill-list-horizontal-item("TSSF/CMAS", "2* Dalış Eğitmeni")(style="width: calc(100%*5/6)")
+    +skill-list-horizontal-item("TSSF", "Uzman Dalıcı Eğitmeni")(style="width: calc(100%*17/17)" class="thin")
+    +skill-list-horizontal-item("TSSF", "Engelli Dalıcı Eğitmeni")(style="width: calc(100%*5/6)" class="thin")
+    +skill-list-horizontal-item("TSSF", "Sualtı Kültür Mirasının Korunması Eğitmeni")(style="width: calc(100%*2/2)" class="thin")
+    +skill-list-horizontal-item("PROTEC", "2* Dalış Eğitmeni")(style="width: calc(100%*5/6)")
+    +skill-list-horizontal-item("PROTEC", "Uzman Dalıcı Eğitmeni")(style="width: calc(100%*8/22)" class="thin")
+    +skill-list-horizontal-item("PROTEC", "Engelli Dalıcı Eğitmeni")(style="width: calc(100%*2/3)" class="thin")
+    +skill-list-horizontal-item("PROTEC", "Serbest Dalış Eğitmeni")(style="width: calc(100%*4/6)" class="thin")

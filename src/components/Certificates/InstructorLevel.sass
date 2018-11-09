@@ -1,0 +1,43 @@
+@import "../../styles/settings.sass"
+
+.skill-list-horizontal
+  margin: 1em 0 4em 0
+  padding: 0
+  color: #FFF
+  list-style-type: none
+
+  li
+    position: relative
+    margin-bottom: .5em
+    border-right: 1px solid rgba(0, 0, 0, 0.3)
+
+  li::before
+    position: absolute
+    top: 50%
+    left: 0
+    display: block
+    width: 100%
+    height: 1px
+    content: ''
+    background: rgba(0, 0, 0, 0.3)
+    z-index: 1
+
+  .skill-list-horizontal__bar
+    position: relative
+    display: inline-block
+    top: 0
+    left: 0
+    padding: .7em
+    background: $neptun-light
+    transition: background-color 0.5s ease
+    z-index: 2
+    
+    &.thin
+      padding: .3em .7em
+
+    &:not(.thin)
+      background-color: $neptun-dark
+      background-image: linear-gradient(-45deg, $neptun-light 20%, $neptun-dark)
+
+    &:hover
+      background: $neptun-dark

@@ -1,6 +1,9 @@
 <template lang="pug" src="./Certificates.pug"></template>
 
 <script>
+import AppInstructorLevel from './InstructorLevel'
+import AppPersonalEvolution from './PersonalEvolution'
+
 export default {
   name: 'Certificates',
   data () {
@@ -15,6 +18,10 @@ export default {
         { id: 'others', imageUrl: 'poseidon', name: 'Diğer Belgeler' }
       ]
     }
+  },
+  components: {
+    'app-instructor-level': AppInstructorLevel,
+    'app-personal-evolution': AppPersonalEvolution
   }
 }
 </script>
