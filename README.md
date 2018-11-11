@@ -31,4 +31,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 -----------
 
-Demo URL [kimoluyoruz.biz](http://kimoluyoruz.biz)
+Dev TEST URL [kimoluyoruz.biz](http://kimoluyoruz.biz)
+Prod URL [nevcan.com](http://nevcan.com)
