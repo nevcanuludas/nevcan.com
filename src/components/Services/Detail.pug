@@ -1,0 +1,26 @@
+section#serviceDetails
+
+  h3.page-heading Verdiğim Hizmetler
+
+  h1.article-heading {{ serviceTitle }}
+
+  .container
+
+    p {{ serviceScope }}
+
+    .row.service-images
+      template(v-for='image in serviceImages')
+        figure.col-12.col-sm-6.col-md-12.col-lg-6.mb-5
+          .flip-container(@mouseover='flip' @mouseleave='flip_back')
+            .flipper
+              .front
+                img(:src="image.src", :alt="image.alt").img-fluid
+              .back
+                img(:src="image.src", :alt="image.alt").img-fluid
+          figcaption {{ image.alt }}
+
+    .back-to-list
+      a(href='/#services')
+        .btn.btn-lg.btn-secondary
+          i.fa.fa-angle-double-left(aria-hidden="true")
+          | &nbsp; Verdiğim Tüm Hizmetler
