@@ -76,7 +76,7 @@
     "title": "Diğer Belgeler",
     "scope": "Ulaştırma Denizcilik ve Haberleşme Bakanlığı, Sağlık Bakanlığı ve diğer sistemlerinden aldığım; gemici, profesyonel balık adam ve kapalı devre sistemlerine ait belgelerim.",
     "images": [
-      { "src": "/static/img/certificates/sf2/sf2-airdiluent.jpg", "alt": "SF2 Air Diluent Sertifikası" },
+      { "src": "/static/img/certificates/sf/sf2-airdiluent.png", "alt": "SF2 Air Diluent Sertifikası" },
       { "src": "/static/img/certificates/tc-udhb/gemiadami.png", "alt": "Gemiadamı" },
       { "src": "/static/img/certificates/tc-udhb/profesyonel-balikadam.jpg", "alt": "Profesyonel Balıkadam" }
     ]
