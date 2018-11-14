@@ -3,16 +3,30 @@ section#certificates
   h3.page-heading {{ sectionTitle }}
 
   .pp
-    .row.certificates-list
-      template(v-for='certificate in certificates')
+    .row.view-options
+      .col.text-right
+        .btn-group
+          button(type="button" @click= 'switchToGridView').btn
+            i.fa.fa-th
+          button(type="button" @click= 'switchToListView').btn
+            i.fa.fa-list-ul
+
+    .row.certificates-list(v-show = '!isListView')
+      template(v-for='category in certificateCategories')
         .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-4
-          router-link(:to="'/certificates/' + certificate.id")
+          router-link(:to="'/certificates/' + category.id")
             .canvas-overlay
               .btn
                 i.fa.fa-search
             .canvas
-              img.img-fluid(:src= "'/static/img/certificate-list/' + certificate.imageUrl + '.png'", :alt= 'certificate.name')
-              p {{ certificate.name }}
+              img.img-fluid(:src= "'/static/img/certificate-list/' + category.imageUrl + '.png'", :alt= 'category.name')
+              p {{ category.name }}
+
+    .row.certificates-list(v-show = 'isListView')
+      .col-12
+        ol
+          template(v-for='certificate in certificateList')
+            li(v-for= 'item in certificate.images') {{ item.alt }}
 
     app-instructor-level
 

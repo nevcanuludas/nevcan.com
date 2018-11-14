@@ -16,6 +16,7 @@
       { "src": "/static/img/certificates/tssf-cmas/i/2.png", "alt": "TSSF/CMAS 2* Dalış Eğitmeni" },
       { "src": "/static/img/certificates/tssf/rehber.png", "alt": "TSSF Rehber Dalıcı" },
       { "src": "/static/img/certificates/tssf/i/engelli-dalici.png", "alt": "TSSF Engelli Dalıcı Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/i/engelli-dalici.png", "alt": "TSSF Sualtı Kültür Mirasının Korunması Eğitmeni" },
       { "src": "/static/img/certificates/tssf/d/akinti.png", "alt": "TSSF Akıntı Dalışı Uzman Dalış Eğitmeni" },
       { "src": "/static/img/certificates/tssf/d/arama-kurtarma.png", "alt": "TSSF Arama ve Kurtarma Uzman Dalış Eğitmeni" },
       { "src": "/static/img/certificates/tssf/d/batik.png", "alt": "TSSF Batık Dalışı Uzman Dalış Eğitmeni" },
@@ -66,7 +67,7 @@
     "images": [
       { "src": "/static/img/certificates/tssf-ils/c/altin.png", "alt": "ILS/TSSF Altın Cankurtaran" },
       { "src": "/static/img/certificates/tc-sb/ilkyardimci.png", "alt": "T.C. Sağlık Bakanlığı - İlkyardımcı" },
-      { "src": "/static/img/certificates/efr/efr-adult.png", "alt": "Emergency Responder CPR/First Aid - Adult" },
+      { "src": "/static/img/certificates/efr/efr-adult.png", "alt": "EFR Emergency Responder CPR/First Aid - Adult" },
       { "src": "/static/img/certificates/tc-udhb/stcw-temel-ilkyardim.jpg", "alt": "T.C. U.D.H.B. STCW Temel İlkyardım" },
       { "src": "/static/img/certificates/tssf/i/ilkyardim.png", "alt": "TSSF İlkyardım Uzman Dalış Eğitmeni" },
       { "src": "/static/img/certificates/tssf/d/oksijen-kullanimi.png", "alt": "TSSF Oksijen Kullanımı Uzman Dalış Eğitmeni" }
@@ -76,7 +77,7 @@
     "title": "Diğer Belgeler",
     "scope": "Ulaştırma Denizcilik ve Haberleşme Bakanlığı, Sağlık Bakanlığı ve diğer sistemlerinden aldığım; gemici, profesyonel balık adam ve kapalı devre sistemlerine ait belgelerim.",
     "images": [
-      { "src": "/static/img/certificates/sf/sf2-airdiluent.png", "alt": "SF2 Air Diluent Sertifikası" },
+      { "src": "/static/img/certificates/sf/sf2-airdiluent.png", "alt": "SF2 Air Diluent" },
       { "src": "/static/img/certificates/tc-udhb/gemiadami.png", "alt": "Gemiadamı" },
       { "src": "/static/img/certificates/tc-udhb/profesyonel-balikadam.jpg", "alt": "Profesyonel Balıkadam" }
     ]

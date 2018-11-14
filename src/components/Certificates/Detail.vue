@@ -1,7 +1,7 @@
 <template lang='pug' src='./Detail.pug'></template>
 
 <script>
-import jsonCertificates from './Certificates.json'
+import jsonCertificateList from './CertificateList.json'
 
 export default {
   name: 'CertificateDetails',
@@ -21,7 +21,7 @@ export default {
         'others': 5
       },
       // Certificates JSON
-      certificates: jsonCertificates
+      certificates: jsonCertificateList
     }
   },
   created () {
