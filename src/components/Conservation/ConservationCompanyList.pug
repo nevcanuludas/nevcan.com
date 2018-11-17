@@ -1,0 +1,20 @@
+mixin company-list-item(href, title, src)
+  .col-6.col-sm-3.col-md-6.col-lg-3
+    a(href=href target="_blank" title=title)
+      img.img-fluid(src='../../assets/logos/' + src, alt=title)
+
+//- Mixin Ends
+
+section#company-list
+
+  h4.section-heading Üyesi olduğum gönüllü organizyonlar:
+
+  .row.company-list
+    +company-list-item("https://www.projectbaseline.org/", "Project Baseline", "projectbaseline.png")
+    +company-list-item("https://www.ghostfishing.org/", "Ghost Fishing", "ghostfishing.png")
+    +company-list-item("https://www.seashepherdglobal.org/", "Sea Shepherd", "seashepherd.png")
+    +company-list-item("http://www.greenpeace.org/turkey/tr/", "Greenpeace Akdeniz", "greenpeace.png")
+    +company-list-item("https://4ocean.com/", "4 Ocean", "4ocean.png")
+    +company-list-item("http://tudav.org/", "TUDAV - Türk Deniz Araştırmaları Vakfı", "tudav.png")
+    +company-list-item("http://www.wwf.org.tr/", "WWF Türkiye", "wwf.png")
+    +company-list-item("https://www.cousteau.org/english/", "Cousteau", "cousteau.png")
