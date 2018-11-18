@@ -34,10 +34,24 @@ export default {
         'ilkyardim-uzmanligi': 12,
         'tanitim-dalisi-uzmanligi': 13,
         'yon-bulma-uzmanligi': 14,
-        'zero-to-hero-egitimi': 15,
-        'serbest-dalis-egitimi': 16,
-        'engelli-dalici-egitimi': 17,
-        'engelli-dalici-egitmen-asistani': 18
+        'akinti-dalisi-uzmanligi': 15,
+        'arama-ve-kurtarma-uzmanligi': 16,
+        'gece-dalisi-uzmanligi': 17,
+        'irtifa-dalisi-uzmanligi': 18,
+        'kovuk-dalisi-uzmanligi': 19,
+        'malzeme-bakimi-uzmanligi': 20,
+        'oksijen-kullanimi-uzmanligi': 21,
+        'sualti-fotografcisi-uzmanligi': 22,
+        'sualti-videocusu-uzmanligi': 23,
+        'tup-doldurma-uzmanligi': 24,
+        'ust-duzey-yuzerlilik-uzmanligi': 25,
+        'zero-to-hero-egitimi': 26,
+        'serbest-dalis-egitimi': 27,
+        'engelli-dalici-1-egitimi': 28,
+        'engelli-dalici-2-egitimi': 29,
+        'engelli-dalici-3-egitimi': 30,
+        'engelli-dalici-egitmen-asistani': 31,
+        'sualti-kultur-mirasinin-korunmasi-uzmanligi': 32
       },
       // Courses JSON
       courses: [
@@ -134,7 +148,7 @@ export default {
         },
         // Modifiye Dalıcı Kursları
         {
-          title: 'Modifiye Dalıcı Kursları',
+          title: 'Modifiye Dalıcı Programları',
           price: 'Kurs ücreti 550€´dur.',
           scope: `Kursun amacı WRSTC üyelerinin (NAUI, PADI, PDIC, SDI, SSI, SNSI, RAID, ACUC, DAN, IDEA, NASDS, ProTec), Dünya Sualtı Aktiviteleri Konfederasyonu (CMAS) ve bu konfederasyona bağlı olan federasyonların (TSSF) ve DIR Diving felsefesini geliştiren (GUE, UTD, ISE) üst düzey ekollerin sistemlerin standartlarının harmanlanması sonucu oluşan genişletilmiş bir eğitim programı ile adayları bilgili, tecrübeli ve farkındalık sahibi seçkin dalıcılar haline getirmektir. Kurs sonunda katılımcıların başarılı bir şekilde tamamlamasının ardından TSSF/CMAS ve ProTec sertifikalarına beraber sahip olur.\n \nKurs 1* Dalıcı, 2* Dalıcı ve 3* Dalıcı seviyelerine göre ayrılmaktadır. Kurs kapsamında yeterliliğinize uygun sınıfa katılabilirsiniz.`,
           prerequisites: [
@@ -424,9 +438,53 @@ export default {
           quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
+        // Akıntı Dalışı Uzmanlığı
+        {
+          title: 'Akıntı Dalışı Uzmanlığı'
+        },
+        // Arama ve Kurtarma Uzmanlığı
+        {
+          title: 'Arama ve Kurtarma Uzmanlığı'
+        },
+        // Gece Dalışı Uzmanlığı
+        {
+          title: 'Gece Dalışı Uzmanlığı'
+        },
+        // İrtifa Dalışı Uzmanlığı
+        {
+          title: 'İrtifa Dalışı Uzmanlığı'
+        },
+        // Kovuk Dalışı Uzmanlığı
+        {
+          title: 'Kovuk Dalışı Uzmanlığı'
+        },
+        // Malzeme Bakımı Uzmanlığı
+        {
+          title: 'Malzeme Bakımı Uzmanlığı'
+        },
+        // Oksijen Kullanımı Uzmanlığı
+        {
+          title: 'Oksijen Kullanımı Uzmanlığı'
+        },
+        // Sualtı Fotoğrafçısı Uzmanlığı
+        {
+          title: 'Sualtı Fotoğrafçısı Uzmanlığı'
+        },
+        // Sualtı Videocusu Uzmanlığı
+        {
+          title: 'Sualtı Videocusu Uzmanlığı'
+        },
+        // Tüp Doldurma Uzmanlığı
+        {
+          title: 'Tüp Doldurma Uzmanlığı'
+        },
+        // Üst Düzey Yüzerlilik Uzmanlığı
+        {
+          title: 'Üst Düzey Yüzerlilik Uzmanlığı'
+        },
         // Zero to Hero
         {
-          title: 'Zero to Hero',
+          title: 'Zero to Hero Programı',
           scope: `Kursun amacı dalış konusunda hiçbir bilgisi olmayan ya da çok az bilgisi ve tecrübesi olan katılımcıların ileri seviye dalış bilgi ve tecrübesine ulaştırmaktır. Kurs kapsamında aşağıdaki eğitimler verilecektir ve sonunda başarılı olanlar aşağıda belirtilen dalıcı belgelerini almaya hak kazanırlar;\n
 •  1* Dalıcı (18m) [TSSF/CMAS veya ProTec veya PADI],
 •  2* Dalıcı (30m) [TSSF/CMAS veya ProTec veya PADI],
@@ -482,9 +540,55 @@ export default {
           quota: 'Teorik ve pratik eğitimler 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
           alternativeCourses: []
         },
-        // Engelli Dalıcı Kursu
+        // Engelli Dalıcı 1 Kursu
         {
-          title: 'Engelli Dalıcı Kursu',
+          title: 'Engelli Dalıcı 1 Kursu',
+          price: 'Kurs ücreti 200€´dur.',
+          scope: 'Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Engelli Dalıcı (Handicap Diver) belgesini almaya hak kazanırlar.',
+          images: [
+            { src: '/static/img/courses-temp/protec-org-handicap.jpeg', alt: 'ProTec Engelli Dalıcı Sertifikası' }
+          ],
+          prerequisites: [
+            '14 yaşını doldurmuş olmak',
+            '18 yaşının altındakiler için veli onayı',
+            'Dalış yapmasına engel bir sağlık sorununun bulunmadığına dair sualtı hekimi raporu'
+          ],
+          includes: [
+            '8 saatlik teorik eğitim',
+            '2 havuz dalışı',
+            'Dalışlarda kullanılacak ekipmanlar',
+            'Sertifika ücreti',
+            'Eğitmen giderleri',
+            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
+          ],
+          quota: 'Teorik eğitimler max 4:1, pratik eğitimler ise 1:2 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.'
+        },
+        // Engelli Dalıcı 2 Kursu
+        {
+          title: 'Engelli Dalıcı 2 Kursu',
+          price: 'Kurs ücreti 200€´dur.',
+          scope: 'Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Engelli Dalıcı (Handicap Diver) belgesini almaya hak kazanırlar.',
+          images: [
+            { src: '/static/img/courses-temp/protec-org-handicap.jpeg', alt: 'ProTec Engelli Dalıcı Sertifikası' }
+          ],
+          prerequisites: [
+            '14 yaşını doldurmuş olmak',
+            '18 yaşının altındakiler için veli onayı',
+            'Dalış yapmasına engel bir sağlık sorununun bulunmadığına dair sualtı hekimi raporu'
+          ],
+          includes: [
+            '8 saatlik teorik eğitim',
+            '2 havuz dalışı',
+            'Dalışlarda kullanılacak ekipmanlar',
+            'Sertifika ücreti',
+            'Eğitmen giderleri',
+            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
+          ],
+          quota: 'Teorik eğitimler max 4:1, pratik eğitimler ise 1:2 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.'
+        },
+        // Engelli Dalıcı 3 Kursu
+        {
+          title: 'Engelli Dalıcı 3 Kursu',
           price: 'Kurs ücreti 200€´dur.',
           scope: 'Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Engelli Dalıcı (Handicap Diver) belgesini almaya hak kazanırlar.',
           images: [
@@ -518,6 +622,10 @@ export default {
           includes: [
           ],
           quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.'
+        },
+        // Sualtı Kültür Mirasının Korunması Uzmanlığı
+        {
+          title: 'Sualtı Kültür Mirasının Korunması Uzmanlığı'
         }
       ]
     }

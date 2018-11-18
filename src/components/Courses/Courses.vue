@@ -28,10 +28,24 @@ export default {
       this.courses[12].isVisible = true // ilkyardim-uzmanligi
       this.courses[13].isVisible = true // tanitim-dalisi-uzmanligi
       this.courses[14].isVisible = true // yon-bulma-uzmanligi
-      this.courses[15].isVisible = false // zero-to-hero-egitimi
-      this.courses[16].isVisible = false // serbest-dalis-egitimi
-      this.courses[17].isVisible = true // engelli-dalici-egitimi
-      this.courses[18].isVisible = true // engelli-dalici-egitmen-asistani
+      this.courses[15].isVisible = true // akinti-dalisi-uzmanligi
+      this.courses[16].isVisible = true // arama-ve-kurtarma-uzmanligi
+      this.courses[17].isVisible = true // gece-dalisi-uzmanligi
+      this.courses[18].isVisible = true // irtifa-dalisi-uzmanligi
+      this.courses[19].isVisible = true // kovuk-dalisi-uzmanligi
+      this.courses[20].isVisible = true // malzeme-bakimi-uzmanligi
+      this.courses[21].isVisible = true // oksijen-kullanimi-uzmanligi
+      this.courses[22].isVisible = true // sualti-fotografcisi-uzmanligi
+      this.courses[23].isVisible = true // sualti-videocusu-uzmanligi
+      this.courses[24].isVisible = true // tup-doldurma-uzmanligi
+      this.courses[25].isVisible = true // ust-duzey-yuzerlilik-uzmanligi
+      this.courses[26].isVisible = false // zero-to-hero-egitimi
+      this.courses[27].isVisible = false // serbest-dalis-egitimi
+      this.courses[28].isVisible = true // engelli-dalici-1-egitimi
+      this.courses[29].isVisible = true // engelli-dalici-2-egitimi
+      this.courses[30].isVisible = true // engelli-dalici-3-egitimi
+      this.courses[31].isVisible = true // engelli-dalici-egitmen-asistani
+      this.courses[32].isVisible = true // sualti-kultur-mirasinin-korunması-uzmanligi
     },
     showProtec () {
       this.courses[0].isVisible = true // 1-yildiz-dalici
@@ -49,10 +63,24 @@ export default {
       this.courses[12].isVisible = false // ilkyardim-uzmanligi
       this.courses[13].isVisible = false // tanitim-dalisi-uzmanligi
       this.courses[14].isVisible = false // yon-bulma-uzmanligi
-      this.courses[15].isVisible = false // zero-to-hero-egitimi
-      this.courses[16].isVisible = true // serbest-dalis-egitimi
-      this.courses[17].isVisible = true // engelli-dalici-egitimi
-      this.courses[18].isVisible = false // engelli-dalici-egitmen-asistani
+      this.courses[15].isVisible = false // akinti-dalisi-uzmanligi
+      this.courses[16].isVisible = false // arama-ve-kurtarma-uzmanligi
+      this.courses[17].isVisible = false // gece-dalisi-uzmanligi
+      this.courses[18].isVisible = false // irtifa-dalisi-uzmanligi
+      this.courses[19].isVisible = false // kovuk-dalisi-uzmanligi
+      this.courses[20].isVisible = false // malzeme-bakimi-uzmanligi
+      this.courses[21].isVisible = false // oksijen-kullanimi-uzmanligi
+      this.courses[22].isVisible = false // sualti-fotografcisi-uzmanligi
+      this.courses[23].isVisible = false // sualti-videocusu-uzmanligi
+      this.courses[24].isVisible = false // tup-doldurma-uzmanligi
+      this.courses[25].isVisible = false // ust-duzey-yuzerlilik-uzmanligi
+      this.courses[26].isVisible = false // zero-to-hero-egitimi
+      this.courses[27].isVisible = true // serbest-dalis-egitimi
+      this.courses[28].isVisible = true // engelli-dalici-1-egitimi
+      this.courses[29].isVisible = false // engelli-dalici-2-egitimi
+      this.courses[30].isVisible = false // engelli-dalici-3-egitimi
+      this.courses[31].isVisible = false // engelli-dalici-egitmen-asistani
+      this.courses[32].isVisible = false // sualti-kultur-mirasinin-korunması-uzmanligi
     },
     showScuba () {
       this.courses[0].isVisible = true // 1-yildiz-dalici
@@ -70,10 +98,24 @@ export default {
       this.courses[12].isVisible = false // ilkyardim-uzmanligi
       this.courses[13].isVisible = false // tanitim-dalisi-uzmanligi
       this.courses[14].isVisible = false // yon-bulma-uzmanligi
-      this.courses[15].isVisible = false // zero-to-hero-egitimi
-      this.courses[16].isVisible = false // serbest-dalis-egitimi
-      this.courses[17].isVisible = false // engelli-dalici-egitimi
-      this.courses[18].isVisible = false // engelli-dalici-egitmen-asistani
+      this.courses[15].isVisible = false // akinti-dalisi-uzmanligi
+      this.courses[16].isVisible = false // arama-ve-kurtarma-uzmanligi
+      this.courses[17].isVisible = false // gece-dalisi-uzmanligi
+      this.courses[18].isVisible = false // irtifa-dalisi-uzmanligi
+      this.courses[19].isVisible = false // kovuk-dalisi-uzmanligi
+      this.courses[20].isVisible = false // malzeme-bakimi-uzmanligi
+      this.courses[21].isVisible = false // oksijen-kullanimi-uzmanligi
+      this.courses[22].isVisible = false // sualti-fotografcisi-uzmanligi
+      this.courses[23].isVisible = false // sualti-videocusu-uzmanligi
+      this.courses[24].isVisible = false // tup-doldurma-uzmanligi
+      this.courses[25].isVisible = false // ust-duzey-yuzerlilik-uzmanligi
+      this.courses[26].isVisible = false // zero-to-hero-egitimi
+      this.courses[27].isVisible = false // serbest-dalis-egitimi
+      this.courses[28].isVisible = false // engelli-dalici-1-egitimi
+      this.courses[29].isVisible = false // engelli-dalici-2-egitimi
+      this.courses[30].isVisible = false // engelli-dalici-3-egitimi
+      this.courses[31].isVisible = false // engelli-dalici-egitmen-asistani
+      this.courses[32].isVisible = false // sualti-kultur-mirasinin-korunması-uzmanligi
     },
     showSpecialty () {
       this.courses[0].isVisible = false // 1-yildiz-dalici
@@ -91,10 +133,24 @@ export default {
       this.courses[12].isVisible = true // ilkyardim-uzmanligi
       this.courses[13].isVisible = true // tanitim-dalisi-uzmanligi
       this.courses[14].isVisible = true // yon-bulma-uzmanligi
-      this.courses[15].isVisible = false // zero-to-hero-egitimi
-      this.courses[16].isVisible = false // serbest-dalis-egitimi
-      this.courses[17].isVisible = false // engelli-dalici-egitimi
-      this.courses[18].isVisible = false // engelli-dalici-egitmen-asistani
+      this.courses[15].isVisible = true // akinti-dalisi-uzmanligi
+      this.courses[16].isVisible = true // arama-ve-kurtarma-uzmanligi
+      this.courses[17].isVisible = true // gece-dalisi-uzmanligi
+      this.courses[18].isVisible = true // irtifa-dalisi-uzmanligi
+      this.courses[19].isVisible = true // kovuk-dalisi-uzmanligi
+      this.courses[20].isVisible = true // malzeme-bakimi-uzmanligi
+      this.courses[21].isVisible = true // oksijen-kullanimi-uzmanligi
+      this.courses[22].isVisible = true // sualti-fotografcisi-uzmanligi
+      this.courses[23].isVisible = true // sualti-videocusu-uzmanligi
+      this.courses[24].isVisible = true // tup-doldurma-uzmanligi
+      this.courses[25].isVisible = true // ust-duzey-yuzerlilik-uzmanligi
+      this.courses[26].isVisible = false // zero-to-hero-egitimi
+      this.courses[27].isVisible = false // serbest-dalis-egitimi
+      this.courses[28].isVisible = false // engelli-dalici-1-egitimi
+      this.courses[29].isVisible = false // engelli-dalici-2-egitimi
+      this.courses[30].isVisible = false // engelli-dalici-3-egitimi
+      this.courses[31].isVisible = false // engelli-dalici-egitmen-asistani
+      this.courses[32].isVisible = true // sualti-kultur-mirasinin-korunması-uzmanligi
     },
     showDisabled () {
       this.courses[0].isVisible = false // 1-yildiz-dalici
@@ -112,10 +168,24 @@ export default {
       this.courses[12].isVisible = false // ilkyardim-uzmanligi
       this.courses[13].isVisible = false // tanitim-dalisi-uzmanligi
       this.courses[14].isVisible = false // yon-bulma-uzmanligi
-      this.courses[15].isVisible = false // zero-to-hero-egitimi
-      this.courses[16].isVisible = false // serbest-dalis-egitimi
-      this.courses[17].isVisible = true // engelli-dalici-egitimi
-      this.courses[18].isVisible = true // engelli-dalici-egitmen-asistani
+      this.courses[15].isVisible = false // akinti-dalisi-uzmanligi
+      this.courses[16].isVisible = false // arama-ve-kurtarma-uzmanligi
+      this.courses[17].isVisible = false // gece-dalisi-uzmanligi
+      this.courses[18].isVisible = false // irtifa-dalisi-uzmanligi
+      this.courses[19].isVisible = false // kovuk-dalisi-uzmanligi
+      this.courses[20].isVisible = false // malzeme-bakimi-uzmanligi
+      this.courses[21].isVisible = false // oksijen-kullanimi-uzmanligi
+      this.courses[22].isVisible = false // sualti-fotografcisi-uzmanligi
+      this.courses[23].isVisible = false // sualti-videocusu-uzmanligi
+      this.courses[24].isVisible = false // tup-doldurma-uzmanligi
+      this.courses[25].isVisible = false // ust-duzey-yuzerlilik-uzmanligi
+      this.courses[26].isVisible = false // zero-to-hero-egitimi
+      this.courses[27].isVisible = false // serbest-dalis-egitimi
+      this.courses[28].isVisible = true // engelli-dalici-1-egitimi
+      this.courses[29].isVisible = true // engelli-dalici-2-egitimi
+      this.courses[30].isVisible = true // engelli-dalici-3-egitimi
+      this.courses[31].isVisible = true // engelli-dalici-egitmen-asistani
+      this.courses[32].isVisible = false // sualti-kultur-mirasinin-korunması-uzmanligi
     },
     showFree () {
       this.courses[0].isVisible = false // 1-yildiz-dalici
@@ -133,10 +203,24 @@ export default {
       this.courses[12].isVisible = false // ilkyardim-uzmanligi
       this.courses[13].isVisible = false // tanitim-dalisi-uzmanligi
       this.courses[14].isVisible = false // yon-bulma-uzmanligi
-      this.courses[15].isVisible = false // zero-to-hero-egitimi
-      this.courses[16].isVisible = true // serbest-dalis-egitimi
-      this.courses[17].isVisible = false // engelli-dalici-egitimi
-      this.courses[18].isVisible = false // engelli-dalici-egitmen-asistani
+      this.courses[15].isVisible = false // akinti-dalisi-uzmanligi
+      this.courses[16].isVisible = false // arama-ve-kurtarma-uzmanligi
+      this.courses[17].isVisible = false // gece-dalisi-uzmanligi
+      this.courses[18].isVisible = false // irtifa-dalisi-uzmanligi
+      this.courses[19].isVisible = false // kovuk-dalisi-uzmanligi
+      this.courses[20].isVisible = false // malzeme-bakimi-uzmanligi
+      this.courses[21].isVisible = false // oksijen-kullanimi-uzmanligi
+      this.courses[22].isVisible = false // sualti-fotografcisi-uzmanligi
+      this.courses[23].isVisible = false // sualti-videocusu-uzmanligi
+      this.courses[24].isVisible = false // tup-doldurma-uzmanligi
+      this.courses[25].isVisible = false // ust-duzey-yuzerlilik-uzmanligi
+      this.courses[26].isVisible = false // zero-to-hero-egitimi
+      this.courses[27].isVisible = true // serbest-dalis-egitimi
+      this.courses[28].isVisible = false // engelli-dalici-1-egitimi
+      this.courses[29].isVisible = false // engelli-dalici-2-egitimi
+      this.courses[30].isVisible = false // engelli-dalici-3-egitimi
+      this.courses[31].isVisible = false // engelli-dalici-egitmen-asistani
+      this.courses[32].isVisible = false // sualti-kultur-mirasinin-korunması-uzmanligi
     },
     showSpecialProgram () {
       this.courses[0].isVisible = false // 1-yildiz-dalici
@@ -154,10 +238,24 @@ export default {
       this.courses[12].isVisible = false // ilkyardim-uzmanligi
       this.courses[13].isVisible = false // tanitim-dalisi-uzmanligi
       this.courses[14].isVisible = false // yon-bulma-uzmanligi
-      this.courses[15].isVisible = true // zero-to-hero-egitimi
-      this.courses[16].isVisible = false // serbest-dalis-egitimi
-      this.courses[17].isVisible = false // engelli-dalici-egitimi
-      this.courses[18].isVisible = false // engelli-dalici-egitmen-asistani
+      this.courses[15].isVisible = false // akinti-dalisi-uzmanligi
+      this.courses[16].isVisible = false // arama-ve-kurtarma-uzmanligi
+      this.courses[17].isVisible = false // gece-dalisi-uzmanligi
+      this.courses[18].isVisible = false // irtifa-dalisi-uzmanligi
+      this.courses[19].isVisible = false // kovuk-dalisi-uzmanligi
+      this.courses[20].isVisible = false // malzeme-bakimi-uzmanligi
+      this.courses[21].isVisible = false // oksijen-kullanimi-uzmanligi
+      this.courses[22].isVisible = false // sualti-fotografcisi-uzmanligi
+      this.courses[23].isVisible = false // sualti-videocusu-uzmanligi
+      this.courses[24].isVisible = false // tup-doldurma-uzmanligi
+      this.courses[25].isVisible = false // ust-duzey-yuzerlilik-uzmanligi
+      this.courses[26].isVisible = true // zero-to-hero-egitimi
+      this.courses[27].isVisible = false // serbest-dalis-egitimi
+      this.courses[28].isVisible = false // engelli-dalici-1-egitimi
+      this.courses[29].isVisible = false // engelli-dalici-2-egitimi
+      this.courses[30].isVisible = false // engelli-dalici-3-egitimi
+      this.courses[31].isVisible = false // engelli-dalici-egitmen-asistani
+      this.courses[32].isVisible = false // sualti-kultur-mirasinin-korunması-uzmanligi
     },
     showAllCourses () {
       this.courses[0].isVisible = true // 1-yildiz-dalici
@@ -175,10 +273,24 @@ export default {
       this.courses[12].isVisible = true // ilkyardim-uzmanligi
       this.courses[13].isVisible = true // tanitim-dalisi-uzmanligi
       this.courses[14].isVisible = true // yon-bulma-uzmanligi
-      this.courses[15].isVisible = true // zero-to-hero-egitimi
-      this.courses[16].isVisible = true // serbest-dalis-egitimi
-      this.courses[17].isVisible = true // engelli-dalici-egitimi
-      this.courses[18].isVisible = true // engelli-dalici-egitmen-asistani
+      this.courses[15].isVisible = true // akinti-dalisi-uzmanligi
+      this.courses[16].isVisible = true // arama-ve-kurtarma-uzmanligi
+      this.courses[17].isVisible = true // gece-dalisi-uzmanligi
+      this.courses[18].isVisible = true // irtifa-dalisi-uzmanligi
+      this.courses[19].isVisible = true // kovuk-dalisi-uzmanligi
+      this.courses[20].isVisible = true // malzeme-bakimi-uzmanligi
+      this.courses[21].isVisible = true // oksijen-kullanimi-uzmanligi
+      this.courses[22].isVisible = true // sualti-fotografcisi-uzmanligi
+      this.courses[23].isVisible = true // sualti-videocusu-uzmanligi
+      this.courses[24].isVisible = true // tup-doldurma-uzmanligi
+      this.courses[25].isVisible = true // ust-duzey-yuzerlilik-uzmanligi
+      this.courses[26].isVisible = true // zero-to-hero-egitimi
+      this.courses[27].isVisible = true // serbest-dalis-egitimi
+      this.courses[28].isVisible = true // engelli-dalici-1-egitimi
+      this.courses[29].isVisible = true // engelli-dalici-2-egitimi
+      this.courses[30].isVisible = true // engelli-dalici-3-egitimi
+      this.courses[31].isVisible = true // engelli-dalici-egitmen-asistani
+      this.courses[32].isVisible = true // sualti-kultur-mirasinin-korunması-uzmanligi
     }
   }
 }
