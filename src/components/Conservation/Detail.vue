@@ -10,13 +10,25 @@ export default {
       conservationScope: '',
       // JS Dictionary - Associative Arrays in JavaScript
       dict: {
-        'pb-marmara': 0
+        'pb-marmara': 0,
+        'dan-dalis-bagisi': 1,
+        'sualti-kultur-mirasinin-korunmasi': 2,
+        'suluin-magarasi': 3
       },
       // Conservations JSON
       conservations: [
         {
           title: 'Project Baseline: Marmara',
           scope: 'Marmara bölgesi boyunca su koşulları ve denizanası sayılarını takip ediyoruz. Bu sayede zaman içerisinde gidişatı daha iyi görebileceğiz. Saros körfezinde ve İzmit körfezinde kurduğumuz iki farklı istasyon verileri toplamaya başladı bile. Sizde farkındalık sahibi bir dalıcı olarak bu projede bize destek olabilirsiniz.'
+        },
+        {
+          title: 'DAN Dalış Bağışı'
+        },
+        {
+          title: 'Sualtı Kültür Mirasının Korunması'
+        },
+        {
+          title: 'Suluin Mağarası'
         }
       ]
     }
