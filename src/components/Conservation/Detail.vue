@@ -11,7 +11,7 @@ export default {
       // JS Dictionary - Associative Arrays in JavaScript
       dict: {
         'pb-marmara': 0,
-        'dan-dalis-bagisi': 1,
+        'diver-safety-guardian': 1,
         'sualti-kultur-mirasinin-korunmasi': 2,
         'suluin-magarasi': 3
       },

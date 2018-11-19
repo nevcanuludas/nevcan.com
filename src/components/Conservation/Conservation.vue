@@ -10,9 +10,9 @@ export default {
       sectionTitle: 'Koruma & Keşif Projeleri',
       conservations: [
         { id: 'pb-marmara', imageUrl: 'pb-marmara', name: 'Project Baseline: Marmara' },
-        { id: 'dan-dalis-bagisi', imageUrl: 'dan-dalis-bagisi', name: 'DAN Dalış Bağışı' },
+        { id: 'diver-safety-guardian', imageUrl: 'diver-safety-guardian', name: 'Diver Safety Guardian' },
         { id: 'sualti-kultur-mirasinin-korunmasi', imageUrl: 'sualti-kultur-mirasinin-korunmasi', name: 'Sualtı Kültür Mirasının Korunması' },
-        { id: 'suluin-magarasi', imageUrl: 'suluin-magarasi', name: 'Suluin Mağarası' }
+        { id: 'suluin-magarasi', imageUrl: 'suluin', name: 'Suluin Mağarası' }
       ]
     }
   },
