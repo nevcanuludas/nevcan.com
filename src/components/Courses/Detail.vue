@@ -4,6 +4,9 @@
 import BirYildizDalici from './CourseDetailData/1-yildiz-dalici.json'
 import IkiYildizDalici from './CourseDetailData/2-yildiz-dalici.json'
 import UcYildizDalici from './CourseDetailData/3-yildiz-dalici.json'
+import ModifiyeDalici from './CourseDetailData/modifiye-dalici.json'
+import Batik from './CourseDetailData/batik-dalisi-uzmanligi.json'
+import DerinDalis from './CourseDetailData/derin-dalis-uzmanligi.json'
 
 export default {
   name: 'CourseDetails',
@@ -62,96 +65,9 @@ export default {
         BirYildizDalici,
         IkiYildizDalici,
         UcYildizDalici,
-        // Modifiye Dalıcı Kursları
-        {
-          title: 'Modifiye Dalıcı Programları',
-          price: 'Kurs ücreti 550€´dur.',
-          scope: `Kursun amacı WRSTC üyelerinin (NAUI, PADI, PDIC, SDI, SSI, SNSI, RAID, ACUC, DAN, IDEA, NASDS, ProTec), Dünya Sualtı Aktiviteleri Konfederasyonu (CMAS) ve bu konfederasyona bağlı olan federasyonların (TSSF) ve DIR Diving felsefesini geliştiren (GUE, UTD, ISE) üst düzey ekollerin sistemlerin standartlarının harmanlanması sonucu oluşan genişletilmiş bir eğitim programı ile adayları bilgili, tecrübeli ve farkındalık sahibi seçkin dalıcılar haline getirmektir. Kurs sonunda katılımcıların başarılı bir şekilde tamamlamasının ardından TSSF/CMAS ve ProTec sertifikalarına beraber sahip olur.\n \nKurs 1* Dalıcı, 2* Dalıcı ve 3* Dalıcı seviyelerine göre ayrılmaktadır. Kurs kapsamında yeterliliğinize uygun sınıfa katılabilirsiniz.`,
-          prerequisites: [
-            '1* Modifiye Dalıcı için gerekli Ön Şartlar:',
-            '14 yaşını doldurmuş olmak',
-            '18 yaşının altındakiler için veli onayı',
-            'Yeterli seviyede yüzme bilmek',
-            'Dalış yapmanıza engel bir sağlık sorununuzun buunmaması',
-            '2 ve 3 yildiz bilgileri de girilmeli !important',
-            '---------------------------------------------',
-            '2* Modifiye Dalıcı için gerekli Ön Şartlar:',
-            '15 yaşını doldurmuş olmak,',
-            '18 yaşının altındakiler için veli onayı,',
-            '1* Dalıcı (yada dengi) belgeye sahip olmak,',
-            '1* Dalıcı belgesini aldıktan sonra 20 kayıtlı dalış yapmış olmak,',
-            'Dalış yapmanıza engel bir sağlık sorununuzun bulunmaması.',
-            '---------------------------------------------',
-            '3* Modifiye Dalıcı için gerekli Ön Şartlar:',
-            '18 yaşını doldurmuş olmak,',
-            '2* Dalıcı (yada dengi) belgeye sahip olmak,',
-            '2* Dalıcı belgesine sahip olduktan sonra 50 kayıtlı dalış yapmış olmak,',
-            'İlköğretim diplomasına sahip olmak',
-            'Dalış yapmanıza engel bir sağlık probleminizin bulunmaması.'
-          ],
-          includes: [
-            '12 saatlik teorik eğitim',
-            '10 açık deniz dalışı',
-            'Dalışlarda kullanılacak ekipmanlar',
-            'Eğitim materyalleri',
-            'Sertifika ücretleri',
-            '3* Dalıcı olmak için gerekli uzmanlıklar',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)',
-            'Özel hediyeler!'
-          ],
-          quota: 'Teorik eğitimler ve pratik eğitimler 2:1 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
-        // Batık Dalışı Uzmanlığı
-        {
-          title: 'Batık Dalışı Uzmanlığı',
-          price: 'Kurs ücreti 100€´dur.',
-          scope: "Kursun amacı 30m'ye kadar olan derinliklerdeki batıklara güvenle penatrasyon dalışları gerçekleştirebilmektir. Kurslar TSSF ve ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ister TSSF ister ProTec Batık Dalışı Uzmanı (WRECK) belgesini almaya hak kazanırlar.",
-          images: [
-            { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF/CMAS Batık Dalışı Uzmanlığı Sertifikası' },
-            { src: '/static/img/courses-temp/protec-org-wreck.jpeg', alt: 'ProTec Batık Dalışı Uzmanlığı Sertifikası' }
-          ],
-          prerequisites: [
-            '16 yaşını doldurmuş olmak',
-            '18 yaşının altındakiler için veli onayı',
-            'Yeterli teorik ve pratik dalış becerisine sahip olmak',
-            '2* Dalıcı Belgesi ya da dengi bir belgeye sahip olmak',
-            'Dalış yapmasına engel bir sağlık sorununun bulunmaması'
-          ],
-          includes: [
-            '2 saatlik teorik eğitim',
-            '2 batık dalışı',
-            'Dalışlarda kullanılacak ekipmanlar \n (standart donanıma ek olarak: pusula, derinlik ölçer, yazı tahtası dahil)',
-            'Sertifika ücreti',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
-        // Derin Dalış Uzmanlığı
-        {
-          title: 'Derin Dalış Uzmanlığı',
-          price: 'Kurs ücreti 100€´dur.',
-          scope: "Kursun amacı 40m'ye kadar güvenle dalışları gerçekleştirebilmektir. Kurslar TSSF standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar TSSF Derin Dalış Uzmanı belgesini almaya hak kazanırlar.",
-          images: [
-            { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF/CMAS Derin Dalış Uzmanlığı Sertifikası' }
-          ],
-          prerequisites: [
-
-          ],
-          includes: [
-            '2 saatlik teorik eğitim',
-            '2 derin dalış',
-            'Dalışlarda kullanılacak ekipmanlar',
-            'Sertifika ücreti',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
+        ModifiyeDalici,
+        Batik,
+        DerinDalis,
         // DPV Uzmanlığı
         {
           title: 'DPV Uzmanlığı',
