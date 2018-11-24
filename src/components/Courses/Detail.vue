@@ -100,92 +100,10 @@ export default {
         // Zero to Hero
         // Serbest Dalış Kursu (Lv1)
         // Engelli Dalıcı 1 Kursu
-        {
-          title: 'Engelli Dalıcı 1 Kursu',
-          price: 'Kurs ücreti 200€´dur.',
-          scope: 'Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Engelli Dalıcı (Handicap Diver) belgesini almaya hak kazanırlar.',
-          images: [
-            { src: '/static/img/courses-temp/protec-org-handicap.jpeg', alt: 'ProTec Engelli Dalıcı Sertifikası' }
-          ],
-          prerequisites: [
-            '14 yaşını doldurmuş olmak',
-            '18 yaşının altındakiler için veli onayı',
-            'Dalış yapmasına engel bir sağlık sorununun bulunmadığına dair sualtı hekimi raporu'
-          ],
-          includes: [
-            '8 saatlik teorik eğitim',
-            '2 havuz dalışı',
-            'Dalışlarda kullanılacak ekipmanlar',
-            'Sertifika ücreti',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik eğitimler max 4:1, pratik eğitimler ise 1:2 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.'
-        },
         // Engelli Dalıcı 2 Kursu
-        {
-          title: 'Engelli Dalıcı 2 Kursu',
-          price: 'Kurs ücreti 200€´dur.',
-          scope: 'Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Engelli Dalıcı (Handicap Diver) belgesini almaya hak kazanırlar.',
-          images: [
-            { src: '/static/img/courses-temp/protec-org-handicap.jpeg', alt: 'ProTec Engelli Dalıcı Sertifikası' }
-          ],
-          prerequisites: [
-            '14 yaşını doldurmuş olmak',
-            '18 yaşının altındakiler için veli onayı',
-            'Dalış yapmasına engel bir sağlık sorununun bulunmadığına dair sualtı hekimi raporu'
-          ],
-          includes: [
-            '8 saatlik teorik eğitim',
-            '2 havuz dalışı',
-            'Dalışlarda kullanılacak ekipmanlar',
-            'Sertifika ücreti',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik eğitimler max 4:1, pratik eğitimler ise 1:2 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.'
-        },
         // Engelli Dalıcı 3 Kursu
-        {
-          title: 'Engelli Dalıcı 3 Kursu',
-          price: 'Kurs ücreti 200€´dur.',
-          scope: 'Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Engelli Dalıcı (Handicap Diver) belgesini almaya hak kazanırlar.',
-          images: [
-            { src: '/static/img/courses-temp/protec-org-handicap.jpeg', alt: 'ProTec Engelli Dalıcı Sertifikası' }
-          ],
-          prerequisites: [
-            '14 yaşını doldurmuş olmak',
-            '18 yaşının altındakiler için veli onayı',
-            'Dalış yapmasına engel bir sağlık sorununun bulunmadığına dair sualtı hekimi raporu'
-          ],
-          includes: [
-            '8 saatlik teorik eğitim',
-            '2 havuz dalışı',
-            'Dalışlarda kullanılacak ekipmanlar',
-            'Sertifika ücreti',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik eğitimler max 4:1, pratik eğitimler ise 1:2 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.'
-        },
         // Engelli Dalıcı Eğitmen Asistanı Kursu
-        {
-          title: 'Engelli Dalıcı Eğitmen Asistanı Kursu',
-          price: 'Kurs ücreti 200€´dur.',
-          scope: 'Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmelerini sağlamaktır. Kurs sonunda başarılı olanlar TSSF Engelli Dalıcı Eğitmen Asistanı belgesini almaya hak kazanırlar.',
-          images: [
-            { src: '/static/img/courses-temp/protec-org-handicap.jpeg', alt: 'TSSF Engelli Dalıcı Eğitmen Asistanı Sertifikası' }
-          ],
-          prerequisites: [
-          ],
-          includes: [
-          ],
-          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.'
-        },
         // Sualtı Kültür Mirasının Korunması Uzmanlığı
-        {
-          title: 'Sualtı Kültür Mirasının Korunması Uzmanlığı'
-        }
       ]
     }
   },
