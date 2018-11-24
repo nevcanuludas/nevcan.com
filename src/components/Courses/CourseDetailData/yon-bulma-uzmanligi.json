@@ -1,0 +1,14 @@
+{
+  "title": "Yön Bulma Uzmanlığı",
+  "price": "Kurs ücreti 100€´dur.",
+  "scope": "Kursun amacı ...",
+  "images": [
+    { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF Yön Bulma Uzmanlığı Sertifikası" }
+  ],
+  "prerequisites": [
+  ],
+  "includes": [
+  ],
+  "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
+  "alternativeCourses": []
+}

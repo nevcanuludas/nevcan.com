@@ -69,239 +69,22 @@ export default {
         Batik,
         DerinDalis,
         // DPV Uzmanlığı
-        {
-          title: 'DPV Uzmanlığı',
-          price: 'Kurs ücreti 150€´dur.',
-          scope: 'Kursun amacı daha geniş menzillere daha az efor harcarayak dalışları gerçekleştirebilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec DPV Uzmanı (scooter) belgesini almaya hak kazanırlar.',
-          images: [
-            { src: '/static/img/courses-temp/protec-org-dpv.jpeg', alt: 'ProTec DPV Dalışı Uzmanlığı Sertifikası' }
-          ],
-          prerequisites: [
-            '15 yaşını doldurmuş olmak',
-            '18 yaşının altındakiler için veli onayı',
-            '1* Dalıcı yada dengi bir belgeye sahip olmak',
-            'Yeterli teorik ve pratik dalış becerisine sahip olmak',
-            'Dalış yapmasına engel bir sağlık sorununun bulunmaması'
-          ],
-          includes: [
-            '2 saatlik teorik eğitim',
-            '2 DPV dalışı',
-            'Dalışlarda kullanılacak ekipmanlar \n (standart donanıma ek olarak: DPV)',
-            'Sertifika ücreti',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 2:1 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
         // Kuru Elbise Uzmanlığı
-        {
-          title: 'Kuru Elbise Uzmanlığı',
-          price: 'Kurs ücreti 100€´dur.',
-          note: 'Kursa katılmak isteyenlerin kendi kuru elbiseleri olmak zorundadır. Kuru elbiseler boy/kilo oranından dolayı kişiye özel üretilir ve bir dalış merkezinde üzerinize uygun bir kuru elbise bulma ihtimaliniz oldukça düşüktür. Mümkünse sıkıştırılmış neopren kuru elbiselerden kaçınmalı ve trilamine veya kevlar elbiseler tercih edilmelidir.',
-          scope: 'Kursun amacı dalış konforunu arttırmak ve daha soğuk sularda dalış yapabilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Kuru Elbise (drysuit) belgesini almaya hak kazanırlar.',
-          images: [
-            { src: '/static/img/courses-temp/protec-org-drysuit.jpeg', alt: 'ProTec Kuru Elbise Uzmanlığı Sertifikası' }
-          ],
-          prerequisites: [
-            '15 yaşını doldurmuş olmak',
-            '18 yaşının altındakiler için veli onayı',
-            '1* Dalıcı yada dengi bir belgeye sahip olmak',
-            'Yeterli teorik ve pratik dalış becerisine sahip olmak',
-            'Dalış yapmasına engel bir sağlık sorununun bulunmaması'
-          ],
-          includes: [
-            '3 saatlik teorik eğitim',
-            '4 Drysuit dalışı',
-            'Dalışlarda kullanılacak ekipmanlar \n (Kuru elbise HARİÇ)',
-            'Sertifika ücreti',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik eğitimler max 6:1, pratik eğitimler ise 3:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
         // Buz Dalışı Uzmanlığı
-        {
-          title: 'Buz Dalışı Uzmanlığı',
-          price: 'Kurs ücreti 100€´dur.',
-          scope: 'Kursun amacı 4 derecenin altında ve limitli çıkışın bulunduğu buz altında gerçekleştirilen dalışları yapabilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Buz Dalışı (ice diving) belgesini almaya hak kazanırlar.',
-          images: [
-            { src: '/static/img/courses-temp/protec-org-ice.jpeg', alt: 'ProTec Buz Dalışı Uzmanlığı Sertifikası' }
-          ],
-          prerequisites: [
-            '15 yaşını doldurmuş olmak',
-            '18 yaşının altındakiler için veli onayı',
-            '1* Dalıcı yada dengi bir belgeye sahip olmak',
-            'Yeterli teorik ve pratik dalış becerisine sahip olmak',
-            'Dalış yapmasına engel bir sağlık sorununun bulunmaması'
-          ],
-          includes: [
-            '3 saatlik teorik eğitim',
-            '2 Buz dalışı',
-            'Dalışlarda kullanılacak ekipmanlar \n (Kuru elbise HARİÇ)',
-            'Sertifika ücreti',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik eğitimler max 6:1, pratik eğitimler ise 3:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
         // Mağara Keşif Dalışı Uzmanlığı
-        {
-          title: 'Mağara Keşif Dalışı Uzmanlığı',
-          price: 'Kurs ücreti 150€´dur.',
-          scope: 'Kursun amacı güneş ışığının girmediği, üstü kapalı bölgelerde 40 metre kuralı çerçevesinde güvenli dalışlar yapabilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Mağara Keşif Dalışı (Discover Cave Diver) uzmanlığı belgesini almaya hak kazanırlar.',
-          images: [
-            { src: '/static/img/courses-temp/protec-org-cave.jpeg', alt: 'ProTec Mağara Keşif Dalışı Uzmanlığı Sertifikası' }
-          ],
-          prerequisites: [
-            '15 yaşını doldurmuş olmak',
-            '18 yaşının altındakiler için veli onayı',
-            '2* Dalıcı yada dengi bir belgeye sahip olmak',
-            'Yeterli teorik ve pratik dalış becerisine sahip olmak',
-            'Dalış yapmasına engel bir sağlık sorununun bulunmaması'
-          ],
-          includes: [
-            '4 saatlik teorik eğitim',
-            "4 dalış (2'si mağara dalışı)",
-            'Dalışlarda kullanılacak ekipmanlar (standart donanımlara ek olarak; makara, smb, birincil ışık kaynağı, ikincil ışık kaynağı ve yedek maske)',
-            'Sertifika ücreti',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik eğitimler max 4:1, pratik eğitimler ise 2:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
         // Nitrox Uzmanlığı
-        {
-          title: 'Nitrox Uzmanlığı',
-          price: 'Kurs ücreti 100€´dur.',
-          scope: 'Kursun amacı 22% ile 40% arasında oksijence zengin hava tüpü ile daha az yorgunluk hissi ve daha uzun dip zamanı ile dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Nitrox1 Dalıcı belgesini almaya hak kazanırlar.',
-          images: [
-            { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF Nitrox Dalışı Uzmanlığı Sertifikası' },
-            { src: '/static/img/courses-temp/protec-org-nitrox.jpeg', alt: 'ProTec Nitrox Dalışı Uzmanlığı Sertifikası' }
-          ],
-          prerequisites: [
-            '16 yaşını doldurmuş olmak',
-            '18 yaşının altındakiler için veli onayı',
-            '1* Dalıcı yada dengi bir belgeye sahip olmak',
-            'Yeterli teorik ve pratik dalış becerisine sahip olmak',
-            'Dalış yapmasına engel bir sağlık sorununun bulunmaması'
-          ],
-          includes: [
-            '4 saatlik teorik eğitim',
-            '2 nitrox dalışı',
-            'Dalışlarda kullanılacak ekipmanlar (standart donanımlara ek olarak; oksijen analizörü dahil)',
-            'Sertifika ücreti',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
         // Sidemount Uzmanlığı
-        {
-          title: 'Sidemount Uzmanlığı',
-          price: 'Kurs ücreti 150€´dur.',
-          scope: 'Kursun amacı yanlara takılan 2 tüp ile daha esnek ve konforlu dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Sidemount Dalıcı belgesini almaya hak kazanırlar.',
-          images: [
-            { src: '/static/img/courses-temp/protec-org-sidemount.jpeg', alt: 'ProTec Sidemount Dalışı Uzmanlığı Sertifikası' }
-          ],
-          prerequisites: [
-            '18 yaşını doldurmuş olmak',
-            '2* Dalıcı yada dengi bir belgeye sahip olmak',
-            'Yeterli teorik ve pratik dalış becerisine sahip olmak',
-            'Dalış yapmasına engel bir sağlık sorununun bulunmaması'
-          ],
-          includes: [
-            '4 saatlik teorik eğitim',
-            '4 sidemount dalışı',
-            'Dalışlarda kullanılacak ekipmanlar (standart donanımlara ek olarak; 2 regülatör seti, SM BCD, 2 tüp)',
-            'Sertifika ücreti',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik eğitimler max 4:1, pratik eğitimler ise 2:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
         // İlkyardım Uzmanlığı
-        {
-          title: 'İlkyardım Uzmanlığı',
-          price: 'Kurs ücreti ?? €´dur.',
-          scope: 'Kursun amacı ...',
-          images: [
-            { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF İlkyardım Uzmanlığı Sertifikası' }
-          ],
-          prerequisites: [
-          ],
-          includes: [
-          ],
-          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
         // Tanıtım Dalışı Uzmanlığı
-        {
-          title: 'Tanıtım Dalışı Uzmanlığı',
-          price: 'Kurs ücreti 100€´dur.',
-          scope: 'Kursun amacı su altı ile ilk kez buluşacak kişileri max 5 metre derinliğe kadar daldırabilmek için gerekli olan eğitimin alınmasıdır. TSSF Tanıtım dalışı uzmanları bir dalış okuluna bağlı çalışabilirler.',
-          images: [
-            { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF Tanıtım Dalışı Uzmanlığı Sertifikası' }
-          ],
-          prerequisites: [
-          ],
-          includes: [
-          ],
-          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
         // Yön Bulma Uzmanlığı
-        {
-          title: 'Yön Bulma Uzmanlığı',
-          price: 'Kurs ücreti 100€´dur.',
-          scope: 'Kursun amacı ...',
-          images: [
-            { src: '/static/img/courses-temp/tssf-back-uzm.png', alt: 'TSSF Yön Bulma Uzmanlığı Sertifikası' }
-          ],
-          prerequisites: [
-          ],
-          includes: [
-          ],
-          quota: 'Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
         // Akıntı Dalışı Uzmanlığı
-        {
-          title: 'Akıntı Dalışı Uzmanlığı'
-        },
         // Arama ve Kurtarma Uzmanlığı
-        {
-          title: 'Arama ve Kurtarma Uzmanlığı'
-        },
         // Gece Dalışı Uzmanlığı
-        {
-          title: 'Gece Dalışı Uzmanlığı'
-        },
         // İrtifa Dalışı Uzmanlığı
-        {
-          title: 'İrtifa Dalışı Uzmanlığı'
-        },
         // Kovuk Dalışı Uzmanlığı
-        {
-          title: 'Kovuk Dalışı Uzmanlığı'
-        },
         // Malzeme Bakımı Uzmanlığı
-        {
-          title: 'Malzeme Bakımı Uzmanlığı'
-        },
         // Oksijen Kullanımı Uzmanlığı
-        {
-          title: 'Oksijen Kullanımı Uzmanlığı'
-        },
         // Sualtı Fotoğrafçısı Uzmanlığı
-        {
-          title: 'Sualtı Fotoğrafçısı Uzmanlığı'
-        },
         // Sualtı Videocusu Uzmanlığı
         {
           title: 'Sualtı Videocusu Uzmanlığı'
@@ -315,63 +98,7 @@ export default {
           title: 'Üst Düzey Yüzerlilik Uzmanlığı'
         },
         // Zero to Hero
-        {
-          title: 'Zero to Hero Programı',
-          scope: `Kursun amacı dalış konusunda hiçbir bilgisi olmayan ya da çok az bilgisi ve tecrübesi olan katılımcıların ileri seviye dalış bilgi ve tecrübesine ulaştırmaktır. Kurs kapsamında aşağıdaki eğitimler verilecektir ve sonunda başarılı olanlar aşağıda belirtilen dalıcı belgelerini almaya hak kazanırlar;\n
-•  1* Dalıcı (18m) [TSSF/CMAS veya ProTec veya PADI],
-•  2* Dalıcı (30m) [TSSF/CMAS veya ProTec veya PADI],
-•  Nitrox Uzmanlığı (EAN40) [TSSF veya ProTec],
-•  Batık Dalışı Uzmanlığı [TSSF veya ProTec],
-•  Mağara Keşif Dalışı Uzmanlığı [ProTec],
-•  Scooter (DPV) Uzmanlığı [ProTec],
-•  Mükemmel Yüzerlilik Uzmanlığı [TSSF],
-•  Derin Dalış Uzmanlığı (40m) [TSSF],
-•  Arama Kurtarma Uzmanlığı [TSSF],
-•  Temel İlkyardım Eğitimi [TSSF],
-•  Gece Dalışı Uzmanlığı [TSSF],
-•  SMB Kullanımı Eğitimi,
-•  Serbest Dalış Eğitimi (10m’ye kadar)`,
-          prerequisites: [
-            '16 yaşını doldurmuş olmak',
-            '18 yaşının altındakiler için veli onayı',
-            'Yeterli seviyede yüzme bilmek ve yüksek kondisyona sahip olmak',
-            'Dalış yapmasına engel bir sağlık sorununun bulunmaması'
-          ],
-          includes: [
-            '20 saatlik teorik eğitim',
-            '30 açık deniz dalışı',
-            'Dalışlarda kullanılacak ekipmanlar \n (standart donanımlara ek olarak uzmanlıkların gerektirdikleri ekipmanlar dahil)',
-            'Sertifika ücretleri',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik eğitimler ve  pratik eğitimler 2:1 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
         // Serbest Dalış Kursu (Lv1)
-        {
-          title: 'Serbest Dalış Kursu (Lv1)',
-          price: 'Kurs ücreti 200€´dur.',
-          note: 'Dalıcıların smooth neopren kıyafetleri vücut ölçülerine göre hazırlanmalıdır. O yüzden katılımcıların kendi neoprenleri ile gelmesi beklenir. Ancak katılımcı standart neopren elbise ile dalış yapmak isterse 5mm neopren elbise herhangi bir harici ücret talip edilmeden temin edilebilir.',
-          scope: 'Kursun amacı 10 metre derinliğe kadar minimum 1 dakika dip zamanlı dalışları güvenle gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Serbest Dalıcı (Snorkel Diver) belgesini almaya hak kazanırlar.',
-          hasPadiClasses: true,
-          prerequisites: [
-            '14 yaşını doldurmuş olmak',
-            '18 yaşının altındakiler için veli onayı',
-            '300 metreyi 20 dakikanın altında serbest stil yüzebilmek',
-            'Dalış yapmasına engel bir sağlık sorununun bulunmaması'
-          ],
-          includes: [
-            '8 saatlik teorik eğitim',
-            '25 açık deniz dalışı',
-            'Dalışlarda kullanılacak temel ekipmanlar (maske, palet, snorkel, ağırlıklar ve talebe göre neopren elbise)',
-            'Sertifika ücreti',
-            'Eğitmen giderleri',
-            'Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)'
-          ],
-          quota: 'Teorik ve pratik eğitimler 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.',
-          alternativeCourses: []
-        },
         // Engelli Dalıcı 1 Kursu
         {
           title: 'Engelli Dalıcı 1 Kursu',

@@ -1,0 +1,25 @@
+{
+  "title": "DPV Uzmanlığı",
+  "price": "Kurs ücreti 150€´dur.",
+  "scope": "Kursun amacı daha geniş menzillere daha az efor harcarayak dalışları gerçekleştirebilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec DPV Uzmanı (scooter) belgesini almaya hak kazanırlar.",
+  "images": [
+    { "src": "/static/img/courses-temp/protec-org-dpv.jpeg", "alt": "ProTec DPV Dalışı Uzmanlığı Sertifikası" }
+  ],
+  "prerequisites": [
+    "15 yaşını doldurmuş olmak",
+    "18 yaşının altındakiler için veli onayı",
+    "1* Dalıcı yada dengi bir belgeye sahip olmak",
+    "Yeterli teorik ve pratik dalış becerisine sahip olmak",
+    "Dalış yapmasına engel bir sağlık sorununun bulunmaması"
+  ],
+  "includes": [
+    "2 saatlik teorik eğitim",
+    "2 DPV dalışı",
+    "Dalışlarda kullanılacak ekipmanlar \n (standart donanıma ek olarak: DPV)",
+    "Sertifika ücreti",
+    "Eğitmen giderleri",
+    "Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)"
+  ],
+  "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 2:1 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.",
+  "alternativeCourses": []
+}
