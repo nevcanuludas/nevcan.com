@@ -7,6 +7,33 @@ import UcYildizDalici from './CourseDetailData/3-yildiz-dalici.json'
 import ModifiyeDalici from './CourseDetailData/modifiye-dalici.json'
 import Batik from './CourseDetailData/batik-dalisi-uzmanligi.json'
 import DerinDalis from './CourseDetailData/derin-dalis-uzmanligi.json'
+import DPV from './CourseDetailData/dpv-uzmanligi.json'
+import KuruElbise from './CourseDetailData/kuru-elbise-uzmanligi.json'
+import BuzDalisi from './CourseDetailData/buz-dalisi-uzmanligi.json'
+import MagaraKesifDalisi from './CourseDetailData/magara-kesif-dalisi-uzmanligi.json'
+import Nitrox1 from './CourseDetailData/nitrox-uzmanligi.json'
+import Sidemount from './CourseDetailData/sidemount-uzmanligi.json'
+import Ilkyardim from './CourseDetailData/ilkyardim-uzmanligi.json'
+import TanıtımDalisi from './CourseDetailData/tanitim-dalisi-uzmanligi.json'
+import YonBulma from './CourseDetailData/yon-bulma-uzmanligi.json'
+import AkintiDalisi from './CourseDetailData/akinti-dalisi-uzmanligi.json'
+import AramaVeKurtarma from './CourseDetailData/arama-ve-kurtarma-uzmanligi.json'
+import GeceDalisi from './CourseDetailData/gece-dalisi-uzmanligi.json'
+import IrtifaDalisi from './CourseDetailData/irtifa-dalisi-uzmanligi.json'
+import KovukDalisi from './CourseDetailData/kovuk-dalisi-uzmanligi.json'
+import MalzemeBakimi from './CourseDetailData/malzeme-bakimi-uzmanligi.json'
+import OksijenKullanimi from './CourseDetailData/oksijen-kullanimi-uzmanligi.json'
+import SualtiFotografcisi from './CourseDetailData/sualti-fotografcisi-uzmanligi.json'
+import SualtiVideocusu from './CourseDetailData/sualti-videocusu-uzmanligi.json'
+import TupDoldurma from './CourseDetailData/tup-doldurma-uzmanligi.json'
+import UstDuzeyYuzerlilik from './CourseDetailData/ust-duzey-yuzerlilik-uzmanligi.json'
+import ZeroToHero from './CourseDetailData/zero-to-hero-egitimi.json'
+import SerbestDalis1 from './CourseDetailData/serbest-dalis-1.json'
+import ED1 from './CourseDetailData/engelli-dalici-1-egitimi.json'
+import ED2 from './CourseDetailData/engelli-dalici-2-egitimi.json'
+import ED3 from './CourseDetailData/engelli-dalici-3-egitimi.json'
+import EDEA from './CourseDetailData/engelli-dalici-egitmen-asistani.json'
+import SualtiKulturMirasininKorunmasi from './CourseDetailData/sualti-kultur-mirasinin-korunmasi-uzmanligi.json'
 
 export default {
   name: 'CourseDetails',
@@ -68,42 +95,33 @@ export default {
         ModifiyeDalici,
         Batik,
         DerinDalis,
-        // DPV Uzmanlığı
-        // Kuru Elbise Uzmanlığı
-        // Buz Dalışı Uzmanlığı
-        // Mağara Keşif Dalışı Uzmanlığı
-        // Nitrox Uzmanlığı
-        // Sidemount Uzmanlığı
-        // İlkyardım Uzmanlığı
-        // Tanıtım Dalışı Uzmanlığı
-        // Yön Bulma Uzmanlığı
-        // Akıntı Dalışı Uzmanlığı
-        // Arama ve Kurtarma Uzmanlığı
-        // Gece Dalışı Uzmanlığı
-        // İrtifa Dalışı Uzmanlığı
-        // Kovuk Dalışı Uzmanlığı
-        // Malzeme Bakımı Uzmanlığı
-        // Oksijen Kullanımı Uzmanlığı
-        // Sualtı Fotoğrafçısı Uzmanlığı
-        // Sualtı Videocusu Uzmanlığı
-        {
-          title: 'Sualtı Videocusu Uzmanlığı'
-        },
-        // Tüp Doldurma Uzmanlığı
-        {
-          title: 'Tüp Doldurma Uzmanlığı'
-        },
-        // Üst Düzey Yüzerlilik Uzmanlığı
-        {
-          title: 'Üst Düzey Yüzerlilik Uzmanlığı'
-        },
-        // Zero to Hero
-        // Serbest Dalış Kursu (Lv1)
-        // Engelli Dalıcı 1 Kursu
-        // Engelli Dalıcı 2 Kursu
-        // Engelli Dalıcı 3 Kursu
-        // Engelli Dalıcı Eğitmen Asistanı Kursu
-        // Sualtı Kültür Mirasının Korunması Uzmanlığı
+        DPV,
+        KuruElbise,
+        BuzDalisi,
+        MagaraKesifDalisi,
+        Nitrox1,
+        Sidemount,
+        Ilkyardim,
+        TanıtımDalisi,
+        YonBulma,
+        AkintiDalisi,
+        AramaVeKurtarma,
+        GeceDalisi,
+        IrtifaDalisi,
+        KovukDalisi,
+        MalzemeBakimi,
+        OksijenKullanimi,
+        SualtiFotografcisi,
+        SualtiVideocusu,
+        TupDoldurma,
+        UstDuzeyYuzerlilik,
+        ZeroToHero,
+        SerbestDalis1,
+        ED1,
+        ED2,
+        ED3,
+        EDEA,
+        SualtiKulturMirasininKorunmasi
       ]
     }
   },
