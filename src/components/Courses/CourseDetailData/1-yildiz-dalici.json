@@ -7,6 +7,7 @@
     { "src": "/static/img/courses-temp/protec-org-1-2star.jpeg", "alt": "ProTec 1* Dalıcı Sertifikası" }
   ],
   "hasPadiClasses": true,
+  "hasSsiClasses": true,
   "prerequisites": [
     "14 yaşını doldurmuş olmak",
     "18 yaşının altındakiler için veli onayı",

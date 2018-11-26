@@ -47,6 +47,7 @@ export default {
       courseScope: '',
       courseImages: '',
       courseHasPadiClass: false,
+      courseHasSsiClass: false,
       coursePrerequisites: '',
       courseIncludes: '',
       courseNotIncluded: 'Ulaşım, konaklama, yeme-içme ve kişisel harcamalar kurs ücretine dahil değildir.',
@@ -132,6 +133,7 @@ export default {
     this.courseNote = c.note
     this.courseScope = c.scope
     this.courseHasPadiClass = c.hasPadiClasses
+    this.courseHasSsiClass = c.hasSsiClasses
     this.courseImages = c.images
     this.coursePrerequisites = c.prerequisites
     this.courseIncludes = c.includes

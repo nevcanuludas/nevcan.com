@@ -25,11 +25,17 @@ section#courseDetails
           img(:src="image.src", :alt="image.alt").img-fluid
           figcaption {{ image.alt }}
 
-    .alert.alert-success(v-if='courseHasPadiClass')
+    .alert.alert-success(v-if='courseHasPadiClass || courseHasSsiClass').mt-0
       strong NOT:&nbsp;
-      | PADI belgesi almak isteyenler&nbsp;
-      a(href="http://neptunsualti.com/kurslar-padi.html?ref=nevcancom_courseDetails", target="_blank") neptunsualti.com
-      | &nbsp;adresini ziyaret edebilirler.
+      ul
+        li(v-if='courseHasPadiClass')
+          | PADI belgesi almak isteyenler&nbsp;
+          a(href="http://neptunsualti.com/kurslar-padi.html?ref=nevcancom_courseDetails", target="_blank") neptunsualti.com
+          | &nbsp;adresini ziyaret edebilirler.
+        li(v-if='courseHasSsiClass')
+          | SSI belgesi almak isteyenler&nbsp;
+          a(href="https://pendikdalisokulu.com/ssi-egitimleri-2/?ref=nevcancom_courseDetails", target="_blank") pendikdalisokulu.com
+          | &nbsp;adresini ziyaret edebilirler.
 
     h4.section-heading Ön Şartlar:
     ol
