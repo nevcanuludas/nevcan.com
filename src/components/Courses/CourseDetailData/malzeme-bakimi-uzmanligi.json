@@ -1,3 +1,6 @@
 {
-  "title": "Malzeme Bakımı Uzmanlığı"
+  "title": "Malzeme Bakımı Uzmanlığı",
+  "prerequisites": [
+    "TSSF 1* Dalıcı yada dengi bir belgeye sahip olmak"
+  ]
 }

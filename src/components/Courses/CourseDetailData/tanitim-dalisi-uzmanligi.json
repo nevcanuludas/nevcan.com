@@ -6,6 +6,7 @@
     { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF Tanıtım Dalışı Uzmanlığı Sertifikası" }
   ],
   "prerequisites": [
+    "TSSF 3* Dalıcı yada dengi bir belgeye sahip olmak"
   ],
   "includes": [
   ],

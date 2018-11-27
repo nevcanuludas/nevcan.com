@@ -1,3 +1,6 @@
 {
-  "title": "Oksijen Kullanımı Uzmanlığı"
+  "title": "Oksijen Kullanımı Uzmanlığı",
+  "prerequisites": [
+    "TSSF 1* Dalıcı yada dengi bir belgeye sahip olmak"
+  ]
 }

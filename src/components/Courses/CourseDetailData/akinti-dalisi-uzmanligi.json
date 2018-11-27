@@ -1,3 +1,6 @@
 {
-  "title": "Akıntı Dalışı Uzmanlığı"
+  "title": "Akıntı Dalışı Uzmanlığı",
+  "prerequisites": [
+    "TSSF 2* Dalıcı yada dengi bir belgeye sahip olmak"
+  ]
 }
