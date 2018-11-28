@@ -1,6 +1,7 @@
 # nevcan.com-vue
 
 > A Vue.js project
+> Bootstrap v4.06alpha
 
 ## Build Setup
 
