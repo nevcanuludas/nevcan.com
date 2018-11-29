@@ -25,7 +25,10 @@ section#courses
     .row.courses-list
       template(v-for='course in courses' v-if='course.isVisible')
         .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-3
-          .canvas.upsidedown(:title= 'course.name')
-            router-link(:to="'/courses/' + course.id")
+          router-link(:to="'/courses/' + course.id")
+            .canvas-overlay
+              .btn
+                i.fa.fa-search
+            .canvas.upsidedown(:title= 'course.name')
               p {{ course.name }}
               img.img-fluid(:src= "'/static/img/courses-list/' + course.imageUrl + '.jpg'", :alt= 'course.name')
