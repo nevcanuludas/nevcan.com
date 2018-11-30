@@ -12,7 +12,7 @@ section#conservation
         button(type="button" @click="showResearch").btn.btn-sm.btn-secondary Araştırma
 
     .row.conservation-list
-      template(v-for='conservation in conservations')
+      template(v-for='conservation in conservations' v-if='conservation.isVisible')
         .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-4
           router-link(:to="'/conservation/' + conservation.id")
             .canvas-overlay
