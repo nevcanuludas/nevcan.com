@@ -11,7 +11,7 @@ section#courses
 
     .courses-filter
       .btn-group(role="group" aria-label="Career Filter")
-        button(type="button" @click="showAllCourses").btn.btn-sm.btn-secondary Tümü
+        button(type="button" @click="showAllCompanies").btn.btn-sm.btn-secondary Tümü
         button(type="button" @click="showTssf").btn.btn-sm.btn-secondary TSSF
         button(type="button" @click="showProtec").btn.btn-sm.btn-secondary ProTec
       .btn-group.float-right(role="group" aria-label="Career Filter")
@@ -23,7 +23,7 @@ section#courses
         button(type="button" @click="showSpecialProgram").btn.btn-sm.btn-secondary Özel Programlar
 
     .row.courses-list
-      template(v-for='course in courses' v-if='course.isVisible')
+      template(v-for='course in courses' v-if='course.isVisible && course.isCompanyVisible')
         .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-3
           router-link(:to="'/courses/' + course.id")
             .canvas-overlay
