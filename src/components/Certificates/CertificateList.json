@@ -13,7 +13,7 @@
   },
   {
     "title": "Türkiye Sualtı Sporları Federasyonu (TSSF/CMAS)",
-    "scope": "2008 yılında başladığım bu serüvene 2011 yılından beri Türkiye Sualtı Sporları Federasyonu,nun aktif eğitmeni olarak devam ediyorum. TSSF sportif dalış branşındaki bütün kursları (dalıcı, uzman dalıcı ve engelli dalıcı) verebiliyorum. Aşağıdaki adresten belgelerimin sorgulayabilirsiniz: https://tssf.gov.tr/dalici-cankurtaran-sorgulama/",
+    "scope": "2008 yılında başladığım bu serüvene 2011 yılından beri TSSF'nin aktif eğitmeni olarak devam ediyorum. TSSF sportif dalış branşındaki tüm kursları; Dalıcı, Uzman Dalıcı, Engelli Dalıcı ve Kültür Mirasının Koruması eğitimlerini veriyorum. https://tssf.gov.tr/dalici-cankurtaran-sorgulama/ adresinden sahip olduğum belgeleri sorgulatabilirsiniz.",
     "images": [
       { "src": "/static/img/certificates/tssf-cmas/i/2.png", "alt": "TSSF/CMAS 2* Dalış Eğitmeni" },
       { "src": "/static/img/certificates/tssf/rehber.png", "alt": "TSSF Rehber Dalıcı" },
@@ -40,7 +40,7 @@
   },
   {
     "title": "Profesional Technical and Recretional Diving (ProTec)",
-    "scope": "ProTec ile 2015 yılında tanıştım. Türkiye′deki ilk eğitmenlerdenim. ProTec'i Tercih etmemin nedeni; CMAS'ın uluslar arası iş ortağı olması ve TSSF bünyesinde bulunmayan bazı uzmanlık kurslarını eğitim dizgesinde sunmasıdır.",
+    "scope": "ProTec ile 2015 yılında tanıştım. Türkiye′deki ilk eğitmenlerdenim. CMAS'ın uluslar arası iş ortağı olmasının yanı sıra ProTec'i tercih etmemin bir başka nedeni ise TSSF bünyesinde bulunmayan bazı uzmanlık programlarına sahip olmasıdır.",
     "images": [
       { "src": "/static/img/certificates/protec/i/2.png", "alt": "ProTec 2* Dalış Eğitmeni" },
       { "src": "/static/img/certificates/protec/i/nitrox-1.png", "alt": "ProTec Nitrox 1 Uzman Dalış Eğitmeni" },
@@ -55,7 +55,7 @@
   },
   {
     "title": "Scuba Schools International (SSI)",
-    "scope": "Scuba Schools International ile serbest dalışa adım attım. Ardından ileri seviye dalış sertifikalarımı aldım.",
+    "scope": "SSI ile serbest dalışa adım attım. Daha sonra teknik seviyedeki programlara katıldım. Aktif olarak SSI'da devam etmiyorum.",
     "images": [
       { "src": "/static/img/certificates/ssi/freediving-level-1.png", "alt": "SSI Serbest Dalış Seviye 1" },
       { "src": "/static/img/certificates/ssi/silver-300-diver.png", "alt": "SSI Gümüş 300 Dalıcı" },
