@@ -10,6 +10,8 @@
     "18 yaşının altındakiler için veli onayı",
     "Dalış yapmasına engel bir sağlık sorununun bulunmadığına dair sualtı hekimi raporu"
   ],
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
   "includes": [
     "8 saatlik teorik eğitim",
     "2 havuz dalışı",

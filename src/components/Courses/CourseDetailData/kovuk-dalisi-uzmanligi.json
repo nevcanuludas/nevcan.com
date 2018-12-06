@@ -1,6 +1,9 @@
 {
   "title": "Kovuk Dalışı Uzmanlığı",
   "price": "Kurs ücreti 100€'dur.",
+  "scope": "",
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
   "prerequisites": [
     "TSSF 2* Dalıcı yada dengi bir belgeye sahip olmak"
   ]

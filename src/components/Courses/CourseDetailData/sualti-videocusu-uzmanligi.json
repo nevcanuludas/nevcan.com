@@ -1,6 +1,9 @@
 {
   "title": "Sualtı Videocusu Uzmanlığı",
   "price": "Kurs ücreti 100€'dur.",
+  "scope": "",
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
   "prerequisites": [
     "TSSF 1* Dalıcı yada dengi bir belgeye sahip olmak"
   ]

@@ -6,6 +6,8 @@
     { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF/CMAS Batık Dalışı Uzmanlığı Sertifikası" },
     { "src": "/static/img/courses-temp/protec-org-wreck.jpeg", "alt": "ProTec Batık Dalışı Uzmanlığı Sertifikası" }
   ],
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
   "prerequisites": [
     "16 yaşını doldurmuş olmak",
     "18 yaşının altındakiler için veli onayı",

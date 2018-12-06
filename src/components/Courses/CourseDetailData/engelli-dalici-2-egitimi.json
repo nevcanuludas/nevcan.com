@@ -5,6 +5,8 @@
   "images": [
     { "src": "/static/img/courses-temp/protec-org-handicap.jpeg", "alt": "ProTec Engelli Dalıcı Sertifikası" }
   ],
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
   "prerequisites": [
     "14 yaşını doldurmuş olmak",
     "18 yaşının altındakiler için veli onayı",

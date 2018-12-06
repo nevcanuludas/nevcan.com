@@ -5,6 +5,8 @@
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF/CMAS Derin Dalış Uzmanlığı Sertifikası" }
   ],
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
   "prerequisites": [
     "TSSF 2* Dalıcı yada dengi bir belgeye sahip olmak"
   ],

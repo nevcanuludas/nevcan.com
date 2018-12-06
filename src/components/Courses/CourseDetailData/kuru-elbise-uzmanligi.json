@@ -6,6 +6,8 @@
   "images": [
     { "src": "/static/img/courses-temp/protec-org-drysuit.jpeg", "alt": "ProTec Kuru Elbise Uzmanlığı Sertifikası" }
   ],
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
   "prerequisites": [
     "15 yaşını doldurmuş olmak",
     "18 yaşının altındakiler için veli onayı",

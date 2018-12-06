@@ -5,6 +5,8 @@
   "images": [
     { "src": "/static/img/courses-temp/protec-org-sidemount.jpeg", "alt": "ProTec Sidemount Dalışı Uzmanlığı Sertifikası" }
   ],
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
   "prerequisites": [
     "18 yaşını doldurmuş olmak",
     "2* Dalıcı yada dengi bir belgeye sahip olmak",

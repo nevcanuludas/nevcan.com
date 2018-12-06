@@ -5,6 +5,8 @@
   "images": [
     { "src": "/static/img/courses-temp/protec-org-dpv.jpeg", "alt": "ProTec DPV Dalışı Uzmanlığı Sertifikası" }
   ],
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
   "prerequisites": [
     "15 yaşını doldurmuş olmak",
     "18 yaşının altındakiler için veli onayı",
