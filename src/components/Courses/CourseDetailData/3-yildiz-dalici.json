@@ -1,7 +1,7 @@
 {
   "title": "3☆☆☆ Dalıcı Kursu",
   "price": "Kurs ücreti 250€'dur.",
-  "scope": "Kursun amacı profesyonelliğe ilk adımı atmak isteyen dalıcı adaylarının liderlik becerilerini artıtmaktır. Kurs sonunda isteğe bağlı olarak TSSF/CMAS veya ProTec belgesi alabilirsiniz. Alınan belgeler tüm dünyada geçerlidir.",
+  "scope": "Kursun amacı profesyonelliğe ilk adımı atmak isteyen dalıcıların liderlik becerilerini artıtmaktır. Kurs sonunda isteğe bağlı olarak TSSF/CMAS veya ProTec belgesi alabilirsiniz. Alınan belgeler tüm dünyada geçerlidir.",
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-3.png", "alt": "TSSF/CMAS 3* Dalıcı Sertifikası" },
     { "src": "/static/img/courses-temp/protec-org-3star.jpeg", "alt": "ProTec 3* Dalıcı Sertifikası" }
