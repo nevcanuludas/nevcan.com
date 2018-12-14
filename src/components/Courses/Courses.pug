@@ -26,7 +26,7 @@ section#courses
       template(v-for='course in courses' v-if='course.isVisible && course.isCompanyVisible')
         .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-3
           router-link(:to="'/courses/' + course.id")
-            .canvas-overlay
+            .canvas-overlay(:title= 'course.name')
               .btn
                 i.fa.fa-search
             .canvas.upsidedown(:title= 'course.name')

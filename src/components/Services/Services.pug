@@ -15,7 +15,7 @@ section#services
       template(v-for='service in services')
         .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-3
           router-link(:to="'/services/' + service.id")
-            .canvas-overlay
+            .canvas-overlay(:title= 'service.name')
               .btn
                 i.fa.fa-search
             .canvas.upsidedown(:title= 'service.name')

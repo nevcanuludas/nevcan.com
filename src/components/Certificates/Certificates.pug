@@ -15,7 +15,7 @@ section#certificates
       template(v-for='category in certificateCategories')
         .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-4
           router-link(:to="'/certificates/' + category.id")
-            .canvas-overlay
+            .canvas-overlay(:title= 'category.name')
               .btn
                 i.fa.fa-search
             .canvas
