@@ -1,22 +1,22 @@
 export default {
   tr: {
     form: {
-      firstName: 'Ad',
-      lastName: 'Soyad',
-      email: 'E-posta',
+      firstName: 'Adınız',
+      lastName: 'Soyadınız',
+      email: 'E-posta Adresiniz',
       terms: 'Şartları ve koşulları kabul ediyorum',
-      type: 'Üyelik tipini seçiniz',
-      additionalInfo: 'İlave bilgi',
+      type: 'Danışma tipini seçiniz',
+      additionalInfo: 'Mesajınız',
       submitted: 'Form gönderildi!',
       sentInfo: 'Gönderdiğiniz bilgiler:',
       return: 'Forma geri dön',
-      submit: 'Gönder',
+      submit: 'Mesajı gönder',
       submitting: 'Gönderiliyor',
-      charactersLeft: 'You have {charCount} character left. | You have {charCount} characters left.',
+      charactersLeft: '{charCount} / 1000 | {charCount} / 1000',
       types: {
-        free: 'Ücretsiz deneme aboneliği',
-        starter: 'Başlangıç aboneliği (50 € / ay)',
-        enterprise: 'Kurumsal abonelik (250 € / ay)'
+        free: 'Ücretsiz danışma',
+        starter: 'Bireysel danışmanlık (50 € / ay)',
+        enterprise: 'Kurumsal danışmanlık (250 € / ay)'
       }
     },
     error: {
@@ -34,7 +34,7 @@ export default {
       lastName: 'Last name',
       email: 'Email',
       terms: 'I accept the terms and conditions',
-      type: 'Select subscription type',
+      type: 'Select consultation type',
       additionalInfo: 'Additional info',
       submitted: 'The form is submitted!',
       sentInfo: 'Here is the info you sent:',
@@ -43,9 +43,9 @@ export default {
       submitting: 'Submitting',
       charactersLeft: 'You have {charCount} character left. | You have {charCount} characters left.',
       types: {
-        free: 'Free trial subscription',
-        starter: 'Starter subscription (50 € / month)',
-        enterprise: 'Enterprise subscription (250 € / month)'
+        free: 'Free consultation',
+        starter: 'Individual counseling (50 € / month)',
+        enterprise: 'Corporate Consulting (250 € / month)'
       }
     },
     error: {

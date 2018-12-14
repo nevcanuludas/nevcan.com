@@ -17,9 +17,11 @@ import AppFooterMobileMessage from './components/FooterMobileMessage/FooterMobil
 import AppScheduledClasses from './components/ScheduledClasses/ScheduledClasses'
 import AppFaq from './components/Faq/Faq'
 
+// Contact Form
 Vue.use(VueI18n)
 Vue.use(Vuelidate)
 Vue.config.formApiUrl = process.env.FORM_API_URL
+
 Vue.config.productionTip = false
 Vue.use(VueResource)
 Vue.use(VueFinger)
@@ -33,8 +35,8 @@ Vue.component('app-scheduled-classes', AppScheduledClasses)
 Vue.component('app-faq', AppFaq)
 
 const i18n = new VueI18n({
-  locale: 'en',
-  fallbackLocale: 'en',
+  locale: 'tr',
+  fallbackLocale: 'tr',
   messages: translations
 })
 

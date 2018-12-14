@@ -45,7 +45,7 @@ div
             span(v-if='error.message') : {{ $t(error.message) }}
           span(v-else-if='error.message') {{ $t(error.message) }}
     .form-group
-      button.btn.btn-primary(type='submit' :disabled='submitting')
+      button.btn.btn-primary.pull-right(type='submit' :disabled='submitting')
         span(v-if='submitting')
           | {{ $t('form.submitting') }}
           //- img(src='../../assets/loader.svg')
