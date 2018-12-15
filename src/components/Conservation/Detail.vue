@@ -25,11 +25,13 @@ export default {
         },
         {
           title: 'DAN Dalış Bağışı',
-          scope: 'Dalıcıların Dopler ölçümü ile kabarcıklarının ortak bir database de toplanması işlemi.'
+          scope: 'Dalıcıların Dopler ölçümü ile kabarcıklarının ortak bir database de toplanması işlemi.',
+          url: 'https://youtu.be/iFxiGp8gNIY'
         },
         {
           title: 'Sualtı Kültür Mirasının Korunması',
-          scope: 'Tarihin şekillenmesine yardımcı oluyoruz. Bulduğumuz Kültür Miraslarını arkeologlar ile paylaşıyoruz.'
+          scope: 'Tarihin şekillenmesine yardımcı oluyoruz. Bulduğumuz Kültür Miraslarını arkeologlar ile paylaşıyoruz.',
+          url: 'https://youtu.be/whhoMdZUcIs'
         },
         {
           title: 'Suluin Mağarası',
