@@ -15,7 +15,7 @@ export default {
     var currentDate = new Date()
 
     for (var i = 0; i < this.trips.length; i++) {
-      var startDate = this.trips[i].startDate
+      var startDate = new Date(this.trips[i].startDate)
       var status = this.trips[i].status
 
       if (startDate <= currentDate) {

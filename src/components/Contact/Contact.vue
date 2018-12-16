@@ -1,6 +1,8 @@
 <template lang="pug" src="./Contact.pug"></template>
 
 <script>
+import AppForm from './Form.vue'
+
 export default {
   name: 'Contact',
   data () {
@@ -8,6 +10,9 @@ export default {
       sectionTitle: 'İletişim',
       isVisible: false
     }
+  },
+  components: {
+    'app-form': AppForm
   },
   methods: {
     makeVisible () {

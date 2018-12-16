@@ -15,18 +15,22 @@
   },
   "dependencies": {
     "alloyfinger": "^0.1.13",
+    "axios": "^0.18.0",
     "bootstrap": "^4.0.0-alpha.6",
     "jquery": "^3.3.1",
     "mapbox-gl": "^0.51.0-beta.2",
     "reset-css": "^2.2.1",
     "vue": "^2.5.2",
     "vue-finger": "^0.1.0",
+    "vue-i18n": "^8.4.0",
     "vue-mapbox-map": "^0.8.3",
     "vue-resource": "^1.5.1",
     "vue-router": "^3.0.1",
-    "vue-strap": "^1.1.40"
+    "vue-strap": "^1.1.40",
+    "vuelidate": "^0.7.4"
   },
   "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.1",

@@ -8,6 +8,7 @@ export default {
       path: this.$route.params.id,
       conservationTitle: '',
       conservationScope: '',
+      conservationUrl: '',
       // JS Dictionary - Associative Arrays in JavaScript
       dict: {
         'pb-marmara': 0,
@@ -19,16 +20,22 @@ export default {
       conservations: [
         {
           title: 'Project Baseline: Marmara',
-          scope: 'Marmara bölgesi boyunca su koşulları ve denizanası sayılarını takip ediyoruz. Bu sayede zaman içerisinde gidişatı daha iyi görebileceğiz. Saros körfezinde ve İzmit körfezinde kurduğumuz iki farklı istasyon verileri toplamaya başladı bile. Sizde farkındalık sahibi bir dalıcı olarak bu projede bize destek olabilirsiniz.'
+          scope: 'Marmara bölgesi boyunca su koşulları ve denizanası sayılarını takip ediyoruz. Bu sayede zaman içerisinde gidişatı daha iyi görebileceğiz. Saros körfezinde ve İzmit körfezinde kurduğumuz iki farklı istasyon verileri toplamaya başladı bile. Sizde farkındalık sahibi bir dalıcı olarak bu projede bize destek olabilirsiniz.',
+          url: 'https://www.youtube-nocookie.com/embed/33FXnjxEPVc'
         },
         {
-          title: 'DAN Dalış Bağışı'
+          title: 'DAN Dalış Bağışı',
+          scope: 'Dalıcıların Dopler ölçümü ile kabarcıklarının ortak bir database de toplanması işlemi.',
+          url: 'https://youtu.be/iFxiGp8gNIY'
         },
         {
-          title: 'Sualtı Kültür Mirasının Korunması'
+          title: 'Sualtı Kültür Mirasının Korunması',
+          scope: 'Tarihin şekillenmesine yardımcı oluyoruz. Bulduğumuz Kültür Miraslarını arkeologlar ile paylaşıyoruz.',
+          url: 'https://youtu.be/whhoMdZUcIs'
         },
         {
-          title: 'Suluin Mağarası'
+          title: 'Suluin Mağarası',
+          scope: '1998 yılında JJ ve ekibinin 120 metreye kadar keşfettiği, aysa kıtasının en derin mağarası olan suluin mağarasında araştırma dalaışlarına devam ediyoruz. Amacımız, deniz ile bağlantısını ve dibini bulabilmek.'
         }
       ]
     }
@@ -37,6 +44,7 @@ export default {
     var c = this.conservations[this.dict[this.path]]
     this.conservationTitle = c.title
     this.conservationScope = c.scope
+    this.conservationUrl = c.url
   }
 }
 </script>
