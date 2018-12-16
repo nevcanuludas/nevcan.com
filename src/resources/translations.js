@@ -1,5 +1,19 @@
 export default {
   tr: {
+    sidebar: {
+      scubaInstructor: 'Dalış Eğitmeni',
+      testMessage: 'Türkçe'
+    },
+    mainmenu: {
+      aboutMe: 'Hakkımda',
+      certificates: 'Brövelerim',
+      courses: 'Verdiğim Eğitimler',
+      services: 'Verdiğim Hizmetler',
+      conservation: 'Koruma & Keşif Projeleri',
+      contact: 'İletişim',
+      scheduledClasses: 'Etkinlik Takvimi',
+      faq: 'Sıkça Sorulan Sorular'
+    },
     form: {
       firstName: 'Adınız',
       lastName: 'Soyadınız',
@@ -29,6 +43,20 @@ export default {
     }
   },
   en: {
+    sidebar: {
+      scubaInstructor: 'Scuba Instructor',
+      testMessage: 'English'
+    },
+    mainmenu: {
+      aboutMe: 'About Me',
+      certificates: 'Certificates',
+      courses: 'Courses',
+      services: 'Services',
+      conservation: 'Conservation & Exploration Projects',
+      contact: 'Contact',
+      scheduledClasses: 'Scheduled Classes',
+      faq: 'FAQ'
+    },
     form: {
       firstName: 'First name',
       lastName: 'Last name',

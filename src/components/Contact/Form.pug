@@ -1,41 +1,41 @@
 div
   form(v-if='!isSubmitted' @submit.prevent='submit' novalidate)
     .form-group
-      label(for='firstName') {{ $t("form.firstName") }} *
+      label(for='firstName') {{ $t('form.firstName') }} *
       input#firstName.form-control(
         type='text' 
         v-model.lazy.trim='form.firstName' 
         @blur='onFieldBlur("firstName")' 
         v-bind:class='getFieldClasses("firstName")'
       )
-      .invalid-feedback(v-if='isErrorField("firstName")') {{ $t('error.fieldRequired', { field: $t("form.firstName") }) }}
+      .invalid-feedback(v-if='isErrorField("firstName")') {{ $t('error.fieldRequired', { field: $t('form.firstName') }) }}
     .form-group
-      label(for='lastName') {{ $t("form.lastName") }} *
+      label(for='lastName') {{ $t('form.lastName') }} *
       input#lastName.form-control(type='text' v-model.lazy.trim='form.lastName' @blur='onFieldBlur("lastName")' v-bind:class='getFieldClasses("lastName")')
-      .invalid-feedback(v-if='isErrorField("lastName")') {{ $t('error.fieldRequired', { field: $t("form.lastName") }) }}
+      .invalid-feedback(v-if='isErrorField("lastName")') {{ $t('error.fieldRequired', { field: $t('form.lastName') }) }}
     .form-group
-      label(for='email') {{ $t("form.email") }} *
+      label(for='email') {{ $t('form.email') }} *
       input#email.form-control(type='email' v-model.lazy.trim='form.email' @blur='onFieldBlur("email")' v-bind:class='getFieldClasses("email")')
-      .invalid-feedback(v-if='isErrorField("email")') {{ $t('error.fieldInvalid', { field: $t("form.email") }) }}
+      .invalid-feedback(v-if='isErrorField("email")') {{ $t('error.fieldInvalid', { field: $t('form.email') }) }}
     .form-group
-      label(for='type') {{ $t("form.type") }} *
+      label(for='type') {{ $t('form.type') }} *
       select#type.form-control(v-model='form.type' @blur='onFieldBlur("type")' v-bind:class='getFieldClasses("type")')
         option(v-for='type in types' v-bind:key='type.value' v-bind:value='type.value') {{ $t(type.label) }}
-      .invalid-feedback(v-if='isErrorField("type")') {{ $t("form.type") }}
+      .invalid-feedback(v-if='isErrorField("type")') {{ $t('form.type') }}
     .form-group
-      label(for='additionalInfo') {{ $t("form.additionalInfo") }}
+      label(for='additionalInfo') {{ $t('form.additionalInfo') }}
       textarea.form-control#additionalInfo(
         type='additionalInfo' 
         v-model.trim='form.additionalInfo' 
         v-bind:class='getFieldClasses("additionalInfo")' 
         v-bind:maxlength='$v.form["additionalInfo"].$params.maxLength.max' 
         @blur='onFieldBlur("additionalInfo")')
-      small.text-muted.form-text {{ $tc('form.charactersLeft', getCharactersLeft("additionalInfo"), { charCount: getCharactersLeft("additionalInfo") }) }}
-      .invalid-feedback(v-if='isErrorField("additionalInfo")') {{ $t('error.fieldMaxLength', { field: $t("form.additionalInfo") }) }}
+      small.text-muted.form-text {{ $tc('form.charactersLeft', getCharactersLeft('additionalInfo'), { charCount: getCharactersLeft('additionalInfo') }) }}
+      .invalid-feedback(v-if='isErrorField("additionalInfo")') {{ $t('error.fieldMaxLength', { field: $t('form.additionalInfo') }) }}
     .form-group
       .form-check
         input.form-check-input#terms(type='checkbox' v-model.lazy.trim='form.terms' @change='onFieldBlur("terms")' v-bind:class='getFieldClasses("terms")')
-        label.form-check-label(for='terms') {{ $t("form.terms") }} *
+        label.form-check-label(for='terms') {{ $t('form.terms') }} *
     .alert.alert-danger(v-if='isError')
       p.mb-0
         strong {{ $t(errorHeader) }}

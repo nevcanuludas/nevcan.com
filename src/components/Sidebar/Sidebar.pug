@@ -3,6 +3,10 @@ include ../Shared/social-media.pug
 #sidebar
   aside.portrait.hidden-sm-down
 
+    select.select-language(v-model="locale")
+      option(value="tr") 🇹🇷
+      option(value="en") 🇺🇸
+
     .portrait__img
       router-link(to='/' exact)
         img.img-fluid(src="../../assets/portrait-gue-v2.png" alt="Nevcan Uludaş")
@@ -11,15 +15,7 @@ include ../Shared/social-media.pug
       .portrait__description__name Nevcan Uludaş
       a(href="http://neptunsualti.com/" target="_blank" title="Neptün Sualtı Merkezi")
         img.portrait__description__img(src="../../assets/neptun-icon-white.png" alt="Neptün Sualtı Merkezi")
-      .portrait__description__title {{ tr.title }}
-
-      label(for="locale") Dil Seçimi:&nbsp;
-      select(v-model="locale")
-        option(value="tr") 🇹🇷
-        option(value="en") 🇺🇸
-      //- p Mesaj: {{ $t('message') }}
-      //- YUKARIDAKİ GİBİ OLMALI, AŞAĞIDAKİ TEST İÇİN YAZILDI
-      p Seçim: {{ tr.message }}
+      .portrait__description__title {{ $t('sidebar.scubaInstructor') }}
 
     .portrait__footer
       ul.social-media
@@ -39,4 +35,4 @@ include ../Shared/social-media.pug
       .col-8
         .portrait__description
             .portrait__description__name Nevcan Uludaş
-            .portrait__description__title {{ tr.title }}
+            .portrait__description__title {{ $t('sidebar.scubaInstructor') }}
