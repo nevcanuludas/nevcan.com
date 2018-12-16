@@ -1,0 +1,27 @@
+{
+  "title": "Buz Dalışı Uzmanlığı",
+  "price": "Kurs ücreti 100€'dur.",
+  "scope": "Kursun amacı 4 derecenin altında ve limitli çıkışın bulunduğu buz altında gerçekleştirilen dalışları yapabilmektir. Kurslar ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ProTec Buz Dalışı (ice diving) belgesini almaya hak kazanırlar.",
+  "images": [
+    { "src": "/static/img/courses-temp/protec-org-ice.jpeg", "alt": "ProTec Buz Dalışı Uzmanlığı Sertifikası" }
+  ],
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
+  "prerequisites": [
+    "15 yaşını doldurmuş olmak",
+    "18 yaşının altındakiler için veli onayı",
+    "1* Dalıcı yada dengi bir belgeye sahip olmak",
+    "Yeterli teorik ve pratik dalış becerisine sahip olmak",
+    "Dalış yapmasına engel bir sağlık sorununun bulunmaması"
+  ],
+  "includes": [
+    "3 saatlik teorik eğitim",
+    "2 Buz dalışı",
+    "Dalışlarda kullanılacak ekipmanlar \n (Kuru elbise HARİÇ)",
+    "Sertifika ücreti",
+    "Eğitmen giderleri",
+    "Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)"
+  ],
+  "quota": "Teorik eğitimler max 6:1, pratik eğitimler ise 3:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
+  "alternativeCourses": []
+}

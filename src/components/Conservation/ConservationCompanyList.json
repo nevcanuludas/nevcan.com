@@ -1,0 +1,42 @@
+[
+  {
+    "href": "https://www.projectbaseline.org/", 
+    "title": "Project Baseline", 
+    "src": "projectbaseline.png"
+  },
+  {
+    "href": "https://www.ghostfishing.org/", 
+    "title": "Ghost Fishing", 
+    "src": "ghostfishing.png"
+  },
+  {
+    "href": "https://www.seashepherdglobal.org/", 
+    "title": "Sea Shepherd", 
+    "src": "seashepherd.png"
+  },
+  {
+    "href": "http://www.greenpeace.org/turkey/tr/", 
+    "title": "Greenpeace Akdeniz", 
+    "src": "greenpeace.png"
+  },
+  {
+    "href": "https://4ocean.com/", 
+    "title": "4 Ocean", 
+    "src": "4ocean.png"
+  },
+  {
+    "href": "http://tudav.org/", 
+    "title": "TUDAV - Türk Deniz Araştırmaları Vakfı", 
+    "src": "tudav.png"
+  },
+  {
+    "href": "http://www.wwf.org.tr/", 
+    "title": "WWF Türkiye", 
+    "src": "wwf.png"
+  },
+  {
+    "href": "https://www.cousteau.org/english/", 
+    "title": "Cousteau", 
+    "src": "cousteau.png"
+  }
+]

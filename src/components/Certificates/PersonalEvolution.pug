@@ -1,0 +1,25 @@
+mixin skill-list-vertical-item(genre, company)
+  li
+    .skill-list-vertical__bar(style!=attributes.style)
+      strong= genre
+      span.company= company
+
+//- Mixin Ends
+
+section
+
+  h4.section-heading Kişisel Gelişim:
+
+  ul.skill-list-vertical
+    +skill-list-vertical-item("Mağara Dalışı", "GUE")(style="height: 55%")
+    +skill-list-vertical-item("CCR", "SF2")(style="height: 70%")
+    +skill-list-vertical-item("Carkurtarma", "ILS/TSSF")(style="height: 90%")
+
+    .label-beg Beginner
+    .line-beg
+    .label-int Intermediate
+    .line-int
+    .label-adv Advanced
+    .line-adv
+    .label-ins Instructor
+    .line-ins

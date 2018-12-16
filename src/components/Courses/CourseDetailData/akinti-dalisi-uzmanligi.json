@@ -1,0 +1,27 @@
+{
+  "title": "Akıntı Dalışı Uzmanlığı",
+  "price": "Kurs ücreti 100€'dur.",
+  "scope": "Kursun amacı, akıntının oluşturduğu dezavantajları avantaja dönüştürmeyi ve dalışlarımızı güvenle sürdürebilme becerisini öğrenmektir.",
+  "images": [
+    { "src": "/static/img/courses-temp/tssf-speciality-back.png", "alt": "TSSF/CMAS Akıntı Dalışı Uzmanlığı Sertifikası" }
+  ],
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
+  "prerequisites": [
+    "15 yaşını doldurmuş olmak",
+    "TSSF 2* Dalıcı yada dengi bir belgeye sahip olmak",
+    "18 yaşının altındakiler için veli onayı",
+    "Dalış yapmanıza engel bir sağlık sorununuzun bulunmaması"
+  ],
+  "includes": [
+    "2 saatlik teorik eğitim",
+    "2 açık deniz dalışı",
+    "Dalışlarda kullanılacak tüm ekipmanlar",
+    "Eğitim materyalleri",
+    "Sertifika ücreti",
+    "Eğitmen giderleri",
+    "Eğitim boyunca çekilen tüm sualtı fotoğrafları"
+  ],
+  "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
+  "alternativeCourses": []
+}

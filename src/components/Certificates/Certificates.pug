@@ -1,55 +1,33 @@
-mixin skill-list-horizontal-item(company, level)
-  li
-    .skill-list-horizontal__bar(style!=attributes.style)
-      strong= company
-      span.pull-right= level
-
-mixin skill-list-vertical-item(genre, company)
-  li
-    .skill-list-vertical__bar(style!=attributes.style)
-      strong= genre
-      span.company= company
-
-//- Mixin Ends
-
 section#certificates
 
   h3.page-heading {{ sectionTitle }}
 
   .pp
-    .row.certificates-list
-      template(v-for='certificate in certificates')
+    .row.view-options
+      .col.text-right
+        .btn-group
+          button(type="button" @click= 'switchToGridView').btn
+            i.fa.fa-th
+          button(type="button" @click= 'switchToListView').btn
+            i.fa.fa-list-ul
+
+    .row.certificates-list(v-show = '!isListView')
+      template(v-for='category in certificateCategories')
         .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-4
-          router-link(:to="'/certificates/' + certificate.id")
-            .canvas-overlay
+          router-link(:to="'/certificates/' + category.id")
+            .canvas-overlay(:title= 'category.name')
               .btn
                 i.fa.fa-search
             .canvas
-              img.img-fluid(:src= "'/static/img/certificate-list/' + certificate.imageUrl + '.png'", :alt= 'certificate.name')
-              p {{ certificate.name }}
+              img.img-fluid(:src= "'/static/img/certificate-list/' + category.imageUrl + '.png'", :alt= 'category.name')
+              p {{ category.name }}
 
-    h4.section-heading Eğitmenlik Düzeyi:
+    .row.certificates-list(v-show = 'isListView')
+      .col-12
+        ol
+          template(v-for='certificate in certificateList')
+            li(v-for= 'item in certificate.images') {{ item.alt }}
 
-    ul.skill-list-horizontal
-      +skill-list-horizontal-item("TSSF/CMAS", "2* Dalış Eğitmeni")(style="width: calc(100%*5/6)")
-      +skill-list-horizontal-item("TSSF", "Engelli Dalıcı Eğitmeni")(style="width: calc(100%*5/6)")
-      +skill-list-horizontal-item("TSSF", "Uzman Dalıcı Eğitmeni")(style="width: calc(100%*17/17)")
-      +skill-list-horizontal-item("PROTEC", "2* Dalış Eğitmeni")(style="width: calc(100%*5/6)")
-      +skill-list-horizontal-item("PROTEC", "Serbest Dalış Eğitmeni")(style="width: calc(100%*4/6)")
-      +skill-list-horizontal-item("PROTEC", "Uzman Dalıcı Eğitmeni")(style="width: calc(100%*8/22)")
+    app-instructor-level
 
-    h4.section-heading Kişisel Gelişim:
-
-    ul.skill-list-vertical
-      +skill-list-vertical-item("Mağara Dalışı", "GUE")(style="height: 40%")
-      +skill-list-vertical-item("CCR", "SF2")(style="height: 60%")
-      +skill-list-vertical-item("Carkurtarma", "ILS/TSSF")(style="height: 85%")
-
-      .label-beg Beginner
-      .line-beg
-      .label-int Intermediate
-      .line-int
-      .label-adv Advanced
-      .line-adv
-      .label-ins Instructor
-      .line-ins
+    app-personal-evolution

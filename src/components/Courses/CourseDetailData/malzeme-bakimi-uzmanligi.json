@@ -1,0 +1,12 @@
+{
+  "title": "Malzeme Bakımı Uzmanlığı",
+  "price": "Kurs ücreti 75€'dur.",
+  "scope": "",
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
+  "prerequisites": [
+    "TSSF 1* Dalıcı yada dengi bir belgeye sahip olmak"
+  ],
+  "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 8:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
+  "alternativeCourses": []
+}

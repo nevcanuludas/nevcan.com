@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Global Underwater Explorers (GUE)",
+    "scope": "GUE ile ilk kez 2014 yılında tanıştım. Uzun süren araştırmaların sonunda 2017 yılında ilk kez Türkiye′de bir kurs programı düzenledik ve bende bu sayede eğitim alma şansı yakaladım. Teknik dalış eğitimlerine ve Project Baseline üzerindeki projelere aktif olarak devam etmekteyim. Aynı zamanda GUE Turkey′in kurucu başkanıyım.",
+    "images": [
+      { "src": "/static/img/certificates/gue/fund-tech.png", "alt": "GUE Fundamentals Tech" },
+      { "src": "/static/img/certificates/gue/cave-1.png", "alt": "GUE Cave 1" }
+    ],
+    "images_back": [
+      { "src": "/static/img/certificates/gue/fund-tech-back.png", "alt": "GUE Fundamentals Tech (Back)" },
+      { "src": "/static/img/certificates/gue/cave-1-back.png", "alt": "GUE Cave 1 (Back)" }
+    ]
+  },
+  {
+    "title": "Türkiye Sualtı Sporları Federasyonu (TSSF/CMAS)",
+    "scope": "2008 yılında başladığım bu serüvene 2011 yılından beri TSSF'nin aktif eğitmeni olarak devam ediyorum. TSSF sportif dalış branşındaki tüm kursları; Dalıcı, Uzman Dalıcı, Engelli Dalıcı ve Kültür Mirasının Koruması eğitimlerini veriyorum. https://tssf.gov.tr/dalici-cankurtaran-sorgulama/ adresinden sahip olduğum belgeleri sorgulatabilirsiniz.",
+    "images": [
+      { "src": "/static/img/certificates/tssf-cmas/i/2.png", "alt": "TSSF/CMAS 2* Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/rehber.png", "alt": "TSSF Rehber Dalıcı" },
+      { "src": "/static/img/certificates/tssf/i/engelli-dalici.png", "alt": "TSSF Engelli Dalıcı Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/i/kultur-mirasinin-korunmasi.jpg", "alt": "TSSF Sualtı Kültür Mirasının Korunması Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/akinti.png", "alt": "TSSF Akıntı Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/arama-kurtarma.png", "alt": "TSSF Arama ve Kurtarma Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/batik.png", "alt": "TSSF Batık Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/i/derin.png", "alt": "TSSF Derin Dalış Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/gece.png", "alt": "TSSF Gece Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/i/ilkyardim.png", "alt": "TSSF İlkyardım Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/irtifa.png", "alt": "TSSF İrtifa Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/kovuk.png", "alt": "TSSF Kovuk Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/malzeme-bakimi.png", "alt": "TSSF Malzeme Bakımı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/i/nitroks.png", "alt": "TSSF Nitroks Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/oksijen-kullanimi.png", "alt": "TSSF Oksijen Kullanımı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/sualti-fotografcisi.png", "alt": "TSSF Sualtı Fotoğrafçısı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/sualti-videocusu.png", "alt": "TSSF Sualtı Videocusu Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/i/tanitim-dalisi.png", "alt": "TSSF Tanıtım Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/tup-doldurma.png", "alt": "TSSF Tüp Doldurma Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/ust-duzey-yuzerlilik.png", "alt": "TSSF Üst Düzey Yüzerlilik Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/i/yon-bulma.png", "alt": "TSSF Yön Bulma Uzman Dalış Eğitmeni" }
+    ]
+  },
+  {
+    "title": "Profesional Technical and Recretional Diving (ProTec)",
+    "scope": "ProTec ile 2015 yılında tanıştım. Türkiye′deki ilk eğitmenlerdenim. CMAS'ın uluslar arası iş ortağı olmasının yanı sıra ProTec'i tercih etmemin bir başka nedeni ise TSSF bünyesinde bulunmayan bazı uzmanlık programlarına sahip olmasıdır.",
+    "images": [
+      { "src": "/static/img/certificates/protec/i/2.png", "alt": "ProTec 2* Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/nitrox-1.png", "alt": "ProTec Nitrox 1 Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/sidemount.png", "alt": "ProTec Sidemount Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/dry-suit.png", "alt": "ProTec Kuru Elbise Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/discover-cave-diving.png", "alt": "ProTec Mağara Keşif Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/uw-scooter-dpv.png", "alt": "ProTec UW Scooter / DPV Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/ice-diving.png", "alt": "ProTec Buz Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/wreck-diving.png", "alt": "ProTec Batık Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/handicap-diver.png", "alt": "ProTec Engelli Dalıcı Uzman Dalış Eğitmeni" }
+    ]
+  },
+  {
+    "title": "Scuba Schools International (SSI)",
+    "scope": "SSI ile serbest dalışa adım attım. Daha sonra teknik seviyedeki programlara katıldım. Aktif olarak SSI'da devam etmiyorum.",
+    "images": [
+      { "src": "/static/img/certificates/ssi/freediving-level-1.png", "alt": "SSI Serbest Dalış Seviye 1" },
+      { "src": "/static/img/certificates/ssi/silver-300-diver.png", "alt": "SSI Gümüş 300 Dalıcı" },
+      { "src": "/static/img/certificates/ssi/extended-range-foundations.png", "alt": "SSI Extended Range Temelleri" },
+      { "src": "/static/img/certificates/ssi/extended-range-nitrox.png", "alt": "SSI Extended Range Nitrox" }
+    ]
+  },
+  {
+    "title": "İlkyardım & Cankurtarma",
+    "scope": "Cankurtarma ve ilkyardım ile ilgili çeşitli bakanlıklardan ve federasyondan sahip olduğum sertifikalar.",
+    "images": [
+      { "src": "/static/img/certificates/tssf-ils/c/altin.png", "alt": "ILS/TSSF Altın Cankurtaran" },
+      { "src": "/static/img/certificates/tc-sb/ilkyardimci.png", "alt": "T.C. Sağlık Bakanlığı - İlkyardımcı" },
+      { "src": "/static/img/certificates/efr/efr-adult.png", "alt": "EFR Emergency Responder CPR/First Aid - Adult" },
+      { "src": "/static/img/certificates/tc-udhb/stcw-temel-ilkyardim.jpg", "alt": "T.C. U.D.H.B. STCW Temel İlkyardım" },
+      { "src": "/static/img/certificates/tssf/i/ilkyardim.png", "alt": "TSSF İlkyardım Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/d/oksijen-kullanimi.png", "alt": "TSSF Oksijen Kullanımı Uzman Dalış Eğitmeni" }
+    ]
+  },
+  {
+    "title": "Diğer Belgeler",
+    "scope": "Ulaştırma Denizcilik ve Haberleşme Bakanlığı, Sağlık Bakanlığı ve diğer sistemlerinden aldığım; gemici, profesyonel balık adam ve kapalı devre sistemlerine ait belgelerim.",
+    "images": [
+      { "src": "/static/img/certificates/sf/sf2-airdiluent.png", "alt": "SF-2 eCCR Air Diluent Diver" },
+      { "src": "/static/img/certificates/tc-udhb/gemiadami.png", "alt": "T.C. U.D.H.B. Gemiadamı" },
+      { "src": "/static/img/certificates/tc-udhb/profesyonel-balikadam.jpg", "alt": "T.C. U.D.H.B. Profesyonel Balıkadam" }
+    ]
+  }
+]

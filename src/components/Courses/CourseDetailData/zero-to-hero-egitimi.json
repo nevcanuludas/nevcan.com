@@ -1,0 +1,22 @@
+{
+  "title": "Zero to Hero Programı",
+  "scope": "Kursun amacı dalış konusunda hiçbir bilgisi olmayan ya da çok az bilgisi ve tecrübesi olan katılımcıların ileri seviye dalış bilgi ve tecrübesine ulaştırmaktır. Kurs kapsamında aşağıdaki eğitimler verilecektir ve sonunda başarılı olanlar aşağıda belirtilen dalıcı belgelerini almaya hak kazanırlar; \n\n•  1* Dalıcı (18m) [TSSF/CMAS veya ProTec],\n•  2* Dalıcı (30m) [TSSF/CMAS veya ProTec],\n•  Nitrox Uzmanlığı (EAN40) [TSSF veya ProTec],\n•  Batık Dalışı Uzmanlığı [TSSF veya ProTec],\n•  Mağara Keşif Dalışı Uzmanlığı [ProTec],\n•  Scooter (DPV) Uzmanlığı [ProTec],\n•  Mükemmel Yüzerlilik Uzmanlığı [TSSF],\n•  Derin Dalış Uzmanlığı (40m) [TSSF],\n•  Arama Kurtarma Uzmanlığı [TSSF],\n•  Temel İlkyardım Eğitimi [TSSF],\n•  Gece Dalışı Uzmanlığı [TSSF],\n•  SMB Kullanımı Eğitimi,\n•  Serbest Dalış Eğitimi (10m’ye kadar)",
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
+  "prerequisites": [
+    "16 yaşını doldurmuş olmak",
+    "18 yaşının altındakiler için veli onayı",
+    "Yeterli seviyede yüzme bilmek ve yüksek kondisyona sahip olmak",
+    "Dalış yapmasına engel bir sağlık sorununun bulunmaması"
+  ],
+  "includes": [
+    "20 saatlik teorik eğitim",
+    "30 açık deniz dalışı",
+    "Dalışlarda kullanılacak ekipmanlar \n (standart donanımlara ek olarak uzmanlıkların gerektirdikleri ekipmanlar dahil)",
+    "Sertifika ücretleri",
+    "Eğitmen giderleri",
+    "Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)"
+  ],
+  "quota": "Teorik eğitimler ve  pratik eğitimler 2:1 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.",
+  "alternativeCourses": []
+}

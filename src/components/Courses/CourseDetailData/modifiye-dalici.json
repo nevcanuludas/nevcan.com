@@ -1,0 +1,42 @@
+{
+  "title": "Modifiye Dalıcı Programları",
+  "price": "Kurs ücreti 550€'dur.",
+  "scope": "Kursun amacı WRSTC üyelerinin (NAUI, PADI, PDIC, SDI, SSI, SNSI, RAID, ACUC, DAN, IDEA, NASDS, ProTec), Dünya Sualtı Aktiviteleri Konfederasyonu (CMAS) ve bu konfederasyona bağlı olan federasyonların (TSSF) ve DIR Diving felsefesini geliştiren (GUE, UTD, ISE) üst düzey ekollerin sistemlerin standartlarının harmanlanması sonucu oluşan genişletilmiş bir eğitim programı ile adayları bilgili, tecrübeli ve farkındalık sahibi seçkin dalıcılar haline getirmektir. Kurs sonunda katılımcıların başarılı bir şekilde tamamlamasının ardından TSSF/CMAS ve ProTec sertifikalarına beraber sahip olur.\n \nKurs 1* Dalıcı, 2* Dalıcı ve 3* Dalıcı seviyelerine göre ayrılmaktadır. Kurs kapsamında yeterliliğinize uygun sınıfa katılabilirsiniz.",
+  "hasPadiClasses": false,
+  "hasSsiClasses": false,
+  "prerequisites": [
+    "1* Modifiye Dalıcı için gerekli Ön Şartlar:",
+    "14 yaşını doldurmuş olmak",
+    "18 yaşının altındakiler için veli onayı",
+    "Yeterli seviyede yüzme bilmek",
+    "Dalış yapmanıza engel bir sağlık sorununuzun buunmaması",
+    "2 ve 3 yildiz bilgileri de girilmeli !important",
+    "---------------------------------------------",
+    "2* Modifiye Dalıcı için gerekli Ön Şartlar:",
+    "15 yaşını doldurmuş olmak,",
+    "18 yaşının altındakiler için veli onayı,",
+    "1* Dalıcı (yada dengi) belgeye sahip olmak,",
+    "1* Dalıcı belgesini aldıktan sonra 20 kayıtlı dalış yapmış olmak,",
+    "Dalış yapmanıza engel bir sağlık sorununuzun bulunmaması.",
+    "---------------------------------------------",
+    "3* Modifiye Dalıcı için gerekli Ön Şartlar:",
+    "18 yaşını doldurmuş olmak,",
+    "2* Dalıcı (yada dengi) belgeye sahip olmak,",
+    "2* Dalıcı belgesine sahip olduktan sonra 50 kayıtlı dalış yapmış olmak,",
+    "İlköğretim diplomasına sahip olmak",
+    "Dalış yapmanıza engel bir sağlık probleminizin bulunmaması."
+  ],
+  "includes": [
+    "12 saatlik teorik eğitim",
+    "10 açık deniz dalışı",
+    "Dalışlarda kullanılacak ekipmanlar",
+    "Eğitim materyalleri",
+    "Sertifika ücretleri",
+    "3* Dalıcı olmak için gerekli uzmanlıklar",
+    "Eğitmen giderleri",
+    "Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)",
+    "Özel hediyeler!"
+  ],
+  "quota": "Teorik eğitimler ve pratik eğitimler 2:1 verilmektedir. Sınıfın açılması için min 1 katılımcı gerekmektedir.",
+  "alternativeCourses": []
+}

@@ -1,0 +1,30 @@
+{
+  "title": "3☆☆☆ Dalıcı Kursu",
+  "price": "Kurs ücreti 250€'dur.",
+  "scope": "Kursun amacı profesyonelliğe ilk adımı atmak isteyen dalıcıların liderlik becerilerini artıtmaktır. Kurs sonunda isteğe bağlı olarak TSSF/CMAS veya ProTec belgesi alabilirsiniz. Alınan belgeler tüm dünyada geçerlidir.",
+  "images": [
+    { "src": "/static/img/courses-temp/tssf-back-3.png", "alt": "TSSF/CMAS 3* Dalıcı Sertifikası" },
+    { "src": "/static/img/courses-temp/protec-org-3star.jpeg", "alt": "ProTec 3* Dalıcı Sertifikası" }
+  ],
+  "hasPadiClasses": true,
+  "hasSsiClasses": false,
+  "prerequisites": [
+    "18 yaşını doldurmuş olmak",
+    "İlköğretim diplomasına sahip olmak",
+    "2** Dalıcı (yada dengi) bir belgeye sahip olmak",
+    "2** Dalıcı (yada dengi) bir belgeye sahip olduktan sonra; TSSF/CMAS için 50 kayıtlı dalış, ProTec için 60 kayıtlı dalış yapmış olmak",
+    "Derin Dalış, Temel İlkyardım ve Yön Bulma uzmalıklarına sahip olmak",
+    "Dalış yapmanıza engel bir sağlık probleminizin bulunmaması"
+  ],
+  "includes": [
+    "8 saatlik teorik eğitim",
+    "4 açık deniz dalışı (1 derin dalış [42m])",
+    "Dalışlarda kullanılacak ekipmanlar",
+    "Eğitim materyalleri",
+    "Sertifika ücreti",
+    "Eğitmen giderleri",
+    "Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)"
+  ],
+  "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
+  "alternativeCourses": []
+}

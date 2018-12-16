@@ -1,8 +1,54 @@
+@import "../../styles/settings.sass"
+  
 #courses
 
-  .courses-filter 
-    text-align: right
+  .courses-filter
+    display: table
     margin-bottom: 1em
+    width: 100%
+    z-index: 2
 
     .btn-group
-      z-index: 2
+      display: unset
+
+  .courses-list
+    position: relative
+
+    .canvas-overlay
+      position: absolute
+      opacity: 0
+      width: calc(100% - 30px)
+      height: 100%
+      text-align: center
+      background-color: rgba(0, 0, 0, .5)
+      overflow: hidden
+
+      .btn
+        margin-top: 40%
+        color: #dedede
+        font-size: 1.5em
+        border: 1px solid #dedede
+        border-radius: 4px
+        transition: opacity .2s ease .2s
+        opacity: 0
+
+        &:hover
+          background-color: #dedede
+          color: $sidebar-bgc
+
+      &::before
+        position: absolute
+        display: block
+        top: -1em
+        right: -1em
+        width: 2em
+        height: 2em
+        content: ''
+        background-color: $neptun-light
+        transform: rotate(45deg)
+
+      &:hover
+        opacity: 1
+
+        .btn
+          opacity: 1

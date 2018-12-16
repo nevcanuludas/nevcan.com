@@ -1,0 +1,233 @@
+[
+  {
+    "id": "1-yildiz-dalici",
+    "imageUrl": "1star",
+    "name": "1* Dalıcı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "2-yildiz-dalici",
+    "imageUrl": "2star",
+    "name": "2* Dalıcı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "3-yildiz-dalici",
+    "imageUrl": "3star",
+    "name": "3* Dalıcı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "modifiye-dalici",
+    "imageUrl": "modified",
+    "name": "Modifiye Dalıcı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "batik-dalisi-uzmanligi",
+    "imageUrl": "wreck",
+    "name": "Batık Dalışı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "derin-dalis-uzmanligi",
+    "imageUrl": "deep",
+    "name": "Derin Dalış",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "dpv-uzmanligi",
+    "imageUrl": "dpv",
+    "name": "DPV",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "kuru-elbise-uzmanligi",
+    "imageUrl": "drysuit",
+    "name": "Kuru Elbise",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "buz-dalisi-uzmanligi",
+    "imageUrl": "ice",
+    "name": "Buz Dalışı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "magara-kesif-dalisi-uzmanligi",
+    "imageUrl": "dcd",
+    "name": "Mağara Keşif Dalışı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "nitrox-uzmanligi",
+    "imageUrl": "nitrox",
+    "name": "Nitrox",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "sidemount-uzmanligi",
+    "imageUrl": "sidemount",
+    "name": "Sidemount",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "ilkyardim-uzmanligi",
+    "imageUrl": "firstaid",
+    "name": "İlkyardım",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "tanitim-dalisi-uzmanligi",
+    "imageUrl": "dsd",
+    "name": "Tanıtım Dalışı Uzmanlığı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "yon-bulma-uzmanligi",
+    "imageUrl": "navigation",
+    "name": "Yön Bulma",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "akinti-dalisi-uzmanligi",
+    "imageUrl": "drift",
+    "name": "Akıntı Dalışı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "arama-ve-kurtarma-uzmanligi",
+    "imageUrl": "search-and-recovery",
+    "name": "Arama ve Kurtarma",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "gece-dalisi-uzmanligi",
+    "imageUrl": "night",
+    "name": "Gece Dalışı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "irtifa-dalisi-uzmanligi",
+    "imageUrl": "altitude",
+    "name": "İrtifa Dalışı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "kovuk-dalisi-uzmanligi",
+    "imageUrl": "cavern",
+    "name": "Kovuk Dalışı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "malzeme-bakimi-uzmanligi",
+    "imageUrl": "maintenance",
+    "name": "Malzeme Bakımı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "oksijen-kullanimi-uzmanligi",
+    "imageUrl": "o2provider",
+    "name": "Oksijen Kullanımı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "sualti-fotografcisi-uzmanligi",
+    "imageUrl": "photography",
+    "name": "Sualtı Fotoğrafçısı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "sualti-videocusu-uzmanligi",
+    "imageUrl": "videography",
+    "name": "Sualtı Videocusu",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "tup-doldurma-uzmanligi",
+    "imageUrl": "compressor-operator",
+    "name": "Tüp Doldurma",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "ust-duzey-yuzerlilik-uzmanligi",
+    "imageUrl": "perfect-buoyancy",
+    "name": "Üst Düzey Yüzerlilik",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "zero-to-hero-egitimi",
+    "imageUrl": "zerotohero",
+    "name": "Zero to Hero",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "serbest-dalis-egitimi",
+    "imageUrl": "freediving",
+    "name": "Serbest Dalış",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "engelli-dalici-1-egitimi",
+    "imageUrl": "handicap-1",
+    "name": "Engelli Dalıcı 1",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "engelli-dalici-2-egitimi",
+    "imageUrl": "handicap-2",
+    "name": "Engelli Dalıcı 2",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "engelli-dalici-3-egitimi",
+    "imageUrl": "handicap-3",
+    "name": "Engelli Dalıcı 3",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "engelli-dalici-egitmen-asistani",
+    "imageUrl": "edea",
+    "name": "Engelli Dalıcı Eğitmen Asistanı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "sualti-kultur-mirasinin-korunmasi-uzmanligi",
+    "imageUrl": "cultural-heritage",
+    "name": "Sualtı Kültür Mirasının Korunması Uzmanlığı",
+    "isVisible": true,
+    "isCompanyVisible": true
+  }
+]

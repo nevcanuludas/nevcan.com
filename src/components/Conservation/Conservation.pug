@@ -1,34 +1,25 @@
-mixin company-list-item(href, title, src)
-  .col-6.col-sm-3.col-md-6.col-lg-3
-    a(href=href target="_blank" title=title)
-      img.img-fluid(src='../../assets/logos/' + src, alt=title)
-
-//- Mixin Ends
-
 section#conservation
 
   h3.page-heading {{ sectionTitle }}
 
   .pp
+
+    .conservation-filter.text-right
+      .btn-group(role="group" aria-label="Career Filter")
+        button(type="button" @click="showAllConservations").btn.btn-sm.btn-secondary Tümü
+        button(type="button" @click="showConservation").btn.btn-sm.btn-secondary Koruma
+        button(type="button" @click="showExploration").btn.btn-sm.btn-secondary Keşif
+        button(type="button" @click="showResearch").btn.btn-sm.btn-secondary Araştırma
+
     .row.conservation-list
-      template(v-for='conservation in conservations')
+      template(v-for='conservation in conservations' v-if='conservation.isVisible')
         .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-4
           router-link(:to="'/conservation/' + conservation.id")
-            .canvas-overlay
+            .canvas-overlay(:title= 'conservation.name')
               .btn
                 i.fa.fa-search
             .canvas
               img.img-fluid(:src= "'/static/img/conservation-list/' + conservation.imageUrl + '.jpg'", :alt= 'conservation.name')
               p {{ conservation.name }}
 
-    h4.section-heading Üyesi olduğum gönüllü organizyonlar:
-
-    .row.company-list
-      +company-list-item("https://www.projectbaseline.org/", "Project Baseline", "projectbaseline.png")
-      +company-list-item("https://www.ghostfishing.org/", "Ghost Fishing", "ghostfishing.png")
-      +company-list-item("https://www.seashepherdglobal.org/", "Sea Shepherd", "seashepherd.png")
-      +company-list-item("http://www.greenpeace.org/turkey/tr/", "Greenpeace Akdeniz", "greenpeace.png")
-      +company-list-item("https://4ocean.com/", "4 Ocean", "4ocean.png")
-      +company-list-item("http://tudav.org/", "TUDAV - Türk Deniz Araştırmaları Vakfı", "tudav.png")
-      +company-list-item("http://www.wwf.org.tr/", "WWF Türkiye", "wwf.png")
-      +company-list-item("https://www.cousteau.org/english/", "Cousteau", "cousteau.png")
+    app-conservation-company-list

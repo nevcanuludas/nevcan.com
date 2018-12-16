@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Deneme Dalışı",
+    "price": "Hizmet bedeli 25€´dur."
+  },
+  {
+    "title": "Tazeleme Dalışı",
+    "price": "Hizmet bedeli 25€´dur."
+  },
+  {
+    "title": "Gelişim Dalışı",
+    "price": "Hizmet bedeli 25€´dur."
+  },
+  {
+    "title": "Eğitmen Hazırlık",
+    "price": "Hizmet bedeli 200€´dur."
+  },
+  {
+    "title": "GUE Hazırlık",
+    "price": "Hizmet bedeli 200€´dur."
+  },
+  {
+    "title": "Fotoğraf Çekimi",
+    "price": "Hizmet bedeli 500€´dur.",
+    "scope": "İnsanların mutlu anlarını unutulmayan anılara dönüştürmenin benim için çok daha keyifli olduğunu farkettim. Fotoğrafçılık üzerine çeşitli eğitimlerle tekniğimi geliştirirken, önemli fotoğraf sanatçıları ile çalışma fırsatları yakalayarak tecrübelerimi her geçen gün arttırmaya devam ediyorum.",
+    "images": [
+      { "src": "/static/img/services/uw-wedding.jpg", 
+        "alt": "UW Wedding" }
+    ],
+    "hasPadiClasses": false,
+    "hasSsiClasses": false,
+    "prerequisites": [
+      "14 yaşını doldurmuş olmak",
+      "18 yaşının altındakiler için veli onayı"
+    ],
+    "includes": [
+      "Eğitmen giderleri",
+      "Gün boyunca yapılacak tüm açık deniz dalışları",
+      "Dalışlar ve çekimler boyunca kullanılacak tüm ekipmanlar",
+      "Seçilan fotoğrafların işlenmesi"
+    ],
+    "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
+    "alternativeServices": [
+
+    ]
+  },
+  {
+    "title": "Kurumsal Danışmanlık",
+    "note": "note",
+    "scope": "2014 yılından bugüne çeşitli sektörlerde faaliyet gösteren firmaların sualtı kulüpleri ile birlikte dalış ve eğitim turları düzenliyorum. Başta gelen firmalar: Mapfre Sigorta, D&R, Pegasus Havayolları, Altıparmak Gıda, Doğuş Teknoloji, Doğuş Holding, IBM ve Allianz Sigorta",
+    "images": [
+      { "src": "/static/img/courses-temp/tssf-back-1.png", 
+        "alt": "TSSF/CMAS 1* Dalıcı Sertifikası" }
+    ],
+    "hasPadiClasses": false,
+    "hasSsiClasses": false,
+    "prerequisites": [
+      "14 yaşını doldurmuş olmak",
+      "18 yaşının altındakiler için veli onayı"
+    ],
+    "includes": [
+      "8 saatlik teorik eğitim",
+      "5 açık deniz dalışı"
+    ],
+    "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
+    "alternativeServices": []
+  }
+]

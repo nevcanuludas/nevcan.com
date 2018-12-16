@@ -13,7 +13,7 @@ section#scheduledClasses
           th Durum
       tbody
         tr(v-for='trip in trips')
-          td {{ trip.date }}
+          td(:time='trip.startDate') {{ trip.date }}
           td
             a(:href='trip.url') {{ trip.name }}
           td {{ trip.location }}
@@ -21,7 +21,7 @@ section#scheduledClasses
 
     .card-columns.hidden-sm-up
       .card.mb-3(v-for='trip in trips' :class!= 'trip.class')
-        .card-header {{ trip.date }}
+        .card-header(:time='trip.startDate') {{ trip.date }}
         .card-body
           .trip-name
             a(:href='trip.url') {{ trip.name }}

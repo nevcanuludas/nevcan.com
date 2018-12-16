@@ -1,0 +1,96 @@
+@import "../../styles/settings.sass"
+
+.skill-list-vertical
+  position: relative
+  margin: 3em 0 4em
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+  width: 100%
+  height: 22em
+  padding: 0 0 0 15%
+  list-style-type: none
+
+  &:after
+    display: block
+    visibility: hidden
+    height: 0
+    content: ''
+    clear: both
+
+  li
+    position: relative
+    display: block
+    float: left
+    width: calc(100% / 3)
+    height: 100%
+    padding: 0 1em
+    color: white
+    line-height: 1.35em
+    font-weight: 700
+    text-align: center
+    -ms-word-break: break-all
+    word-break: break-all
+    word-break: break-word
+    -webkit-hyphens: auto
+    -moz-hyphens: auto
+    hyphens: auto
+
+    .skill-list-vertical__bar
+      position: absolute
+      bottom: 0
+      margin: 0 20% 0 0
+      width: 90%
+      padding: 1em 0
+      background: $neptun-light
+      z-index: 1
+
+      &:hover
+        background-color: $neptun-dark
+
+      .company
+        display: block
+        font-style: italic
+
+        &:before
+          content: "("
+
+        &:after
+          content: ")"
+
+  .label-beg,
+  .label-int,
+  .label-adv,
+  .label-ins
+    position: absolute
+    left: 0
+    color: rgba(70, 70, 70, 0.5)
+    font-size: 0.75em
+    font-weight: 700
+    letter-spacing: 0.02em
+    line-height: 1.5em
+
+  .line-beg,
+  .line-int,
+  .line-adv,
+  .line-ins
+    position: absolute
+    left: 0
+    border-top: 1px dashed rgba(0, 0, 0, 0.2)
+    width: 100%
+    height: 1px
+    z-index: 0
+
+  .label-beg,
+  .line-beg
+    bottom: 25%
+
+  .label-int,
+  .line-int
+    bottom: 50%
+
+  .label-adv,
+  .line-adv
+    bottom: 75%
+
+  .label-ins,
+  .line-ins
+    bottom: 100%

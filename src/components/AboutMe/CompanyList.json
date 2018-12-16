@@ -1,0 +1,42 @@
+[
+  {
+    "href": "https://www.gue.com/",
+    "title": "Global Underwater Explorers",
+    "url": "gue.png"
+  },
+  {
+    "href": "https://tssf.gov.tr/",
+    "title": "Türkiye Sualtı Sporları Federasyonu",
+    "url": "tssf.png"
+  },
+  {
+    "href": "http://cmas.org",
+    "title": "Dünya Sualtı Aktiviteleri Konfederasyonu",
+    "url": "cmas.png"
+  },
+  {
+    "href": "http://protecdive.international",
+    "title": "Professional Technical Diving",
+    "url": "protec.png"
+  },
+  {
+    "href": "http://emergencyfirstresponse.com/",
+    "title": "Emergency First Response",
+    "url": "efr.png"
+  },
+  {
+    "href": "https://ilsf.org/",
+    "title": "International Life Saving",
+    "url": "ilsf.png"
+  },
+  {
+    "href": "https://info.divessi.com/en/extended-range-program/extended-range-specialities.html/",
+    "title": "Scuba Schools International (Extended Range)",
+    "url": "ssi-xr.png"
+  },
+  {
+    "href": "https://info.divessi.com/en/freediving/start-freediving/get-certified.html",
+    "title": "Scuba Schools International (Freediving)",
+    "url": "ssi-freediving.png"
+  }
+]

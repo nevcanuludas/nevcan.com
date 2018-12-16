@@ -1,0 +1,14 @@
+section#faq
+
+  h3.page-heading {{ sectionTitle }}
+
+  .pp
+
+    ul.list-group
+      template(v-for='question in faq')
+        li.list-group-item.list-group-item-action(@click='activate(question.id)' :class='{ active : active_el == question.id }')
+          span.badge.badge-default.badge-pill {{ question.id }}
+          span {{ question.q }}
+        li.list-group-item.d-none
+            strong Cevap:&nbsp;
+            span {{ question.a }}

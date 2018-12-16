@@ -1,15 +1,3 @@
-mixin company-list-item(href, title, src)
-  .col-6.col-sm-3.col-md-6.col-lg-3
-    a(href=href target="_blank" title=title)
-      img.img-fluid(src='../../assets/logos/' + src, alt=title)
-
-mixin career-item(date, title, location, desc, isVisible)
-  li(class!=attributes.class v-show=isVisible)
-    .career-list__date= date
-    .career-list__title= title
-    .career-list__location= location
-    .career-list__desc= desc
-
 section#aboutme
 
   h3.page-heading {{ sectionTitle }}
@@ -17,37 +5,9 @@ section#aboutme
   .pp
     p Merhaba, ben Nevcan Uludaş.
     p Sualtında nefes almaya üniversite yıllarında ('08) okulun sualtı kulübü ile başladım. İlk dalışımın ardından hocam bana kendimi nasıl hissettiğimi sorduğunda, ona "#[em Bende eğitmen olacağım!]" cevabını vermiştim. Gülümsedikten sonra "#[em Önce şu kursu tamamlayalım, sonra eğitmen olursun]" demişti.
-    p Bugün <a href="http://neptunsualti.com" target="_blank">#[strong Neptün Sualtı Merkezi]</a>'nin  kurucusu ve aynı zamanda eğitmeniyim. Kulüplerimde her seviyede #[strong Sportif Dalış] (#[abbr(title="Self Contained Underwater Breathing Apparatus") SCUBA]), #[strong Serbest Dalış] (Freediving) ve engelli arkadaşlarımız için özel dalış eğitimleri veriyorum. Ayrıca 2018 yılında kurduğum #[strong Global Underwater Explorers] gibi ayrıcalıklı bir ekolün Türkiye partneri olan <a href="http://gueturkey.com" target="_blank">#[strong GUE Turkey]</a>'in aktif olarak başkanlığını yapıyorum.
-    p  Bireysel olarak #[span(title="Nitrox, Heliox, Trimix, Hydrox") karışım gazlarla], kapalı devre sistemlerle (#[abbr(title="Closed Circuit Rebreather") CCR]) ve gerçek tutkum olan mağara dalışlarıyla yakından ilgileniyorum. Bunların yanı sıra dünya çapında sualtını koruma ve keşif girişimlerine gönüllü olarak destek olmaya çalışıyorum.
+    p Bugün <a href="http://neptunsualti.com" target="_blank">#[strong Neptün Sualtı Merkezi]</a>'nin  kurucusu ve aynı zamanda eğitmeniyim. Kulüplerimde her seviyede #[strong Sportif Dalış] (#[abbr(title="Self Contained Underwater Breathing Apparatus") SCUBA]), #[strong Serbest Dalış] (Freediving) ve engelli arkadaşlarımız için özel dalış eğitimleri veriyorum. Ayrıca 2018 yılında kurduğum, #[strong Global Underwater Explorers] gibi ayrıcalıklı bir ekolün Türkiye partneri olan <a href="http://gueturkey.com" target="_blank">#[strong GUE Turkey]</a>'in aktif olarak başkanlığını yapıyorum.
+    p  Bireysel olarak #[span(title="Nitrox, Heliox, Trimix, Hydrox") karışım gazlarla], kapalı devre sistemlerle (#[abbr(title="Closed Circuit Rebreather") CCR]) ve gerçek tutkum olan mağara dalışlarıyla yakından ilgileniyorum. Bunların yanı sıra dünya çapında sualtını koruma ve keşif projelerine gönüllü olarak destek veriyorum.
 
-    h4.section-heading Kariyer:
-    .career-filter.w-100
-      .btn-group.float-right(role="group" aria-label="Career Filter")
-        button(type="button" @click="showAll").btn.btn-sm.btn-secondary Tümü
-        button(type="button" @click="showCenters").btn.btn-sm.btn-secondary Dalış Merkezleri
-        button(type="button" @click="showMileStones").btn.btn-sm.btn-secondary Kilometre Taşları
+    app-career-list
 
-    .career-list
-      +career-item("Eylül 2018", "GUE Turkey 'Official Affiliate' olarak seçildi 🎉", "", "", "isMileStoneVisible")(class="milestone")
-      +career-item("2018'den beri", "Pendik S.A.S.", "İstanbul (842)", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni, Engelli Dalıcı Eğitmeni", "isCenterVisible")
-      +career-item("Ekim 2017", "GUE üyesi oldum 😎 ve GUE Turkey topluluğunu kurdum 🇹🇷", "", "", "isMileStoneVisible")(class="milestone")
-      +career-item("2016-2017", "Ainos Neptün Sualtı Merkezi", "İstanbul (HQ), Enez / Edirne (747)", "Kurucu | Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni", "isCenterVisible")
-      +career-item("2015", "Mavi Ege Dalış Merkezi (508)", "İbrice / Saros Körfezi", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı, Gemici", "isCenterVisible")
-      +career-item("Kasım 2014", "Neptün Sualtı Merkezi'ni kurdum 🔱", "", "", "isMileStoneVisible")(class="milestone")
-      +career-item("2013-2014", "Four Seasons Divers Club (599)", "İstanbul", "Dalış Eğitmeni, Rehber Dalıcı", "isCenterVisible")
-      +career-item("2011-2012", "Olympia Dalış Merkezi (324)", "Kuşadası / Aydın", "Dalış Eğitmeni", "isCenterVisible")
-      +career-item("2011", "Dalış eğitmeni oldum 🧜‍♂", "", "", "isMileStoneVisible")(class="milestone")
-      +career-item("2008-2010", "Octopus Dalış Merkezi (177)", "Kemer / Antalya", "Dalış Lideri", "isCenterVisible")
-      +career-item("Nisan 2008", "İlk kez sualtında nefes aldım 🤩", "", "", "isMileStoneVisible")(class="milestone")
-
-    h4.section-heading Üyesi olduğum kurum ve kuruluşlar:
-
-    .row.company-list
-      +company-list-item("https://www.gue.com/", "Global Underwater Explorers", "gue.png")
-      +company-list-item("https://tssf.gov.tr/", "Türkiye Sualtı Sporları Federasyonu", "tssf.png")
-      +company-list-item("http://cmas.org", "Dünya Sualtı Aktiviteleri Konfederasyonu", "cmas.png")
-      +company-list-item("http://protecdive.international", "Professional Technical Diving", "protec.png")
-      +company-list-item("http://emergencyfirstresponse.com/", "Emergency First Response", "efr.png")
-      +company-list-item("https://ilsf.org/", "International Life Saving", "ilsf.png")
-      +company-list-item("https://info.divessi.com/en/extended-range-program/extended-range-specialities.html/", "Scuba Schools International (Extended Range)", "ssi-xr.png")
-      +company-list-item("https://info.divessi.com/en/freediving/start-freediving/get-certified.html", "Scuba Schools International (Freediving)", "ssi-freediving.png")
+    app-company-list

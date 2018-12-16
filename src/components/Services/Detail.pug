@@ -1,0 +1,47 @@
+section#serviceDetails
+
+  h3.page-heading Verdiğim Hizmetler
+
+  h1.article-heading {{ serviceTitle }}
+
+  .container
+
+    h4.section-heading Hizmet Ücreti
+    p(v-if='!isVisible' @dblclick='isVisible = !isVisible' v-finger:doubletap='visible') [Ücret bilgisini görmek için çift tıklayın]
+    p(v-else) {{ servicePrice }}
+
+    template(v-if='serviceNote')
+      .alert.alert-info
+        strong ÖNEMLİ:
+        |
+        | {{ serviceNote }}
+
+    h4.section-heading Kapsam
+    pre {{ serviceScope }}
+
+    .row.service-images
+      template(v-for='image in serviceImages')
+        figure.col
+          img(:src="image.src", :alt="image.alt").img-fluid
+          figcaption {{ image.alt }}
+
+    .row
+      .col-12.col-xl-6
+        h4.section-heading Hizmet Ücretine Dahil Olanlar:
+        ul
+          template(v-for='included in serviceIncludes')
+            li {{ included }}
+      .col-12.col-xl-6
+        h4.section-heading Hizmet Ücretine Dahil Olmayanlar:
+        p {{ serviceNotIncluded }}
+
+    h4.section-heading Kontenjan:
+    p {{ serviceQuota }}
+
+    .back-to-list
+      a(href='/#services')
+        .btn.btn-lg.btn-secondary
+          i.fa.fa-angle-double-left(aria-hidden="true")
+          | &nbsp; Tüm Hizmetler
+
+  //- p Alternatif Hizmet Önerileri Component'i
