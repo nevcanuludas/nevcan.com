@@ -3,10 +3,17 @@ section#aboutme
   h3.page-heading {{ sectionTitle }}
 
   .pp
-    p Merhaba, ben Nevcan Uludaş.
-    p Sualtında nefes almaya üniversite yıllarında ('08) okulun sualtı kulübü ile başladım. İlk dalışımın ardından hocam bana kendimi nasıl hissettiğimi sorduğunda, ona "#[em Bende eğitmen olacağım!]" cevabını vermiştim. Gülümsedikten sonra "#[em Önce şu kursu tamamlayalım, sonra eğitmen olursun]" demişti.
-    p Bugün <a href="http://neptunsualti.com" target="_blank">#[strong Neptün Sualtı Merkezi]</a>'nin  kurucusu ve aynı zamanda eğitmeniyim. Kulüplerimde her seviyede #[strong Sportif Dalış] (#[abbr(title="Self Contained Underwater Breathing Apparatus") SCUBA]), #[strong Serbest Dalış] (Freediving) ve engelli arkadaşlarımız için özel dalış eğitimleri veriyorum. Ayrıca 2018 yılında kurduğum, #[strong Global Underwater Explorers] gibi ayrıcalıklı bir ekolün Türkiye partneri olan <a href="http://gueturkey.com" target="_blank">#[strong GUE Turkey]</a>'in aktif olarak başkanlığını yapıyorum.
-    p  Bireysel olarak #[span(title="Nitrox, Heliox, Trimix, Hydrox") karışım gazlarla], kapalı devre sistemlerle (#[abbr(title="Closed Circuit Rebreather") CCR]) ve gerçek tutkum olan mağara dalışlarıyla yakından ilgileniyorum. Bunların yanı sıra dünya çapında sualtını koruma ve keşif projelerine gönüllü olarak destek veriyorum.
+    template(v-if= "$t('selectedLang') == 'tr'")
+      p Merhaba, ben Nevcan Uludaş.
+      p Sualtında nefes almaya üniversite yıllarında ('08) okulun sualtı kulübü ile başladım. İlk dalışımın ardından hocam bana kendimi nasıl hissettiğimi sorduğunda, ona "#[em Bende eğitmen olacağım!]" cevabını vermiştim. Gülümsedikten sonra "#[em Önce şu kursu tamamlayalım, sonra eğitmen olursun]" demişti.
+      p Bugün <a href="http://neptunsualti.com" target="_blank">#[strong Neptün Sualtı Merkezi]</a>'nin  kurucusu ve aynı zamanda eğitmeniyim. Kulüplerimde her seviyede #[strong Sportif Dalış] (#[abbr(title="Self Contained Underwater Breathing Apparatus") SCUBA]), #[strong Serbest Dalış] (Freediving) ve engelli arkadaşlarımız için özel dalış eğitimleri veriyorum. Ayrıca 2018 yılında kurduğum, #[strong Global Underwater Explorers] gibi ayrıcalıklı bir ekolün Türkiye partneri olan <a href="http://gueturkey.com" target="_blank">#[strong GUE Turkey]</a>'in aktif olarak başkanlığını yapıyorum.
+      p  Bireysel olarak #[span(title="Nitrox, Heliox, Trimix, Hydrox") karışım gazlarla], kapalı devre sistemlerle (#[abbr(title="Closed Circuit Rebreather") CCR]) ve gerçek tutkum olan mağara dalışlarıyla yakından ilgileniyorum. Bunların yanı sıra dünya çapında sualtını koruma ve keşif projelerine gönüllü olarak destek veriyorum.
+    
+    template(v-else-if= "$t('selectedLang') == 'en'")
+      p Hello, I'm Nevcan Uludaş.
+      p I started to breathing in underwater on my university years ('08) with the school's diving club. After my first dive, my instructor asked to me how I felt myself and I replied "I will become an instructor too". Then he smiled and said to me "After you complete this course, you can be an instructor too".
+      p Now, I am the founder and the instructor at Neptun Diving Center. On the other hand I realize worldwide education programs for protecting underwater and supporting exploration venture. Also I have been included in many different underwater exploration projects.
+      p I give dive training courses for Scuba Diving, Freediving and Handicap Diving (for disabled friends) in my clubs. Also I am individually interested in technical deep diving, mixture gases, closed circuit rebreathers (CCR) and my actual passion cave diving.
 
     app-career-list
 

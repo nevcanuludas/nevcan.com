@@ -1,5 +1,6 @@
 export default {
   tr: {
+    selectedLang: 'tr',
     sidebar: {
       scubaInstructor: 'Dalış Eğitmeni',
       testMessage: 'Türkçe'
@@ -43,6 +44,7 @@ export default {
     }
   },
   en: {
+    selectedLang: 'en',
     sidebar: {
       scubaInstructor: 'Scuba Instructor',
       testMessage: 'English'
