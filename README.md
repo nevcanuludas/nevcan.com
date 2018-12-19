@@ -1,12 +1,9 @@
-
-[![](https://img.shields.io/github/commit-activity/y/nevcanuludas/nevcan.com.svg)](https://github.com/nevcanuludas/nevcan.com/commits/master) ![](https://img.shields.io/github/last-commit/nevcanuludas/nevcan.com.svg)
-
-
-
 # nevcan.com-vue
+[![](https://img.shields.io/github/commit-activity/y/nevcanuludas/nevcan.com.svg)](https://github.com/nevcanuludas/nevcan.com/commits/master) ![](https://img.shields.io/github/last-commit/nevcanuludas/nevcan.com.svg) 
+[![](https://img.shields.io/github/license/nevcanuludas/nevcan.com.svg)](https://github.com/nevcanuludas/nevcan.com/blob/master/LICENSE)
+
 
 > A Vue.js project
-> Bootstrap v4.06alpha
 
 ## Build Setup
 
