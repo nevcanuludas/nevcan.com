@@ -1,3 +1,6 @@
+
+[![](https://img.shields.io/github/commit-activity/y/:nevcanuludas/:nevcan.com.svg)](https://github.com/nevcanuludas/nevcan.com/commits/master)
+
 # nevcan.com-vue
 
 > A Vue.js project
