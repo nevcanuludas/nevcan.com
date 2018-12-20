@@ -41,6 +41,7 @@ export default {
     return {
       path: this.$route.params.id,
       isVisible: false,
+      currency_eur_try: 6.16,
       courseTitle: '',
       coursePrice: 'Kurs ücreti belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
       courseNote: '',
@@ -126,10 +127,13 @@ export default {
       ]
     }
   },
+  // mounted() {
+  //   axios.get('http://free.currencyconverterapi.com/api/v5/convert?q=EUR_TRY&compact=y').then(response => { this.results = response.data.results })
+  // },
   created () {
     var c = this.courses[this.dict[this.path]]
     this.courseTitle = c.title
-    c.price && (this.coursePrice = c.price)
+    c.price && (this.coursePrice = 'Kurs ücreti ' + c.price * this.currency_eur_try + "₺'dır.")
     this.courseNote = c.note
     this.courseScope = c.scope
     this.courseHasPadiClass = c.hasPadiClasses

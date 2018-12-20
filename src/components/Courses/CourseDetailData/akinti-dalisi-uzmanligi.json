@@ -1,6 +1,6 @@
 {
   "title": "Akıntı Dalışı Uzmanlığı",
-  "price": "Kurs ücreti 100€'dur.",
+  "price": 100,
   "scope": "Kursun amacı, akıntının oluşturduğu dezavantajları avantaja dönüştürmeyi ve dalışlarımızı güvenle sürdürebilme becerisini öğrenmektir.",
   "images": [
     { "src": "/static/img/courses-temp/tssf-speciality-back.png", "alt": "TSSF/CMAS Akıntı Dalışı Uzmanlığı Sertifikası" }

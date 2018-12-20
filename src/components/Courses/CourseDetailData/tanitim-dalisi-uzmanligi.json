@@ -1,6 +1,6 @@
 {
   "title": "Tanıtım Dalışı Uzmanlığı",
-  "price": "Kurs ücreti 100€'dur.",
+  "price": 100,
   "scope": "Kursun amacı su altı ile ilk kez buluşacak kişileri max 5 metre derinliğe kadar daldırabilmek için gerekli olan eğitimin alınmasıdır. TSSF Tanıtım dalışı uzmanları bir dalış okuluna bağlı çalışabilirler.",
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF Tanıtım Dalışı Uzmanlığı Sertifikası" }

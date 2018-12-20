@@ -1,6 +1,6 @@
 {
   "title": "Serbest Dalış Kursu (Lv1)",
-  "price": "Kurs ücreti 200€'dur.",
+  "price": 200,
   "note": "Dalıcıların smooth neopren kıyafetleri vücut ölçülerine göre hazırlanmalıdır. O yüzden katılımcıların kendi neoprenleri ile gelmesi beklenir. Ancak katılımcı standart neopren elbise ile dalış yapmak isterse 5mm neopren elbise herhangi bir harici ücret talip edilmeden temin edilebilir.",
   "scope": "Kursun amacı 10 metre derinliğe kadar minimum 1 dakika dip zamanlı dalışları güvenle gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Serbest Dalıcı (Snorkel Diver) belgesini almaya hak kazanırlar.",
   "hasPadiClasses": false,

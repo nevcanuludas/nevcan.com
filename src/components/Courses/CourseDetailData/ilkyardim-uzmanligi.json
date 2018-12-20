@@ -1,6 +1,6 @@
 {
   "title": "İlkyardım Uzmanlığı",
-  "price": "Kurs ücreti 75€'dur.",
+  "price": 75,
   "scope": "",
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF İlkyardım Uzmanlığı Sertifikası" }
