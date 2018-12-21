@@ -2,6 +2,8 @@
 
 <script>
 import jsonServiceDetails from './ServiceDetails.json'
+import EURTRY from './convert-static.json'
+// import EURTRY from 'http://free.currencyconverterapi.com/api/v5/convert?q=EUR_TRY&compact=y'
 
 export default {
   name: 'ServiceDetails',
@@ -9,6 +11,7 @@ export default {
     return {
       path: this.$route.params.id,
       isVisible: false,
+      currency_eur_try: Math.round(EURTRY.EUR_TRY.val),
       serviceTitle: '',
       servicePrice: 'Hizmet bedeli belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
       serviceNote: '',
@@ -36,7 +39,7 @@ export default {
   created () {
     var s = this.services[this.dict[this.path]]
     this.serviceTitle = s.title
-    s.price && (this.servicePrice = s.price)
+    s.price && (this.servicePrice = 'Hizmet bedeli ' + s.price * this.currency_eur_try + "₺'dır.")
     this.serviceNote = s.note
     this.serviceScope = s.scope
     this.serviceHasPadiClass = s.hasPadiClasses
