@@ -34,6 +34,8 @@ import ED2 from './CourseDetailData/engelli-dalici-2-egitimi.json'
 import ED3 from './CourseDetailData/engelli-dalici-3-egitimi.json'
 import EDEA from './CourseDetailData/engelli-dalici-egitmen-asistani.json'
 import SualtiKulturMirasininKorunmasi from './CourseDetailData/sualti-kultur-mirasinin-korunmasi-uzmanligi.json'
+import EURTRY from './convert-static.json'
+// import EURTRY from 'http://free.currencyconverterapi.com/api/v5/convert?q=EUR_TRY&compact=y'
 
 export default {
   name: 'CourseDetails',
@@ -41,7 +43,7 @@ export default {
     return {
       path: this.$route.params.id,
       isVisible: false,
-      currency_eur_try: 6.16,
+      currency_eur_try: EURTRY.EUR_TRY.val,
       courseTitle: '',
       coursePrice: 'Kurs ücreti belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
       courseNote: '',
