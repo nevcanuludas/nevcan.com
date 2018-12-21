@@ -43,7 +43,7 @@ export default {
     return {
       path: this.$route.params.id,
       isVisible: false,
-      currency_eur_try: EURTRY.EUR_TRY.val,
+      currency_eur_try: Math.round(EURTRY.EUR_TRY.val),
       courseTitle: '',
       coursePrice: 'Kurs ücreti belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
       courseNote: '',
