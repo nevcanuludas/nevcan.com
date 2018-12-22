@@ -6,10 +6,6 @@ section#courseDetails
 
   .container
 
-    h4.section-heading Kurs Ücreti
-    p(v-if='!isVisible' @dblclick='isVisible = !isVisible' v-finger:doubletap='visible') [Ücret bilgisini görmek için çift tıklayın]
-    p(v-else) {{ coursePrice }}
-
     template(v-if='courseNote')
       .alert.alert-info
         strong ÖNEMLİ:
@@ -41,6 +37,12 @@ section#courseDetails
     ol
       template(v-for='prerequisite in coursePrerequisites')
         li {{ prerequisite }}
+
+    h4.section-heading Kurs Ücreti
+      
+    p(v-if='!isVisible' @dblclick='isVisible = !isVisible' v-finger:doubletap='visible') [Ücret bilgisini görmek için çift tıklayın]
+    p(v-else-if='coursePrice >= 0') Kurs ücreti {{ coursePrice * Math.round(EURTRY) }}₺'dır.
+    p(v-else) Kurs ücreti belirtilmemiştir. Teklif almak için lütfen iletişime geçin.
 
     .row
       .col-12.col-xl-6

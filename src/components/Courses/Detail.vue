@@ -34,8 +34,8 @@ import ED2 from './CourseDetailData/engelli-dalici-2-egitimi.json'
 import ED3 from './CourseDetailData/engelli-dalici-3-egitimi.json'
 import EDEA from './CourseDetailData/engelli-dalici-egitmen-asistani.json'
 import SualtiKulturMirasininKorunmasi from './CourseDetailData/sualti-kultur-mirasinin-korunmasi-uzmanligi.json'
-import EURTRY from './convert-static.json'
-// import EURTRY from 'http://free.currencyconverterapi.com/api/v5/convert?q=EUR_TRY&compact=y'
+
+import axios from 'axios'
 
 export default {
   name: 'CourseDetails',
@@ -43,7 +43,7 @@ export default {
     return {
       path: this.$route.params.id,
       isVisible: false,
-      currency_eur_try: Math.round(EURTRY.EUR_TRY.val),
+      EURTRY: null,
       courseTitle: '',
       coursePrice: 'Kurs ücreti belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
       courseNote: '',
@@ -129,13 +129,15 @@ export default {
       ]
     }
   },
-  // mounted() {
-  //   axios.get('http://free.currencyconverterapi.com/api/v5/convert?q=EUR_TRY&compact=y').then(response => { this.results = response.data.results })
-  // },
+  mounted () {
+    axios
+      .get('https://free.currencyconverterapi.com/api/v5/convert?q=EUR_TRY&compact=y')
+      .then(response => (this.EURTRY = response.data.EUR_TRY.val))
+  },
   created () {
     var c = this.courses[this.dict[this.path]]
     this.courseTitle = c.title
-    c.price && (this.coursePrice = 'Kurs ücreti ' + c.price * this.currency_eur_try + "₺'dır.")
+    c.price && (this.coursePrice = c.price)
     this.courseNote = c.note
     this.courseScope = c.scope
     this.courseHasPadiClass = c.hasPadiClasses
