@@ -6,10 +6,6 @@ section#serviceDetails
 
   .container
 
-    h4.section-heading Hizmet Ücreti
-    p(v-if='!isVisible' @dblclick='isVisible = !isVisible' v-finger:doubletap='visible') [Ücret bilgisini görmek için çift tıklayın]
-    p(v-else) {{ servicePrice }}
-
     template(v-if='serviceNote')
       .alert.alert-info
         strong ÖNEMLİ:
@@ -24,6 +20,11 @@ section#serviceDetails
         figure.col
           img(:src="image.src", :alt="image.alt").img-fluid
           figcaption {{ image.alt }}
+    
+    h4.section-heading Hizmet Ücreti
+    p(v-if='!isVisible' @dblclick='isVisible = !isVisible' v-finger:doubletap='visible') [Ücret bilgisini görmek için çift tıklayın]
+    p(v-else-if='servicePrice >= 0') Hizmet bedeli {{ servicePrice * Math.round(EURTRY) }}₺'dır.
+    p(v-else) Hizmet bedeli belirtilmemiştir. Teklif almak için lütfen iletişime geçin.
 
     .row
       .col-12.col-xl-6
