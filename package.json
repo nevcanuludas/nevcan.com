@@ -16,7 +16,7 @@
   "dependencies": {
     "alloyfinger": "^0.1.13",
     "axios": "^0.18.0",
-    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap": "4.0.0-alpha.6",
     "growl": "^1.10.5",
     "https-proxy-agent": "^2.2.1",
     "jquery": "^3.3.1",
