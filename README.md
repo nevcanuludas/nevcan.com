@@ -9,10 +9,12 @@
 
 ``` bash
 # install dependencies
-npm install
+npm i
+yarn install
 
 # serve with hot reload at localhost:8080
 npm run dev
+yarn start
 
 # build for production with minification
 npm run build
