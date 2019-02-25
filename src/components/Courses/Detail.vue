@@ -131,7 +131,7 @@ export default {
   },
   mounted () {
     axios
-      .get('https://free.currencyconverterapi.com/api/v5/convert?q=EUR_TRY&compact=y')
+      .get('https://free.currencyconverterapi.com/api/v6/convert?q=EUR_TRY&compact=ultra&apiKey=92293b05b906288cfede')
       .then(response => (this.EURTRY = response.data.EUR_TRY.val))
   },
   created () {
