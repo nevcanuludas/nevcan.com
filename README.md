@@ -9,7 +9,7 @@
 
 ``` bash
 # install dependencies
-npm i
+npm i -> npm ile paketler yüklendiğinde hata alıyorum. O yüzden yarn kullanın.
 yarn install
 
 # serve with hot reload at localhost:8080
