@@ -35,7 +35,7 @@ import ED3 from './CourseDetailData/engelli-dalici-3-egitimi.json'
 import EDEA from './CourseDetailData/engelli-dalici-egitmen-asistani.json'
 import SualtiKulturMirasininKorunmasi from './CourseDetailData/sualti-kultur-mirasinin-korunmasi-uzmanligi.json'
 
-import axios from 'axios'
+// import axios from 'axios'
 
 export default {
   name: 'CourseDetails',
@@ -43,7 +43,8 @@ export default {
     return {
       path: this.$route.params.id,
       isVisible: false,
-      EURTRY: null,
+      // EURTRY: null,
+      EURTRY: 6.13,
       courseTitle: '',
       coursePrice: 'Kurs ücreti belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
       courseNote: '',
@@ -130,9 +131,9 @@ export default {
     }
   },
   mounted () {
-    axios
-      .get('https://free.currencyconverterapi.com/api/v6/convert?q=EUR_TRY&compact=ultra&apiKey=92293b05b906288cfede')
-      .then(response => (this.EURTRY = response.data.EUR_TRY.val))
+    // axios
+    //   .get('https://free.currencyconverterapi.com/api/v6/convert?q=EUR_TRY&compact=ultra&apiKey=92293b05b906288cfede')
+    //   .then(response => (this.EURTRY = response.data.EUR_TRY.val))
   },
   created () {
     var c = this.courses[this.dict[this.path]]
