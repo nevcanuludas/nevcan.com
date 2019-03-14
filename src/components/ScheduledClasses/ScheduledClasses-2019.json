@@ -1,0 +1,254 @@
+[
+  {
+    "startDate": "2019-03-24",
+    "date": "24 Mart '19",
+    "name": "Havuzda Deneme Dalışı",
+    "url": "/services/deneme-dalisi",
+    "location": "Pendik, İstanbul",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-03-30",
+    "date": "30 Mart '19",
+    "name": "Project Baseline: Marmara",
+    "url": "/conservation/pb-marmara",
+    "location": "Karamürsel, Kocaeli",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-04-06",
+    "date": "06 Nisan '19",
+    "name": "Project Baseline: Marmara",
+    "url": "/conservation/pb-marmara",
+    "location": "Karamürsel, Kocaeli",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-04-13",
+    "date": "13 Nisan '19",
+    "name": "Havuzda Gelişim Dalışı",
+    "url": "/services/gelisim-dalisi",
+    "location": "Pendik, İstanbul",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-04-20",
+    "date": "20-23 Nisan '19",
+    "name": "Kaş Turu",
+    "url": "#",
+    "location": "Kaş, Antalya",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-04-24",
+    "date": "24-25 Nisan '19",
+    "name": "1* Dalıcı Kursu (Teorik)",
+    "url": "/courses/1-yildiz-dalici",
+    "location": "Mecidiyeköy, İstanbul",
+    "status": "Dolu",
+    "class": ""
+  },
+  {
+    "startDate": "2019-04-27",
+    "date": "27-30 Nisan '19",
+    "name": "1* Dalıcı Kursu (Pratik)",
+    "url": "/courses/1-yildiz-dalici",
+    "location": "Kaş, Antalya",
+    "status": "Kontenjan (9/12)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-05-11",
+    "date": "11-12 Mayıs '19",
+    "name": "2** Dalıcı Kursu",
+    "url": "/courses/2-yildiz-dalici",
+    "location": "İbrice, Edirne",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-05-18",
+    "date": "18-19 Mayıs '19",
+    "name": "Kovuk Dalışı Kursu",
+    "url": "/courses/kovuk-dalisi-uzmanligi",
+    "location": "Çifteler, Eskişehir",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-05-25",
+    "date": "25 Mayıs '19",
+    "name": "Batık Şehir Dalış Turu",
+    "url": "#",
+    "location": "Değirmenere, Kocaeli",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-06-01",
+    "date": "01-09 Haziran '19",
+    "name": "Kemer - Kaş Dalış Turu",
+    "url": "#",
+    "location": "Antalya",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-06-15",
+    "date": "15 Haziran '19",
+    "name": "Project Baseline: Marmara",
+    "url": "/conservation/pb-marmara",
+    "location": "Karamürsel, Kocaeli",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-06-29",
+    "date": "29-30 Haziran '19",
+    "name": "Serbest Dalış Kursu",
+    "url": "/courses/serbest-dalis-egitimi",
+    "location": "İbrice, Edirne",
+    "status": "Kontenjan (0/4)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-07-06",
+    "date": "06-07 Temmuz '19",
+    "name": "1* Dalıcı Kursu",
+    "url": "/courses/1-yildiz-dalici",
+    "location": "Karaburun, İzmir",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-07-13",
+    "date": "13-15 Temmuz '19",
+    "name": "GUE Fundamentals Kursu",
+    "url": "#",
+    "location": "İbrice, Edirne",
+    "status": "Kontenjan (0/4)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-07-20",
+    "date": "20-21 Temmuz '19",
+    "name": "Batık Şehir Dalış Turu",
+    "url": "#",
+    "location": "Halfeti, Şanlıurfa",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-08-03",
+    "date": "03 Ağustos '19",
+    "name": "Project Baseline: Marmara",
+    "url": "/conservation/pb-marmara",
+    "location": "Karamürsel, Kocaeli",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-08-10",
+    "date": "10-18 Ağustos '19",
+    "name": "DPV 1 Kursu",
+    "url": "/courses/dpv-uzmanligi",
+    "location": "Ayvalık, Balıkesir",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-08-30",
+    "date": "30 Ağu - 01 Eyl '19",
+    "name": "Nitrox Kursu",
+    "url": "/courses/nitrox-uzmanligi",
+    "location": "Kuşadası, Aydın",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-09-07",
+    "date": "07-08 Eylül '19",
+    "name": "3*** Dalıcı Kursu",
+    "url": "/courses/3-yildiz-dalici",
+    "location": "İbrice, Edirne",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-09-14",
+    "date": "14-15 Eylül '19",
+    "name": "GUE Documentation Diver Kursu",
+    "url": "#",
+    "location": "İbrice, Edirne",
+    "status": "Kontenjan (0/4)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-09-21",
+    "date": "21-22 Eylül '19",
+    "name": "Bodrum Dalış Turu",
+    "url": "#",
+    "location": "Bodrum, Muğla",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-10-05",
+    "date": "05-06 Ekim '19",
+    "name": "Batık Dalışı Kursu",
+    "url": "/courses/batik-dalisi-uzmanligi",
+    "location": "Kabatepe, Çanakkale",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-10-12",
+    "date": "12 Ekim '19",
+    "name": "Project Baseline: Marmara",
+    "url": "/conservation/pb-marmara",
+    "location": "Karamürsel, Kocaeli",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-10-26",
+    "date": "26-29 Ekim '19",
+    "name": "Sualtı Fotoğrafçılığı Kursu",
+    "url": "/courses/sualti-fotografcisi-uzmanligi",
+    "location": "Kıbrıs",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-11-09",
+    "date": "09-10 Kasım '19",
+    "name": "Project Baseline: Marmara",
+    "url": "/conservation/pb-marmara",
+    "location": "İbrice, Edirne",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-12-14",
+    "date": "14 Aralık '19",
+    "name": "Project Baseline: Marmara",
+    "url": "/conservation/pb-marmara",
+    "location": "Karamürsel, Kocaeli",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2019-12-21",
+    "date": "21 Aralık '19",
+    "name": "Buz Dalışı Kursu",
+    "url": "/courses/buz-dalisi-uzmanligi",
+    "location": "Zara, Sivas",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  }
+]
