@@ -1,18 +1,18 @@
 {
   "title": "1☆ Dalıcı Kursu",
   "price": 250,
-  "scope": "Kursun amacı başlangıç seviyesinde bir dalıcı yetirştirmektir. Temel teorik ve pratik eğitimleri alarak max 18 metreye kadar dalışlar gerçekleştirebilirler. Kurs sonunda isteğe bağlı olarak TSSF/CMAS veya ProTec belgesi alabilirsiniz. Alınan belgeler tüm dünyada geçerlidir.",
+  "scope": "Kursun amacı, daha önce hiç dalış yapmamış veya deneme dalışı yapmış bir dalıcı adayını başlangıç seviyesinde yetirştirmektir. Temel teorik ve pratik eğitimleri tamamlayarak alacağınız sertifika ile dünyanın her yerinde en fazla 18 metreye kadar dalışlar gerçekleştirebilirsiniz. Kursu başarıyla tamamlamanızın ardından isteğinize bağlı olarak TSSF/CMAS veya ProTec belgesi alabilirsiniz. Alınan belgeler tüm dünyada süresiz geçerlidir.",
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-1.png", "alt": "TSSF/CMAS 1* Dalıcı Sertifikası" },
     { "src": "/static/img/courses-temp/protec-org-1-2star.jpeg", "alt": "ProTec 1* Dalıcı Sertifikası" }
   ],
   "hasPadiClasses": true,
-  "hasSsiClasses": true,
+  "hasSsiClasses": false,
   "prerequisites": [
     "14 yaşını doldurmuş olmak",
-    "18 yaşının altındakiler için veli onayı",
-    "Yeterli seviyede yüzme bilmek",
-    "Dalış yapmanıza engel bir sağlık sorununuzun bulunmaması"
+    "Yeterli seviyede (su üzerinde durabilecek kadar) yüzme bilmek",
+    "Dalış yapmanıza engel herhangi bir sağlık sorununuzun olmaması",
+    "18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir"
   ],
   "includes": [
     "8 saatlik teorik eğitim",
@@ -24,6 +24,6 @@
     "Eğitmen giderleri",
     "Eğitim boyunca çekilen tüm sualtı fotoğrafları"
   ],
-  "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
+  "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
   "alternativeCourses": []
 }

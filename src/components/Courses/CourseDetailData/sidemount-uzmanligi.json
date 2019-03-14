@@ -21,6 +21,6 @@
     "Eğitmen giderleri",
     "Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)"
   ],
-  "quota": "Teorik eğitimler max 6:1, pratik eğitimler ise 3:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
+  "quota": "Teorik eğitimler bir seferde en fazla 6 katılımcı ile, pratik eğitimler ise bir seferde en fazla 3 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
   "alternativeCourses": []
 }
