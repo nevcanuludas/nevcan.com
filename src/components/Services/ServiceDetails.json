@@ -65,5 +65,20 @@
     ],
     "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
     "alternativeServices": []
+  },
+  {
+    "title": "Arama ve Kurtarma",
+    "note": "note",
+    "scope": "Su altında kaybolan ya da çıkarılamayacak kadar ağır olan nesnelerin bulunması ve çıkarılması konusunda sizlere yardımcı olabilirim.",
+    "images": [],
+    "hasPadiClasses": false,
+    "hasSsiClasses": false,
+    "prerequisites": [],
+    "includes": [
+      "Dalış malzemeleri",
+      "Tüp ve gaz dolumu"
+    ],
+    "quota": "",
+    "alternativeServices": []
   }
 ]

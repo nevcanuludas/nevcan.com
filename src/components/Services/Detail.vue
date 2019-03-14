@@ -30,7 +30,8 @@ export default {
         'egitmen-hazirlik': 3,
         'gue-hazirlik': 4,
         'fotograf-cekimi': 5,
-        'kurumsal-danismanlik': 6
+        'kurumsal-danismanlik': 6,
+        'arama-kurtarma': 7
       },
       // Service Details JSON
       services: jsonServiceDetails

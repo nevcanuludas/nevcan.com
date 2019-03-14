@@ -13,7 +13,8 @@ export default {
         { id: 'egitmen-hazirlik', imageUrl: 'beinginstructor', name: 'Eğitmenlik Kursuna Hazırlık' },
         { id: 'gue-hazirlik', imageUrl: 'beinggue', name: 'GUE Kursuna Hazırlık' },
         { id: 'fotograf-cekimi', imageUrl: 'photography', name: 'Sualtı Fotoğraf Çekimi' },
-        { id: 'kurumsal-danismanlik', imageUrl: 'consulting', name: 'Kurumsal Danışmanlık' }
+        { id: 'kurumsal-danismanlik', imageUrl: 'consulting', name: 'Kurumsal Danışmanlık' },
+        { id: 'arama-kurtarma', imageUrl: 'sar', name: 'Arama ve Kurtarma' }
       ]
     }
   }
