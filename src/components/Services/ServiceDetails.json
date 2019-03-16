@@ -1,15 +1,40 @@
 [
   {
     "title": "Deneme Dalışı",
-    "price": 25
+    "price": 25,
+    "scope": "Dalış eğitmeni ile bire bir olarak, su altında nefes almanın nasıl bir his olduğunu deneyimleyebileceğiniz bir dalış türüdür. Federasyonun talimatları doğrultusunda en fazla 5 metre derinlik limiti vardır. Daha önce hiç tüplü dalışı denemediyseniz ve direkt olarak 1* Dalıcı kursuna başlamaktan çekiniyorsanız, deneme dalışı sizin için en uygun seçenek olabilir.",
+    "includes": [
+      "1 saatlik teorik eğitim",
+      "1 havuz veya deniz dalışı",
+      "Dalış sırasında kullanılacak tüm donanımlar",
+      "Eğitmen giderleri",
+      "Eğitim boyunca çekilen tüm sualtı fotoğrafları"
+    ],
+    "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bire bir yapılmaktadır. Etkinliğin düzenlenmesi için en az 2 katılımcı gerekmektedir."
   },
   {
     "title": "Tazeleme Dalışı",
-    "price": 25
+    "price": 25,
+    "includes": [
+      "1 saatlik teorik eğitim",
+      "1 havuz veya deniz dalışı",
+      "Dalış sırasında kullanılacak tüm donanımlar",
+      "Eğitmen giderleri",
+      "Eğitim boyunca çekilen tüm sualtı fotoğrafları"
+    ],
+    "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Etkinliğin düzenlenmesi için en az 2 katılımcı gerekmektedir."
   },
   {
     "title": "Gelişim Dalışı",
-    "price": 25
+    "price": 25,
+    "includes": [
+      "1 saatlik teorik eğitim",
+      "1 havuz veya deniz dalışı",
+      "Dalış sırasında kullanılacak tüm donanımlar",
+      "Eğitmen giderleri",
+      "Eğitim boyunca çekilen tüm sualtı fotoğrafları"
+    ],
+    "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Etkinliğin düzenlenmesi için en az 2 katılımcı gerekmektedir."
   },
   {
     "title": "Eğitmen Hazırlık",
@@ -21,7 +46,7 @@
   },
   {
     "title": "Fotoğraf Çekimi",
-    "price": 500,
+    "price": 400,
     "scope": "İnsanların mutlu anlarını unutulmayan anılara dönüştürmenin benim için çok daha keyifli olduğunu farkettim. Fotoğrafçılık üzerine çeşitli eğitimlerle tekniğimi geliştirirken, önemli fotoğraf sanatçıları ile çalışma fırsatları yakalayarak tecrübelerimi her geçen gün arttırmaya devam ediyorum.",
     "images": [
       { "src": "/static/img/services/uw-wedding.jpg", 
@@ -30,16 +55,14 @@
     "hasPadiClasses": false,
     "hasSsiClasses": false,
     "prerequisites": [
-      "14 yaşını doldurmuş olmak",
-      "18 yaşının altındakiler için veli onayı"
+      "Dalıcı olmak"
     ],
     "includes": [
       "Eğitmen giderleri",
-      "Gün boyunca yapılacak tüm açık deniz dalışları",
       "Dalışlar ve çekimler boyunca kullanılacak tüm ekipmanlar",
       "Seçilan fotoğrafların işlenmesi"
     ],
-    "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
+    "quota": "Kontenjan limiti bulunmamaktadır.",
     "alternativeServices": [
 
     ]
@@ -68,7 +91,7 @@
   },
   {
     "title": "Arama ve Kurtarma",
-    "note": "note",
+    "note": "Çıkarılması istenilen cisimlerin, ilgili mercilerden çıkarma izinlerinin alınmış olması gerekmektedir.",
     "scope": "Su altında kaybolan ya da çıkarılamayacak kadar ağır olan nesnelerin bulunması ve çıkarılması konusunda sizlere yardımcı olabilirim.",
     "images": [],
     "hasPadiClasses": false,
@@ -77,8 +100,6 @@
     "includes": [
       "Dalış malzemeleri",
       "Tüp ve gaz dolumu"
-    ],
-    "quota": "",
-    "alternativeServices": []
+    ]
   }
 ]
