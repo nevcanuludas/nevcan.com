@@ -54,6 +54,15 @@
     "class": ""
   },
   {
+    "startDate": "2019-03-30",
+    "date": "30 Mart '19",
+    "name": "Keşif Dalışı",
+    "url": "#",
+    "location": "Kömür Limanı",
+    "status": "Kontenjan (2/4)",
+    "class": ""
+  },
+  {
     "startDate": "2019-03-31",
     "date": "31 Mart '19",
     "name": "Havuzda Deneme Dalışı",
@@ -99,21 +108,12 @@
     "class": ""
   },
   {
-    "startDate": "2019-04-27",
-    "date": "27-30 Nisan '19",
+    "startDate": "2019-05-01",
+    "date": "01-05 Nisan '19",
     "name": "1* Dalıcı Kursu (Pratik)",
     "url": "/courses/1-yildiz-dalici",
     "location": "Kaş, Antalya",
     "status": "Kontenjan (9/12)",
-    "class": ""
-  },
-  {
-    "startDate": "2019-05-04",
-    "date": "04-05 Mayıs '19",
-    "name": "Batık Dalışı Kursu",
-    "url": "/courses/batik-dalisi-uzmanligi",
-    "location": "Kemer, Antalya",
-    "status": "Kontenjan (0/8) +s",
     "class": ""
   },
   {

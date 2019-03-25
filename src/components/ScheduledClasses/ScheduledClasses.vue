@@ -18,7 +18,7 @@ export default {
       var startDate = new Date(this.trips[i].startDate)
       var status = this.trips[i].status
 
-      if (startDate <= currentDate) {
+      if (startDate < currentDate) {
         console.log(this.trips[i].name + ' ' + this.trips[i].date + ' tarihinde yapılmıştır.')
         this.trips.shift()
         i = -1
