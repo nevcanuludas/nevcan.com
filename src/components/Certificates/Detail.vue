@@ -15,7 +15,7 @@ export default {
       dict: {
         'gue': 0,
         'tssf': 1,
-        'protec': 2,
+        'prorectec': 2,
         'ssi': 3,
         'lifeguard': 4,
         'others': 5

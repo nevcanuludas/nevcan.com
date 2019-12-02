@@ -17,10 +17,11 @@ section#career-list
       button(type="button" @click="showMileStones").btn.btn-sm.btn-secondary Kilometre Taşları
 
   .career-list
+    +career-item("2018-09", "Temmuz 2019", "GUE Avengers ekibinde Avrasya temsilcisi olarak görevlendirildim", "", "", "isMileStoneVisible")(class="milestone")
     +career-item("2018-09", "Eylül 2018", "GUE Turkey 'Official Affiliate' olarak seçildi 🎉", "", "", "isMileStoneVisible")(class="milestone")
     +career-item("2018", "2018'den beri", "Pendik S.A.S.", "İstanbul (842)", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni, Engelli Dalıcı Eğitmeni", "isCenterVisible")
-    +career-item("2017-10", "Ekim 2017", "GUE üyesi oldum 😎 ve GUE Turkey topluluğunu kurdum 🇹🇷", "", "", "isMileStoneVisible")(class="milestone")
     div(v-if="!isShowMoreActive")
+      +career-item("2017-10", "Ekim 2017", "GUE üyesi oldum 😎 ve GUE Turkey topluluğunu kurdum 🇹🇷", "", "", "isMileStoneVisible")(class="milestone")
       +career-item("2016", "2016-2017", "Ainos Neptün Sualtı Merkezi", "İstanbul (HQ), Enez / Edirne (747)", "Kurucu | Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni", "isCenterVisible")
       +career-item("2015", "2015", "Mavi Ege Dalış Merkezi (508)", "İbrice / Saros Körfezi", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı, Gemici", "isCenterVisible")
       +career-item("2014-11", "Kasım 2014", "Neptün Sualtı Merkezi'ni kurdum 🔱", "", "", "isMileStoneVisible")(class="milestone")

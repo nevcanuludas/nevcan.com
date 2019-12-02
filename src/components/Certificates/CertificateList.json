@@ -39,18 +39,18 @@
     ]
   },
   {
-    "title": "Profesional Technical and Recretional Diving (ProTec)",
-    "scope": "ProTec ile 2015 yılında tanıştım. Türkiye′deki ilk eğitmenlerdenim. CMAS'ın uluslar arası iş ortağı olmasının yanı sıra ProTec'i tercih etmemin bir başka nedeni ise TSSF bünyesinde bulunmayan bazı uzmanlık programlarına sahip olmasıdır.",
+    "title": "Profesional Recreational and Technical Diving (ProRecTec)",
+    "scope": "ProRecTec ile 2015 yılında tanıştım. Türkiye′deki ilk eğitmenlerdenim. CMAS'ın uluslar arası iş ortağı olmasının yanı sıra ProRecTec'i tercih etmemin bir başka nedeni ise TSSF bünyesinde bulunmayan bazı uzmanlık programlarına sahip olmasıdır.",
     "images": [
-      { "src": "/static/img/certificates/protec/i/2.png", "alt": "ProTec 2* Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/nitrox-1.png", "alt": "ProTec Nitrox 1 Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/sidemount.png", "alt": "ProTec Sidemount Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/dry-suit.png", "alt": "ProTec Kuru Elbise Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/discover-cave-diving.png", "alt": "ProTec Mağara Keşif Dalışı Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/uw-scooter-dpv.png", "alt": "ProTec UW Scooter / DPV Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/ice-diving.png", "alt": "ProTec Buz Dalışı Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/wreck-diving.png", "alt": "ProTec Batık Dalışı Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/handicap-diver.png", "alt": "ProTec Engelli Dalıcı Uzman Dalış Eğitmeni" }
+      { "src": "/static/img/certificates/protec/i/2.png", "alt": "ProRecTec 2* Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/nitrox-1.png", "alt": "ProRecTec Nitrox 1 Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/sidemount.png", "alt": "ProRecTec Sidemount Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/dry-suit.png", "alt": "ProRecTec Kuru Elbise Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/discover-cave-diving.png", "alt": "ProRecTec Mağara Keşif Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/uw-scooter-dpv.png", "alt": "ProRecTec UW Scooter / DPV Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/ice-diving.png", "alt": "ProRecTec Buz Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/wreck-diving.png", "alt": "ProRecTec Batık Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/handicap-diver.png", "alt": "ProRecTec Engelli Dalıcı Uzman Dalış Eğitmeni" }
     ]
   },
   {
