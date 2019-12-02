@@ -12,9 +12,13 @@ export default {
       // JS Dictionary - Associative Arrays in JavaScript
       dict: {
         'pb-marmara': 0,
-        'diver-safety-guardian': 1,
-        'sualti-kultur-mirasinin-korunmasi': 2,
-        'suluin-magarasi': 3
+        'yayakarsa': 1,
+        'diver-safety-guardian': 2,
+        'sualti-kultur-mirasinin-korunmasi': 3,
+        'suluin-magarasi': 4,
+        'deniz-kiyi-plaj-temizligi': 5,
+        'saros-sualti-muzesi': 6,
+        'photogrammetry-dpv': 7
       },
       // Conservations JSON
       conservations: [
@@ -24,18 +28,39 @@ export default {
           url: 'https://www.youtube-nocookie.com/embed/33FXnjxEPVc'
         },
         {
+          title: 'Ya Yakarsa',
+          scope: '',
+          url: ''
+        },
+        {
           title: 'DAN Dalış Bağışı',
-          scope: 'Dalıcıların Dopler ölçümü ile kabarcıklarının ortak bir database de toplanması işlemi.',
-          url: 'https://youtu.be/iFxiGp8gNIY'
+          scope: 'Dalış sonrası dalıcılarda oluşan sessiz kabarcıkların doppler ölçümü ile dinlendikten sonra, insan vücudu üzerindeki etkilerinin incelenmesi için ortak bir veritabanında toplanmasına yönelik yapılan bir yurttaş bilimidir.',
+          url: 'https://www.youtube-nocookie.com/embed/iFxiGp8gNIY'
         },
         {
           title: 'Sualtı Kültür Mirasının Korunması',
-          scope: 'Tarihin şekillenmesine yardımcı oluyoruz. Bulduğumuz Kültür Miraslarını arkeologlar ile paylaşıyoruz.',
-          url: 'https://youtu.be/whhoMdZUcIs'
+          scope: 'Tarihin şekillenmesine yardımcı oluyoruz. Bulduğumuz kültür miraslarını arkeologlar ile paylaşıyoruz.',
+          url: 'https://www.youtube-nocookie.com/embed/whhoMdZUcIs'
         },
         {
           title: 'Suluin Mağarası',
-          scope: '1998 yılında JJ ve ekibinin 120 metreye kadar keşfettiği, aysa kıtasının en derin mağarası olan suluin mağarasında araştırma dalaışlarına devam ediyoruz. Amacımız, deniz ile bağlantısını ve dibini bulabilmek.'
+          scope: '1998 yılında JJ ve ekibinin 120 metreye kadar keşfettiği, aysa kıtasının en derin mağarası olan suluin mağarasında araştırma dalaışlarına devam ediyoruz. Amacımız, deniz ile bağlantısını ve dibini bulabilmek.',
+          url: 'https://www.youtube-nocookie.com/embed/NjX3O-RN3-8'
+        },
+        {
+          title: 'Deniz, Kıyı ve Plaj Temizliği',
+          scope: '',
+          url: 'https://www.youtube-nocookie.com/embed/CVf_vbrc0to'
+        },
+        {
+          title: 'Saros Sualtı Müzesi',
+          scope: '',
+          url: 'https://www.youtube-nocookie.com/embed/5BS3LHkt9hY'
+        },
+        {
+          title: 'Photogrammetry Yöntemi ile 3D Modelleme',
+          scope: '',
+          url: 'https://www.youtube-nocookie.com/embed/D0UCWftL2ZI'
         }
       ]
     }
