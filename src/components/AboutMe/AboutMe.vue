@@ -9,7 +9,8 @@ export default {
   name: 'AboutMe',
   data () {
     return {
-      sectionTitle: 'Hakkımda'
+      sectionTitle: 'Hakkımda',
+      sectionTitleEN: 'About Me'
     }
   },
   components: {

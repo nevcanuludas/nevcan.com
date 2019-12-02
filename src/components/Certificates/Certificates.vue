@@ -12,6 +12,7 @@ export default {
   data () {
     return {
       sectionTitle: 'Brövelerim',
+      sectionTitleEN: 'Certificates',
       isListView: false,
       certificateCategories: jsonCertificateCategories,
       certificateList: jsonCertificateList

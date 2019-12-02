@@ -1,6 +1,11 @@
 section#aboutme
 
-  h3.page-heading {{ sectionTitle }}
+  h3.page-heading 
+    template(v-if= "$t('selectedLang') == 'tr'")
+      | {{ sectionTitle }}
+
+    template(v-if= "$t('selectedLang') == 'en'")
+      | {{ sectionTitleEN }}
 
   .pp
     template(v-if= "$t('selectedLang') == 'tr'")

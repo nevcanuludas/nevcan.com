@@ -6,14 +6,15 @@ section#conservation
 
     .conservation-filter.text-right
       .btn-group(role="group" aria-label="Career Filter")
-        button(type="button" @click="showAllConservations").btn.btn-sm.btn-secondary Tümü
-        button(type="button" @click="showConservation").btn.btn-sm.btn-secondary Koruma
-        button(type="button" @click="showExploration").btn.btn-sm.btn-secondary Keşif
-        button(type="button" @click="showResearch").btn.btn-sm.btn-secondary Araştırma
+        button(type="button" @click="showAllConservations" :class="{'active': isActiveTab == 'all'}").btn.btn-sm.btn-secondary Tümü
+        button(type="button" @click="showConservation" :class="{'active': isActiveTab == 'conservation'}").btn.btn-sm.btn-secondary Koruma
+        button(type="button" @click="showExploration" :class="{'active': isActiveTab == 'exploration'}").btn.btn-sm.btn-secondary Keşif
+        button(type="button" @click="showResearch" :class="{'active': isActiveTab == 'research'}").btn.btn-sm.btn-secondary Araştırma
+        button(type="button" @click="showProject" :class="{'active': isActiveTab == 'project'}").btn.btn-sm.btn-secondary Diğer
 
     .row.conservation-list
       template(v-for='conservation in conservations' v-if='conservation.isVisible')
-        .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-4
+        .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-3
           router-link(:to="'/conservation/' + conservation.id")
             .canvas-overlay(:title= 'conservation.name')
               .btn

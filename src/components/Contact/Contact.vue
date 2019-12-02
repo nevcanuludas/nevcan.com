@@ -8,6 +8,7 @@ export default {
   data () {
     return {
       sectionTitle: 'İletişim',
+      sectionTitleEN: 'Contact',
       isVisible: false
     }
   },

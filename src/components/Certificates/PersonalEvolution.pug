@@ -8,18 +8,38 @@ mixin skill-list-vertical-item(genre, company)
 
 section
 
-  h4.section-heading Kişisel Gelişim:
+  h4.section-heading
+    template(v-if= "$t('selectedLang') == 'tr'")
+      | Kişisel Gelişim:
+
+    template(v-if= "$t('selectedLang') == 'en'")
+      | Personal Evolution:
 
   ul.skill-list-vertical
-    +skill-list-vertical-item("Mağara Dalışı", "GUE")(style="height: 55%")
-    +skill-list-vertical-item("CCR", "SF2")(style="height: 70%")
-    +skill-list-vertical-item("Carkurtarma", "ILS/TSSF")(style="height: 90%")
+    template(v-if= "$t('selectedLang') == 'tr'")
+      +skill-list-vertical-item("Mağara Dalışı", "GUE")(style="height: 55%")
+      +skill-list-vertical-item("CCR", "SF2")(style="height: 70%")
+      +skill-list-vertical-item("Carkurtarma", "ILS/TSSF")(style="height: 90%")
 
-    .label-beg Beginner
-    .line-beg
-    .label-int Intermediate
-    .line-int
-    .label-adv Advanced
-    .line-adv
-    .label-ins Instructor
-    .line-ins
+      .label-beg Başlangıç
+      .line-beg
+      .label-int Orta
+      .line-int
+      .label-adv Uzman
+      .line-adv
+      .label-ins Eğitmen
+      .line-ins
+
+    template(v-if= "$t('selectedLang') == 'en'")
+      +skill-list-vertical-item("Cave Diving", "GUE")(style="height: 55%")
+      +skill-list-vertical-item("CCR", "SF2")(style="height: 70%")
+      +skill-list-vertical-item("Lifeguard", "ILS/TSSF")(style="height: 90%")
+
+      .label-beg Beginner
+      .line-beg
+      .label-int Intermediate
+      .line-int
+      .label-adv Advanced
+      .line-adv
+      .label-ins Instructor
+      .line-ins

@@ -1,6 +1,11 @@
 section#contact
 
-  h3.page-heading {{ sectionTitle }}
+  h3.page-heading 
+    template(v-if= "$t('selectedLang') == 'tr'")
+      | {{ sectionTitle }}
+
+    template(v-if= "$t('selectedLang') == 'en'")
+      | {{ sectionTitleEN }}
 
   #contact-map-section
     app-mapbox
