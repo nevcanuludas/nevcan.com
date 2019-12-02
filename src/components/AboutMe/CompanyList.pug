@@ -2,7 +2,12 @@ include ../Shared/company-logos.pug
 
 section#company-list
 
-  h4.section-heading Üyesi olduğum kurum ve kuruluşlar:
+  h4.section-heading 
+    template(v-if= "$t('selectedLang') == 'tr'")
+      | Üyesi olduğum kurum ve kuruluşlar:
+
+    template(v-if= "$t('selectedLang') == 'en'")
+      | Institutions and organizations I am a member of:
 
   .row.company-list
     +company-list-item("https://www.gue.com/", "Global Underwater Explorers", "gue.png")

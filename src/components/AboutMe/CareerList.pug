@@ -8,28 +8,61 @@ mixin career-item(datetime, date, title, location, desc, isVisible)
 
 section#career-list
 
-  h4.section-heading Kariyer:
+  h4.section-heading 
+    template(v-if= "$t('selectedLang') == 'tr'")
+      | Kariyer:
+
+    template(v-if= "$t('selectedLang') == 'en'")
+      | Career:
 
   .career-filter
-    .btn-group(role="group" aria-label="Career Filter")
-      button(type="button" @click="showAll").btn.btn-sm.btn-secondary Tümü
-      button(type="button" @click="showCenters").btn.btn-sm.btn-secondary Dalış Merkezleri
-      button(type="button" @click="showMileStones").btn.btn-sm.btn-secondary Kilometre Taşları
+    template(v-if= "$t('selectedLang') == 'tr'")
+      .btn-group(role="group" aria-label="Career Filter")
+        button(type="button" @click="showAll" :class="{'active': isActiveTab == 'all'}").btn.btn-sm.btn-secondary Tümü
+        button(type="button" @click="showCenters" :class="{'active': isActiveTab == 'divecenter'}").btn.btn-sm.btn-secondary Dalış Merkezleri
+        button(type="button" @click="showMileStones" :class="{'active': isActiveTab == 'milestone'}").btn.btn-sm.btn-secondary Kilometre Taşları
+
+    template(v-if= "$t('selectedLang') == 'en'")
+      .btn-group(role="group" aria-label="Career Filter")
+        button(type="button" @click="showAll" :class="{'active': isActiveTab == 'all'}").btn.btn-sm.btn-secondary All
+        button(type="button" @click="showCenters" :class="{'active': isActiveTab == 'divecenter'}").btn.btn-sm.btn-secondary Dive Centers
+        button(type="button" @click="showMileStones" :class="{'active': isActiveTab == 'milestone'}").btn.btn-sm.btn-secondary Mile Stones
 
   .career-list
-    +career-item("2018-09", "Temmuz 2019", "GUE Avengers ekibinde Avrasya temsilcisi olarak görevlendirildim", "", "", "isMileStoneVisible")(class="milestone")
-    +career-item("2018-09", "Eylül 2018", "GUE Turkey 'Official Affiliate' olarak seçildi 🎉", "", "", "isMileStoneVisible")(class="milestone")
-    +career-item("2018", "2018'den beri", "Pendik S.A.S.", "İstanbul (842)", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni, Engelli Dalıcı Eğitmeni", "isCenterVisible")
-    div(v-if="!isShowMoreActive")
-      +career-item("2017-10", "Ekim 2017", "GUE üyesi oldum 😎 ve GUE Turkey topluluğunu kurdum 🇹🇷", "", "", "isMileStoneVisible")(class="milestone")
-      +career-item("2016", "2016-2017", "Ainos Neptün Sualtı Merkezi", "İstanbul (HQ), Enez / Edirne (747)", "Kurucu | Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni", "isCenterVisible")
-      +career-item("2015", "2015", "Mavi Ege Dalış Merkezi (508)", "İbrice / Saros Körfezi", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı, Gemici", "isCenterVisible")
-      +career-item("2014-11", "Kasım 2014", "Neptün Sualtı Merkezi'ni kurdum 🔱", "", "", "isMileStoneVisible")(class="milestone")
-      +career-item("2013", "2013-2014", "Four Seasons Divers Club (599)", "İstanbul", "Dalış Eğitmeni, Rehber Dalıcı", "isCenterVisible")
-      +career-item("2011", "2011-2012", "Olympia Dalış Merkezi (324)", "Kuşadası / Aydın", "Dalış Eğitmeni", "isCenterVisible")
-      +career-item("2011", "2011", "Dalış eğitmeni oldum 🧜‍♂", "", "", "isMileStoneVisible")(class="milestone")
-      +career-item("2008", "2008-2010", "Octopus Dalış Merkezi (177)", "Kemer / Antalya", "Dalış Lideri", "isCenterVisible")
-      +career-item("2008-04", "Nisan 2008", "İlk kez sualtında nefes aldım 🤩", "", "", "isMileStoneVisible")(class="milestone")
+    template(v-if= "$t('selectedLang') == 'tr'")
+      +career-item("2018-09", "Temmuz 2019", "GUE Avengers ekibinde Avrasya temsilcisi olarak atandım", "", "", "isMileStoneVisible")(class="milestone")
+      +career-item("2018-09", "Eylül 2018", "GUE Turkey, GUE'nin resmi üyesi oldu 🎉", "", "", "isMileStoneVisible")(class="milestone")
+      +career-item("2018", "2018'den beri", "Pendik S.A.S.", "İstanbul (842)", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni, Engelli Dalıcı Eğitmeni", "isCenterVisible")
+      div(v-if="!isShowMoreActive")
+        +career-item("2017-10", "Ekim 2017", "GUE üyesi oldum 😎 ve GUE Turkey topluluğunu kurdum 🇹🇷", "", "", "isMileStoneVisible")(class="milestone")
+        +career-item("2016", "2016-2017", "Ainos Neptün Sualtı Merkezi", "İstanbul (HQ), Enez / Edirne (747)", "Kurucu | Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni", "isCenterVisible")
+        +career-item("2015", "2015", "Mavi Ege Dalış Merkezi (508)", "İbrice / Saros Körfezi", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı, Gemici", "isCenterVisible")
+        +career-item("2014-11", "Kasım 2014", "Neptün Sualtı Merkezi'ni kurdum 🔱", "", "", "isMileStoneVisible")(class="milestone")
+        +career-item("2013", "2013-2014", "Four Seasons Divers Club (599)", "İstanbul", "Dalış Eğitmeni, Rehber Dalıcı", "isCenterVisible")
+        +career-item("2011", "2011-2012", "Olympia Dalış Merkezi (324)", "Kuşadası / Aydın", "Dalış Eğitmeni", "isCenterVisible")
+        +career-item("2011-04", "Nisan 2011", "Dalış eğitmeni oldum 🧜‍♂", "", "", "isMileStoneVisible")(class="milestone")
+        +career-item("2008", "2008-2010", "Octopus Dalış Merkezi (177)", "Kemer / Antalya", "Dalış Lideri", "isCenterVisible")
+        +career-item("2008-04", "Nisan 2008", "İlk kez sualtında nefes aldım 🤩", "", "", "isMileStoneVisible")(class="milestone")
+
+    template(v-if= "$t('selectedLang') == 'en'")
+      +career-item("2018-09", "July 2019", "I was assigned as the representative of Eurasia in GUE Avengers team", "", "", "isMileStoneVisible")(class="milestone")
+      +career-item("2018-09", "September 2018", "GUE Turkey becomes official affiliate of GUE 🎉", "", "", "isMileStoneVisible")(class="milestone")
+      +career-item("2018", "Since 2018", "Pendik S.A.S.", "İstanbul (842)", "Scuba Instructor, Dive Guide, Speciality Instructor, Handicap Diver Instructor", "isCenterVisible")
+      div(v-if="!isShowMoreActive")
+        +career-item("2017-10", "October 2017", "I became a GUE member 😎 and I established the GUE Turkey community 🇹🇷", "", "", "isMileStoneVisible")(class="milestone")
+        +career-item("2016", "2016-2017", "Ainos Neptün Dive Center", "İstanbul (HQ), Enez / Edirne (747)", "Owner | Scuba Instructor, Dive Guide, Speciality Instructor", "isCenterVisible")
+        +career-item("2015", "2015", "Mavi Ege Dive Center (508)", "İbrice / Gulf of Saros", "Scuba Instructor, Dive Guide, Speciality Diver, Seaman", "isCenterVisible")
+        +career-item("2014-11", "November 2014", "I established the Neptun Dive Center 🔱", "", "", "isMileStoneVisible")(class="milestone")
+        +career-item("2013", "2013-2014", "Four Seasons Divers Club (599)", "İstanbul", "Scuba Instructor, Dive Guide", "isCenterVisible")
+        +career-item("2011", "2011-2012", "Olympia Dive Center (324)", "Kuşadası / Aydın", "Scuba Instructor", "isCenterVisible")
+        +career-item("2011-04", "April 2011", "I became a scuba instructor 🧜‍♂", "", "", "isMileStoneVisible")(class="milestone")
+        +career-item("2008", "2008-2010", "Octopus Dive Center (177)", "Kemer / Antalya", "Dive Leader", "isCenterVisible")
+        +career-item("2008-04", "April 2008", "First time I breathe underwater 🤩", "", "", "isMileStoneVisible")(class="milestone")
 
   .w-100.text-center
-    button.btn.btn-sm.show-more(@click="isShowMoreActive = false" v-show="isShowMoreActive") Tümünü Göster
+    button.btn.btn-sm.show-more(@click="isShowMoreActive = false" v-show="isShowMoreActive")
+      template(v-if= "$t('selectedLang') == 'tr'")
+        | Tümünü Göster
+
+      template(v-if= "$t('selectedLang') == 'en'")
+        | Show All
