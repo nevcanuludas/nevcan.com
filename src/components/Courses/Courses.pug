@@ -4,7 +4,7 @@ section#courses
 
   .pp
 
-    p.pp-info.alert.alert-warning
+    p.pp-info.alert.alert-info
       | Planlanmış eğitim ve tur tarihleri için
       router-link(to='/scheduled-classes' exact) &nbsp;Etkinlik Takvimi&nbsp;
       | sayfasına bakabilirsiniz.
@@ -13,7 +13,7 @@ section#courses
       .btn-group(role="group" aria-label="Career Filter")
         button(type="button" @click="showAllCompanies").btn.btn-sm.btn-secondary Tümü
         button(type="button" @click="showTssf").btn.btn-sm.btn-secondary TSSF
-        button(type="button" @click="showProtec").btn.btn-sm.btn-secondary ProTec
+        button(type="button" @click="showProtec").btn.btn-sm.btn-secondary ProRecTec
       .btn-group.float-right(role="group" aria-label="Career Filter")
         button(type="button" @click="showAllCourses").btn.btn-sm.btn-secondary Tümü
         button(type="button" @click="showScuba").btn.btn-sm.btn-secondary Dalıcı

@@ -9,10 +9,9 @@
   "hasPadiClasses": true,
   "hasSsiClasses": false,
   "prerequisites": [
-    "14 yaşını doldurmuş olmak",
+    "14 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir)",
     "Yeterli seviyede (su üzerinde durabilecek kadar) yüzme bilmek",
-    "Dalış yapmanıza engel herhangi bir sağlık sorununuzun olmaması",
-    "18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir"
+    "Dalış yapmanıza engel herhangi bir sağlık sorununuzun olmaması"
   ],
   "includes": [
     "8 saatlik teorik eğitim",
