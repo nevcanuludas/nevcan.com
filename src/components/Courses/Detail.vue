@@ -45,6 +45,7 @@ export default {
       isVisible: false,
       // EURTRY: null,
       EURTRY: 7.70,
+      coursePaymentLink: '',
       courseTitle: '',
       coursePrice: 'Kurs ücreti belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
       courseNote: '',
@@ -139,6 +140,7 @@ export default {
     var c = this.courses[this.dict[this.path]]
     this.courseTitle = c.title
     c.price && (this.coursePrice = c.price)
+    this.coursePaymentLink = c.paymentLink
     this.courseNote = c.note
     this.courseScope = c.scope
     this.courseHasPadiClass = c.hasPadiClasses

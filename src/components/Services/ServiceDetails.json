@@ -2,6 +2,7 @@
   {
     "title": "Deneme Dalışı",
     "price": 25,
+    "paymentLink": "https://www.sopsy.com/d/xtQ7ko",
     "scope": "Dalış eğitmeni ile bire bir olarak, su altında nefes almanın nasıl bir his olduğunu deneyimleyebileceğiniz bir dalış türüdür. Federasyonun talimatları doğrultusunda en fazla 5 metre derinlik limiti vardır. Daha önce hiç tüplü dalışı denemediyseniz ve direkt olarak 1* Dalıcı kursuna başlamaktan çekiniyorsanız, deneme dalışı sizin için en uygun seçenek olabilir.",
     "includes": [
       "1 saatlik teorik eğitim",
@@ -15,6 +16,7 @@
   {
     "title": "Tazeleme Dalışı",
     "price": 25,
+    "paymentLink": "https://www.sopsy.com/d/xtQ7ko",
     "includes": [
       "1 saatlik teorik eğitim",
       "1 havuz veya deniz dalışı",
@@ -27,6 +29,7 @@
   {
     "title": "Gelişim Dalışı",
     "price": 25,
+    "paymentLink": "https://www.sopsy.com/d/xtQ7ko",
     "includes": [
       "1 saatlik teorik eğitim",
       "1 havuz veya deniz dalışı",
@@ -38,15 +41,18 @@
   },
   {
     "title": "Eğitmen Hazırlık",
-    "price": 200
+    "price": 200,
+    "paymentLink": "http://www.sopsy.com/d/sD6rI8"
   },
   {
     "title": "GUE Hazırlık",
-    "price": 200
+    "price": 200,
+    "paymentLink": "http://www.sopsy.com/d/sD6rI8"
   },
   {
     "title": "Fotoğraf Çekimi",
     "price": 400,
+    "paymentLink": "http://www.sopsy.com/d/SKXzc6",
     "scope": "İnsanların mutlu anlarını unutulmayan anılara dönüştürmenin benim için çok daha keyifli olduğunu farkettim. Fotoğrafçılık üzerine çeşitli eğitimlerle tekniğimi geliştirirken, önemli fotoğraf sanatçıları ile çalışma fırsatları yakalayarak tecrübelerimi her geçen gün arttırmaya devam ediyorum.",
     "images": [
       { "src": "/static/img/services/uw-wedding.jpg", 
