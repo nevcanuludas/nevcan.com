@@ -23,7 +23,10 @@ section#serviceDetails
     
     h4.section-heading Hizmet Ücreti
     p(v-if='!isVisible' @dblclick='isVisible = !isVisible' v-finger:doubletap='visible') [Ücret bilgisini görmek için çift tıklayın]
-    p(v-else-if='servicePrice >= 0') Hizmet bedeli {{ servicePrice * Math.round(EURTRY) }}₺'dır.
+    div(v-else-if='servicePrice >= 0') 
+      p Hizmet bedeli {{ servicePrice * Math.round(EURTRY) }}₺'dır.
+      p Satın alma linki: 
+        a(:href='servicePaymentLink' target=';blank') {{ servicePaymentLink }}
     p(v-else) Hizmet bedeli belirtilmemiştir. Teklif almak için lütfen iletişime geçin.
 
     .row

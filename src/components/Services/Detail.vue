@@ -15,6 +15,7 @@ export default {
       EURTRY: 7.70,
       serviceTitle: '',
       servicePrice: 'Hizmet bedeli belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
+      servicePaymentLink: '',
       serviceNote: '',
       serviceImages: '',
       serviceScope: '',
@@ -47,6 +48,7 @@ export default {
     var s = this.services[this.dict[this.path]]
     this.serviceTitle = s.title
     s.price && (this.servicePrice = s.price)
+    this.servicePaymentLink = s.paymentLink
     this.serviceNote = s.note
     this.serviceScope = s.scope
     this.serviceHasPadiClass = s.hasPadiClasses
