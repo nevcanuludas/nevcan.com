@@ -44,9 +44,10 @@ export default {
       path: this.$route.params.id,
       isVisible: false,
       // EURTRY: null,
-      EURTRY: 6.18,
+      EURTRY: 7.70,
       courseTitle: '',
       coursePrice: 'Kurs ücreti belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
+      coursePaymentLink: '',
       courseNote: '',
       courseScope: '',
       courseImages: '',
@@ -139,6 +140,7 @@ export default {
     var c = this.courses[this.dict[this.path]]
     this.courseTitle = c.title
     c.price && (this.coursePrice = c.price)
+    this.coursePaymentLink = c.paymentLink
     this.courseNote = c.note
     this.courseScope = c.scope
     this.courseHasPadiClass = c.hasPadiClasses

@@ -1,6 +1,7 @@
 {
   "title": "Engelli Dalıcı 2 Kursu",
   "price": 200,
+  "paymentLink": "http://www.sopsy.com/d/sD6rI8",
   "scope": "Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Engelli Dalıcı (Handicap Diver) belgesini almaya hak kazanırlar.",
   "images": [
     { "src": "/static/img/courses-temp/protec-org-handicap.jpeg", "alt": "ProTec Engelli Dalıcı Sertifikası" }
