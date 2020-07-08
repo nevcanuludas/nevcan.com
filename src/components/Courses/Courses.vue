@@ -8,7 +8,9 @@ export default {
   data () {
     return {
       sectionTitle: 'Verdiğim Eğitimler',
-      courses: jsonCourses
+      courses: jsonCourses,
+      isActiveTab: 'allCompanies',
+      isActiveFilter: 'allCourses'
     }
   },
   methods: {
@@ -46,6 +48,7 @@ export default {
       this.courses[30].isCompanyVisible = true // engelli-dalici-3-egitimi
       this.courses[31].isCompanyVisible = true // engelli-dalici-egitmen-asistani
       this.courses[32].isCompanyVisible = true // sualti-kultur-mirasinin-korunması-uzmanligi
+      this.isActiveTab = 'allCompanies'
     },
     showTssf () {
       this.courses[0].isCompanyVisible = true // 1-yildiz-dalici
@@ -81,6 +84,7 @@ export default {
       this.courses[30].isCompanyVisible = true // engelli-dalici-3-egitimi
       this.courses[31].isCompanyVisible = true // engelli-dalici-egitmen-asistani
       this.courses[32].isCompanyVisible = true // sualti-kultur-mirasinin-korunması-uzmanligi
+      this.isActiveTab = 'tssf'
     },
     showProtec () {
       this.courses[0].isCompanyVisible = true // 1-yildiz-dalici
@@ -116,6 +120,7 @@ export default {
       this.courses[30].isCompanyVisible = false // engelli-dalici-3-egitimi
       this.courses[31].isCompanyVisible = false // engelli-dalici-egitmen-asistani
       this.courses[32].isCompanyVisible = false // sualti-kultur-mirasinin-korunması-uzmanligi
+      this.isActiveTab = 'protecrec'
     },
     showScuba () {
       this.courses[0].isVisible = true // 1-yildiz-dalici
@@ -151,6 +156,7 @@ export default {
       this.courses[30].isVisible = false // engelli-dalici-3-egitimi
       this.courses[31].isVisible = false // engelli-dalici-egitmen-asistani
       this.courses[32].isVisible = false // sualti-kultur-mirasinin-korunması-uzmanligi
+      this.isActiveFilter = 'diver'
     },
     showSpecialty () {
       this.courses[0].isVisible = false // 1-yildiz-dalici
@@ -186,6 +192,7 @@ export default {
       this.courses[30].isVisible = false // engelli-dalici-3-egitimi
       this.courses[31].isVisible = false // engelli-dalici-egitmen-asistani
       this.courses[32].isVisible = true // sualti-kultur-mirasinin-korunması-uzmanligi
+      this.isActiveFilter = 'specialty'
     },
     showDisabled () {
       this.courses[0].isVisible = false // 1-yildiz-dalici
@@ -221,6 +228,7 @@ export default {
       this.courses[30].isVisible = true // engelli-dalici-3-egitimi
       this.courses[31].isVisible = true // engelli-dalici-egitmen-asistani
       this.courses[32].isVisible = false // sualti-kultur-mirasinin-korunması-uzmanligi
+      this.isActiveFilter = 'disabled'
     },
     showFree () {
       this.showProtec()
@@ -257,6 +265,7 @@ export default {
       this.courses[30].isVisible = false // engelli-dalici-3-egitimi
       this.courses[31].isVisible = false // engelli-dalici-egitmen-asistani
       this.courses[32].isVisible = false // sualti-kultur-mirasinin-korunması-uzmanligi
+      this.isActiveFilter = 'free'
     },
     showSpecialProgram () {
       this.showAllCompanies()
@@ -293,6 +302,7 @@ export default {
       this.courses[30].isVisible = false // engelli-dalici-3-egitimi
       this.courses[31].isVisible = false // engelli-dalici-egitmen-asistani
       this.courses[32].isVisible = false // sualti-kultur-mirasinin-korunması-uzmanligi
+      this.isActiveFilter = 'special'
     },
     showAllCourses () {
       this.courses[0].isVisible = true // 1-yildiz-dalici
@@ -328,6 +338,7 @@ export default {
       this.courses[30].isVisible = true // engelli-dalici-3-egitimi
       this.courses[31].isVisible = true // engelli-dalici-egitmen-asistani
       this.courses[32].isVisible = true // sualti-kultur-mirasinin-korunması-uzmanligi
+      this.isActiveFilter = 'allCourses'
     }
   }
 }

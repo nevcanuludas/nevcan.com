@@ -30,7 +30,8 @@
     "vue-router": "^3.3.4",
     "vue-router-sitemap": "0.0.4",
     "vue-strap": "^1.1.40",
-    "vuelidate": "^0.7.5"
+    "vuelidate": "^0.7.5",
+    "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "^0.3.0",
@@ -92,7 +93,7 @@
     "vue-template-compiler": "^2.6.11",
     "webpack": "^3.10.0",
     "webpack-bundle-analyzer": "^3.3.2",
-    "webpack-dev-server": "^3.11.0",
+    "webpack-dev-server": "^2.9.7",
     "webpack-merge": "^4.1.0"
   },
   "engines": {

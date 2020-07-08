@@ -21,6 +21,7 @@ export default new Router({
     { path: '/conservation/:id', component: ConservationDetails, name: 'ConservationDetails' },
     { path: '/scheduled-classes', component: ScheduledClasses, name: 'ScheduledClasses' },
     { path: '/faq', component: Faq, name: 'Faq' },
+    { path: '/not-found', component: NotFoundComponent },
     { path: '*', component: NotFoundComponent }
   ],
   scrollBehavior (to, from, savedPosition) {
