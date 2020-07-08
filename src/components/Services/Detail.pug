@@ -21,13 +21,18 @@ section#serviceDetails
           img(:src="image.src", :alt="image.alt").img-fluid
           figcaption {{ image.alt }}
     
+    //- SERVICE PRICE
     h4.section-heading Hizmet Ücreti
-    p(v-if='!isVisible' @dblclick='isVisible = !isVisible' v-finger:doubletap='visible') [Ücret bilgisini görmek için çift tıklayın]
+
+    button.btn.btn-warning(v-if='!isVisible' @click='isVisible = !isVisible' v-finger:tap='visible') Ücret bilgisini görmek için tıklayın
+
     div(v-else-if='servicePrice >= 0') 
       p Hizmet bedeli {{ servicePrice * Math.round(EURTRY) }}₺'dır.
       p Satın alma linki: 
         a(:href='servicePaymentLink' target=';blank') {{ servicePaymentLink }}
+
     p(v-else) Hizmet bedeli belirtilmemiştir. Teklif almak için lütfen iletişime geçin.
+    //- #SERVICE PRICE
 
     .row
       .col-12.col-xl-6

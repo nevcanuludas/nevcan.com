@@ -14,6 +14,7 @@ export default {
       sectionTitle: 'Brövelerim',
       sectionTitleEN: 'Certificates',
       isListView: false,
+      isActiveTab: 'grid',
       certificateCategories: jsonCertificateCategories,
       certificateList: jsonCertificateList
     }
@@ -25,9 +26,11 @@ export default {
   methods: {
     switchToListView () {
       this.isListView = true
+      this.isActiveTab = 'list'
     },
     switchToGridView () {
       this.isListView = false
+      this.isActiveTab = 'grid'
     }
   }
 }

@@ -23,3 +23,5 @@ export const sitemapMiddleware = () => {
 }
 
 App.get('/sitemap.xml', sitemapMiddleware())
+
+// TODO: çalışmıyor
