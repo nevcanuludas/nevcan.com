@@ -4,10 +4,15 @@ section#courses
 
   .pp
 
-    p.pp-info.alert.alert-info
-      | Planlanmış eğitim ve tur tarihleri için
+    p.pp-info.alert.alert-success
+      | 🗓 Planlanmış eğitim ve tur tarihleri için
       router-link(to='/scheduled-classes' exact) &nbsp;Etkinlik Takvimi&nbsp;
-      | sayfasına bakabilirsiniz.
+      | sayfasına göz atabilirsiniz.
+
+    br
+
+    p.pp-info.alert.alert-warning
+      | ⚠️ #[strong COVID-19] salgını nedeniyle 2020 yılı içerisinde herhangi bir aktivite yapılmayacaktır.
 
     .courses-filter
       .btn-group(role="group" aria-label="Career Filter")
