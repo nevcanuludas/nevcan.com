@@ -24,7 +24,7 @@ section#serviceDetails
     //- SERVICE PRICE
     h4.section-heading Hizmet Ücreti
 
-    button.btn.btn-warning(v-if='!isVisible' @click='isVisible = !isVisible' v-finger:tap='visible') Ücret bilgisini görmek için tıklayın
+    button.btn.btn-warning(v-if='!isVisible' @click='isVisible = !isVisible' v-finger:tap='visible' aria-label='Ücret Bilgisi') Ücret bilgisini görmek için tıklayın
 
     div(v-else-if='servicePrice >= 0') 
       p Hizmet bedeli {{ servicePrice * Math.round(EURTRY) }}₺'dır.

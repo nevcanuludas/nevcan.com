@@ -11,9 +11,9 @@ section#certificates
     .row.view-options
       .col.text-right
         .btn-group
-          button(type="button" @click='switchToGridView' :class="{'active': isActiveTab == 'grid'}").btn.btn-secondary
+          button(aria-label='Grid' type="button" @click='switchToGridView' :class="{'active': isActiveTab == 'grid'}").btn.btn-secondary
             i.fa.fa-th
-          button(type="button" @click='switchToListView' :class="{'active': isActiveTab == 'list'}").btn.btn-secondary
+          button(aria-label='List' type="button" @click='switchToListView' :class="{'active': isActiveTab == 'list'}").btn.btn-secondary
             i.fa.fa-list-ul
 
     .row.certificates-list(v-show = '!isListView')

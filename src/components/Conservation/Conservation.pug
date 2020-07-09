@@ -6,11 +6,11 @@ section#conservation
 
     .conservation-filter.text-right
       .btn-group(role="group" aria-label="Career Filter")
-        button(type="button" @click="showAllConservations" :class="{'active': isActiveTab == 'all'}").btn.btn-sm.btn-secondary Tümü
-        button(type="button" @click="showConservation" :class="{'active': isActiveTab == 'conservation'}").btn.btn-sm.btn-secondary Koruma
-        button(type="button" @click="showExploration" :class="{'active': isActiveTab == 'exploration'}").btn.btn-sm.btn-secondary Keşif
-        button(type="button" @click="showResearch" :class="{'active': isActiveTab == 'research'}").btn.btn-sm.btn-secondary Araştırma
-        button(type="button" @click="showProject" :class="{'active': isActiveTab == 'project'}").btn.btn-sm.btn-secondary Diğer
+        button(type="button" aria-label='Tümü' @click="showAllConservations" :class="{'active': isActiveTab == 'all'}").btn.btn-sm.btn-secondary Tümü
+        button(type="button" aria-label='Koruma' @click="showConservation" :class="{'active': isActiveTab == 'conservation'}").btn.btn-sm.btn-secondary Koruma
+        button(type="button" aria-label='Keşif' @click="showExploration" :class="{'active': isActiveTab == 'exploration'}").btn.btn-sm.btn-secondary Keşif
+        button(type="button" aria-label='Araştırma' @click="showResearch" :class="{'active': isActiveTab == 'research'}").btn.btn-sm.btn-secondary Araştırma
+        button(type="button" aria-label='Diğer' @click="showProject" :class="{'active': isActiveTab == 'project'}").btn.btn-sm.btn-secondary Diğer
 
     .row.conservation-list
       template(v-for='conservation in conservations' v-if='conservation.isVisible')

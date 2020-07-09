@@ -18,15 +18,15 @@ section#career-list
   .career-filter
     template(v-if= "$t('selectedLang') == 'tr'")
       .btn-group(role="group" aria-label="Career Filter")
-        button(type="button" @click="showAll" :class="{'active': isActiveTab == 'all'}").btn.btn-sm.btn-secondary Tümü
-        button(type="button" @click="showCenters" :class="{'active': isActiveTab == 'divecenter'}").btn.btn-sm.btn-secondary Dalış Merkezleri
-        button(type="button" @click="showMileStones" :class="{'active': isActiveTab == 'milestone'}").btn.btn-sm.btn-secondary Kilometre Taşları
+        button(type="button" aria-label='Tümü' @click="showAll" :class="{'active': isActiveTab == 'all'}").btn.btn-sm.btn-secondary Tümü
+        button(type="button" aria-label='Dalış Merkezleri' @click="showCenters" :class="{'active': isActiveTab == 'divecenter'}").btn.btn-sm.btn-secondary Dalış Merkezleri
+        button(type="button" aria-label='Kilometre Taşları' @click="showMileStones" :class="{'active': isActiveTab == 'milestone'}").btn.btn-sm.btn-secondary Kilometre Taşları
 
     template(v-if= "$t('selectedLang') == 'en'")
       .btn-group(role="group" aria-label="Career Filter")
-        button(type="button" @click="showAll" :class="{'active': isActiveTab == 'all'}").btn.btn-sm.btn-secondary All
-        button(type="button" @click="showCenters" :class="{'active': isActiveTab == 'divecenter'}").btn.btn-sm.btn-secondary Dive Centers
-        button(type="button" @click="showMileStones" :class="{'active': isActiveTab == 'milestone'}").btn.btn-sm.btn-secondary Mile Stones
+        button(type="button" aria-label='All' @click="showAll" :class="{'active': isActiveTab == 'all'}").btn.btn-sm.btn-secondary All
+        button(type="button" aria-label='Dive Centers' @click="showCenters" :class="{'active': isActiveTab == 'divecenter'}").btn.btn-sm.btn-secondary Dive Centers
+        button(type="button" aria-label='Mile Stones' @click="showMileStones" :class="{'active': isActiveTab == 'milestone'}").btn.btn-sm.btn-secondary Mile Stones
 
   .career-list
     template(v-if= "$t('selectedLang') == 'tr'")
@@ -62,7 +62,7 @@ section#career-list
         +career-item("2008-04", "April 2008", "First time I breathe underwater 🤩", "", "", "isMileStoneVisible")(class="milestone")
 
   .w-100.text-center
-    button.btn.btn-sm.show-more(@click="isShowMoreActive = false" v-show="isShowMoreActive")
+    button.btn.btn-sm.show-more(aria-label='Tümünü Göster' @click="isShowMoreActive = false" v-show="isShowMoreActive")
       template(v-if= "$t('selectedLang') == 'tr'")
         | Tümünü Göster
 

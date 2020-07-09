@@ -16,17 +16,17 @@ section#courses
 
     .courses-filter
       .btn-group(role="group" aria-label="Career Filter")
-        button(type="button" @click="showAllCompanies" :class="{'active': isActiveTab == 'allCompanies'}").btn.btn-sm.btn-secondary Tümü
-        button(type="button" @click="showTssf" :class="{'active': isActiveTab == 'tssf'}").btn.btn-sm.btn-secondary TSSF
-        button(type="button" @click="showProtec" :class="{'active': isActiveTab == 'protecrec'}").btn.btn-sm.btn-secondary ProRecTec
+        button(type="button" aria-label='Tümü' @click="showAllCompanies" :class="{'active': isActiveTab == 'allCompanies'}").btn.btn-sm.btn-secondary Tümü
+        button(type="button" aria-label='TSSF' @click="showTssf" :class="{'active': isActiveTab == 'tssf'}").btn.btn-sm.btn-secondary TSSF
+        button(type="button" aria-label='ProRecTec' @click="showProtec" :class="{'active': isActiveTab == 'protecrec'}").btn.btn-sm.btn-secondary ProRecTec
 
       .btn-group.float-right(role="group" aria-label="Career Filter")
-        button(type="button" @click="showAllCourses" :class="{'active': isActiveFilter == 'allCourses'}").btn.btn-sm.btn-secondary Tümü
-        button(type="button" @click="showScuba" :class="{'active': isActiveFilter == 'diver'}").btn.btn-sm.btn-secondary Dalıcı
-        button(type="button" @click="showSpecialty" :class="{'active': isActiveFilter == 'specialty'}").btn.btn-sm.btn-secondary Uzmanlık
-        button(type="button" @click="showDisabled" :class="{'active': isActiveFilter == 'disabled'}").btn.btn-sm.btn-secondary Engelli
-        button(type="button" @click="showFree" :class="{'active': isActiveFilter == 'free'}").btn.btn-sm.btn-secondary Serbest
-        button(type="button" @click="showSpecialProgram" :class="{'active': isActiveFilter == 'special'}").btn.btn-sm.btn-secondary Özel Programlar
+        button(type="button" aria-label='Tümü' @click="showAllCourses" :class="{'active': isActiveFilter == 'allCourses'}").btn.btn-sm.btn-secondary Tümü
+        button(type="button" aria-label='Dalıcı' @click="showScuba" :class="{'active': isActiveFilter == 'diver'}").btn.btn-sm.btn-secondary Dalıcı
+        button(type="button" aria-label='Uzmanlık' @click="showSpecialty" :class="{'active': isActiveFilter == 'specialty'}").btn.btn-sm.btn-secondary Uzmanlık
+        button(type="button" aria-label='Engelli' @click="showDisabled" :class="{'active': isActiveFilter == 'disabled'}").btn.btn-sm.btn-secondary Engelli
+        button(type="button" aria-label='Serbest' @click="showFree" :class="{'active': isActiveFilter == 'free'}").btn.btn-sm.btn-secondary Serbest
+        button(type="button" aria-label='Özel Programlar' @click="showSpecialProgram" :class="{'active': isActiveFilter == 'special'}").btn.btn-sm.btn-secondary Özel Programlar
 
     .row.courses-list
       template(v-for='course in courses' v-if='course.isVisible && course.isCompanyVisible')
@@ -35,6 +35,7 @@ section#courses
             .canvas-overlay(:title= 'course.name')
               .btn
                 i.fa.fa-search
+
             .canvas.upsidedown(:title= 'course.name')
               p {{ course.name }}
               img.img-fluid(:src= "'/static/img/courses-list/' + course.imageUrl + '.jpg'", :alt= 'course.name')
