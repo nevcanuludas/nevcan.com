@@ -28,7 +28,7 @@ section#serviceDetails
 
     div(v-else-if='servicePrice >= 0') 
       p Hizmet bedeli {{ servicePrice * Math.round(EURTRY) }}₺'dır.
-      p Satın alma linki: 
+      p Online ödeme yapmak için: 
         a(:href='servicePaymentLink' target=';blank') {{ servicePaymentLink }}
 
     p(v-else) Hizmet bedeli belirtilmemiştir. Teklif almak için lütfen iletişime geçin.

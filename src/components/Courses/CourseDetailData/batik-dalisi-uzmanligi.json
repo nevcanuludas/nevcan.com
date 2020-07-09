@@ -2,25 +2,23 @@
   "title": "Batık Dalışı Uzmanlığı",
   "price": 100,
   "paymentLink": "http://www.sopsy.com/d/80rESa",
-  "scope": "Kursun amacı 30m'ye kadar olan derinliklerdeki batıklara güvenle penatrasyon dalışları gerçekleştirebilmektir. Kurslar TSSF ve ProTec standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar ister TSSF ister ProTec Batık Dalışı Uzmanı (WRECK) belgesini almaya hak kazanırlar.",
+  "scope": "Kursun amacı, sualtındaki batıkların risklerini hakkında bilgi sahibi olarak, en fazla 30 metre derinliğindeki batıklara güvenli penatrasyon dalışları gerçekleştirebilmektir. Kurslar TSSF ve ProRecTec standartlarına uygun olarak verilmektedir.\n\nKursu başarıyla tamamlamanızın ardından isteğinize bağlı olarak TSSF/CMAS veya ProRecTec belgesi alabilirsiniz. Alınan her iki belge de tüm dünyada süresiz geçerliliğe sahiptir.",
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF/CMAS Batık Dalışı Uzmanlığı Sertifikası" },
-    { "src": "/static/img/courses-temp/protec-org-wreck.jpeg", "alt": "ProTec Batık Dalışı Uzmanlığı Sertifikası" }
+    { "src": "/static/img/courses-temp/protec-org-wreck.jpeg", "alt": "ProRecTec Batık Dalışı Uzmanlığı Sertifikası" }
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
   "prerequisites": [
-    "16 yaşını doldurmuş olmak",
-    "18 yaşının altındakiler için veli onayı",
+    "TSSF/CMAS 1* Dalıcı belgesi (ProRecTec için 2* Dalıcı belgesi) ya da dengi bir belgeye sahip olmak",
+    "16 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir)",
     "Yeterli teorik ve pratik dalış becerisine sahip olmak",
-    "TSSF 1* Dalıcı Belgesi ya da dengi bir belgeye sahip olmak",
-    "ProTec 2* Dalıcı Belgesi ya da dengi bir belgeye sahip olmak",
     "Dalış yapmasına engel bir sağlık sorununun bulunmaması"
   ],
   "includes": [
     "2 saatlik teorik eğitim",
     "2 batık dalışı",
-    "Dalışlarda kullanılacak ekipmanlar \n (standart donanıma ek olarak: pusula, derinlik ölçer, yazı tahtası dahil)",
+    "Dalışlarda kullanılacak ekipmanlar (standart donanıma ek olarak: pusula, derinlik ölçer, yazı tahtası)",
     "Sertifika ücreti",
     "Eğitmen giderleri",
     "Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)"

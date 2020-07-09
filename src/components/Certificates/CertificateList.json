@@ -1,19 +1,19 @@
 [
   {
     "title": "Global Underwater Explorers (GUE)",
-    "scope": "GUE ile ilk kez 2014 yılında tanıştım. Uzun süren araştırmaların sonunda 2017 yılında ilk kez Türkiye′de bir kurs programı düzenledik ve bende bu sayede eğitim alma şansı yakaladım. Teknik dalış ve mağara dalışı eğitimlerine ve Project Baseline üzerindeki projelere aktif olarak devam etmekteyim. Aynı zamanda GUE Turkey′in kurucu başkanıyım.",
+    "scope": "GUE ile ilk kez 2014 yılında tanıştım. Uzun araştırma sürecinin sonunda 2017 yılında ilk kez Türkiye′de bir kurs programı düzenledik ve bende bu sayede ilk eğitimimi alma şansı yakaladım. Teknik dalış / mağara dalışı eğitimlerine ve Project Baseline üzerindeki projelere aktif olarak devam ediyorum. Aynı zamanda 2015 yılından beri GUE Turkey′in kurucu başkanlığını ve 2019 yılından beri GUE Avrasya temsilciliğini yapıyorum. Belgelerimi https://www.gue.com/verifycard adresinden doğrulayabilirsiniz.",
     "images": [
-      { "src": "/static/img/certificates/gue/fund-tech.png", "alt": "GUE Fundamentals Tech" },
-      { "src": "/static/img/certificates/gue/cave-1.png", "alt": "GUE Cave 1" }
+      { "src": "/static/img/certificates/gue/cave-1.png", "alt": "GUE Cave Diver 1" },
+      { "src": "/static/img/certificates/gue/fund-tech.png", "alt": "GUE Fundamentals Tech" }
     ],
     "images_back": [
-      { "src": "/static/img/certificates/gue/fund-tech-back.png", "alt": "GUE Fundamentals Tech (Back)" },
-      { "src": "/static/img/certificates/gue/cave-1-back.png", "alt": "GUE Cave 1 (Back)" }
+      { "src": "/static/img/certificates/gue/cave-1-back.png", "alt": "GUE Cave Diver 1 (Back)" },
+      { "src": "/static/img/certificates/gue/fund-tech-back.png", "alt": "GUE Fundamentals Tech (Back)" }
     ]
   },
   {
     "title": "Türkiye Sualtı Sporları Federasyonu (TSSF/CMAS)",
-    "scope": "2008 yılında başladığım bu serüvene 2011 yılından beri TSSF'nin aktif eğitmeni olarak devam ediyorum. TSSF sportif dalış branşındaki tüm kursları; Dalıcı, Uzman Dalıcı, Engelli Dalıcı ve Kültür Mirasının Koruması eğitimlerini veriyorum. https://tssf.gov.tr/dalici-cankurtaran-sorgulama/ adresinden sahip olduğum belgeleri sorgulatabilirsiniz.",
+    "scope": "2008 yılında başladığım bu serüvene 2011 yılından beri TSSF'nin aktif eğitmeni olarak devam ediyorum. TSSF sportif dalış branşındaki tüm dalıcı kurslarını (1-2-3* dalıcı, 17 farklı uzman dalıcı, engelli dalıcı ve kültür mirasının koruması) eğitimlerini veriyorum. Belgelerimi https://tssf.gov.tr/dalici-cankurtaran-sorgulama/ adresinden doğrulayabilirsiniz.",
     "images": [
       { "src": "/static/img/certificates/tssf-cmas/i/2.png", "alt": "TSSF/CMAS 2* Dalış Eğitmeni" },
       { "src": "/static/img/certificates/tssf/rehber.png", "alt": "TSSF Rehber Dalıcı" },

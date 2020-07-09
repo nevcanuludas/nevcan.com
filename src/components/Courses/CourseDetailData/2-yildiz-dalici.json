@@ -2,20 +2,17 @@
   "title": "2☆☆ Dalıcı Kursu",
   "price": 250,
   "paymentLink": "https://www.sopsy.com/d/4wgdM8",
-  "scope": "Kursun amacı yeterli temel becerilere sahip dalıcının kurtarma, derin dalış, gece dalışı becerilerini arttırmaktır. Kurs sonunda isteğe bağlı olarak TSSF/CMAS veya ProTec belgesi alabilirsiniz. Alınan belgeler tüm dünyada geçerlidir.",
+  "scope": "Kursun amacı, yeterli seviyede temel dalış becerilerine sahip bir dalıcının teorik bilgilerini derinleştirmek ve kurtarma, derin dalış, gece dalışı becerilerini kazanmasını sağlamaktır. Dünyanın her yerinde, yanınızda en az 2* dalıcı seviyesindeki biri ile, 30 metreye kadar dalışlar gerçekleştirebilirsiniz.\n\nKursu başarıyla tamamlamanızın ardından isteğinize bağlı olarak TSSF/CMAS veya ProRecTec belgesi alabilirsiniz. Alınan her iki belge de tüm dünyada süresiz geçerliliğe sahiptir.",
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-2.png", "alt": "TSSF/CMAS 2* Dalıcı Sertifikası" },
-    { "src": "/static/img/courses-temp/protec-org-1-2star.jpeg", "alt": "ProTec 2* Dalıcı Sertifikası" }
+    { "src": "/static/img/courses-temp/protec-org-1-2star.jpeg", "alt": "ProRecTec 2* Dalıcı Sertifikası" }
   ],
   "hasPadiClasses": true,
   "hasSsiClasses": false,
   "prerequisites": [
-    "TSSF/CMAS için 15 yaşını doldurmuş olmak",
-    "ProTec için 16 yaşını doldurmuş olmak",
-    "18 yaşının altındakiler için veli onayı",
-    "1* Dalıcı (yada dengi) belgeye sahip olmak",
-    "TSSF/CMAS için 1* Dalıcı belgesini aldıktan sonra 20 kayıtlı dalış yapmış olmak",
-    "ProTec için 1* Dalıcı belgesini aldıktan sonra 25 kayıtlı dalış yapmış olmak",
+    "TSSF/CMAS 1* Dalıcı ya da dengi belgeye sahip olmak",
+    "TSSF/CMAS 1* Dalıcı ya da dengi belgeye sahip olduktan sonra; TSSF/CMAS için 20 kayıtlı dalış, ProRecTec için 25 kayıtlı dalış yapmış olmak",
+    "TSSF/CMAS için 15 (ProRecTec için 16) yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir)",
     "Dalış yapmanıza engel bir sağlık sorununuzun bulunmaması"
   ],
   "includes": [
@@ -28,5 +25,14 @@
     "Eğitim boyunca çekilen tüm sualtı fotoğrafları"
   ],
   "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
-  "alternativeCourses": []
+  "alternativeCourses": [
+    "İlkyardım",
+    "İrtifa",
+    "Batık",
+    "Fotoğrafçılık",
+    "Videoculuk",
+    "Mükemmel Yüzerlilik",
+    "Oksijen Kullanımı",
+    "Malzeme Bilgisi ve Bakımı"
+  ]
 }
