@@ -35,9 +35,9 @@ export default {
           isVisible: true
         },
         {
-          id: 'suluin-magarasi',
-          imageUrl: 'suluin',
-          name: 'Suluin Mağarası',
+          id: 'karstdive-2020',
+          imageUrl: 'karstdive-2020',
+          name: 'Karstdive 2020',
           isVisible: true
         },
         {
@@ -53,9 +53,9 @@ export default {
           isVisible: true
         },
         {
-          id: 'photogrammetry-dpv',
-          imageUrl: 'photogrammetry-dpv',
-          name: '3D Modelleme',
+          id: 'photogrammetry',
+          imageUrl: 'photogrammetry',
+          name: '3D Batık Modelleme',
           isVisible: true
         }
       ]
