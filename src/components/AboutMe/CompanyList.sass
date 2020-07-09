@@ -2,13 +2,17 @@
 
 #company-list
 
-  .company-list > *
+  .company-list img
     margin: 1em 0
     opacity: 0.65
-    -webkit-transition: opacity 0.2s linear
-    -moz-transition: opacity 0.2s linear
-    -o-transition: opacity 0.2s linear
-    transition: opacity 0.2s linear
+    filter: grayscale(100%)
+    -webkit-transition: all 0.2s linear
+    -moz-transition: all 0.2s linear
+    -o-transition: all 0.2s linear
+    transition: all 0.2s linear
 
     &:hover
       opacity: 1
+      filter: grayscale(0)
+      cursor: pointer
+
