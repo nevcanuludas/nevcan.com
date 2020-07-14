@@ -2,11 +2,6 @@ include ../Shared/social-media.pug
 
 #sidebar
   aside.portrait.hidden-sm-down
-
-    select.select-language(v-model="locale")
-      option(value="tr") 🇹🇷
-      option(value="en") 🇺🇸
-
     .portrait__img
       router-link(to='/' exact)
         img.img-fluid(src="../../assets/portrait-gue-v2.png" alt="Nevcan Uludaş")
@@ -18,6 +13,12 @@ include ../Shared/social-media.pug
       .portrait__description__title {{ $t('sidebar.scubaInstructor') }}
 
     .portrait__footer
+      .language
+        i.fa.fa-globe(aria-hidden='true')
+        select.select-language(v-model="locale")
+          option(value="tr") Türkçe
+          option(value="en") English
+
       ul.social-media
         +social-media-item("https://medium.com/neptunsualti", "Medium")(class="fa-medium")
         +social-media-item("https://instagram.com/nevcanuludas", "Instagram")(class="fa-instagram")
