@@ -12,7 +12,7 @@ export default {
       path: this.$route.params.id,
       isVisible: false,
       // EURTRY: null,
-      EURTRY: 7.70,
+      EURTRY: 7.94,
       serviceTitle: '',
       servicePrice: 'Hizmet bedeli belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
       servicePaymentLink: '',
@@ -29,10 +29,10 @@ export default {
         'deneme-dalisi': 0,
         'tazeleme-dalisi': 1,
         'gelisim-dalisi': 2,
-        'egitmen-hazirlik': 3,
-        'gue-hazirlik': 4,
-        'fotograf-cekimi': 5,
-        'kurumsal-danismanlik': 6,
+        'kurumsal-danismanlik': 3,
+        'egitmen-hazirlik': 4,
+        'gue-hazirlik': 5,
+        'fotograf-cekimi': 6,
         'arama-kurtarma': 7
       },
       // Service Details JSON
