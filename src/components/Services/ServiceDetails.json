@@ -40,6 +40,26 @@
     "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Etkinliğin düzenlenmesi için en az 2 katılımcı gerekmektedir."
   },
   {
+    "title": "Kurumsal Danışmanlık",
+    "note": "",
+    "scope": "2014 yılından bugüne çeşitli sektörlerde faaliyet gösteren firmaların sualtı kulüpleri ile birlikte eğitim ve dalış turları düzenliyorum.",
+    "images": [
+      { "src": "/static/img/courses-temp/tssf-back-1.png", 
+        "alt": "TSSF/CMAS 1* Dalıcı Sertifikası" }
+    ],
+    "hasPadiClasses": false,
+    "hasSsiClasses": false,
+    "prerequisites": [],
+    "includes": [
+      "Sunum / Seminerler",
+      "Teorik eğitimler",
+      "Sertifika programları",
+      "Deneme dalışları"
+    ],
+    "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
+    "alternativeServices": []
+  },
+  {
     "title": "Eğitmen Hazırlık",
     "price": 200,
     "paymentLink": "http://www.sopsy.com/d/sD6rI8"
@@ -72,28 +92,6 @@
     "alternativeServices": [
 
     ]
-  },
-  {
-    "title": "Kurumsal Danışmanlık",
-    "note": "note",
-    "scope": "2014 yılından bugüne çeşitli sektörlerde faaliyet gösteren firmaların sualtı kulüpleri ile birlikte dalış ve eğitim turları düzenliyorum. Başta gelen firmalar: Mapfre Sigorta, D&R, Pegasus Havayolları, Altıparmak Gıda, Doğuş Teknoloji, Doğuş Holding, IBM ve Allianz Sigorta",
-    "images": [
-      { "src": "/static/img/courses-temp/tssf-back-1.png", 
-        "alt": "TSSF/CMAS 1* Dalıcı Sertifikası" }
-    ],
-    "hasPadiClasses": false,
-    "hasSsiClasses": false,
-    "prerequisites": [
-      "14 yaşını doldurmuş olmak",
-      "18 yaşının altındakiler için veli onayı"
-    ],
-    "includes": [
-      "8 saatlik teorik eğitim",
-      "5 açık deniz dalışı",
-      "İstenilen yerde sunum ve eğitim organizasyonu"
-    ],
-    "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
-    "alternativeServices": []
   },
   {
     "title": "Arama ve Kurtarma",
