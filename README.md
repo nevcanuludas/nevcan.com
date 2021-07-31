@@ -3,7 +3,7 @@
 [![](https://img.shields.io/github/license/nevcanuludas/nevcan.com.svg)](https://github.com/nevcanuludas/nevcan.com/blob/master/LICENSE)
 
 
-> A Vue.js project
+> A Vue 2.x project
 
 ## Build Setup
 
@@ -35,7 +35,5 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 -----------
-
-Dev TEST URL [kimoluyoruz.biz](http://kimoluyoruz.biz)
 
 Prod URL [nevcan.com](http://nevcan.com)
