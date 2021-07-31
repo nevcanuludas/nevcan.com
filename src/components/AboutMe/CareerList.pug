@@ -30,8 +30,9 @@ section#career-list
 
   .career-list
     template(v-if= "$t('selectedLang') == 'tr'")
-      +career-item("2020", "2020'den beri", "Nova Water Sports (912)", "Kuşadası / Aydın", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni, Engelli Dalıcı Eğitmeni", "isCenterVisible")
-      +career-item("2018-09", "Temmuz 2019", "GUE Avengers ekibinde Avrasya temsilcisi olarak atandım 🌍", "", "", "isMileStoneVisible")(class="milestone")
+      +career-item("2021-07", "Temmuz 2021", "SUEX ve Shearwater marka temsilcisi oldum 🦾", "", "", "isMileStoneVisible")(class="milestone")
+      +career-item("2020", "2020", "Nova Water Sports (912)", "Kuşadası / Aydın", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni, Engelli Dalıcı Eğitmeni", "isCenterVisible")
+      +career-item("2019-07", "Temmuz 2019", "GUE Avengers ekibinde Avrasya temsilcisi olarak atandım 🌍", "", "", "isMileStoneVisible")(class="milestone")
       +career-item("2018-09", "Eylül 2018", "GUE Turkey, GUE'nin resmi üyesi oldu 🎉", "", "", "isMileStoneVisible")(class="milestone")
       div(v-if="!isShowMoreActive")
         +career-item("2018", "2018-2019", "Pendik S.A.S. (842)", "İstanbul", "Dalış Eğitmeni, Rehber Dalıcı, Uzman Dalıcı Eğitmeni, Engelli Dalıcı Eğitmeni", "isCenterVisible")
@@ -46,8 +47,9 @@ section#career-list
         +career-item("2008-04", "Nisan 2008", "İlk kez sualtında nefes aldım 🤩", "", "", "isMileStoneVisible")(class="milestone")
 
     template(v-if= "$t('selectedLang') == 'en'")
-      +career-item("2020", "Since 2020", "Nova Water Sports (912)", "Kuşadası / Aydın", "Scuba Instructor, Dive Guide, Speciality Instructor, Handicap Diver Instructor", "isCenterVisible")
-      +career-item("2018-09", "July 2019", "I was assigned as the representative of Eurasia in GUE Avengers team 🌍", "", "", "isMileStoneVisible")(class="milestone")
+      +career-item("2021-07", "July 2021", "I became SUEX and Shearwater brand ambassador 🦾", "", "", "isMileStoneVisible")(class="milestone")
+      +career-item("2020", "2020", "Nova Water Sports (912)", "Kuşadası / Aydın", "Scuba Instructor, Dive Guide, Speciality Instructor, Handicap Diver Instructor", "isCenterVisible")
+      +career-item("2019-07", "July 2019", "I was assigned as the representative of Eurasia in GUE Avengers team 🌍", "", "", "isMileStoneVisible")(class="milestone")
       +career-item("2018-09", "September 2018", "GUE Turkey becomes official affiliate of GUE 🎉", "", "", "isMileStoneVisible")(class="milestone")
       div(v-if="!isShowMoreActive")
         +career-item("2018", "2018-2019", "Pendik S.A.S. (842)", "İstanbul", "Scuba Instructor, Dive Guide, Speciality Instructor, Handicap Diver Instructor", "isCenterVisible")
