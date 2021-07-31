@@ -18,6 +18,13 @@ section
 
   ul.skill-list-horizontal
     template(v-if= "$t('selectedLang') == 'tr'")
+      +skill-list-horizontal-item("GUE", "Eğitmen Adayı", '')(style="width: calc(100%*8/25)")
+        button.btn.btn-white.p-0.px-2(aria-label='Devamı' @click= 'isGueVisible = !isGueVisible')
+          i.fa.fa-angle-down
+      +skill-list-horizontal-item("GUE", "Rekrasyonel 1-2", 'isGueVisible')(style="width: calc(100%*2/3)" class="thin")
+      +skill-list-horizontal-item("GUE", "Fundamentals", 'isGueVisible')(style="width: calc(100%*1/1)" class="thin")
+      +skill-list-horizontal-item("GUE", "Primerler", 'isGueVisible')(style="width: calc(100%*5/5)" class="thin")
+      +skill-list-horizontal-item("GUE", "Temel Kurslar", 'isGueVisible')(style="width: calc(100%*1.7/5)" class="thin")
       +skill-list-horizontal-item("TSSF/CMAS", "2* Dalış Eğitmeni", '')(style="width: calc(100%*5/6)")
         button.btn.btn-white.p-0.px-2(aria-label='Devamı' @click= 'isTssfVisible = !isTssfVisible')
           i.fa.fa-angle-down
@@ -32,6 +39,13 @@ section
       +skill-list-horizontal-item("ProRecTec", "Serbest Dalış Eğitmeni", 'isProtecVisible')(style="width: calc(100%*4/6)" class="thin")
 
     template(v-if= "$t('selectedLang') == 'en'")
+      +skill-list-horizontal-item("GUE", "Instructor Candidate", '')(style="width: calc(100%*8/25)")
+        button.btn.btn-white.p-0.px-2(aria-label='Devamı' @click= 'isGueVisible = !isGueVisible')
+          i.fa.fa-angle-down
+      +skill-list-horizontal-item("GUE", "Recreational 1-2", 'isGueVisible')(style="width: calc(100%*2/3)" class="thin")
+      +skill-list-horizontal-item("GUE", "Fundamentals", 'isGueVisible')(style="width: calc(100%*1/1)" class="thin")
+      +skill-list-horizontal-item("GUE", "Primers", 'isGueVisible')(style="width: calc(100%*5/5)" class="thin")
+      +skill-list-horizontal-item("GUE", "Foundational Courses", 'isGueVisible')(style="width: calc(100%*1.7/5)" class="thin")
       +skill-list-horizontal-item("TSSF/CMAS", "2* Scuba Instructor", '')(style="width: calc(100%*5/6)")
         button.btn.btn-white.p-0.px-2(aria-label='More' @click= 'isTssfVisible = !isTssfVisible')
           i.fa.fa-angle-down

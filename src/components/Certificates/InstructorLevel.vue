@@ -5,6 +5,7 @@ export default {
   name: 'InstructorLevel',
   data () {
     return {
+      isGueVisible: false,
       isTssfVisible: false,
       isProtecVisible: false
     }
