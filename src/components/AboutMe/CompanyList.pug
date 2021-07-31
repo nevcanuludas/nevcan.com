@@ -4,17 +4,21 @@ section#company-list
 
   h4.section-heading 
     template(v-if= "$t('selectedLang') == 'tr'")
-      | Üyesi olduğum kurum ve kuruluşlar:
+      | Üyesi olduğum organizasyonlar:
 
     template(v-if= "$t('selectedLang') == 'en'")
-      | Institutions and organizations I am a member of:
+      | Organizations that I am a member of:
 
   .row.company-list
     +company-list-item("https://www.gue.com/", "Global Underwater Explorers", "gue.png")
     +company-list-item("https://tssf.gov.tr/", "Türkiye Sualtı Sporları Federasyonu", "tssf.png")
     +company-list-item("http://cmas.org", "Dünya Sualtı Aktiviteleri Konfederasyonu", "cmas.png")
-    +company-list-item("https://prorectec.com/", "Professional Recreational and Technical Diving", "prorectec.png")
+    +company-list-item("https://www.tdisdi.com/tdi/", "Technical Diving International", "tdi.png")
     +company-list-item("https://www.emergencyfirstresponse.com/", "Emergency First Response", "efr.png")
     +company-list-item("https://www.ilsf.org/", "International Life Saving", "ilsf.png")
     +company-list-item("https://www.divessi.com/en-IC/highlights/extended-range/", "Scuba Schools International (Extended Range)", "ssi-xr.png")
     +company-list-item("https://www.divessi.com/en-IC/highlights/freediving/", "Scuba Schools International (Freediving)", "ssi-freediving.png")
+    +company-list-item("https://www.shearwater.com", "Shearwater", "shearwater.png")
+    +company-list-item("https://www.scubaforce.eu", "Scuba Force SF2", "sf2.png")
+    +company-list-item("https://www.suex.it", "SUEX", "suex.png")
+    +company-list-item("https://dive-nsc.com", "Nautic Scuba College", "nsc.png")
