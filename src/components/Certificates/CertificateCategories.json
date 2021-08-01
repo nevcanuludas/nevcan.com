@@ -10,9 +10,9 @@
     "name": "TSSF/CMAS" 
   },
   { 
-    "id": "prorectec", 
-    "imageUrl": "prorectec", 
-    "name": "ProRecTec" 
+    "id": "tdi", 
+    "imageUrl": "ssi", 
+    "name": "TDI" 
   },
   { 
     "id": "ssi", 
@@ -20,13 +20,23 @@
     "name": "SSI" 
   },
   { 
+    "id": "nsc", 
+    "imageUrl": "nsc", 
+    "name": "NSC" 
+  },
+  { 
+    "id": "ccr", 
+    "imageUrl": "poseidon", 
+    "name": "CCR" 
+  },
+  { 
     "id": "lifeguard", 
     "imageUrl": "ils", 
     "name": "Cankurtarma" 
   },
   { 
-    "id": "others", 
+    "id": "tc-udhb", 
     "imageUrl": "poseidon", 
-    "name": "Diğer Belgeler" 
+    "name": "T.C. U.D.H.B" 
   }
 ]

@@ -15,10 +15,12 @@ export default {
       dict: {
         'gue': 0,
         'tssf': 1,
-        'prorectec': 2,
+        'tdi': 2,
         'ssi': 3,
-        'lifeguard': 4,
-        'others': 5
+        'nsc': 4,
+        'ccr': 5,
+        'lifeguard': 6,
+        'tc-udhb': 7
       },
       // Certificates JSON
       certificates: jsonCertificateList

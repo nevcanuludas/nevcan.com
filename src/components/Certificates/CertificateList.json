@@ -3,10 +3,14 @@
     "title": "Global Underwater Explorers (GUE)",
     "scope": "GUE ile ilk kez 2014 yılında tanıştım. Uzun araştırma sürecinin sonunda 2017 yılında ilk kez Türkiye′de bir kurs programı düzenledik ve bende bu sayede ilk eğitimimi alma şansı yakaladım. Teknik dalış / mağara dalışı eğitimlerine ve Project Baseline üzerindeki projelere aktif olarak devam ediyorum. Aynı zamanda 2015 yılından beri GUE Turkey′in kurucu başkanlığını ve 2019 yılından beri GUE Avrasya temsilciliğini yapıyorum. Belgelerimi https://www.gue.com/verifycard adresinden doğrulayabilirsiniz.",
     "images": [
+      { "src": "/static/img/certificates/gue/tech-1.png", "alt": "GUE Technical Diver 1" },
+      { "src": "/static/img/certificates/gue/gas-blender.png", "alt": "GUE Gas Blender" },
       { "src": "/static/img/certificates/gue/cave-1.png", "alt": "GUE Cave Diver 1" },
       { "src": "/static/img/certificates/gue/fund-tech.png", "alt": "GUE Fundamentals Tech" }
     ],
     "images_back": [
+      { "src": "/static/img/certificates/gue/tech-1.png-back", "alt": "GUE Technical Diver 1 (Back)" },
+      { "src": "/static/img/certificates/gue/gas-blender-back.png", "alt": "GUE Gas Blender (Back)" },
       { "src": "/static/img/certificates/gue/cave-1-back.png", "alt": "GUE Cave Diver 1 (Back)" },
       { "src": "/static/img/certificates/gue/fund-tech-back.png", "alt": "GUE Fundamentals Tech (Back)" }
     ]
@@ -39,18 +43,12 @@
     ]
   },
   {
-    "title": "Profesional Recreational and Technical Diving (ProRecTec)",
-    "scope": "ProRecTec ile 2015 yılında tanıştım. Türkiye′deki ilk eğitmenlerdenim. CMAS'ın uluslar arası iş ortağı olmasının yanı sıra ProRecTec'i tercih etmemin bir başka nedeni ise TSSF bünyesinde bulunmayan bazı uzmanlık programlarına sahip olmasıdır.",
+    "title": "Technical Diving International (TDI)",
+    "scope": "TDI ile 2021 yılında tanıştım. Teknik dalışta oldukça popüler bir sistem olduğu için eğitim programlarını değerlendirmek ve farklı tecrübeler edinmek için bu kursu aldım. Uzun vadede TDI ile ilerlemeyi düşünmüyorum.",
     "images": [
-      { "src": "/static/img/certificates/protec/i/2.png", "alt": "ProRecTec 2* Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/nitrox-1.png", "alt": "ProRecTec Nitrox 1 Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/sidemount.png", "alt": "ProRecTec Sidemount Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/dry-suit.png", "alt": "ProRecTec Kuru Elbise Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/discover-cave-diving.png", "alt": "ProRecTec Mağara Keşif Dalışı Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/uw-scooter-dpv.png", "alt": "ProRecTec UW Scooter / DPV Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/ice-diving.png", "alt": "ProRecTec Buz Dalışı Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/wreck-diving.png", "alt": "ProRecTec Batık Dalışı Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/handicap-diver.png", "alt": "ProRecTec Engelli Dalıcı Uzman Dalış Eğitmeni" }
+      { "src": "/static/img/certificates/tdi/d/advanced-trimix.png", "alt": "TDI Advanced Trimix Diver"},
+      { "src": "/static/img/certificates/tdi/d/trimix.png", "alt": "TDI Trimix Diver"},
+      { "src": "/static/img/certificates/tdi/d/extended-range.png", "alt": "TDI Extended Range Diver"}
     ]
   },
   {
@@ -64,22 +62,40 @@
     ]
   },
   {
+    "title": "Nautic Scuba College (NSC)",
+    "scope": "ProTec ile 2015 yılında tanıştım. Türkiye′deki ilk eğitmenlerdenim. ProTec'i tercih etmemin nedeni, TSSF bünyesinde bulunmayan bazı uzmanlık programlarına sahip olmasıydı. Daha sonra ismi ProTecRec oldu ve kısa bir sürenin ardından firma el değiştirince yine ismi değişerek NSC oldu. Uzun vadede NSC ile ilerlemeyi düşünmüyorum.",
+    "images": [
+      { "src": "/static/img/certificates/nsc/i/2.png", "alt": "ProTec 2* Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/nsc/i/nitrox-1.png", "alt": "ProTec Nitrox 1 Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/nsc/i/sidemount.png", "alt": "ProTec Sidemount Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/nsc/i/dry-suit.png", "alt": "ProTec Kuru Elbise Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/nsc/i/discover-cave-diving.png", "alt": "ProTec Mağara Keşif Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/nsc/i/uw-scooter-dpv.png", "alt": "ProTec UW Scooter / DPV Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/nsc/i/ice-diving.png", "alt": "ProTec Buz Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/nsc/i/wreck-diving.png", "alt": "ProTec Batık Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/nsc/i/handicap-diver.png", "alt": "ProTec Engelli Dalıcı Uzman Dalış Eğitmeni" }
+    ]
+  },
+  {
+    "title": "Closed Circuit Rebreather (CCR)",
+    "scope": "Kapalı devre sistemler ile 2018 yılında SF-2 ile birlikte tanıştım. Manuel kullanılabiliyor olması çok büyük bir avantaj olduğu için SF-2'yu seçtim. Kapalı devre sistemler çok pahalı olmasına rağmen, sağladığı gaz avantaji nedeniyle uzun vadede çok karlı olabiliyor.",
+    "images": [
+      { "src": "/static/img/certificates/sf/sf2-airdiluent.png", "alt": "SF-2 eCCR Air Diluent Diver" }
+    ]
+  },
+  {
     "title": "İlkyardım & Cankurtarma",
     "scope": "Cankurtarma ve ilkyardım ile ilgili çeşitli bakanlıklardan ve federasyondan sahip olduğum sertifikalar.",
     "images": [
       { "src": "/static/img/certificates/tssf-ils/c/altin.png", "alt": "ILS/TSSF Altın Cankurtaran" },
       { "src": "/static/img/certificates/tc-sb/ilkyardimci.png", "alt": "T.C. Sağlık Bakanlığı - İlkyardımcı" },
-      { "src": "/static/img/certificates/efr/efr-adult.png", "alt": "EFR Emergency Responder CPR/First Aid - Adult" },
-      { "src": "/static/img/certificates/tc-udhb/stcw-temel-ilkyardim.jpg", "alt": "T.C. U.D.H.B. STCW Temel İlkyardım" },
-      { "src": "/static/img/certificates/tssf/i/ilkyardim.png", "alt": "TSSF İlkyardım Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/tssf/d/oksijen-kullanimi.png", "alt": "TSSF Oksijen Kullanımı Uzman Dalış Eğitmeni" }
+      { "src": "/static/img/certificates/efr/efr-adult.png", "alt": "EFR Emergency Responder CPR/First Aid - Adult" }
     ]
   },
   {
-    "title": "Diğer Belgeler",
-    "scope": "Ulaştırma Denizcilik ve Haberleşme Bakanlığı, Sağlık Bakanlığı ve diğer sistemlerinden aldığım; gemici, profesyonel balık adam ve kapalı devre sistemlerine ait belgelerim.",
+    "title": "T.C. U.D.H.B",
+    "scope": "T.C. Ulaştırma Denizcilik ve Haberleşme Bakanlığı'ndan aldığım gemici ve profesyonel balık adam belgelerim.",
     "images": [
-      { "src": "/static/img/certificates/sf/sf2-airdiluent.png", "alt": "SF-2 eCCR Air Diluent Diver" },
       { "src": "/static/img/certificates/tc-udhb/gemiadami.png", "alt": "T.C. U.D.H.B. Gemiadamı" },
       { "src": "/static/img/certificates/tc-udhb/profesyonel-balikadam.jpg", "alt": "T.C. U.D.H.B. Profesyonel Balıkadam" }
     ]
