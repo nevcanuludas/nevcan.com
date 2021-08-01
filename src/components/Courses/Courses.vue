@@ -50,6 +50,42 @@ export default {
       this.courses[32].isCompanyVisible = true // sualti-kultur-mirasinin-korunması-uzmanligi
       this.isActiveTab = 'allCompanies'
     },
+    showGue () {
+      this.courses[0].isCompanyVisible = false // 1-yildiz-dalici
+      this.courses[1].isCompanyVisible = false // 2-yildiz-dalici
+      this.courses[2].isCompanyVisible = false // 3-yildiz-dalici
+      this.courses[3].isCompanyVisible = false // modifiye-dalici
+      this.courses[4].isCompanyVisible = false // batik-dalisi-uzmanligi
+      this.courses[5].isCompanyVisible = false // derin-dalis-uzmanligi
+      this.courses[6].isCompanyVisible = false // dpv-uzmanligi
+      this.courses[7].isCompanyVisible = false // kuru-elbise-uzmanligi
+      this.courses[8].isCompanyVisible = false // buz-dalisi-uzmanligi
+      this.courses[9].isCompanyVisible = false // magara-kesif-dalisi-uzmanligi
+      this.courses[10].isCompanyVisible = false // nitrox-uzmanligi
+      this.courses[11].isCompanyVisible = false // sidemount-uzmanligi
+      this.courses[12].isCompanyVisible = false // ilkyardim-uzmanligi
+      this.courses[13].isCompanyVisible = false // tanitim-dalisi-uzmanligi
+      this.courses[14].isCompanyVisible = false // yon-bulma-uzmanligi
+      this.courses[15].isCompanyVisible = false // akinti-dalisi-uzmanligi
+      this.courses[16].isCompanyVisible = false // arama-ve-kurtarma-uzmanligi
+      this.courses[17].isCompanyVisible = false // gece-dalisi-uzmanligi
+      this.courses[18].isCompanyVisible = false // irtifa-dalisi-uzmanligi
+      this.courses[19].isCompanyVisible = false // kovuk-dalisi-uzmanligi
+      this.courses[20].isCompanyVisible = false // malzeme-bakimi-uzmanligi
+      this.courses[21].isCompanyVisible = false // oksijen-kullanimi-uzmanligi
+      this.courses[22].isCompanyVisible = false // sualti-fotografcisi-uzmanligi
+      this.courses[23].isCompanyVisible = false // sualti-videocusu-uzmanligi
+      this.courses[24].isCompanyVisible = false // tup-doldurma-uzmanligi
+      this.courses[25].isCompanyVisible = false // ust-duzey-yuzerlilik-uzmanligi
+      this.courses[26].isCompanyVisible = false // zero-to-hero-egitimi
+      this.courses[27].isCompanyVisible = false // serbest-dalis-egitimi
+      this.courses[28].isCompanyVisible = false // engelli-dalici-1-egitimi
+      this.courses[29].isCompanyVisible = false // engelli-dalici-2-egitimi
+      this.courses[30].isCompanyVisible = false // engelli-dalici-3-egitimi
+      this.courses[31].isCompanyVisible = false // engelli-dalici-egitmen-asistani
+      this.courses[32].isCompanyVisible = false // sualti-kultur-mirasinin-korunması-uzmanligi
+      this.isActiveTab = 'gue'
+    },
     showTssf () {
       this.courses[0].isCompanyVisible = true // 1-yildiz-dalici
       this.courses[1].isCompanyVisible = true // 2-yildiz-dalici
@@ -86,7 +122,7 @@ export default {
       this.courses[32].isCompanyVisible = true // sualti-kultur-mirasinin-korunması-uzmanligi
       this.isActiveTab = 'tssf'
     },
-    showProtec () {
+    showNsc () {
       this.courses[0].isCompanyVisible = true // 1-yildiz-dalici
       this.courses[1].isCompanyVisible = true // 2-yildiz-dalici
       this.courses[2].isCompanyVisible = true // 3-yildiz-dalici
@@ -231,7 +267,7 @@ export default {
       this.isActiveFilter = 'disabled'
     },
     showFree () {
-      this.showProtec()
+      this.showNsc()
       this.courses[0].isVisible = false // 1-yildiz-dalici
       this.courses[1].isVisible = false // 2-yildiz-dalici
       this.courses[2].isVisible = false // 3-yildiz-dalici
