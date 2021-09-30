@@ -2,16 +2,15 @@
   "title": "1☆ Dalıcı Kursu",
   "price": 250,
   "paymentLink": "https://www.sopsy.com/d/4wgdM8",
-  "scope": "Kursun amacı, daha önce hiç dalış yapmamış veya deneme dalışı yapmış bir dalıcı adayını başlangıç seviyesinde yetirştirmektir. Temel teorik ve pratik eğitimleri tamamlayarak alacağınız 1* Dalıcı sertifikası ile dünyanın her yerinde, yanınızda en az 3* dalıcı seviyesindeki biri ile, 18 metreye kadar dalışlar gerçekleştirebilirsiniz.\n\nKursu başarıyla tamamlamanızın ardından isteğinize bağlı olarak TSSF/CMAS veya ProRecTec belgesi alabilirsiniz. Alınan her iki belge de tüm dünyada süresiz geçerliliğe sahiptir.",
+  "scope": "Kursun amacı, daha önce hiç dalış yapmamış veya deneme dalışı yapmış bir dalıcı adayını başlangıç seviyesinde yetiştirmektir. Temel teorik ve pratik eğitimleri tamamlayarak alacağınız 1* Dalıcı sertifikası ile dünyanın her yerinde, yanınızda en az 3* dalıcı seviyesindeki biri ile, 18 metreye kadar dalışlar gerçekleştirebilirsiniz.\n\nKursu başarıyla tamamlamanızın ardından TSSF/CMAS belgesi alabilirsiniz. Alınan belge tüm dünyada süresiz geçerliliğe sahiptir.",
   "images": [
-    { "src": "/static/img/courses-temp/tssf-back-1.png", "alt": "TSSF/CMAS 1* Dalıcı Sertifikası" },
-    { "src": "/static/img/courses-temp/protec-org-1-2star.jpeg", "alt": "ProRecTec 1* Dalıcı Sertifikası" }
+    { "src": "/static/img/courses-temp/tssf-back-1.png", "alt": "TSSF/CMAS 1* Dalıcı Sertifikası" }
   ],
   "hasPadiClasses": true,
   "hasSsiClasses": false,
   "prerequisites": [
-    "14 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir)",
-    "Yeterli seviyede (su üzerinde durabilecek kadar) yüzme bilmek",
+    "14 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",
+    "Yeterli seviyede (su üzerinde durabilecek kadar) yüzme bilmek,",
     "Dalış yapmanıza engel herhangi bir sağlık sorununuzun olmaması"
   ],
   "includes": [
