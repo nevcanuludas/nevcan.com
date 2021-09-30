@@ -1,7 +1,7 @@
 [
   {
     "title": "Deneme Dalışı",
-    "price": 25,
+    "price": 30,
     "paymentLink": "https://www.sopsy.com/d/xtQ7ko",
     "scope": "Dalış eğitmeni ile bire bir olarak, su altında nefes almanın nasıl bir his olduğunu deneyimleyebileceğiniz bir dalış türüdür. Federasyonun talimatları doğrultusunda en fazla 5 metre derinlik limiti vardır. Daha önce hiç tüplü dalışı denemediyseniz ve direkt olarak 1* Dalıcı kursuna başlamaktan çekiniyorsanız, deneme dalışı sizin için en uygun seçenek olabilir.",
     "includes": [
@@ -15,8 +15,9 @@
   },
   {
     "title": "Tazeleme Dalışı",
-    "price": 25,
+    "price": 30,
     "paymentLink": "https://www.sopsy.com/d/xtQ7ko",
+    "scope": "Eğer 6 aydan daha uzun bir süre dalış yapmadıysanız, sahip olduğunuz becerileri hatırlamak ve dalışlara yeniden ısınmak için tazeleme dalışı yapmanızı tavsiye ederiz. Hızlandırılmış bir eğitim gibi düşünebileceğiniz tazeleme dalışları dalış güvenliği açısından oldukça önemlidir.",
     "includes": [
       "1 saatlik teorik eğitim",
       "1 havuz veya deniz dalışı",
@@ -28,8 +29,9 @@
   },
   {
     "title": "Gelişim Dalışı",
-    "price": 25,
+    "price": 30,
     "paymentLink": "https://www.sopsy.com/d/xtQ7ko",
+    "scope": "Su altında kendinizi güvenli dalışlar yapmak için yeterli hissetmiyorsanız veya bazı yeteneklerinizi daha çok geliştirmek istiyorsanız gelişim dalışları sizin için ideal olacaktır. Regülatör veya maske kaynaklı problemlerden yüzerliliğe kadar pek çok konuda birlikte çalışmamız ve limitlerinizi üst seviyeye çıkarmamız mümkündür.",
     "includes": [
       "1 saatlik teorik eğitim",
       "1 havuz veya deniz dalışı",
@@ -42,7 +44,7 @@
   {
     "title": "Kurumsal Danışmanlık",
     "note": "",
-    "scope": "2014 yılından bugüne çeşitli sektörlerde faaliyet gösteren firmaların sualtı kulüpleri ile birlikte eğitim ve dalış turları düzenliyorum.",
+    "scope": "2014 yılından bugüne çeşitli sektörlerde faaliyet gösteren firmaların sualtı kulüpleri kurmalarında, eğitim ve dalış turları düzenlemeleri konularında destek oluyorum.",
     "images": [
       { "src": "/static/img/courses-temp/tssf-back-1.png", 
         "alt": "TSSF/CMAS 1* Dalıcı Sertifikası" }
@@ -56,18 +58,37 @@
       "Sertifika programları",
       "Deneme dalışları"
     ],
-    "quota": "Teorik eğitimler max 8:1, pratik eğitimler ise 4:1 verilmektedir. Sınıfın açılması için min 2 katılımcı gerekmektedir.",
+    "quota": "Sunum / Seminer için kontenjan limiti bulunmamaktadır. Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Etkinliğin düzenlenmesi için en az 2 katılımcı gerekmektedir.",
     "alternativeServices": []
   },
   {
-    "title": "Eğitmen Hazırlık",
+    "title": "Eğitmenlik Kursuna Hazırlık",
     "price": 200,
-    "paymentLink": "http://www.sopsy.com/d/sD6rI8"
+    "paymentLink": "http://www.sopsy.com/d/sD6rI8",
+    "scope": "3* Eğitmenler tarafından gerçekleştirilen eğitmen eğitimlerinden biraz daha farklı bir program olan 'Eğitmenlik Kursuna Hazırlık Programı' eğitmen adaylarının kendilerini sektörde çalışabilecek seviyeye getirmeleri için gerekli tecrübeyi edinmeleri için hazırlanmış bir programdır. Kendilerini sınıf ortamında, su üstünde ve su altında hazır hissetmeleri için gerekli tecrübeye dayalı içeriğe sahiptir.",
+    "includes": [
+      "8 saatlik teorik eğitim",
+      "2 havuz veya deniz dalışı",
+      "Dalışlarda kullanılacak ekipmanlar",
+      "Eğitmenlerin giderleri"
+    ],
+    "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Etkinliğin düzenlenmesi için en az 1 katılımcı gerekmektedir."
   },
   {
-    "title": "GUE Hazırlık",
+    "title": "GUE Kursuna Hazırlık",
     "price": 200,
-    "paymentLink": "http://www.sopsy.com/d/sD6rI8"
+    "paymentLink": "http://www.sopsy.com/d/sD6rI8",
+    "scope": "GUE kursları oldukça yoğun geçer. Bu süre zarfında bazı yetkinlikleriniz zayıfsa kurs süresi boyunca sizi strese sokacaktır ve yoğun geçen bu süre zarfında emeklerinizin karşılığını tam olarak alamamanıza sebebiyet verebilir. Özellikle daha önce GUE standart ekipmanları ile dalış yapmamış kişilerin bu eğitimi almaları, kurstaki başarılı olma ihtimallerini büyük ölçüde arttıracaktır.",
+    "includes": [
+      "8 saatlik teorik eğitim,",
+      "2 havuz veya deniz dalışı,",
+      "Dalışlarda kullanılacak ekipmanlar,",
+      "Eğitmenlerin giderleri"
+    ],
+    "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Etkinliğin düzenlenmesi için en az 1 katılımcı gerekmektedir.",
+    "alternativeServices": [
+      "Gelişim Dalışı"
+    ]
   },
   {
     "title": "Fotoğraf Çekimi",
@@ -86,12 +107,9 @@
     "includes": [
       "Eğitmen giderleri",
       "Dalışlar ve çekimler boyunca kullanılacak tüm ekipmanlar",
-      "Seçilan fotoğrafların işlenmesi"
+      "Seçilen fotoğrafların işlenmesi"
     ],
-    "quota": "Kontenjan limiti bulunmamaktadır.",
-    "alternativeServices": [
-
-    ]
+    "quota": "Kontenjan limiti bulunmamaktadır."
   },
   {
     "title": "Arama ve Kurtarma",
