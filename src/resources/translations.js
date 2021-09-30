@@ -13,7 +13,8 @@ export default {
       conservation: 'Koruma & Keşif Projeleri',
       contact: 'İletişim',
       scheduledClasses: 'Etkinlik Takvimi',
-      faq: 'Sıkça Sorulan Sorular'
+      faq: 'Sıkça Sorulan Sorular',
+      store: 'Mağaza'
     },
     form: {
       firstName: 'Adınız',
@@ -57,7 +58,8 @@ export default {
       conservation: 'Conservation & Exploration Projects',
       contact: 'Contact',
       scheduledClasses: 'Scheduled Classes',
-      faq: 'FAQ'
+      faq: 'FAQ',
+      store: 'Store'
     },
     form: {
       firstName: 'First name',

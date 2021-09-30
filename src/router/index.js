@@ -7,6 +7,7 @@ import ServiceDetails from '@/components/Services/Detail'
 import ConservationDetails from '@/components/Conservation/Detail'
 import ScheduledClasses from '@/components/ScheduledClasses/ScheduledClasses'
 import Faq from '@/components/Faq/Faq'
+import Store from '@/components/Store/Store'
 import NotFoundComponent from '@/components/NotFoundComponent/NotFoundComponent'
 
 Vue.use(Router)
@@ -21,6 +22,7 @@ export default new Router({
     { path: '/conservation/:id', component: ConservationDetails, name: 'ConservationDetails' },
     { path: '/scheduled-classes', component: ScheduledClasses, name: 'ScheduledClasses' },
     { path: '/faq', component: Faq, name: 'Faq' },
+    { path: '/store', component: Store, name: 'Store' },
     { path: '/not-found', component: NotFoundComponent },
     { path: '*', component: NotFoundComponent }
   ],

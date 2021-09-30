@@ -9,27 +9,27 @@
     input#esc(type='text' @keyup.esc='toggleMenu' @keyup.enter='consoleLog' autofocus)
 
     ul
-      li.col-6.col-md-4.col-lg-3
+      li.col-6.col-md-4
         a(v-on:click= "isActive = !isActive", href='/#aboutme')
           i.fa.fa-user
           span {{ $t('mainmenu.aboutMe') }}
-      li.col-6.col-md-4.col-lg-3
+      li.col-6.col-md-4
         a(v-on:click= "isActive = !isActive", href='/#certificates')
           i.fa.fa-id-card-o
           span {{ $t('mainmenu.certificates') }}
-      li.col-6.col-md-4.col-lg-3
+      li.col-6.col-md-4
         a(v-on:click= "isActive = !isActive", href='/#courses')
           i.fa.fa-book
           span {{ $t('mainmenu.courses') }}
-      li.col-6.col-md-4.col-lg-3
+      li.col-6.col-md-4
         a(v-on:click= "isActive = !isActive", href='/#services')
           i.fa.fa-handshake-o
           span {{ $t('mainmenu.services') }}
-      li.col-6.col-md-4.col-lg-3
+      li.col-6.col-md-4
         a(v-on:click= "isActive = !isActive", href='/#conservation')
           i.fa.fa-globe
           span {{ $t('mainmenu.conservation') }}
-      li.col-6.col-md-4.col-lg-3
+      li.col-6.col-md-4
         a(v-on:click= "isActive = !isActive", href='/#contact')
           i.fa.fa-envelope
           span {{ $t('mainmenu.contact') }}
@@ -37,11 +37,15 @@
       //-   router-link(to='/scheduled-classes' exact)
       //-     i.fa.fa-camera
       //-     span Fotoğraf Galerisi
-      li(v-on:click= "isActive = !isActive").col-6.col-md-4.col-lg-3
+      li(v-on:click= "isActive = !isActive").col-6.col-md-4
         router-link(to='/scheduled-classes' exact)
           i.fa.fa-calendar-check-o
           span {{ $t('mainmenu.scheduledClasses') }}
-      li(v-on:click= "isActive = !isActive").col-6.col-md-4.col-lg-3
+      li(v-on:click= "isActive = !isActive").col-6.col-md-4
         router-link(to='/faq' exact)
           i.fa.fa-question
           span {{ $t('mainmenu.faq') }}
+      li(v-on:click= "isActive = !isActive").col-6.col-md-4
+        router-link(to='/store' exact)
+          i.fa.fa-credit-card-alt
+          span {{ $t('mainmenu.store') }}
