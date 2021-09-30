@@ -148,6 +148,7 @@ export default {
     this.courseImages = c.images
     this.coursePrerequisites = c.prerequisites
     this.courseIncludes = c.includes
+    this.courseNotIncluded = c.notIncluded
     this.courseQuota = c.quota
   },
   methods: {

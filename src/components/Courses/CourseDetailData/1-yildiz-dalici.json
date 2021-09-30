@@ -2,7 +2,7 @@
   "title": "1☆ Dalıcı Kursu",
   "price": 250,
   "paymentLink": "https://www.sopsy.com/d/4wgdM8",
-  "scope": "Kursun amacı, daha önce hiç dalış yapmamış veya deneme dalışı yapmış bir dalıcı adayını başlangıç seviyesinde yetiştirmektir. Temel teorik ve pratik eğitimleri tamamlayarak alacağınız 1* Dalıcı sertifikası ile dünyanın her yerinde, yanınızda en az 3* dalıcı seviyesindeki biri ile, 18 metreye kadar dalışlar gerçekleştirebilirsiniz.\n\nKursu başarıyla tamamlamanızın ardından TSSF/CMAS belgesi alabilirsiniz. Alınan belge tüm dünyada süresiz geçerliliğe sahiptir.",
+  "scope": "Kursun amacı, daha önce hiç dalış yapmamış veya deneme dalışı yapmış bir dalıcı adayını başlangıç seviyesinde yetiştirmektir. Temel teorik ve pratik eğitimleri tamamlayarak hak edeceğiniz TSSF/CMAS 1* Dalıcı sertifikası ile dünyanın her yerinde, yanınızda en az 3* dalıcı seviyesindeki biri ile, 18 metreye kadar dalışlar gerçekleştirebilirsiniz.",
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-1.png", "alt": "TSSF/CMAS 1* Dalıcı Sertifikası" }
   ],
@@ -10,7 +10,7 @@
   "hasSsiClasses": false,
   "prerequisites": [
     "14 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",
-    "Yeterli seviyede (su üzerinde durabilecek kadar) yüzme bilmek,",
+    "Yeterli seviyede (su üzerinde kendinizi rahat hissedecek kadar) yüzme bilmek,",
     "Dalış yapmanıza engel herhangi bir sağlık sorununuzun olmaması"
   ],
   "includes": [
@@ -21,8 +21,18 @@
     "Logbook",
     "Sertifika ücreti",
     "Eğitmen giderleri",
-    "Eğitim boyunca çekilen tüm sualtı fotoğrafları"
+    "Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)"
   ],
+  "notIncluded": "Ulaşım, konaklama, yeme-içme ve kişisel harcamalar kurs ücretine dahil değildir.",
   "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
-  "alternativeCourses": []
+  "alternativeCourses": [
+    "Temel Dalış İlkyardım",
+    "İrtifa Dalışı",
+    "Batık Dalışı",
+    "Sualtı Fotoğrafçılığı",
+    "Sualtı Videoculuğu",
+    "Mükemmel Yüzerlilik",
+    "Oksijen Kullanımı",
+    "Malzeme Bilgisi ve Bakımı"
+  ]
 }

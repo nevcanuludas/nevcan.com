@@ -2,16 +2,15 @@
   "title": "Akıntı Dalışı Uzmanlığı",
   "price": 100,
   "paymentLink": "http://www.sopsy.com/d/80rESa",
-  "scope": "Kursun amacı, akıntının oluşturduğu dezavantajları avantaja dönüştürmeyi ve dalışlarımızı güvenle sürdürebilme becerisini öğrenmektir.",
+  "scope": "Kursun amacı, akıntının oluşturduğu dezavantajları avantaja dönüştürmeyi ve dalışlarımızı güvenle sürdürebilme becerisini öğrenmektir. Kurs süresi 1 gündür.",
   "images": [
     { "src": "/static/img/courses-temp/tssf-speciality-back.png", "alt": "TSSF/CMAS Akıntı Dalışı Uzmanlığı Sertifikası" }
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
   "prerequisites": [
-    "15 yaşını doldurmuş olmak",
-    "TSSF 2* Dalıcı ya da dengi bir belgeye sahip olmak",
-    "18 yaşının altındakiler için veli onayı",
+    "TSSF 2* Dalıcı ya da dengi bir belgeye sahip olmak,",
+    "15 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",
     "Dalış yapmanıza engel bir sağlık sorununuzun bulunmaması"
   ],
   "includes": [
@@ -20,9 +19,9 @@
     "Dalışlarda kullanılacak tüm ekipmanlar",
     "Eğitim materyalleri",
     "Sertifika ücreti",
-    "Eğitmen giderleri",
-    "Eğitim boyunca çekilen tüm sualtı fotoğrafları"
+    "Eğitmen giderleri"
   ],
+  "notIncluded": "Ulaşım, konaklama, yeme-içme ve kişisel harcamalar kurs ücretine dahil değildir.",
   "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
   "alternativeCourses": []
 }

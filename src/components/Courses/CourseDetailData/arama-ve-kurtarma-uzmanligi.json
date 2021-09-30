@@ -2,12 +2,23 @@
   "title": "Arama ve Kurtarma Uzmanlığı",
   "price": 100,
   "paymentLink": "http://www.sopsy.com/d/80rESa",
-  "scope": "",
+  "scope": "Kursun amacı, su altında kaybolan bir nesneyi ortam koşullarına bağlı olarak en doğru yöntem ile arayarak bulunmasını sağlamaktır. Kurs süresi 1 gündür.",
   "hasPadiClasses": false,
   "hasSsiClasses": false,
   "prerequisites": [
-    "TSSF 2* Dalıcı ya da dengi bir belgeye sahip olmak"
+    "TSSF 2* Dalıcı ya da dengi bir belgeye sahip olmak,",
+    "15 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",
+    "Dalış yapmanıza engel bir sağlık sorununuzun bulunmaması"
   ],
+  "includes": [
+    "2 saatlik teorik eğitim",
+    "2 açık deniz dalışı",
+    "Dalışlarda kullanılacak tüm ekipmanlar",
+    "Eğitim materyalleri",
+    "Sertifika ücreti",
+    "Eğitmen giderleri"
+  ],
+  "notIncluded": "Ulaşım, konaklama, yeme-içme ve kişisel harcamalar kurs ücretine dahil değildir.",
   "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
   "alternativeCourses": []
 }

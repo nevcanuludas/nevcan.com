@@ -2,37 +2,38 @@
   "title": "2☆☆ Dalıcı Kursu",
   "price": 250,
   "paymentLink": "https://www.sopsy.com/d/4wgdM8",
-  "scope": "Kursun amacı, yeterli seviyede temel dalış becerilerine sahip bir dalıcının teorik bilgilerini derinleştirmek ve kurtarma, derin dalış, gece dalışı becerilerini kazanmasını sağlamaktır. Dünyanın her yerinde, yanınızda en az 2* dalıcı seviyesindeki biri ile, 30 metreye kadar dalışlar gerçekleştirebilirsiniz.\n\nKursu başarıyla tamamlamanızın ardından isteğinize bağlı olarak TSSF/CMAS veya ProRecTec belgesi alabilirsiniz. Alınan her iki belge de tüm dünyada süresiz geçerliliğe sahiptir.",
+  "scope": "Kursun amacı, yeterli seviyede temel dalış becerilerine sahip bir dalıcının teorik bilgilerini derinleştirmek ve kurtarma, derin dalış, gece dalışı gibi yeni becerileri kazanmasını sağlamaktır. Dünyanın her yerinde, yanınızda en az 2* dalıcı seviyesindeki biri ile, 30 metreye kadar dalışlar gerçekleştirebilirsiniz.",
   "images": [
-    { "src": "/static/img/courses-temp/tssf-back-2.png", "alt": "TSSF/CMAS 2* Dalıcı Sertifikası" },
-    { "src": "/static/img/courses-temp/protec-org-1-2star.jpeg", "alt": "ProRecTec 2* Dalıcı Sertifikası" }
+    { "src": "/static/img/courses-temp/tssf-back-2.png", "alt": "TSSF/CMAS 2* Dalıcı Sertifikası" }
   ],
   "hasPadiClasses": true,
   "hasSsiClasses": false,
   "prerequisites": [
-    "TSSF/CMAS 1* Dalıcı ya da dengi belgeye sahip olmak",
-    "TSSF/CMAS 1* Dalıcı ya da dengi belgeye sahip olduktan sonra; TSSF/CMAS için 20 kayıtlı dalış, ProRecTec için 25 kayıtlı dalış yapmış olmak",
-    "TSSF/CMAS için 15 (ProRecTec için 16) yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir)",
+    "TSSF/CMAS 1* Dalıcı ya da dengi belgeye sahip olmak,",
+    "TSSF/CMAS 1* Dalıcı ya da dengi belgeye sahip olduktan sonra 20 kayıtlı dalış yapmış olmak,",
+    "15 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",
+    "TSSF Sualtı Kültür Mirasının Korunması Uzmanlığı'na sahip olmak,",
     "Dalış yapmanıza engel bir sağlık sorununuzun bulunmaması"
   ],
   "includes": [
-    "8 saatlik teorik eğitim",
-    "5 açık deniz dalışı (1 derin dalış [42m], 1 gece dalışı)",
-    "Dalışlarda kullanılacak ekipmanlar",
-    "Eğitim materyalleri",
-    "Sertifika ücreti",
-    "Eğitmen giderleri",
-    "Eğitim boyunca çekilen tüm sualtı fotoğrafları"
+    "8 saatlik teorik eğitim,",
+    "5 açık deniz dalışı (1 derin dalış [42m], 1 gece dalışı [opsiyonel]),",
+    "Dalışlarda kullanılacak ekipmanlar,",
+    "Eğitim materyalleri,",
+    "Logbook,",
+    "Sertifika ücreti,",
+    "Eğitmen giderleri,",
+    "Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)"
   ],
+  "notIncluded": "Ulaşım, konaklama, yeme-içme, kişisel harcamalar ve zorunlu uzmanlıklar kurs ücretine dahil değildir.",
   "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
   "alternativeCourses": [
-    "İlkyardım",
-    "İrtifa",
-    "Batık",
-    "Fotoğrafçılık",
-    "Videoculuk",
-    "Mükemmel Yüzerlilik",
-    "Oksijen Kullanımı",
-    "Malzeme Bilgisi ve Bakımı"
+    "Derin Dalış",
+    "Yön Bulma",
+    "Gece Dalışı",
+    "Akıntı Dalışı",
+    "Arama Kurtarma",
+    "Nitrox",
+    "Kovuk Dalışı"
   ]
 }
