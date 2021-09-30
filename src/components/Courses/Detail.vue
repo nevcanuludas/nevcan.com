@@ -44,7 +44,7 @@ export default {
       path: this.$route.params.id,
       isVisible: false,
       // EURTRY: null,
-      EURTRY: 10.03,
+      EURTRY: 10.28,
       courseTitle: '',
       coursePrice: 'Kurs ücreti belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
       coursePaymentLink: '',
