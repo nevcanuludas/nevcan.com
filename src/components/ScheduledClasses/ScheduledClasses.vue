@@ -1,7 +1,7 @@
 <template lang="pug" src="./ScheduledClasses.pug"></template>
 
 <script>
-import ScheduledClassesJson from './ScheduledClasses-2019.json'
+import ScheduledClassesJson from './ScheduledClasses-2021.json'
 
 export default {
   name: 'ScheduledClasses',

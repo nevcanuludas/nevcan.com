@@ -1,0 +1,29 @@
+[
+  {
+    "startDate": "2021-10-16",
+    "date": "16/17 Ekim '21",
+    "name": "3* Dalıcı Kursu (Pratik)",
+    "url": "/courses/3-yildiz-dalici",
+    "location": "Ayvalık",
+    "status": "Kontenjan (3/3)",
+    "class": ""
+  },
+  {
+    "startDate": "2021-10-19",
+    "date": "19/21 Ekim '21",
+    "name": "Project Baseline: Marmara 🧭",
+    "url": "/conservation/pb-marmara",
+    "location": "İbrice, Edirne",
+    "status": "Kontenjan (0/8)",
+    "class": ""
+  },
+  {
+    "startDate": "2021-11-13",
+    "date": "13/14 Kasım '21",
+    "name": "GUE Workshop",
+    "url": "/services/gue-hazirlik",
+    "location": "Kaş, Antalya",
+    "status": "Kontenjan (3/8)",
+    "class": ""
+  }
+]
