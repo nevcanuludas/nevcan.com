@@ -4,6 +4,7 @@
   "paymentLink": "https://www.sopsy.com/d/4wgdM8",
   "scope": "Kursun amacı, yeterli seviyede temel dalış becerilerine sahip bir dalıcının teorik bilgilerini derinleştirmek ve kurtarma, derin dalış, gece dalışı gibi yeni becerileri kazanmasını sağlamaktır. Dünyanın her yerinde, yanınızda en az 2* dalıcı seviyesindeki biri ile, 30 metreye kadar dalışlar gerçekleştirebilirsiniz.",
   "images": [
+    { "src": "/static/img/courses-temp/tssf-front-2.png", "alt": "TSSF/CMAS 2* Dalıcı Sertifikası" },
     { "src": "/static/img/courses-temp/tssf-back-2.png", "alt": "TSSF/CMAS 2* Dalıcı Sertifikası" }
   ],
   "hasPadiClasses": true,

@@ -4,6 +4,7 @@
   "paymentLink": "https://www.sopsy.com/d/4wgdM8",
   "scope": "Kursun amacı, profesyonelliğe adım atmak isteyen dalıcıların liderlik becerilerini kazanmasını sağlamaktır. Kursu başarıyla tamamlayan herkes dünyanın her yerinde, yanında sertifikalı bir dalıcı ile, 30 metreye kadar dalışlar gerçekleştirebilir.",
   "images": [
+    { "src": "/static/img/courses-temp/tssf-front-3.png", "alt": "TSSF/CMAS 3* Dalıcı Sertifikası" },
     { "src": "/static/img/courses-temp/tssf-back-3.png", "alt": "TSSF/CMAS 3* Dalıcı Sertifikası" }
   ],
   "hasPadiClasses": true,

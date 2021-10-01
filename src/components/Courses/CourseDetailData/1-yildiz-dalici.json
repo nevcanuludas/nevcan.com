@@ -4,6 +4,7 @@
   "paymentLink": "https://www.sopsy.com/d/4wgdM8",
   "scope": "Kursun amacı, daha önce hiç dalış yapmamış veya deneme dalışı yapmış bir dalıcı adayını başlangıç seviyesinde yetiştirmektir. Kurs sonunda birey kendi donanımını hazırlayıp kuşanarak, güvenli dalışlar gerçekleştirmek için yeterli yetkinliğe sahip olacaktır.\n\nTeorik ve pratik eğitimleri başarıyla tamamlayanlar TSSF/CMAS 1* Dalıcı sertifikası hakederler. Bu belge dünyanın her yerinde geçerlidir. Yanınızda en az 3* dalıcı seviyesindeki bir dalıcı ile en fazla 18 metreye kadar dalışlar gerçekleştirebilirsiniz. 1* dalıcılar gece dalışı yapamazlar.",
   "images": [
+    { "src": "/static/img/courses-temp/tssf-front-1.png", "alt": "TSSF/CMAS 1* Dalıcı Sertifikası" },
     { "src": "/static/img/courses-temp/tssf-back-1.png", "alt": "TSSF/CMAS 1* Dalıcı Sertifikası" }
   ],
   "hasPadiClasses": true,
