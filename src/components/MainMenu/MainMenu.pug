@@ -1,13 +1,10 @@
 #mainmenu
-
   .mainmenu-btn(v-on:click= 'toggleMenu')
     i.fa.fa-bars(v-if= '!isActive')
     i.fa.fa-times(v-if= 'isActive')
 
   nav.mainmenu(v-if= "isActive")
-
     input#esc(type='text' @keyup.esc='toggleMenu' @keyup.enter='consoleLog' autofocus)
-
     ul
       li.col-12.col-md-4
         a(v-on:click= "isActive = !isActive", href='/#aboutme')
@@ -33,10 +30,6 @@
         a(v-on:click= "isActive = !isActive", href='/#contact')
           i.fa.fa-envelope
           span {{ $t('mainmenu.contact') }}
-      //- li(v-on:click= "isActive = !isActive").col-12.col-md-4
-      //-   router-link(to='/scheduled-classes' exact)
-      //-     i.fa.fa-camera
-      //-     span Fotoğraf Galerisi
       li(v-on:click= "isActive = !isActive").col-12.col-md-4
         router-link(to='/scheduled-classes' exact)
           i.fa.fa-calendar-check-o
@@ -49,3 +42,7 @@
         router-link(to='/store' exact)
           i.fa.fa-credit-card-alt
           span {{ $t('mainmenu.store') }}
+      //- li(v-on:click= "isActive = !isActive").col-12.col-md-4
+      //-   router-link(to='/photo-gallery' exact)
+      //-     i.fa.fa-camera
+      //-     span Fotoğraf Galerisi

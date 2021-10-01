@@ -1,16 +1,17 @@
 <template lang="pug" src="./Store.pug"></template>
 
 <script>
+import jsonProducts from './Products.json'
 
 export default {
   name: 'Store',
   data () {
     return {
       sectionTitle: 'Mağaza',
-      sectionTitleEN: 'Store'
+      sectionTitleEN: 'Store',
+      products: jsonProducts,
+      isActiveFilter: 'allProducts'
     }
-  },
-  components: {
   }
 }
 </script>

@@ -1,8 +1,24 @@
 section#store 
-
   h3.page-heading {{ sectionTitle }}
-
-  .container
+  .pp
     .alert.alert-info 
-      | ~ Sayfa yapım aşamasında ~
-      | SUEX ve Shearwater ürünlerini yakında burada bulabilirsiniz.
+      | Benden kurs alan tüm öğrencilerime %10 indirim kuponu hediye ediyorum.
+
+    //- .product-filter
+    //-   .btn-group(role="group" aria-label="Product Filter")
+    //-     button(type="button" aria-label='Tümü' @click="showAllProducts" :class="{'active': isActiveTab == 'allProducts'}").btn.btn-sm.btn-secondary Tümü
+    //-     button(type="button" aria-label='Scooter' @click="showScooter" :class="{'active': isActiveTab == 'scooter'}").btn.btn-sm.btn-secondary Scooter
+    //-     button(type="button" aria-label='Dalış Bilgisayarı' @click="showDiveComputer" :class="{'active': isActiveTab == 'diveComputer'}").btn.btn-sm.btn-secondary Dalış Bilgisayarı
+    //-     button(type="button" aria-label='Kitap' @click="showBook" :class="{'active': isActiveTab == 'book'}").btn.btn-sm.btn-secondary Kitap
+    //-     button(type="button" aria-label='Logbook' @click="showLogbook" :class="{'active': isActiveTab == 'logbook'}").btn.btn-sm.btn-secondary Logbook
+
+    .row.product-list
+      template(v-for='product in products' v-if='product.isVisible')
+        .col-12.col-sm-6.col-md-3
+          .canvas.upsidedown(:title= 'product.name')
+            p {{ product.name }}
+            img.img-fluid(:src= "'/static/img/store/' + product.imageUrl + '.png'", :alt= 'product.name')
+            p {{ product.price }} TL
+
+    .alert.alert-warning 
+      | Ürünler euro kuruna bağlı olduğu için güncel fiyatı öğrenmek için iletişime geçin.

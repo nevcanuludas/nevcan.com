@@ -1,9 +1,6 @@
 section#courses
-
   h3.page-heading {{ sectionTitle }}
-
   .pp
-
     p.pp-info.alert.alert-success
       | 🗓 Planlanmış eğitim ve tur tarihleri için
       router-link(to='/scheduled-classes' exact) &nbsp;Etkinlik Takvimi&nbsp;
@@ -21,7 +18,7 @@ section#courses
         button(type="button" aria-label='TSSF' @click="showTssf" :class="{'active': isActiveTab == 'tssf'}").btn.btn-sm.btn-secondary TSSF
         button(type="button" aria-label='NSC' @click="showNsc" :class="{'active': isActiveTab == 'nsc'}").btn.btn-sm.btn-secondary NSC
 
-      .btn-group.float-right(role="group" aria-label="Career Filter")
+      .btn-group.float-right(role="group" aria-label="Courses Filter")
         button(type="button" aria-label='Tümü' @click="showAllCourses" :class="{'active': isActiveFilter == 'allCourses'}").btn.btn-sm.btn-secondary Tümü
         button(type="button" aria-label='Dalıcı' @click="showScuba" :class="{'active': isActiveFilter == 'diver'}").btn.btn-sm.btn-secondary Dalıcı
         button(type="button" aria-label='Uzmanlık' @click="showSpecialty" :class="{'active': isActiveFilter == 'specialty'}").btn.btn-sm.btn-secondary Uzmanlık
