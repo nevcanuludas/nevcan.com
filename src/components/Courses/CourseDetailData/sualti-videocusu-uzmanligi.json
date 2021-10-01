@@ -5,6 +5,15 @@
   "scope": "",
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Bölüm 1: Sualtı Kameramanlığı",
+    "Bölüm 2: Sualtında Video Çekmek",
+    "Bölüm 3: Video Çekim Teknikleri",
+    "Bölüm 4: Gelişmiş Çekim Teknikleri ve Öneriler",
+    "Bölüm 5: Çekim Sonrası İşlemler ve Kurgu",
+    "Bölüm 6: İpuçları"
+  ],
   "prerequisites": [
     "TSSF 1* Dalıcı ya da dengi bir belgeye sahip olmak"
   ],

@@ -8,6 +8,14 @@
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Bölüm 1: Akıntı Dalışı",
+    "Bölüm 2: Akıntı Dalışında Kullanılacak Malzemeler",
+    "Bölüm 3: Akıntı Dalışının Planlanması",
+    "Bölüm 4: Akıntı Dalışlarında Suya Girme Teknikleri",
+    "Bölüm 5: Riskler ve Önlemler" 
+  ],
   "prerequisites": [
     "TSSF 2* Dalıcı ya da dengi bir belgeye sahip olmak,",
     "15 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",

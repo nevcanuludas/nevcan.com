@@ -2,17 +2,31 @@
   "title": "Engelli Dalıcı 1 Kursu",
   "price": 200,
   "paymentLink": "http://www.sopsy.com/d/sD6rI8",
-  "scope": "Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Engelli Dalıcı (Handicap Diver) belgesini almaya hak kazanırlar.",
+  "scope": "Kursun amacı engelli arkadaşlarımızın sualtında engellerinden kurtulup özgürce ve güvenle dalışlar gerçekleştirebilmektir.\n\nYanında en az bir engelli dalıcı eğitmeni (EDE) ve engelli dalıcı eğitmen asistanı (EDEA) olmak kaydı ile en fazla 5 metre derinliğe kadar dalış yapabilir. Gece dalışı yapamaz.",
   "images": [
     { "src": "/static/img/courses-temp/protec-org-handicap.jpeg", "alt": "ProTec Engelli Dalıcı Sertifikası" }
   ],
   "prerequisites": [
-    "14 yaşını doldurmuş olmak",
-    "18 yaşının altındakiler için veli onayı",
-    "Dalış yapmasına engel bir sağlık sorununun bulunmadığına dair sualtı hekimi raporu"
+    "14 yaşını doldurmuş olmak, 18 yaşından küçükler için velisinin onay belgesi olmak,",
+    "Engelli Dalıcı Talimatı'nın 22. Maddesi'nde yer alan sağlık koşullarını yerine getirmek"
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "İdari Ders",
+    "Temel Donanım",
+    "Temel Dalış İşaretleri",
+    "Basınç Hacim İlişkileri",
+    "Bağımsız Aletli Dalış Donanımı",
+    "Fizik Fizyoloji",
+    "Yüzerlilik Ekipmanları",
+    "Dalış Elbiseleri ve Yardımcı Malzemeler",
+    "Malzemelerin Bakımı ve Saklanması",
+    "Kendini ve Başkasını Kurtarma",
+    "Güvenli Dalış Kuralları",
+    "Dalış Bölgesi Seçimi ve Koruma",
+    "Dekompresyon Tabloları"
+  ],
   "includes": [
     "8 saatlik teorik eğitim",
     "2 havuz dalışı",

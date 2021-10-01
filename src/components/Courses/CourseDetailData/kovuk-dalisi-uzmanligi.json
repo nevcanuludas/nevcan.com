@@ -5,6 +5,13 @@
   "scope": "",
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Bölüm 1: Kovuk Dalışı",
+    "Bölüm 2: Dalışın Planlanması",
+    "Bölüm 3: Kovuk Dalıcılığının Psikolojik Yönleri",
+    "Bölüm 4: Acil Durum Prosedürleri"
+  ],
   "prerequisites": [
     "TSSF 2* Dalıcı ya da dengi bir belgeye sahip olmak"
   ],

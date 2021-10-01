@@ -8,6 +8,17 @@
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Genel Hususlar",
+    "Genel Eğitim Standartları ve Eğitim Sistemi",
+    "Sertifika Düzeyleri",
+    "Engelli Dalıcı Kimdir?",
+    "Engelli Dalıcı Eğitmeni Kimdir?",
+    "Sağlık Koşulları ile İlgili Genel Bilgilendirme",
+    "Engelli Bireyler ve İletişim",
+    "Pratik Uygulamalar",
+    "Seviyelere Göre Dalıcı Becerileri"
+  ],
   "prerequisites": [
     "14 yaşını doldurmuş olmak",
     "18 yaşının altındakiler için veli onayı",

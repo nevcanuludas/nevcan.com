@@ -8,6 +8,22 @@
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "TSSF bünyesinde bu eğitimin kitabı bulunmamaktadır.",
+    "Genel İlkyardım Bilgileri",
+    "Hasta/Yaralının ve Olay Yerinin Değerlendirilmesi",
+    "Temel Yaşam Desteği",
+    "Kanamalarda İlkyardım",
+    "Yaralanmalarda İlkyardım",
+    "Yanık, Donma ve Sıcak Çarpmasında İlkyardım",
+    "Kırık, Çıkık ve Burkulmalarda İlkyardım",
+    "Bilinç Bozukluklarında İlkyardım",
+    "Zehirlenmelerde İlkyardım",
+    "Hayvan Isırmalarında İlkyardım",
+    "Göz, Kulak ve Buruna Yabancı Cisim Kaçmasında İlkyardım",
+    "Boğulmalarda İlkyardım",
+    "Hasta/Yaralı Taşıma Teknikleri"
+  ],
   "prerequisites": [
     "TSSF 1* Dalıcı ya da dengi bir belgeye sahip olmak"
   ],

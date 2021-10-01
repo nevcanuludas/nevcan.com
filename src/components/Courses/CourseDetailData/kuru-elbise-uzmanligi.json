@@ -9,6 +9,12 @@
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Kuru Elbisenin Bileşenleri",
+    "Kuru Elbiseyi Kuşanma",
+    "Acil Durum Prosedürleri"
+  ],
   "prerequisites": [
     "15 yaşını doldurmuş olmak",
     "18 yaşının altındakiler için veli onayı",

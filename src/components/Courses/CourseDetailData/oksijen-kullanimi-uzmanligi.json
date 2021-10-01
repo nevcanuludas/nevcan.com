@@ -5,6 +5,13 @@
   "scope": "",
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Bölüm 1: Oksijen Nedir? Ne İşe Yarar?",
+    "Bölüm 2: Oksijen Solunum Ekipmanları",
+    "Bölüm 3: Oksijen Uygulanması Gereken Durumlar",
+    "Bölüm 4: Güvenlik Önemleri"
+  ],
   "prerequisites": [
     "TSSF 1* Dalıcı ya da dengi bir belgeye sahip olmak"
   ],

@@ -5,6 +5,13 @@
   "scope": "Kursun amacı, su altında kaybolan bir nesneyi ortam koşullarına bağlı olarak en doğru yöntem ile arayarak bulunmasını sağlamaktır. Kurs süresi 1 gündür.",
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Bölüm 1: Arama Kurtarma Operasyonunu Etkileyen Faktörler",
+    "Bölüm 2: Planlama",
+    "Bölüm 3: Arama Teknikleri",
+    "Bölüm 4: Kurtarma"
+  ],
   "prerequisites": [
     "TSSF 2* Dalıcı ya da dengi bir belgeye sahip olmak,",
     "15 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",

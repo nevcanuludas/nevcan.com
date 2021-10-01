@@ -5,6 +5,11 @@
   "scope": "",
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Bölüm 1: Sualtında Görüntüleme",
+    "Bölüm 2: Sualtı Fotoğraf Ekipmanları"
+  ],
   "prerequisites": [
     "TSSF 1* Dalıcı ya da dengi bir belgeye sahip olmak"
   ],

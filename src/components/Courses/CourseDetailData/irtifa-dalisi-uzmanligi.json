@@ -5,6 +5,10 @@
   "scope": "",
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Bölüm 1: İrtifa Dalışı"
+  ],
   "prerequisites": [
     "TSSF 1* Dalıcı ya da dengi bir belgeye sahip olmak"
   ],

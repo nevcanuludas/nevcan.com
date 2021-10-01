@@ -8,6 +8,16 @@
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Dalış Hastalıkları",
+    "İlkyardım ve Dalış",
+    "Hava Hesapları",
+    "Nitrojen Emilimi",
+    "Derin Dalış / Gece Dalışı",
+    "Dekompresyon Tabloları",
+    "Dalış Planlaması ve Organizasyonu",
+    "Sualtı Navigasyonu"
+  ],
   "prerequisites": [
     "14 yaşını doldurmuş olmak",
     "18 yaşının altındakiler için veli onayı",

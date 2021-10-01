@@ -8,6 +8,16 @@
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Riskler ve Acil Durum Yönetimi",
+    "DPV'ye Yakından Bakış",
+    "Yüzerlilik ve Trim",
+    "Dalış Planlaması",
+    "Park Yöntemleri",
+    "Takım Olarak Kullanım",
+    "Dönme Yöntemleri"
+  ],
   "prerequisites": [
     "15 yaşını doldurmuş olmak",
     "18 yaşının altındakiler için veli onayı",

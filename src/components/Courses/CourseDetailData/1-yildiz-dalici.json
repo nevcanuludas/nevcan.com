@@ -2,12 +2,27 @@
   "title": "1☆ Dalıcı Kursu",
   "price": 250,
   "paymentLink": "https://www.sopsy.com/d/4wgdM8",
-  "scope": "Kursun amacı, daha önce hiç dalış yapmamış veya deneme dalışı yapmış bir dalıcı adayını başlangıç seviyesinde yetiştirmektir. Temel teorik ve pratik eğitimleri tamamlayarak hak edeceğiniz TSSF/CMAS 1* Dalıcı sertifikası ile dünyanın her yerinde, yanınızda en az 3* dalıcı seviyesindeki biri ile, 18 metreye kadar dalışlar gerçekleştirebilirsiniz.",
+  "scope": "Kursun amacı, daha önce hiç dalış yapmamış veya deneme dalışı yapmış bir dalıcı adayını başlangıç seviyesinde yetiştirmektir. Kurs sonunda birey kendi donanımını hazırlayıp kuşanarak, güvenli dalışlar gerçekleştirmek için yeterli yetkinliğe sahip olacaktır.\n\nTeorik ve pratik eğitimleri başarıyla tamamlayanlar TSSF/CMAS 1* Dalıcı sertifikası hakederler. Bu belge dünyanın her yerinde geçerlidir. Yanınızda en az 3* dalıcı seviyesindeki bir dalıcı ile en fazla 18 metreye kadar dalışlar gerçekleştirebilirsiniz. 1* dalıcılar gece dalışı yapamazlar.",
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-1.png", "alt": "TSSF/CMAS 1* Dalıcı Sertifikası" }
   ],
   "hasPadiClasses": true,
   "hasSsiClasses": false,
+  "subjects": [
+    "1T1 İdari Ders",
+    "1T2 Temel Donanım",
+    "1T3 Temel Dalış İşaretleri",
+    "1T4 Basınç Hacim İlişkileri",
+    "1T5 Bağımsız Aletli Dalış Donanımı",
+    "1T6 Fizik Fizyoloji",
+    "1T7 Yüzerlilik Ekipmanları",
+    "1T8 Dalış Elbiseleri ve Yardımcı Malzemeler",
+    "1T9 Malzemelerin Bakımı ve Saklanması",
+    "1T10 Kendini ve Başkasını Kurtarma",
+    "1T11 Güvenli Dalış Kuralları",
+    "1T12 Dalış Bölgesi Seçimi ve Koruma",
+    "1T-EK1 Dekompresyon Tabloları"
+  ],
   "prerequisites": [
     "14 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",
     "Yeterli seviyede (su üzerinde kendinizi rahat hissedecek kadar) yüzme bilmek,",

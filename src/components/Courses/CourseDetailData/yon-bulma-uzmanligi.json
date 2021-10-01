@@ -2,17 +2,31 @@
   "title": "Yön Bulma Uzmanlığı",
   "price": 100,
   "paymentLink": "http://www.sopsy.com/d/80rESa",
-  "scope": "",
+  "scope": "Kursun amacı, eldeki bilgiler ile spesifik bir dalış noktasını bulabilen ve sonrasında güvenli bir şekilde başlangıç noktasına dönebilme yetkinliğini geliştirmektir.\n\nEğer seviyenizi ilerletmek ve 3* Dalıcı olmak istiyorsanız öncesinde sahip olmanız gereken zorunlu 3 belgeden biridir.",
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF Yön Bulma Uzmanlığı Sertifikası" }
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Bölüm 1: Doğal Yön Bulma",
+    "Bölüm 2: Pusula",
+    "Bölüm 3: Doğal ve Pusulalı Yön Bulmayı Bir Arada Kullanmak",
+    "Bölüm 4: Özel Dalışlarda Yön Bulmak",
+    "Bölüm 5: Yön Bulma Aktiviteleri"
+  ],
   "prerequisites": [
-    "TSSF 2* Dalıcı ya da dengi bir belgeye sahip olmak"
+    "TSSF/CMAS 2* Dalıcı belgesi ya da dengi bir belgeye sahip olmak,",
+    "16 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",
+    "Yeterli teorik ve pratik dalış becerisine sahip olmak,",
+    "Dalış yapmasına engel bir sağlık sorununun bulunmaması"
   ],
   "includes": [
   ],
   "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
-  "alternativeCourses": []
+  "alternativeCourses": [
+    "Derin Dalış",
+    "Temel İlkyardım"
+  ]
 }

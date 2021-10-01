@@ -8,6 +8,14 @@
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Bölüm 1: Derin Dalış Yapmanın Amaçları",
+    "Bölüm 2: Dalışın Planlanması",
+    "Bölüm 3: Derin Dalış Teknikleri",
+    "Bölüm 4: Olası Riskler",
+    "Bölüm 5: Derin Dalışta Güvenlik"
+  ],
   "prerequisites": [
     "TSSF 2* Dalıcı ya da dengi bir belgeye sahip olmak"
   ],

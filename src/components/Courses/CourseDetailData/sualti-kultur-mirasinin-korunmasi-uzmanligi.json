@@ -5,6 +5,16 @@
   "scope": "",
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "UNESCO ve Sualtı Mirası",
+    "Sualtı Kültür Mirası Dalışları'nda UNESCO Etik Kuralları",
+    "Sualtında Karşılaşılabilecek Eserlere Bir Bakış",
+    "Sualtı Kültür Mirası İçin Yapılacak Çalışmalar ve ICOMOS Tüzüğü",
+    "Sualtı Kültür Mirası, Yasalar ve Yönetmelikler",
+    "Sualtı Kültürel Mirasının Korunması Hususunda Farkındalık Çalışmalarının Gerekliliği ve Öneriler",
+    "Tarih Öncesi ve Tarihi Çağları, Dönemler ve Uygarlıklar"
+  ],
   "prerequisites": [
     "TSSF 1* Dalıcı ya da dengi bir belgeye sahip olmak"
   ],

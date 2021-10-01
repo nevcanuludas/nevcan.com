@@ -2,17 +2,23 @@
   "title": "Batık Dalışı Uzmanlığı",
   "price": 100,
   "paymentLink": "http://www.sopsy.com/d/80rESa",
-  "scope": "Kursun amacı, sualtındaki batıkların risklerini hakkında bilgi sahibi olarak, en fazla 30 metre derinliğindeki batıklara güvenli penatrasyon dalışları gerçekleştirebilmektir. Kurslar TSSF ve ProRecTec standartlarına uygun olarak verilmektedir.\n\nKursu başarıyla tamamlamanızın ardından isteğinize bağlı olarak TSSF/CMAS veya ProRecTec belgesi alabilirsiniz. Alınan her iki belge de tüm dünyada süresiz geçerliliğe sahiptir.",
+  "scope": "Kursun amacı, sualtındaki batıkların riskleri hakkında bilgi sahibi olarak, batıklara güvenli penatrasyon dalışları planlayabilmek ve gerçekleştirebilmektir.\n\nKurslar TSSF standartlarına uygun olarak verilmektedir. Kursu başarıyla tamamlamanızın ardından TSSF/CMAS belgesi alabilirsiniz. Alınan belge tüm dünyada süresiz geçerliliğe sahiptir.",
   "images": [
-    { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF/CMAS Batık Dalışı Uzmanlığı Sertifikası" },
-    { "src": "/static/img/courses-temp/protec-org-wreck.jpeg", "alt": "ProRecTec Batık Dalışı Uzmanlığı Sertifikası" }
+    { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF/CMAS Batık Dalışı Uzmanlığı Sertifikası" }
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Bölüm 1: Batık Dalışı Yapmanın Amaçları",
+    "Bölüm 2: Batık Dalışı Ekipmanları",
+    "Bölüm 3: Dalışın Planlanması",
+    "Bölüm 4: Batık Çeşitleri"
+  ],
   "prerequisites": [
-    "TSSF/CMAS 1* Dalıcı belgesi (ProRecTec için 2* Dalıcı belgesi) ya da dengi bir belgeye sahip olmak",
-    "16 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir)",
-    "Yeterli teorik ve pratik dalış becerisine sahip olmak",
+    "TSSF/CMAS 1* Dalıcı belgesi ya da dengi bir belgeye sahip olmak,",
+    "16 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",
+    "Yeterli teorik ve pratik dalış becerisine sahip olmak,",
     "Dalış yapmasına engel bir sağlık sorununun bulunmaması"
   ],
   "includes": [
@@ -23,6 +29,7 @@
     "Eğitmen giderleri",
     "Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)"
   ],
+  "notIncluded": "Ulaşım, konaklama, yeme-içme ve kişisel harcamalar kurs ücretine dahil değildir.",
   "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
   "alternativeCourses": []
 }

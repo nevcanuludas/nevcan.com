@@ -5,6 +5,10 @@
   "scope": "Tüp doldurma konusunda tüm bilgilerin ve dikkat edilmesi gereken hususların aktarıldığı bu eğitimde, kimlerin tüp doldurabileceği, tüp doldurulacak alanların seçimi, tüp doldurma sırasında kullanılan ekipmanlar ve bunların özellikleri, kompresörler ve bunların çalışma prensipleriyle ilgili ayrıntılı bilgi, solunum havasının temizliği, filtre sistemleri, ştandro sistemi, tüpler ve bunların vanaları hakkında ayrıntılı bilgiler yer almaktadır.\n\nDalışı bir meslek haline getirmek isteyen tüm dalıcıların öğrenmesi gereken bir uzmanlıktır. Bilgisiz biçimde tüp doldurmak felaketle sonuçlanabilir.",
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Bölüm 1: Tüp Doldurma Uzmanlığının Amacı"
+  ],
   "prerequisites": [
     "TSSF 3* Dalıcı ya da dengi bir belgeye sahip olmak"
   ],

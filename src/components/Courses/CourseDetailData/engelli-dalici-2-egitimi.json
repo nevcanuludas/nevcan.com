@@ -8,6 +8,21 @@
   ],
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "İdari Ders",
+    "Temel Donanım",
+    "Temel Dalış İşaretleri",
+    "Basınç Hacim İlişkileri",
+    "Bağımsız Aletli Dalış Donanımı",
+    "Fizik Fizyoloji",
+    "Yüzerlilik Ekipmanları",
+    "Dalış Elbiseleri ve Yardımcı Malzemeler",
+    "Malzemelerin Bakımı ve Saklanması",
+    "Kendini ve Başkasını Kurtarma",
+    "Güvenli Dalış Kuralları",
+    "Dalış Bölgesi Seçimi ve Koruma",
+    "Dekompresyon Tabloları"
+  ],
   "prerequisites": [
     "14 yaşını doldurmuş olmak",
     "18 yaşının altındakiler için veli onayı",

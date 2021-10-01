@@ -146,6 +146,7 @@ export default {
     this.courseHasPadiClass = c.hasPadiClasses
     this.courseHasSsiClass = c.hasSsiClasses
     this.courseImages = c.images
+    this.courseSubjects = c.subjects
     this.coursePrerequisites = c.prerequisites
     this.courseIncludes = c.includes
     this.courseNotIncluded = c.notIncluded

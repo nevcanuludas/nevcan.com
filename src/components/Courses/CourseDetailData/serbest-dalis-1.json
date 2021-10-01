@@ -6,6 +6,13 @@
   "scope": "Kursun amacı 10 metre derinliğe kadar minimum 1 dakika dip zamanlı dalışları güvenle gerçekleştirebilmektir. Kurs sonunda başarılı olanlar ProTec Serbest Dalıcı (Snorkel Diver) belgesini almaya hak kazanırlar.",
   "hasPadiClasses": false,
   "hasSsiClasses": false,
+  "subjects": [
+    "Giriş",
+    "Bölüm 1: Serbest Dalış Ekipmanlarınız",
+    "Bölüm 2: Serbest Dalışın Fizyolojisi",
+    "Bölüm 3: Serbest Dalış Becerileri",
+    "Bölüm 4: Serbest Dalış ve Dalış Çevreniz"
+  ],
   "prerequisites": [
     "14 yaşını doldurmuş olmak",
     "18 yaşının altındakiler için veli onayı",

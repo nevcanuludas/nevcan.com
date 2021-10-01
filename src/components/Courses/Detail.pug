@@ -33,6 +33,11 @@ section#courseDetails
           a(href="https://pendikdalisokulu.com/ssi-egitimleri-2/?ref=nevcancom_courseDetails", target="_blank") pendikdalisokulu.com
           | &nbsp;adresini ziyaret edebilirler.
 
+    h4.section-heading Teorik Konu Başlıkları
+    ul
+      template(v-for='subject in courseSubjects')
+        li {{ subject }}
+
     h4.section-heading Ön Şartlar:
     ol
       template(v-for='prerequisite in coursePrerequisites')

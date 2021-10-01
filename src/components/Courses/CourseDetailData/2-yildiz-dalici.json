@@ -8,6 +8,16 @@
   ],
   "hasPadiClasses": true,
   "hasSsiClasses": false,
+  "subjects": [
+    "2T1 Dalış Hastalıkları",
+    "2T2 İlkyardım ve Dalış",
+    "2T3 Hava Hesapları",
+    "2T4 Nitrojen Emilimi",
+    "2T5 Derin Dalış / Gece Dalışı",
+    "2T6 Dekompresyon Tabloları",
+    "2T7 Dalış Planlaması ve Organizasyonu",
+    "2T8 Sualtı Navigasyonu"
+  ],
   "prerequisites": [
     "TSSF/CMAS 1* Dalıcı ya da dengi belgeye sahip olmak,",
     "TSSF/CMAS 1* Dalıcı ya da dengi belgeye sahip olduktan sonra 20 kayıtlı dalış yapmış olmak,",

@@ -10,6 +10,7 @@ export default {
       path: this.$route.params.id,
       certificateTitle: '',
       certificateScope: '',
+      certificateVerification: '',
       certificateImages: '',
       // JS Dictionary - Associative Arrays in JavaScript
       dict: {
@@ -30,6 +31,7 @@ export default {
     var c = this.certificates[this.dict[this.path]]
     this.certificateTitle = c.title
     this.certificateScope = c.scope
+    this.certificateVerification = c.verification
     this.certificateImages = c.images
   },
   methods: {
