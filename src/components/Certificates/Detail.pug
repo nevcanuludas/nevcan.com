@@ -7,6 +7,8 @@ section#certificateDetails
   .container
 
     p {{ certificateScope }}
+    br
+    p {{ certificateVerification }}
 
     .row.certificate-images
       template(v-for='image in certificateImages')
