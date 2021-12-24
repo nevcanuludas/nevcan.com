@@ -1,5 +1,7 @@
 <template lang="pug" src="./ScheduledClasses.pug"></template>
 
+<script type="text/javascript" src="//localendar.com/js/PublishedResponsiveIframe.js"></script>
+
 <script>
 import ScheduledClassesJson from './ScheduledClasses-2021.json'
 
