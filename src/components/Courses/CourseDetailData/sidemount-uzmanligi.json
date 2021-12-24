@@ -9,11 +9,16 @@
   "hasPadiClasses": false,
   "hasSsiClasses": false,
   "subjects": [
-    "Eğitim içeriği güncellenmektedir."
+    "Ayrı tüplerde gaz yönetimi",
+    "Ekipman konfigürasyonu",
+    "İletişim",
+    "Problem Çözümü",
+    "Suya giriş teknikleri",
+    "S-Drills (sidemount'a özel hava paylaşımı)"
   ],
   "prerequisites": [
-    "18 yaşını doldurmuş olmak",
-    "2* Dalıcı ya da dengi bir belgeye sahip olmak",
+    "15 yaşını doldurmuş olmak",
+    "1* Dalıcı ya da dengi bir belgeye sahip olmak",
     "Yeterli teorik ve pratik dalış becerisine sahip olmak",
     "Dalış yapmasına engel bir sağlık sorununun bulunmaması"
   ],
@@ -25,6 +30,7 @@
     "Eğitmen giderleri",
     "Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)"
   ],
+  "notIncluded": "Ulaşım, konaklama, yeme-içme ve kişisel harcamalar kurs ücretine dahil değildir.",
   "quota": "Teorik eğitimler bir seferde en fazla 6 katılımcı ile, pratik eğitimler ise bir seferde en fazla 3 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
   "alternativeCourses": []
 }
