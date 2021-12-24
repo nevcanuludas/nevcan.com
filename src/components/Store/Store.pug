@@ -18,7 +18,7 @@ section#store
           .canvas.upsidedown(:title= 'product.name')
             p {{ product.name }}
             img.img-fluid(:src= "'/static/img/store/' + product.imageUrl + '.png'", :alt= 'product.name')
-            p {{ product.price }} TL
+            p {{ product.price }} {{ product.currency}}
 
     .alert.alert-warning 
       | Ürünler euro kuruna bağlı olduğu için güncel fiyatı öğrenmek için iletişime geçin.

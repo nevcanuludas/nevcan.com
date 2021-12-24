@@ -3,7 +3,8 @@
     "id": "suex-7seven",
     "imageUrl": "suex-7seven",
     "name": "SUEX 7SEVEN",
-    "price": 21201.15,
+    "price": 2065,
+    "currency": "€",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -11,7 +12,8 @@
     "id": "suex-vrt",
     "imageUrl": "suex-vrt",
     "name": "SUEX VRT",
-    "price": 27258.62,
+    "price": 2655,
+    "currency": "€",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -19,7 +21,8 @@
     "id": "suex-vrx",
     "imageUrl": "suex-vrx",
     "name": "SUEX VRX",
-    "price": 34527.58,
+    "price": 3365,
+    "currency": "€",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -27,7 +30,8 @@
     "id": "suex-xjs",
     "imageUrl": "suex-xjs",
     "name": "SUEX XJS",
-    "price": 72083.90,
+    "price": 7025,
+    "currency": "€",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -35,7 +39,8 @@
     "id": "suex-xk",
     "imageUrl": "suex-xk",
     "name": "SUEX XK",
-    "price": 90256.32,
+    "price": 8800,
+    "currency": "€",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -43,7 +48,8 @@
     "id": "shearwater-teric",
     "imageUrl": "shearwater-teric",
     "name": "Shearwater Teric",
-    "price": 13992.76,
+    "price": 1365,
+    "currency": "€",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -51,7 +57,8 @@
     "id": "shearwater-perdix-ai",
     "imageUrl": "shearwater-perdix-ai",
     "name": "Shearwater Perdix AI",
-    "price": 11993.79,
+    "price": 1170,
+    "currency": "€",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -59,7 +66,8 @@
     "id": "shearwater-peregrine",
     "imageUrl": "shearwater-peregrine",
     "name": "Shearwater Peregrine",
-    "price": 6239.20,
+    "price": 610,
+    "currency": "€",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -68,6 +76,7 @@
     "imageUrl": "1starBook",
     "name": "1* Dalıcı Kitabı",
     "price": 45,
+    "currency": "TL",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -76,6 +85,7 @@
     "imageUrl": "1starBookEN",
     "name": "1* Dalıcı Kitabı (English)",
     "price": 45,
+    "currency": "TL",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -84,6 +94,7 @@
     "imageUrl": "1starBookDE",
     "name": "1* Dalıcı Kitabı (Almanca)",
     "price": 45,
+    "currency": "TL",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -92,6 +103,7 @@
     "imageUrl": "1starBookRU",
     "name": "1* Dalıcı Kitabı (Rusça)",
     "price": 45,
+    "currency": "TL",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -100,6 +112,7 @@
     "imageUrl": "2starBook",
     "name": "2* Dalıcı Kitabı",
     "price": 45,
+    "currency": "TL",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -108,6 +121,7 @@
     "imageUrl": "3starBook",
     "name": "3* Dalıcı Kitabı",
     "price": 45,
+    "currency": "TL",
     "isVisible": true,
     "isCompanyVisible": true
   },
@@ -116,6 +130,7 @@
     "imageUrl": "logbook",
     "name": "Logbook",
     "price": 35,
+    "currency": "TL",
     "isVisible": true,
     "isCompanyVisible": true
   }
