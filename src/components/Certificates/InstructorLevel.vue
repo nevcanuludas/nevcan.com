@@ -7,6 +7,7 @@ export default {
     return {
       isGueVisible: false,
       isTssfVisible: false,
+      isSsiVisible: false,
       isProtecVisible: false
     }
   }
