@@ -10,14 +10,14 @@
     "name": "TSSF/CMAS" 
   },
   { 
-    "id": "tdi", 
-    "imageUrl": "tdi", 
-    "name": "TDI" 
-  },
-  { 
     "id": "ssi", 
     "imageUrl": "ssi", 
     "name": "SSI" 
+  },
+  { 
+    "id": "tdi", 
+    "imageUrl": "tdi", 
+    "name": "TDI" 
   },
   { 
     "id": "nsc", 

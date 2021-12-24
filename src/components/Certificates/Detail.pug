@@ -21,6 +21,78 @@ section#certificateDetails
                 img(:src="image.src", :alt="image.alt").img-fluid
           figcaption {{ image.alt }}
 
+    h1(v-if="certificateImagesI") Eğitmenlikler
+    .row.certificate-images(v-if="certificateImagesI")
+      template(v-for='image in certificateImagesI')
+        figure.col-12.col-sm-6.col-md-12.col-lg-6.mb-5
+          .flip-container(@mouseover='flip' @mouseleave='flip_back')
+            .flipper
+              .front
+                img(:src="image.src", :alt="image.alt").img-fluid
+              .back
+                img(:src="image.src", :alt="image.alt").img-fluid
+          figcaption {{ image.alt }}
+
+    h1(v-if="certificateImagesSI") Uzmanlık Eğitmenlikleri
+    .row.certificate-images(v-if="certificateImagesSI")
+      template(v-for='image in certificateImagesSI')
+        figure.col-12.col-sm-6.col-md-4.col-lg-4.mb-5
+          .flip-container(@mouseover='flip' @mouseleave='flip_back')
+            .flipper
+              .front
+                img(:src="image.src", :alt="image.alt").img-fluid
+              .back
+                img(:src="image.src", :alt="image.alt").img-fluid
+          figcaption {{ image.alt }}
+
+    h1(v-if="certificateImagesSD") Sportif Dalış
+    .row.certificate-images(v-if="certificateImagesSD")
+      template(v-for='image in certificateImagesSD')
+        figure.col-12.col-sm-6.col-md-4.col-lg-4.mb-5
+          .flip-container(@mouseover='flip' @mouseleave='flip_back')
+            .flipper
+              .front
+                img(:src="image.src", :alt="image.alt").img-fluid
+              .back
+                img(:src="image.src", :alt="image.alt").img-fluid
+          figcaption {{ image.alt }}
+
+    h1(v-if="certificateImagesXR") Teknik Dalış
+    .row.certificate-images(v-if="certificateImagesXR")
+      template(v-for='image in certificateImagesXR')
+        figure.col-12.col-sm-6.col-md-4.col-lg-4.mb-5
+          .flip-container(@mouseover='flip' @mouseleave='flip_back')
+            .flipper
+              .front
+                img(:src="image.src", :alt="image.alt").img-fluid
+              .back
+                img(:src="image.src", :alt="image.alt").img-fluid
+          figcaption {{ image.alt }}
+
+    h1(v-if="certificateImagesFD") Serbest Dalış
+    .row.certificate-images(v-if="certificateImagesFD")
+      template(v-for='image in certificateImagesFD')
+        figure.col-12.col-sm-6.col-md-4.col-lg-4.mb-5
+          .flip-container(@mouseover='flip' @mouseleave='flip_back')
+            .flipper
+              .front
+                img(:src="image.src", :alt="image.alt").img-fluid
+              .back
+                img(:src="image.src", :alt="image.alt").img-fluid
+          figcaption {{ image.alt }}
+
+    h1(v-if="certificateImagesT") Tanınma Sertifikaları
+    .row.certificate-images(v-if="certificateImagesT")
+      template(v-for='image in certificateImagesT')
+        figure.col-12.col-sm-6.col-md-4.col-lg-4.mb-5
+          .flip-container(@mouseover='flip' @mouseleave='flip_back')
+            .flipper
+              .front
+                img(:src="image.src", :alt="image.alt").img-fluid
+              .back
+                img(:src="image.src", :alt="image.alt").img-fluid
+          figcaption {{ image.alt }}
+
     .back-to-list
       a(href='/#certificates')
         .btn.btn-lg.btn-secondary

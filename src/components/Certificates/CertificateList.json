@@ -20,11 +20,13 @@
     "title": "Türkiye Sualtı Sporları Federasyonu (TSSF/CMAS)",
     "scope": "2008 yılında başladığım bu serüvene 2011 yılından beri TSSF'nin aktif eğitmeni olarak devam ediyorum. TSSF sportif dalış branşındaki tüm dalıcı kurslarını (1-2-3* dalıcı, 18 farklı uzman dalıcı ve 4 farklı engelli dalıcı) eğitimlerini veriyorum.",
     "verification": "Belgelerimi https://tssf.gov.tr/dalici-cankurtaran-sorgulama/ adresinden doğrulayabilirsiniz.",
-    "images": [
+    "imagesI": [
       { "src": "/static/img/certificates/tssf-cmas/i/2.png", "alt": "TSSF/CMAS 2* Dalış Eğitmeni" },
       { "src": "/static/img/certificates/tssf/rehber.png", "alt": "TSSF Rehber Dalıcı" },
       { "src": "/static/img/certificates/tssf/i/engelli-dalici.jpg", "alt": "TSSF Engelli Dalıcı Eğitmeni" },
-      { "src": "/static/img/certificates/tssf/i/kultur-mirasinin-korunmasi.jpg", "alt": "TSSF Sualtı Kültür Mirasının Korunması Eğitmeni" },
+      { "src": "/static/img/certificates/tssf/i/kultur-mirasinin-korunmasi.jpg", "alt": "TSSF Sualtı Kültür Mirasının Korunması Eğitmeni" }
+    ],
+    "imagesSI": [
       { "src": "/static/img/certificates/tssf/d/akinti.jpg", "alt": "TSSF Akıntı Dalışı Uzman Dalış Eğitmeni" },
       { "src": "/static/img/certificates/tssf/d/arama-kurtarma.jpg", "alt": "TSSF Arama ve Kurtarma Uzman Dalış Eğitmeni" },
       { "src": "/static/img/certificates/tssf/d/batik.jpg", "alt": "TSSF Batık Dalışı Uzman Dalış Eğitmeni" },
@@ -45,6 +47,38 @@
     ]
   },
   {
+    "title": "Scuba Schools International (SSI)",
+    "scope": "SSI ile serbest dalışa adım attım. Daha sonra teknik seviyedeki programlara katıldım. Aktif olarak SSI'da devam etmiyorum.",
+    "verification": "Belgelerimi https://www.divessi.com/en/join-ssi/register-free/diver-verification adresinden doğrulayabilirsiniz.",
+    "imagesI": [
+      { "src": "/static/img/certificates/ssi/i/owi.png", "alt": "SSI OWI" },
+      { "src": "/static/img/certificates/ssi/i/snorkel.png", "alt": "SSI Snorkel Instructor" },
+      { "src": "/static/img/certificates/ssi/i/sri.png", "alt": "SSI Scuba Ranger Instructor" }
+    ],
+    "imagesSI": [
+      { "src": "/static/img/certificates/ssi/i/dg.png", "alt": "SSI Dive Guide Instructor" },
+      { "src": "/static/img/certificates/ssi/i/stress-rescue.png", "alt": "SSI Stress & Rescue Instructor" },
+      { "src": "/static/img/certificates/ssi/i/pb.png", "alt": "SSI Perfect Buoyancy Instructor" },
+      { "src": "/static/img/certificates/ssi/i/marine-ecology.png", "alt": "SSI Marine Ecology Instructor" }
+    ],
+    "imagesSD": [
+      { "src": "/static/img/certificates/ssi/d/rr.png", "alt": "SSI React Right" }
+    ],
+    "imagesXR": [
+      { "src": "/static/img/certificates/ssi/d/xr-nitrox.png", "alt": "SSI Extended Range Nitrox" },
+      { "src": "/static/img/certificates/ssi/d/xr-foundations.png", "alt": "SSI Extended Range Temelleri" }
+    ],
+    "imagesFD": [
+      { "src": "/static/img/certificates/ssi/d/freediving-level-1.png", "alt": "SSI Serbest Dalış Seviye 1" }
+    ],
+    "imagesT": [
+      { "src": "/static/img/certificates/ssi/t/platinum-1000-diver.png", "alt": "SSI Platinum 1000 Diver" },
+      { "src": "/static/img/certificates/ssi/t/bronze-200-freediver.png", "alt": "SSI Bronze 200 Freediver" },
+      { "src": "/static/img/certificates/ssi/t/blue-oceans.png", "alt": "SSI Blue Oceans" },
+      { "src": "/static/img/certificates/ssi/t/ssi-50-years.png", "alt": "SSI 50 Years" }
+    ]
+  },
+  {
     "title": "Technical Diving International (TDI)",
     "scope": "TDI ile 2021 yılında tanıştım. Teknik dalışta oldukça popüler bir sistem olduğu için eğitim programlarını değerlendirmek ve farklı tecrübeler edinmek için bu kursu aldım. Uzun vadede TDI ile ilerlemeyi düşünmüyorum.",
     "verification": "Belgelerimi https://www.tdisdi.com/cert-search/ adresinden doğrulayabilirsiniz.",
@@ -52,17 +86,6 @@
       { "src": "/static/img/certificates/tdi/d/advanced-trimix.png", "alt": "TDI Advanced Trimix Diver"},
       { "src": "/static/img/certificates/tdi/d/trimix.png", "alt": "TDI Trimix Diver"},
       { "src": "/static/img/certificates/tdi/d/extended-range.png", "alt": "TDI Extended Range Diver"}
-    ]
-  },
-  {
-    "title": "Scuba Schools International (SSI)",
-    "scope": "SSI ile serbest dalışa adım attım. Daha sonra teknik seviyedeki programlara katıldım. Aktif olarak SSI'da devam etmiyorum.",
-    "verification": "Belgelerimi https://www.divessi.com/en/join-ssi/register-free/diver-verification adresinden doğrulayabilirsiniz.",
-    "images": [
-      { "src": "/static/img/certificates/ssi/freediving-level-1.png", "alt": "SSI Serbest Dalış Seviye 1" },
-      { "src": "/static/img/certificates/ssi/silver-300-diver.png", "alt": "SSI Gümüş 300 Dalıcı" },
-      { "src": "/static/img/certificates/ssi/extended-range-foundations.png", "alt": "SSI Extended Range Temelleri" },
-      { "src": "/static/img/certificates/ssi/extended-range-nitrox.png", "alt": "SSI Extended Range Nitrox" }
     ]
   },
   {

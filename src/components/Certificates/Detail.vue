@@ -16,8 +16,8 @@ export default {
       dict: {
         'gue': 0,
         'tssf': 1,
-        'tdi': 2,
-        'ssi': 3,
+        'ssi': 2,
+        'tdi': 3,
         'nsc': 4,
         'ccr': 5,
         'lifeguard': 6,
@@ -33,6 +33,12 @@ export default {
     this.certificateScope = c.scope
     this.certificateVerification = c.verification
     this.certificateImages = c.images
+    this.certificateImagesI = c.imagesI
+    this.certificateImagesSI = c.imagesSI
+    this.certificateImagesSD = c.imagesSD
+    this.certificateImagesXR = c.imagesXR
+    this.certificateImagesFD = c.imagesFD
+    this.certificateImagesT = c.imagesT
   },
   methods: {
 
