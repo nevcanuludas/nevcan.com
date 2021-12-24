@@ -122,7 +122,7 @@ export default {
       this.courses[32].isCompanyVisible = true // engelli-dalici-egitmen-asistani
       this.isActiveTab = 'tssf'
     },
-    showNsc () {
+    showProTec () {
       this.courses[0].isCompanyVisible = false // 1-yildiz-dalici
       this.courses[1].isCompanyVisible = false // 2-yildiz-dalici
       this.courses[2].isCompanyVisible = false // 3-yildiz-dalici
@@ -156,7 +156,7 @@ export default {
       this.courses[30].isCompanyVisible = false // engelli-dalici-2-egitimi
       this.courses[31].isCompanyVisible = false // engelli-dalici-3-egitimi
       this.courses[32].isCompanyVisible = false // engelli-dalici-egitmen-asistani
-      this.isActiveTab = 'nsc'
+      this.isActiveTab = 'protec'
     },
     showScuba () {
       this.showTssf()
@@ -269,7 +269,7 @@ export default {
       this.isActiveFilter = 'disabled'
     },
     showFree () {
-      this.showNsc()
+      this.showProTec()
       this.courses[0].isVisible = false // 1-yildiz-dalici
       this.courses[1].isVisible = false // 2-yildiz-dalici
       this.courses[2].isVisible = false // 3-yildiz-dalici

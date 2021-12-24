@@ -18,7 +18,7 @@ export default {
         'tssf': 1,
         'ssi': 2,
         'tdi': 3,
-        'nsc': 4,
+        'protec': 4,
         'ccr': 5,
         'lifeguard': 6,
         'tc-udhb': 7
