@@ -32,6 +32,12 @@ section#certificates
         ol
           template(v-for='certificate in certificateList')
             li(v-for= 'item in certificate.images') {{ item.alt }}
+            li(v-for= 'item in certificate.imagesI') {{ item.alt }}
+            li(v-for= 'item in certificate.imagesSI') {{ item.alt }}
+            li(v-for= 'item in certificate.imagesSD') {{ item.alt }}
+            li(v-for= 'item in certificate.imagesXR') {{ item.alt }}
+            li(v-for= 'item in certificate.imagesFD') {{ item.alt }}
+            li(v-for= 'item in certificate.imagesT') {{ item.alt }}
 
     app-instructor-level
 

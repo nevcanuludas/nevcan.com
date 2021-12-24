@@ -51,7 +51,7 @@
     "scope": "SSI ile serbest dalışa adım attım. Daha sonra teknik seviyedeki programlara katıldım. Aktif olarak SSI'da devam etmiyorum.",
     "verification": "Belgelerimi https://www.divessi.com/en/join-ssi/register-free/diver-verification adresinden doğrulayabilirsiniz.",
     "imagesI": [
-      { "src": "/static/img/certificates/ssi/i/owi.png", "alt": "SSI OWI" },
+      { "src": "/static/img/certificates/ssi/i/owi.png", "alt": "SSI Open Water Instructor" },
       { "src": "/static/img/certificates/ssi/i/snorkel.png", "alt": "SSI Snorkel Instructor" },
       { "src": "/static/img/certificates/ssi/i/sri.png", "alt": "SSI Scuba Ranger Instructor" }
     ],
