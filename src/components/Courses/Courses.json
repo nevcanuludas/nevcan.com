@@ -1,9 +1,24 @@
 [
   {
+    "id": "fundamentals",
+    "imageUrl": "fundamentals",
+    "name": "Fundamentals",
+    "isVisible": true,
+    "isGue": true,
+    "isTssf": false,
+    "isSsi": false,
+    "isProtec": false,
+    "isCompanyVisible": true
+  },
+  {
     "id": "1-yildiz-dalici",
     "imageUrl": "1star",
     "name": "1* Dalıcı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": true,
     "isCompanyVisible": true
   },
   {
@@ -11,6 +26,10 @@
     "imageUrl": "2star",
     "name": "2* Dalıcı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": true,
     "isCompanyVisible": true
   },
   {
@@ -18,6 +37,32 @@
     "imageUrl": "3star",
     "name": "3* Dalıcı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "owd",
+    "imageUrl": "owd",
+    "name": "Open Water Diver",
+    "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": true,
+    "isProtec": false,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "dg",
+    "imageUrl": "dg",
+    "name": "Dive Guide",
+    "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": true,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -25,6 +70,10 @@
     "imageUrl": "modified",
     "name": "Modifiye Dalıcı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -32,6 +81,10 @@
     "imageUrl": "drift",
     "name": "Akıntı Dalışı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -39,6 +92,10 @@
     "imageUrl": "search-and-recovery",
     "name": "Arama ve Kurtarma",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -46,6 +103,10 @@
     "imageUrl": "wreck",
     "name": "Batık Dalışı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": true,
     "isCompanyVisible": true
   },
   {
@@ -53,6 +114,10 @@
     "imageUrl": "ice",
     "name": "Buz Dalışı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": false,
+    "isProtec": true,
     "isCompanyVisible": true
   },
   {
@@ -60,6 +125,10 @@
     "imageUrl": "deep",
     "name": "Derin Dalış",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -67,6 +136,10 @@
     "imageUrl": "dpv",
     "name": "DPV",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": false,
+    "isProtec": true,
     "isCompanyVisible": true
   },
   {
@@ -74,6 +147,10 @@
     "imageUrl": "night",
     "name": "Gece Dalışı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -81,6 +158,10 @@
     "imageUrl": "firstaid",
     "name": "İlkyardım",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -88,6 +169,10 @@
     "imageUrl": "altitude",
     "name": "İrtifa Dalışı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -95,6 +180,10 @@
     "imageUrl": "cavern",
     "name": "Kovuk Dalışı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -102,6 +191,10 @@
     "imageUrl": "drysuit",
     "name": "Kuru Elbise",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": false,
+    "isProtec": true,
     "isCompanyVisible": true
   },
   {
@@ -109,6 +202,10 @@
     "imageUrl": "dcd",
     "name": "Mağara Keşif Dalışı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": false,
+    "isProtec": true,
     "isCompanyVisible": true
   },
   {
@@ -116,6 +213,21 @@
     "imageUrl": "maintenance",
     "name": "Malzeme Bakımı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "marine-ecology",
+    "imageUrl": "marine-ecology",
+    "name": "Marine Ecology",
+    "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": true,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -123,6 +235,10 @@
     "imageUrl": "nitrox",
     "name": "Nitrox",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": true,
     "isCompanyVisible": true
   },
   {
@@ -130,6 +246,10 @@
     "imageUrl": "o2provider",
     "name": "Oksijen Kullanımı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -137,6 +257,21 @@
     "imageUrl": "sidemount",
     "name": "Sidemount",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": false,
+    "isProtec": true,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "stress-and-rescue",
+    "imageUrl": "stress-rescue",
+    "name": "Stress & Rescue",
+    "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -144,6 +279,10 @@
     "imageUrl": "photography",
     "name": "Sualtı Fotoğrafçısı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -151,6 +290,10 @@
     "imageUrl": "cultural-heritage",
     "name": "Sualtı Kültür Mirasının Korunması Uzmanlığı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -158,6 +301,10 @@
     "imageUrl": "videography",
     "name": "Sualtı Videocusu",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -165,6 +312,10 @@
     "imageUrl": "dsd",
     "name": "Tanıtım Dalışı Uzmanlığı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -172,6 +323,10 @@
     "imageUrl": "compressor-operator",
     "name": "Tüp Doldurma",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -179,6 +334,10 @@
     "imageUrl": "perfect-buoyancy",
     "name": "Üst Düzey Yüzerlilik",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": true,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -186,6 +345,10 @@
     "imageUrl": "navigation",
     "name": "Yön Bulma",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -193,6 +356,21 @@
     "imageUrl": "zerotohero",
     "name": "Zero to Hero",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "snorkel-diver",
+    "imageUrl": "snorkel-diver",
+    "name": "Snorkel Diver",
+    "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": true,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -200,6 +378,10 @@
     "imageUrl": "freediving",
     "name": "Serbest Dalış",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": true,
+    "isProtec": true,
     "isCompanyVisible": true
   },
   {
@@ -207,6 +389,10 @@
     "imageUrl": "handicap-1",
     "name": "Engelli Dalıcı 1",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": true,
     "isCompanyVisible": true
   },
   {
@@ -214,6 +400,10 @@
     "imageUrl": "handicap-2",
     "name": "Engelli Dalıcı 2",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -221,6 +411,10 @@
     "imageUrl": "handicap-3",
     "name": "Engelli Dalıcı 3",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
     "isCompanyVisible": true
   },
   {
@@ -228,6 +422,54 @@
     "imageUrl": "edea",
     "name": "Engelli Dalıcı Eğitmen Asistanı",
     "isVisible": true,
+    "isGue": false,
+    "isTssf": true,
+    "isSsi": false,
+    "isProtec": false,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "scuba-ranger",
+    "imageUrl": "scuba-ranger",
+    "name": "Scuba Ranger",
+    "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": true,
+    "isProtec": false,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "try-scuba",
+    "imageUrl": "try-scuba",
+    "name": "Try Scuba",
+    "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": true,
+    "isProtec": false,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "scuba-skills-update",
+    "imageUrl": "scuba-skills-update",
+    "name": "Scuba Skills Update",
+    "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": true,
+    "isProtec": false,
+    "isCompanyVisible": true
+  },
+  {
+    "id": "advanced-adventurer",
+    "imageUrl": "advanced-adventurer",
+    "name": "Advanced Adventurer",
+    "isVisible": true,
+    "isGue": false,
+    "isTssf": false,
+    "isSsi": true,
+    "isProtec": false,
     "isCompanyVisible": true
   }
 ]

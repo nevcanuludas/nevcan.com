@@ -16,11 +16,13 @@ section#courses
         button(type="button" aria-label='Tümü' @click="showAllCompanies" :class="{'active': isActiveTab == 'allCompanies'}").btn.btn-sm.btn-secondary Tümü
         button(type="button" aria-label='GUE' @click="showGue" :class="{'active': isActiveTab == 'gue'}").btn.btn-sm.btn-secondary GUE
         button(type="button" aria-label='TSSF' @click="showTssf" :class="{'active': isActiveTab == 'tssf'}").btn.btn-sm.btn-secondary TSSF
+        button(type="button" aria-label='SSI' @click="showSsi" :class="{'active': isActiveTab == 'ssi'}").btn.btn-sm.btn-secondary SSI
         button(type="button" aria-label='ProTec' @click="showProTec" :class="{'active': isActiveTab == 'protec'}").btn.btn-sm.btn-secondary ProTec
 
       .btn-group.float-right(role="group" aria-label="Courses Filter")
         button(type="button" aria-label='Tümü' @click="showAllCourses" :class="{'active': isActiveFilter == 'allCourses'}").btn.btn-sm.btn-secondary Tümü
-        button(type="button" aria-label='Dalıcı' @click="showScuba" :class="{'active': isActiveFilter == 'diver'}").btn.btn-sm.btn-secondary Dalıcı
+        button(type="button" aria-label='Başlangıç' @click="showBeginner" :class="{'active': isActiveFilter == 'beginner'}").btn.btn-sm.btn-secondary Başlangıç Seviyesi
+        button(type="button" aria-label='İleri' @click="showAdvanced" :class="{'active': isActiveFilter == 'diver'}").btn.btn-sm.btn-secondary İleri Seviye
         button(type="button" aria-label='Uzmanlık' @click="showSpecialty" :class="{'active': isActiveFilter == 'specialty'}").btn.btn-sm.btn-secondary Uzmanlık
         button(type="button" aria-label='Engelli' @click="showDisabled" :class="{'active': isActiveFilter == 'disabled'}").btn.btn-sm.btn-secondary Engelli
         button(type="button" aria-label='Serbest' @click="showFree" :class="{'active': isActiveFilter == 'free'}").btn.btn-sm.btn-secondary Serbest
