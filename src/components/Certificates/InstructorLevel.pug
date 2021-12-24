@@ -17,6 +17,7 @@ section
       | Instructor Level:
 
   ul.skill-list-horizontal
+    //- TR section
     template(v-if= "$t('selectedLang') == 'tr'")
       +skill-list-horizontal-item("GUE", "Eğitmen Adayı", '')(style="width: calc(100%*8/25)")
         button.btn.btn-white.p-0.px-2(aria-label='Devamı' @click= 'isGueVisible = !isGueVisible')
@@ -31,6 +32,11 @@ section
       +skill-list-horizontal-item("TSSF", "Uzman Dalıcı Eğitmeni", 'isTssfVisible')(style="width: calc(100%*17/17)" class="thin")
       +skill-list-horizontal-item("TSSF", "Engelli Dalıcı Eğitmeni", 'isTssfVisible')(style="width: calc(100%*5/6)" class="thin")
       +skill-list-horizontal-item("TSSF", "Sualtı Kültür Mirasının Korunması Eğitmeni", 'isTssfVisible')(style="width: calc(100%*2/2)" class="thin")
+      +skill-list-horizontal-item("SSI", "OWI", '')(style="width: calc(100%*1/4)")
+        button.btn.btn-white.p-0.px-2(aria-label='Devamı' @click= 'isSsiVisible = !isSsiVisible')
+          i.fa.fa-angle-down
+      +skill-list-horizontal-item("SSI", "SI", 'isSsiVisible')(style="width: calc(100%*4/33)" class="thin")
+      +skill-list-horizontal-item("SSI", "FDI", 'isSsiVisible')(style="width: calc(100%*1/6)" class="thin")
       +skill-list-horizontal-item("ProTec", "2* Dalış Eğitmeni", '')(style="width: calc(100%*5/6)")
         button.btn.btn-white.p-0.px-2(aria-label='Devamı' @click= 'isProtecVisible = !isProtecVisible')
           i.fa.fa-angle-down
@@ -38,6 +44,7 @@ section
       +skill-list-horizontal-item("ProTec", "Engelli Dalıcı Eğitmeni", 'isProtecVisible')(style="width: calc(100%*2/3)" class="thin")
       +skill-list-horizontal-item("ProTec", "Serbest Dalış Eğitmeni", 'isProtecVisible')(style="width: calc(100%*4/6)" class="thin")
 
+    //- EN section
     template(v-if= "$t('selectedLang') == 'en'")
       +skill-list-horizontal-item("GUE", "Instructor Candidate", '')(style="width: calc(100%*8/25)")
         button.btn.btn-white.p-0.px-2(aria-label='Devamı' @click= 'isGueVisible = !isGueVisible')
@@ -52,9 +59,3 @@ section
       +skill-list-horizontal-item("TSSF", "Speciality Instructor", 'isTssfVisible')(style="width: calc(100%*17/17)" class="thin")
       +skill-list-horizontal-item("TSSF", "Handicap Diver Instructor", 'isTssfVisible')(style="width: calc(100%*5/6)" class="thin")
       +skill-list-horizontal-item("TSSF", "Protection of Underwater Cultural Heritage Instructor", 'isTssfVisible')(style="width: calc(100%*2/2)" class="thin")
-      //- +skill-list-horizontal-item("ProTec", "2* Scuba Instructor", '')(style="width: calc(100%*5/6)")
-        button.btn.btn-white.p-0.px-2(aria-label='More' @click= 'isProtecVisible = !isProtecVisible')
-          i.fa.fa-angle-down
-      //- +skill-list-horizontal-item("ProTec", "Speciality Instructor", 'isProtecVisible')(style="width: calc(100%*8/22)" class="thin")
-      //- +skill-list-horizontal-item("ProTec", "Handicap Diver Instructor", 'isProtecVisible')(style="width: calc(100%*2/3)" class="thin")
-      //- +skill-list-horizontal-item("ProTec", "Freediving Instructor", 'isProtecVisible')(style="width: calc(100%*4/6)" class="thin")
