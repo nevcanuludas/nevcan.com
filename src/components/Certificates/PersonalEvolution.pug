@@ -17,6 +17,7 @@ section
 
   ul.skill-list-vertical
     template(v-if= "$t('selectedLang') == 'tr'")
+      +skill-list-vertical-item("Mağaracılık", "ASPEG")(style="height: 25%")
       +skill-list-vertical-item("Mağara Dalışı", "GUE")(style="height: 75%")
       +skill-list-vertical-item("CCR", "SF2")(style="height: 70%")
       +skill-list-vertical-item("Carkurtarma", "ILS/TSSF")(style="height: 80%")
@@ -31,9 +32,10 @@ section
       .line-ins
 
     template(v-if= "$t('selectedLang') == 'en'")
-      +skill-list-vertical-item("Cave Diving", "GUE")(style="height: 55%")
+      +skill-list-vertical-item("Caving", "ASPEG")(style="height: 25%")
+      +skill-list-vertical-item("Cave Diving", "GUE")(style="height: 75%")
       +skill-list-vertical-item("CCR", "SF2")(style="height: 70%")
-      +skill-list-vertical-item("Lifeguard", "ILS/TSSF")(style="height: 90%")
+      +skill-list-vertical-item("Lifeguard", "ILS/TSSF")(style="height: 80%")
 
       .label-beg Beginner
       .line-beg

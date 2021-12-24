@@ -18,7 +18,7 @@ section#certificates
 
     .row.certificates-list(v-show = '!isListView')
       template(v-for='category in certificateCategories')
-        .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-4
+        .col-6.col-sm-4.col-md-6.col-lg-4.col-xl-3
           router-link(:to="'/certificates/' + category.id")
             .canvas-overlay(:title= 'category.name')
               .btn
