@@ -1,4 +1,5 @@
 {
+  "system": "tssf",
   "title": "Tanıtım Dalışı Uzmanlığı",
   "price": 100,
   "paymentLink": "http://www.sopsy.com/d/80rESa",
@@ -6,8 +7,6 @@
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF Tanıtım Dalışı Uzmanlığı Sertifikası" }
   ],
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "TSSF bünyesinde bu eğitimin kitabı bulunmamaktadır."
   ],

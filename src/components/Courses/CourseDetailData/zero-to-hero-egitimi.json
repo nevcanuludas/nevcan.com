@@ -1,8 +1,7 @@
 {
+  "system": "tssf",
   "title": "Zero to Hero Programı",
   "scope": "Kursun amacı dalış konusunda hiçbir bilgisi olmayan ya da çok az bilgisi ve tecrübesi olan katılımcıların ileri seviye dalış bilgi ve tecrübesine ulaştırmaktır. Kurs kapsamında aşağıdaki eğitimler verilecektir ve sonunda başarılı olanlar aşağıda belirtilen dalıcı belgelerini almaya hak kazanırlar; \n\n•  TSSF/CMAS 1* Dalıcı (18m),\n•  TSSF/CMAS 2* Dalıcı (30m),\n•  Nitrox Uzmanlığı (EAN40),\n•  Batık Dalışı Uzmanlığı,\n•  Scooter (DPV) Uzmanlığı,\n•  Mükemmel Yüzerlilik Uzmanlığı,\n•  Derin Dalış Uzmanlığı (40m),\n•  Temel İlkyardım Eğitimi,\n•  Gece Dalışı Uzmanlığı,\n•  SMB Kullanımı Eğitimi,\n•  İleri Seviye Palet Vuruş Eğitimi,\n•  Serbest Dalış Eğitimi (10m’ye kadar)",
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjets": [
     "Yukarıda belirtilen tüm kurs ve eğitimlerin başlıklarını kapsar."
   ],

@@ -1,0 +1,36 @@
+{
+  "system": "gue",
+  "title": "GUE Fundamentals Kursu",
+  "price": 600,
+  "paymentLink": "https://www.sopsy.com/d/KM46qY",
+  "scope": "GUE Fundamentals kursu, açık farkla GUE'nin en popüler programıdır. GUE eğitimine giriş kapısı işlevi görür ve GUE'nin neyle ilgili olduğunu kişisel olarak deneyimlemenin mükemmel bir yoludur.\n\nBazı dalıcılar, Fundamentals kursunu, geleneksel hızlı giriş seviyesi kursları sırasında olması gerekenin altında aldıkları eğitimi iyileştirmenin bir yolu olarak kullanırlar. Diğerleri, kursu GUE projelerine ve etkinliklerine katılmak için bir bilet olarak görürler. Diğer kuruluşlardan birçok teknik dalıcı ve hatta deneyimli eğitmenler, kursu temel becerilerini geliştirmek ve GUE'nin mağara ve teknik dalış eğitimine geçiş sağlamak için kullanırlar. Aynı sınıfta çok farklı geçmişlere sahip dalıcıların olması, bu kursta alışılmadık bir durum değildir. Bu da bu kursu dalış endüstrisinde tamamen benzersiz kılmaktadır. Mevcut sertifika veya deneyim düzeyine bakılmaksızın herkes bundan fayda sağlayabilir. GUE Fundamentals dalıcısının kalitesi tüm dalış dünyasında kabul edildiğinden, bu kursu başarı ile bitirmek gurur duyulacak bir şeydir.",
+  "images": [
+    { "src": "/static/img/certificates/gue/fund-tech.png", "alt": "GUE Fundamentals Sertifikası" },
+    { "src": "/static/img/certificates/gue/fund-tech-back.png", "alt": "GUE Fundamentals Sertifikası" }
+  ],
+  "subjects": [
+    "M1 Introduction and Overview",
+    "M2 Building a Solid Foundation",
+    "M3 Gas Planning & Gas Management",
+    "M4 Breathing Gas Dynamics - Nitrox Appendix",
+    "M5 Decompression",
+    "M6 Diving Safety & the GUE System"
+  ],
+  "prerequisites": [
+    "Kurs Kayıt Formu, Tıbbi Geçmiş Formu ve Sorumluluk İbra Formunu doldurularak GUE Genel Merkezine göndermek,",
+    "Hiperbarik tedavi gibi acil dalış durumlarını kapsayan bir sigortaya sahip olmak (örn. DAN Master-seviye sigortası veya eşdeğeri),",
+    "Fiziksel ve zihinsel olarak formda olmak,",
+    "Sigara içmemek,",
+    "Doğum kontrolü dışındaki reçeteli ilaçların kullanımı veya dalış sırasında risk oluşturabilecek herhangi bir tıbbi durum için önceden bir hekimin yazılı iznini almak,",
+    "16 yaşını doldurmuş olmak (katılımcının reşit olmadığı durumda, belgelenmiş ebeveyn veya yasal vasi onayı GUE Genel Merkezine sunulmalıdır),",
+    "Tanınmış bir eğitim kurumundan sertifikalı otonom (dalış eşi ile bağımsız dalış yapabilen) tüplü dalıcı olmak."
+  ],
+  "includes": [
+    "30 saatlik teorik & kara eğitimi",
+    "En az 6 açık deniz dalışı",
+    "Eğitmen giderleri"
+  ],
+  "notIncluded": "Ulaşım, konaklama, yeme-içme, kişisel harcamalar, lojistik, ekipman / gaz ücretleri ve GUE harcı kurs ücretine dahil değildir.",
+  "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
+  "alternativeCourses": []
+}

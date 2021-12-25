@@ -1,4 +1,5 @@
 {
+  "system": "tssf",
   "title": "Engelli Dalıcı 3 Kursu",
   "price": 200,
   "paymentLink": "http://www.sopsy.com/d/sD6rI8",
@@ -6,8 +7,6 @@
   "images": [
     { "src": "/static/img/courses-temp/protec-org-handicap.jpeg", "alt": "ProTec Engelli Dalıcı Sertifikası" }
   ],
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "Dalış Hastalıkları",
     "İlkyardım ve Dalış",

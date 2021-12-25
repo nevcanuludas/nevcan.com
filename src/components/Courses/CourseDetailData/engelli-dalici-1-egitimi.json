@@ -1,4 +1,5 @@
 {
+  "system": ["tssf", "protec"],
   "title": "Engelli Dalıcı 1 Kursu",
   "price": 200,
   "paymentLink": "http://www.sopsy.com/d/sD6rI8",
@@ -10,8 +11,6 @@
     "14 yaşını doldurmuş olmak, 18 yaşından küçükler için velisinin onay belgesi olmak,",
     "Engelli Dalıcı Talimatı'nın 22. Maddesi'nde yer alan sağlık koşullarını yerine getirmek"
   ],
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "İdari Ders",
     "Temel Donanım",

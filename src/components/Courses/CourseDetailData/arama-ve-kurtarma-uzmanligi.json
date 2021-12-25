@@ -1,10 +1,9 @@
 {
+  "system": "tssf",
   "title": "Arama ve Kurtarma Uzmanlığı",
   "price": 100,
   "paymentLink": "http://www.sopsy.com/d/80rESa",
   "scope": "Kursun amacı, su altında kaybolan bir nesneyi ortam koşullarına bağlı olarak en doğru yöntem ile arayarak bulunmasını sağlamaktır. Kurs süresi 1 gündür.",
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "Giriş",
     "Bölüm 1: Arama Kurtarma Operasyonunu Etkileyen Faktörler",

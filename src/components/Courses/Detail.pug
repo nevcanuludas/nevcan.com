@@ -17,18 +17,6 @@ section#courseDetails
           img(:src="image.src", :alt="image.alt").img-fluid
           figcaption {{ image.alt }}
 
-    .alert.alert-success(v-if='courseHasPadiClass || courseHasSsiClass').mt-0
-      strong NOT:&nbsp;
-      ul
-        li(v-if='courseHasPadiClass')
-          | PADI belgesi almak isteyenler&nbsp;
-          a(href="http://neptunsualti.com/kurslar-padi.html?ref=nevcancom_courseDetails", target="_blank") neptunsualti.com
-          | &nbsp;adresini ziyaret edebilirler.
-        li(v-if='courseHasSsiClass')
-          | SSI belgesi almak isteyenler&nbsp;
-          a(href="https://pendikdalisokulu.com/ssi-egitimleri-2/?ref=nevcancom_courseDetails", target="_blank") pendikdalisokulu.com
-          | &nbsp;adresini ziyaret edebilirler.
-
     h4.section-heading Teorik Konu Başlıkları
     ul
       template(v-for='subject in courseSubjects')
@@ -38,7 +26,9 @@ section#courseDetails
     ol
       template(v-for='prerequisite in coursePrerequisites')
         li {{ prerequisite }}
-      a(href="https://tssf.gov.tr/wp-content/uploads/2019/07/DONANIMLI-DALIS-TALIMATI-06.05.2019-Tarihli-Degisiklik.doc", target="_blank") Donanımlı Dalış Sağlık Bildirim Formu (FORM 9)
+      
+      template(v-if='courseSystem == "tssf"')
+        a(href="https://tssf.gov.tr/wp-content/uploads/2019/07/DONANIMLI-DALIS-TALIMATI-06.05.2019-Tarihli-Degisiklik.doc", target="_blank") Donanımlı Dalış Sağlık Bildirim Formu (FORM 9)
 
     //- COURSE PRICE
     h4.section-heading Kurs Ücreti
@@ -46,7 +36,7 @@ section#courseDetails
     button.btn.btn-warning(v-if='!isVisible' @click='isVisible = !isVisible' v-finger:tap='visible' aria-label='Ücret Bilgisi') Ücret bilgisini görmek için tıklayın
 
     div(v-else-if='coursePrice >= 0') 
-      p Kurs ücreti {{ coursePrice * Math.round(EURTRY) }}₺'dır.
+      p Kurs ücreti {{ coursePrice }}€'dur.
       p Online ödeme yapmak için: 
         a(:href='coursePaymentLink' target=';blank') {{ coursePaymentLink }}
 

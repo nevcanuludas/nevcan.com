@@ -1,4 +1,5 @@
 {
+  "system": "protec",
   "title": "Kuru Elbise Uzmanlığı",
   "price": 100,
   "paymentLink": "http://www.sopsy.com/d/80rESa",
@@ -7,8 +8,6 @@
   "images": [
     { "src": "/static/img/courses-temp/protec-org-drysuit.jpeg", "alt": "ProTec Kuru Elbise Uzmanlığı Sertifikası" }
   ],
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "Giriş",
     "Kuru Elbisenin Bileşenleri",

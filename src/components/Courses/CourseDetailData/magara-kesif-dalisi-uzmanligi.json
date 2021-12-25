@@ -1,4 +1,5 @@
 {
+  "system": "protec",
   "title": "Mağara Keşif Dalışı Uzmanlığı",
   "price": 200,
   "paymentLink": "http://www.sopsy.com/d/sD6rI8",
@@ -6,8 +7,6 @@
   "images": [
     { "src": "/static/img/courses-temp/protec-org-cave.jpeg", "alt": "ProTec Mağara Keşif Dalışı Uzmanlığı Sertifikası" }
   ],
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "Eğitim Materyelleri Güncellenmektedir."
   ],

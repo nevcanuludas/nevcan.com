@@ -1,10 +1,9 @@
 {
+  "system": "tssf",
   "title": "Akıntı Dalışı Uzmanlığı",
   "price": 100,
   "paymentLink": "http://www.sopsy.com/d/80rESa",
   "scope": "Kursun amacı, akıntının oluşturduğu dezavantajları avantaja dönüştürmeyi ve dalışlarımızı güvenle sürdürebilme becerisini öğrenmektir. Kurs süresi 1 gündür.",
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "Giriş",
     "Bölüm 1: Akıntı Dalışı",

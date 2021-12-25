@@ -1,4 +1,5 @@
 {
+  "system": "tssf",
   "title": "Yön Bulma Uzmanlığı",
   "price": 100,
   "paymentLink": "http://www.sopsy.com/d/80rESa",
@@ -6,8 +7,6 @@
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF Yön Bulma Uzmanlığı Sertifikası" }
   ],
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "Giriş",
     "Bölüm 1: Doğal Yön Bulma",

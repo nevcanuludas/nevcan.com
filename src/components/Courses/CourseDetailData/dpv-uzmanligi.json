@@ -1,4 +1,5 @@
 {
+  "system": "protec",
   "title": "DPV Uzmanlığı",
   "price": 150,
   "paymentLink": "http://www.sopsy.com/d/lQ5y0i",
@@ -6,8 +7,6 @@
   "images": [
     { "src": "/static/img/courses-temp/protec-org-dpv.jpeg", "alt": "ProTec DPV Dalışı Uzmanlığı Sertifikası" }
   ],
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "Giriş",
     "Riskler ve Acil Durum Yönetimi",

@@ -1,10 +1,9 @@
 {
+  "system": "tssf",
   "title": "Oksijen Kullanımı Uzmanlığı",
   "price": 75,
   "paymentLink": "http://www.sopsy.com/d/bNgGXW",
   "scope": "",
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "Giriş",
     "Bölüm 1: Oksijen Nedir? Ne İşe Yarar?",

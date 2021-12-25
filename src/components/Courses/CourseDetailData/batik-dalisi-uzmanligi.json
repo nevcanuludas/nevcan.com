@@ -1,4 +1,5 @@
 {
+  "system": ["tssf", "protec"],
   "title": "Batık Dalışı Uzmanlığı",
   "price": 100,
   "paymentLink": "http://www.sopsy.com/d/80rESa",
@@ -6,8 +7,6 @@
   "images": [
     { "src": "/static/img/courses-temp/tssf-back-uzm.png", "alt": "TSSF/CMAS Batık Dalışı Uzmanlığı Sertifikası" }
   ],
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "Giriş",
     "Bölüm 1: Batık Dalışı Yapmanın Amaçları",

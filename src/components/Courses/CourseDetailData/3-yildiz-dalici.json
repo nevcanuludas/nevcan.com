@@ -1,4 +1,5 @@
 {
+  "system": ["tssf", "protec"],
   "title": "3☆☆☆ Dalıcı Kursu",
   "price": 250,
   "paymentLink": "https://www.sopsy.com/d/4wgdM8",
@@ -7,8 +8,6 @@
     { "src": "/static/img/courses-temp/tssf-front-3.png", "alt": "TSSF/CMAS 3* Dalıcı Sertifikası" },
     { "src": "/static/img/courses-temp/tssf-back-3.png", "alt": "TSSF/CMAS 3* Dalıcı Sertifikası" }
   ],
-  "hasPadiClasses": true,
-  "hasSsiClasses": false,
   "subjects": [
     "3T1 Küçük Tekne Kullanımı",
     "3T2 Navigasyon",

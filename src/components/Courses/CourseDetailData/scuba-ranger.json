@@ -1,0 +1,32 @@
+{
+  "system": "ssi",
+  "title": "Scuba Ranger Kursu",
+  "price": 350,
+  "paymentLink": "",
+  "scope": "Kursun amacı, ...",
+  "images": [
+    { "src": "/static/img/courses-temp/tssf-front-1.png", "alt": "OWD Sertifikası" },
+    { "src": "/static/img/courses-temp/tssf-back-1.png", "alt": "OWD Sertifikası" }
+  ],
+  "subjects": [
+    "M1 Introduction and Overview",
+    "M2 Building a Solid Foundation",
+    "M3 Gas Planning & Gas Management",
+    "M4 Brathing Gas Dynamics - Nitrox Appendix",
+    "M5 Decompression",
+    "M6 Diving Safety & the GUE System"
+  ],
+  "prerequisites": [
+    "14 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",
+    "Yeterli seviyede (su üzerinde kendinizi rahat hissedecek kadar) yüzme bilmek,",
+    "Dalış yapmanıza engel herhangi bir sağlık sorununuzun olmaması"
+  ],
+  "includes": [
+    "8 saatlik teorik eğitim",
+    "5 açık deniz dalışı",
+    "Eğitmen giderleri"
+  ],
+  "notIncluded": "Ulaşım, konaklama, yeme-içme ve kişisel harcamalar kurs ücretine dahil değildir.",
+  "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
+  "alternativeCourses": []
+}

@@ -16,9 +16,9 @@ export default {
   methods: {
     showAllCompanies () {
       this.courses[0].isCompanyVisible = true //  [GUE] Fundamentals
-      this.courses[1].isCompanyVisible = true //  [TSSF] 1 yildiz dalici
-      this.courses[2].isCompanyVisible = true //  [TSSF] 2 yildiz dalici
-      this.courses[3].isCompanyVisible = true //  [TSSF] 3 yildiz dalici
+      this.courses[1].isCompanyVisible = true //  [TSSF / ProTec] 1 yildiz dalici
+      this.courses[2].isCompanyVisible = true //  [TSSF / ProTec] 2 yildiz dalici
+      this.courses[3].isCompanyVisible = true //  [TSSF / ProTec] 3 yildiz dalici
       this.courses[4].isCompanyVisible = true //  [SSI] open water diver
       this.courses[5].isCompanyVisible = true //  [SSI] dive guide
       this.courses[6].isCompanyVisible = true //  [NEV] modifiye dalici
@@ -63,9 +63,9 @@ export default {
     },
     showGue () {
       this.courses[0].isCompanyVisible = true //   [GUE] Fundamentals
-      this.courses[1].isCompanyVisible = false //  [TSSF] 1 yildiz dalici
-      this.courses[2].isCompanyVisible = false //  [TSSF] 2 yildiz dalici
-      this.courses[3].isCompanyVisible = false //  [TSSF] 3 yildiz dalici
+      this.courses[1].isCompanyVisible = false //  [TSSF / ProTec] 1 yildiz dalici
+      this.courses[2].isCompanyVisible = false //  [TSSF / ProTec] 2 yildiz dalici
+      this.courses[3].isCompanyVisible = false //  [TSSF / ProTec] 3 yildiz dalici
       this.courses[4].isCompanyVisible = false //  [SSI] open water diver
       this.courses[5].isCompanyVisible = false //  [SSI] dive guide
       this.courses[6].isCompanyVisible = false //  [NEV] modifiye dalici
@@ -110,9 +110,9 @@ export default {
     },
     showTssf () {
       this.courses[0].isCompanyVisible = false //  [GUE] Fundamentals
-      this.courses[1].isCompanyVisible = true //   [TSSF] 1 yildiz dalici
-      this.courses[2].isCompanyVisible = true //   [TSSF] 2 yildiz dalici
-      this.courses[3].isCompanyVisible = true //   [TSSF] 3 yildiz dalici
+      this.courses[1].isCompanyVisible = true //   [TSSF / ProTec] 1 yildiz dalici
+      this.courses[2].isCompanyVisible = true //   [TSSF / ProTec] 2 yildiz dalici
+      this.courses[3].isCompanyVisible = true //   [TSSF / ProTec] 3 yildiz dalici
       this.courses[4].isCompanyVisible = false //  [SSI] open water diver
       this.courses[5].isCompanyVisible = false //  [SSI] dive guide
       this.courses[6].isCompanyVisible = false //  [NEV] modifiye dalici
@@ -157,9 +157,9 @@ export default {
     },
     showSsi () {
       this.courses[0].isCompanyVisible = false //  [GUE] Fundamentals
-      this.courses[1].isCompanyVisible = false //  [TSSF] 1 yildiz dalici
-      this.courses[2].isCompanyVisible = false //  [TSSF] 2 yildiz dalici
-      this.courses[3].isCompanyVisible = false //  [TSSF] 3 yildiz dalici
+      this.courses[1].isCompanyVisible = false //  [TSSF / ProTec] 1 yildiz dalici
+      this.courses[2].isCompanyVisible = false //  [TSSF / ProTec] 2 yildiz dalici
+      this.courses[3].isCompanyVisible = false //  [TSSF / ProTec] 3 yildiz dalici
       this.courses[4].isCompanyVisible = true //   [SSI] open water diver
       this.courses[5].isCompanyVisible = true //   [SSI] dive guide
       this.courses[6].isCompanyVisible = false //  [NEV] modifiye dalici
@@ -196,23 +196,23 @@ export default {
       this.courses[37].isCompanyVisible = false // [TSSF] engelli dalici 3 egitimi
       this.courses[38].isCompanyVisible = false // [TSSF] engelli dalici egitmen asistani
       this.courses[39].isCompanyVisible = true //  [SSI] Scuba Ranger
-      this.courses[40].isCompanyVisible = true // [SSI] Try Scuba
-      this.courses[41].isCompanyVisible = true // [SSI] Scuba Skills Update
-      this.courses[42].isCompanyVisible = true // [SSI] Advanced Adventurer
+      this.courses[40].isCompanyVisible = true //  [SSI] Try Scuba
+      this.courses[41].isCompanyVisible = true //  [SSI] Scuba Skills Update
+      this.courses[42].isCompanyVisible = true //  [SSI] Advanced Adventurer
       this.isActiveTab = 'ssi'
       this.isActiveFilter = 'allCourses'
     },
     showProTec () {
       this.courses[0].isCompanyVisible = false //  [GUE] Fundamentals
-      this.courses[1].isCompanyVisible = true //   [TSSF] 1 yildiz dalici
-      this.courses[2].isCompanyVisible = true //   [TSSF] 2 yildiz dalici
-      this.courses[3].isCompanyVisible = true //   [TSSF] 3 yildiz dalici
+      this.courses[1].isCompanyVisible = false //  [TSSF / ProTec] 1 yildiz dalici <------
+      this.courses[2].isCompanyVisible = false //  [TSSF / ProTec] 2 yildiz dalici <------
+      this.courses[3].isCompanyVisible = false //  [TSSF / ProTec] 3 yildiz dalici <------
       this.courses[4].isCompanyVisible = false //  [SSI] open water diver
       this.courses[5].isCompanyVisible = false //  [SSI] dive guide
       this.courses[6].isCompanyVisible = false //  [NEV] modifiye dalici
       this.courses[7].isCompanyVisible = false //  [TSSF] akinti-dalisi-uzmanligi
       this.courses[8].isCompanyVisible = false //  [TSSF] arama-ve-kurtarma-uzmanligi
-      this.courses[9].isCompanyVisible = true //   [TSSF / ProTec] batik-dalisi-uzmanligi
+      this.courses[9].isCompanyVisible = false //  [TSSF / ProTec] batik-dalisi-uzmanligi <------
       this.courses[10].isCompanyVisible = true //  [ProTec] buz-dalisi-uzmanligi
       this.courses[11].isCompanyVisible = false // [TSSF] derin-dalis-uzmanligi
       this.courses[12].isCompanyVisible = true //  [ProTec] dpv-uzmanligi
@@ -224,7 +224,7 @@ export default {
       this.courses[18].isCompanyVisible = true //  [ProTec] magara-kesif-dalisi-uzmanligi
       this.courses[19].isCompanyVisible = false // [TSSF] malzeme-bakimi-uzmanligi
       this.courses[20].isCompanyVisible = false // [SSI] marine-ecology
-      this.courses[21].isCompanyVisible = true //  [TSSF / ProTec] nitrox-uzmanligi
+      this.courses[21].isCompanyVisible = false // [TSSF / ProTec] nitrox-uzmanligi <------
       this.courses[22].isCompanyVisible = false // [TSSF] oksijen-kullanimi-uzmanligi
       this.courses[23].isCompanyVisible = true //  [ProTec] sidemount-uzmanligi
       this.courses[24].isCompanyVisible = false // [SSI] Stress & Rescue
@@ -237,8 +237,8 @@ export default {
       this.courses[31].isCompanyVisible = false // [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = false // [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = false // [SSI] Snorkel Diver
-      this.courses[34].isCompanyVisible = true //  [ProTec] serbest dalis egitimi
-      this.courses[35].isCompanyVisible = true //  [TSSF / ProTec] engelli dalici 1 egitimi
+      this.courses[34].isCompanyVisible = false // [ProTec] serbest dalis egitimi <------
+      this.courses[35].isCompanyVisible = false // [TSSF / ProTec] engelli dalici 1 egitimi <------
       this.courses[36].isCompanyVisible = false // [TSSF] engelli dalici 2 egitimi
       this.courses[37].isCompanyVisible = false // [TSSF] engelli dalici 3 egitimi
       this.courses[38].isCompanyVisible = false // [TSSF] engelli dalici egitmen asistani
@@ -252,9 +252,9 @@ export default {
     showBeginner () {
       this.showAllCompanies()
       this.courses[0].isCompanyVisible = false //  [GUE] Fundamentals
-      this.courses[1].isCompanyVisible = true //   [TSSF] 1 yildiz dalici
-      this.courses[2].isCompanyVisible = false //  [TSSF] 2 yildiz dalici
-      this.courses[3].isCompanyVisible = false //  [TSSF] 3 yildiz dalici
+      this.courses[1].isCompanyVisible = true //   [TSSF / ProTec] 1 yildiz dalici
+      this.courses[2].isCompanyVisible = false //  [TSSF / ProTec] 2 yildiz dalici
+      this.courses[3].isCompanyVisible = false //  [TSSF / ProTec] 3 yildiz dalici
       this.courses[4].isCompanyVisible = true //   [SSI] open water diver
       this.courses[5].isCompanyVisible = false //  [SSI] dive guide
       this.courses[6].isCompanyVisible = false //  [NEV] modifiye dalici
@@ -299,9 +299,9 @@ export default {
     showAdvanced () {
       this.showAllCompanies()
       this.courses[0].isCompanyVisible = true //   [GUE] Fundamentals
-      this.courses[1].isCompanyVisible = false //  [TSSF] 1 yildiz dalici
-      this.courses[2].isCompanyVisible = true //   [TSSF] 2 yildiz dalici
-      this.courses[3].isCompanyVisible = true //   [TSSF] 3 yildiz dalici
+      this.courses[1].isCompanyVisible = false //  [TSSF / ProTec] 1 yildiz dalici
+      this.courses[2].isCompanyVisible = true //   [TSSF / ProTec] 2 yildiz dalici
+      this.courses[3].isCompanyVisible = true //   [TSSF / ProTec] 3 yildiz dalici
       this.courses[4].isCompanyVisible = false //  [SSI] open water diver
       this.courses[5].isCompanyVisible = true //   [SSI] dive guide
       this.courses[6].isCompanyVisible = false //  [NEV] modifiye dalici
@@ -346,9 +346,9 @@ export default {
     showSpecialty () {
       this.showAllCompanies()
       this.courses[0].isCompanyVisible = false //  [GUE] Fundamentals
-      this.courses[1].isCompanyVisible = false //  [TSSF] 1 yildiz dalici
-      this.courses[2].isCompanyVisible = false //  [TSSF] 2 yildiz dalici
-      this.courses[3].isCompanyVisible = false //  [TSSF] 3 yildiz dalici
+      this.courses[1].isCompanyVisible = false //  [TSSF / ProTec] 1 yildiz dalici
+      this.courses[2].isCompanyVisible = false //  [TSSF / ProTec] 2 yildiz dalici
+      this.courses[3].isCompanyVisible = false //  [TSSF / ProTec] 3 yildiz dalici
       this.courses[4].isCompanyVisible = false //  [SSI] open water diver
       this.courses[5].isCompanyVisible = false //  [SSI] dive guide
       this.courses[6].isCompanyVisible = false //  [NEV] modifiye dalici
@@ -393,9 +393,9 @@ export default {
     showDisabled () {
       this.showAllCompanies()
       this.courses[0].isCompanyVisible = false //  [GUE] Fundamentals
-      this.courses[1].isCompanyVisible = false //  [TSSF] 1 yildiz dalici
-      this.courses[2].isCompanyVisible = false //  [TSSF] 2 yildiz dalici
-      this.courses[3].isCompanyVisible = false //  [TSSF] 3 yildiz dalici
+      this.courses[1].isCompanyVisible = false //  [TSSF / ProTec] 1 yildiz dalici
+      this.courses[2].isCompanyVisible = false //  [TSSF / ProTec] 2 yildiz dalici
+      this.courses[3].isCompanyVisible = false //  [TSSF / ProTec] 3 yildiz dalici
       this.courses[4].isCompanyVisible = false //  [SSI] open water diver
       this.courses[5].isCompanyVisible = false //  [SSI] dive guide
       this.courses[6].isCompanyVisible = false //  [NEV] modifiye dalici
@@ -440,9 +440,9 @@ export default {
     showFree () {
       this.showAllCompanies()
       this.courses[0].isCompanyVisible = false //  [GUE] Fundamentals
-      this.courses[1].isCompanyVisible = false //  [TSSF] 1 yildiz dalici
-      this.courses[2].isCompanyVisible = false //  [TSSF] 2 yildiz dalici
-      this.courses[3].isCompanyVisible = false //  [TSSF] 3 yildiz dalici
+      this.courses[1].isCompanyVisible = false //  [TSSF / ProTec] 1 yildiz dalici
+      this.courses[2].isCompanyVisible = false //  [TSSF / ProTec] 2 yildiz dalici
+      this.courses[3].isCompanyVisible = false //  [TSSF / ProTec] 3 yildiz dalici
       this.courses[4].isCompanyVisible = false //  [SSI] open water diver
       this.courses[5].isCompanyVisible = false //  [SSI] dive guide
       this.courses[6].isCompanyVisible = false //  [NEV] modifiye dalici
@@ -487,9 +487,9 @@ export default {
     showSpecialProgram () {
       this.showAllCompanies()
       this.courses[0].isCompanyVisible = false //  [GUE] Fundamentals
-      this.courses[1].isCompanyVisible = false //  [TSSF] 1 yildiz dalici
-      this.courses[2].isCompanyVisible = false //  [TSSF] 2 yildiz dalici
-      this.courses[3].isCompanyVisible = false //  [TSSF] 3 yildiz dalici
+      this.courses[1].isCompanyVisible = false //  [TSSF / ProTec] 1 yildiz dalici
+      this.courses[2].isCompanyVisible = false //  [TSSF / ProTec] 2 yildiz dalici
+      this.courses[3].isCompanyVisible = false //  [TSSF / ProTec] 3 yildiz dalici
       this.courses[4].isCompanyVisible = false //  [SSI] open water diver
       this.courses[5].isCompanyVisible = false //  [SSI] dive guide
       this.courses[6].isCompanyVisible = true //   [NEV] modifiye dalici
@@ -534,9 +534,9 @@ export default {
     showAllCourses () {
       this.showAllCompanies()
       this.courses[0].isCompanyVisible = true //  [GUE] Fundamentals
-      this.courses[1].isCompanyVisible = true //  [TSSF] 1 yildiz dalici
-      this.courses[2].isCompanyVisible = true //  [TSSF] 2 yildiz dalici
-      this.courses[3].isCompanyVisible = true //  [TSSF] 3 yildiz dalici
+      this.courses[1].isCompanyVisible = true //  [TSSF / ProTec] 1 yildiz dalici
+      this.courses[2].isCompanyVisible = true //  [TSSF / ProTec] 2 yildiz dalici
+      this.courses[3].isCompanyVisible = true //  [TSSF / ProTec] 3 yildiz dalici
       this.courses[4].isCompanyVisible = true //  [SSI] open water diver
       this.courses[5].isCompanyVisible = true //  [SSI] dive guide
       this.courses[6].isCompanyVisible = true //  [NEV] modifiye dalici

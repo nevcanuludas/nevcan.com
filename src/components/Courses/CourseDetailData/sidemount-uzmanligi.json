@@ -1,4 +1,5 @@
 {
+  "system": "protec",
   "title": "Sidemount Uzmanlığı",
   "price": 200,
   "paymentLink": "http://www.sopsy.com/d/sD6rI8",
@@ -6,8 +7,6 @@
   "images": [
     { "src": "/static/img/courses-temp/protec-org-sidemount.jpeg", "alt": "ProTec Sidemount Dalışı Uzmanlığı Sertifikası" }
   ],
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "Ayrı tüplerde gaz yönetimi",
     "Ekipman konfigürasyonu",

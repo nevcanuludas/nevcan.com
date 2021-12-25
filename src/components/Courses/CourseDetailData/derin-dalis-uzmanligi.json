@@ -1,10 +1,9 @@
 {
+  "system": "tssf",
   "title": "Derin Dalış Uzmanlığı",
   "price": 100,
   "paymentLink": "http://www.sopsy.com/d/80rESa",
   "scope": "Kursun amacı 40m'ye kadar güvenle dalışları gerçekleştirebilmektir. Kurslar TSSF standartlarına uygun olarak verilmektedir. Kurs sonunda başarılı olanlar TSSF Derin Dalış Uzmanı belgesini almaya hak kazanırlar.",
-  "hasPadiClasses": false,
-  "hasSsiClasses": false,
   "subjects": [
     "Giriş",
     "Bölüm 1: Derin Dalış Yapmanın Amaçları",
