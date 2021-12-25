@@ -31,7 +31,7 @@ import SualtiKulturMirasininKorunmasi from './CourseDetailData/sualti-kultur-mir
 import SualtiVideocusu from './CourseDetailData/sualti-videocusu-uzmanligi.json'
 import TanitimDalisi from './CourseDetailData/tanitim-dalisi-uzmanligi.json'
 import TupDoldurma from './CourseDetailData/tup-doldurma-uzmanligi.json'
-import UstDuzeyYuzerlilik from './CourseDetailData/ust-duzey-yuzerlilik-uzmanligi.json'
+import PerfectBuoyancy from './CourseDetailData/perfect-buoyancy.json'
 import YonBulma from './CourseDetailData/yon-bulma-uzmanligi.json'
 import ZeroToHero from './CourseDetailData/zero-to-hero-egitimi.json'
 import SnorkelDiver from './CourseDetailData/snorkel-diver.json'
@@ -100,7 +100,7 @@ export default {
         'sualti-videocusu-uzmanligi': 27,
         'tanitim-dalisi-uzmanligi': 28,
         'tup-doldurma-uzmanligi': 29,
-        'ust-duzey-yuzerlilik-uzmanligi': 30,
+        'perfect-buoyancy': 30,
         'yon-bulma-uzmanligi': 31,
         'zero-to-hero-egitimi': 32,
         'snorkel-diver': 33,
@@ -146,7 +146,7 @@ export default {
         SualtiVideocusu,
         TanitimDalisi,
         TupDoldurma,
-        UstDuzeyYuzerlilik,
+        PerfectBuoyancy,
         YonBulma,
         ZeroToHero,
         SnorkelDiver,

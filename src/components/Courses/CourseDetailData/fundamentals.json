@@ -9,12 +9,12 @@
     { "src": "/static/img/certificates/gue/fund-tech-back.png", "alt": "GUE Fundamentals Sertifikası" }
   ],
   "subjects": [
-    "M1 Introduction and Overview",
-    "M2 Building a Solid Foundation",
-    "M3 Gas Planning & Gas Management",
-    "M4 Breathing Gas Dynamics - Nitrox Appendix",
-    "M5 Decompression",
-    "M6 Diving Safety & the GUE System"
+    "Module 1: Introduction and Overview",
+    "Module 2: Building a Solid Foundation",
+    "Module 3: Gas Planning & Gas Management",
+    "Module 4: Breathing Gas Dynamics - Nitrox Appendix",
+    "Module 5: Decompression",
+    "Module 6: Diving Safety & the GUE System"
   ],
   "prerequisites": [
     "Kurs Kayıt Formu, Tıbbi Geçmiş Formu ve Sorumluluk İbra Formunu doldurularak GUE Genel Merkezine göndermek,",
@@ -23,7 +23,8 @@
     "Sigara içmemek,",
     "Doğum kontrolü dışındaki reçeteli ilaçların kullanımı veya dalış sırasında risk oluşturabilecek herhangi bir tıbbi durum için önceden bir hekimin yazılı iznini almak,",
     "16 yaşını doldurmuş olmak (katılımcının reşit olmadığı durumda, belgelenmiş ebeveyn veya yasal vasi onayı GUE Genel Merkezine sunulmalıdır),",
-    "Tanınmış bir eğitim kurumundan sertifikalı otonom (dalış eşi ile bağımsız dalış yapabilen) tüplü dalıcı olmak."
+    "Tanınmış bir eğitim kurumundan sertifikalı otonom (dalış eşi ile bağımsız dalış yapabilen) tüplü dalıcı olmak,",
+    "Palet ve şnorkel kullanmadan ve hiç durmadan 14 dakikada 275m yüzebilmek."
   ],
   "includes": [
     "30 saatlik teorik & kara eğitimi",

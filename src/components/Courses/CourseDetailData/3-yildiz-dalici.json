@@ -9,14 +9,14 @@
     { "src": "/static/img/courses-temp/tssf-back-3.png", "alt": "TSSF/CMAS 3* Dalıcı Sertifikası" }
   ],
   "subjects": [
-    "3T1 Küçük Tekne Kullanımı",
-    "3T2 Navigasyon",
-    "3T3 Sualtı Arama Kurtarma",
-    "3T4 Kompresör Kullanımı",
-    "3T5 Problem Yönetimi",
-    "3T6 Grup Dalış Organizasyonu",
-    "3T7 Fizik, Fizyoloji Genel Tekrarı",
-    "3T8 Dalış Malzemeleri Genel Tekrarı"
+    "3T1: Küçük Tekne Kullanımı",
+    "3T2: Navigasyon",
+    "3T3: Sualtı Arama Kurtarma",
+    "3T4: Kompresör Kullanımı",
+    "3T5: Problem Yönetimi",
+    "3T6: Grup Dalış Organizasyonu",
+    "3T7: Fizik, Fizyoloji Genel Tekrarı",
+    "3T8: Dalış Malzemeleri Genel Tekrarı"
   ],
   "prerequisites": [
     "TSSF/CMAS 2** Dalıcı ya da dengi belgeye sahip olmak,",

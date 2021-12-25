@@ -9,19 +9,19 @@
     { "src": "/static/img/courses-temp/tssf-back-1.png", "alt": "TSSF/CMAS 1* Dalıcı Sertifikası" }
   ],
   "subjects": [
-    "1T1 İdari Ders",
-    "1T2 Temel Donanım",
-    "1T3 Temel Dalış İşaretleri",
-    "1T4 Basınç Hacim İlişkileri",
-    "1T5 Bağımsız Aletli Dalış Donanımı",
-    "1T6 Fizik Fizyoloji",
-    "1T7 Yüzerlilik Ekipmanları",
-    "1T8 Dalış Elbiseleri ve Yardımcı Malzemeler",
-    "1T9 Malzemelerin Bakımı ve Saklanması",
-    "1T10 Kendini ve Başkasını Kurtarma",
-    "1T11 Güvenli Dalış Kuralları",
-    "1T12 Dalış Bölgesi Seçimi ve Koruma",
-    "1T-EK1 Dekompresyon Tabloları"
+    "1T1: İdari Ders",
+    "1T2: Temel Donanım",
+    "1T3: Temel Dalış İşaretleri",
+    "1T4: Basınç Hacim İlişkileri",
+    "1T5: Bağımsız Aletli Dalış Donanımı",
+    "1T6: Fizik Fizyoloji",
+    "1T7: Yüzerlilik Ekipmanları",
+    "1T8: Dalış Elbiseleri ve Yardımcı Malzemeler",
+    "1T9: Malzemelerin Bakımı ve Saklanması",
+    "1T10: Kendini ve Başkasını Kurtarma",
+    "1T11: Güvenli Dalış Kuralları",
+    "1T12: Dalış Bölgesi Seçimi ve Koruma",
+    "1T-EK1: Dekompresyon Tabloları"
   ],
   "prerequisites": [
     "14 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",

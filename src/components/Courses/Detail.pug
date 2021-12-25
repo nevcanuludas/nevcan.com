@@ -37,8 +37,9 @@ section#courseDetails
 
     div(v-else-if='coursePrice >= 0') 
       p Kurs ücreti {{ coursePrice }}€'dur.
-      p Online ödeme yapmak için: 
-        a(:href='coursePaymentLink' target=';blank') {{ coursePaymentLink }}
+      template(v-if="coursePaymentLink")
+        p Online ödeme yapmak için: 
+          a(:href='coursePaymentLink' target=';blank') {{ coursePaymentLink }}
 
     p(v-else) Kurs ücreti belirtilmemiştir. Teklif almak için lütfen iletişime geçin.
     //- #COURSE PRICE

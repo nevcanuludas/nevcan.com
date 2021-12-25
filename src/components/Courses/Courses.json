@@ -330,12 +330,12 @@
     "isCompanyVisible": true
   },
   {
-    "id": "ust-duzey-yuzerlilik-uzmanligi",
+    "id": "perfect-buoyancy",
     "imageUrl": "perfect-buoyancy",
-    "name": "Üst Düzey Yüzerlilik",
+    "name": "Perfect Buoyancy",
     "isVisible": true,
     "isGue": false,
-    "isTssf": true,
+    "isTssf": false,
     "isSsi": true,
     "isProtec": false,
     "isCompanyVisible": true

@@ -45,7 +45,7 @@ export default {
       this.courses[27].isCompanyVisible = true // [TSSF] sualti-videocusu-uzmanligi
       this.courses[28].isCompanyVisible = true // [TSSF] tanitim-dalisi-uzmanligi
       this.courses[29].isCompanyVisible = true // [TSSF] tup-doldurma-uzmanligi
-      this.courses[30].isCompanyVisible = true // [TSSF / SSI] ust-duzey-yuzerlilik-uzmanligi
+      this.courses[30].isCompanyVisible = true // [SSI] perfect-buoyancy
       this.courses[31].isCompanyVisible = true // [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = true // [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = true // [SSI] Snorkel Diver
@@ -92,7 +92,7 @@ export default {
       this.courses[27].isCompanyVisible = false // [TSSF] sualti-videocusu-uzmanligi
       this.courses[28].isCompanyVisible = false // [TSSF] tanitim-dalisi-uzmanligi
       this.courses[29].isCompanyVisible = false // [TSSF] tup-doldurma-uzmanligi
-      this.courses[30].isCompanyVisible = false // [TSSF / SSI] ust-duzey-yuzerlilik-uzmanligi
+      this.courses[30].isCompanyVisible = false // [SSI] perfect-buoyancy
       this.courses[31].isCompanyVisible = false // [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = false // [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = false // [SSI] Snorkel Diver
@@ -139,7 +139,7 @@ export default {
       this.courses[27].isCompanyVisible = true //  [TSSF] sualti-videocusu-uzmanligi
       this.courses[28].isCompanyVisible = true //  [TSSF] tanitim-dalisi-uzmanligi
       this.courses[29].isCompanyVisible = true //  [TSSF] tup-doldurma-uzmanligi
-      this.courses[30].isCompanyVisible = true //  [TSSF / SSI] ust-duzey-yuzerlilik-uzmanligi
+      this.courses[30].isCompanyVisible = false // [SSI] perfect-buoyancy
       this.courses[31].isCompanyVisible = true //  [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = false // [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = false // [SSI] Snorkel Diver
@@ -186,7 +186,7 @@ export default {
       this.courses[27].isCompanyVisible = false // [TSSF] sualti-videocusu-uzmanligi
       this.courses[28].isCompanyVisible = false // [TSSF] tanitim-dalisi-uzmanligi
       this.courses[29].isCompanyVisible = false // [TSSF] tup-doldurma-uzmanligi
-      this.courses[30].isCompanyVisible = true //  [TSSF / SSI] ust-duzey-yuzerlilik-uzmanligi
+      this.courses[30].isCompanyVisible = true //  [SSI] perfect-buoyancy
       this.courses[31].isCompanyVisible = false // [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = false // [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = true //  [SSI] Snorkel Diver
@@ -233,7 +233,7 @@ export default {
       this.courses[27].isCompanyVisible = false // [TSSF] sualti-videocusu-uzmanligi
       this.courses[28].isCompanyVisible = false // [TSSF] tanitim-dalisi-uzmanligi
       this.courses[29].isCompanyVisible = false // [TSSF] tup-doldurma-uzmanligi
-      this.courses[30].isCompanyVisible = false // [TSSF / SSI] ust-duzey-yuzerlilik-uzmanligi
+      this.courses[30].isCompanyVisible = false // [SSI] perfect-buoyancy
       this.courses[31].isCompanyVisible = false // [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = false // [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = false // [SSI] Snorkel Diver
@@ -281,7 +281,7 @@ export default {
       this.courses[27].isCompanyVisible = false // [TSSF] sualti-videocusu-uzmanligi
       this.courses[28].isCompanyVisible = false // [TSSF] tanitim-dalisi-uzmanligi
       this.courses[29].isCompanyVisible = false // [TSSF] tup-doldurma-uzmanligi
-      this.courses[30].isCompanyVisible = false // [TSSF / SSI] ust-duzey-yuzerlilik-uzmanligi
+      this.courses[30].isCompanyVisible = false // [SSI] perfect-buoyancy
       this.courses[31].isCompanyVisible = false // [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = false // [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = false // [SSI] Snorkel Diver
@@ -328,7 +328,7 @@ export default {
       this.courses[27].isCompanyVisible = false // [TSSF] sualti-videocusu-uzmanligi
       this.courses[28].isCompanyVisible = true //  [TSSF] tanitim-dalisi-uzmanligi
       this.courses[29].isCompanyVisible = false // [TSSF] tup-doldurma-uzmanligi
-      this.courses[30].isCompanyVisible = false // [TSSF / SSI] ust-duzey-yuzerlilik-uzmanligi
+      this.courses[30].isCompanyVisible = false // [SSI] perfect-buoyancy
       this.courses[31].isCompanyVisible = false // [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = false // [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = false // [SSI] Snorkel Diver
@@ -375,7 +375,7 @@ export default {
       this.courses[27].isCompanyVisible = true //  [TSSF] sualti-videocusu-uzmanligi
       this.courses[28].isCompanyVisible = true //  [TSSF] tanitim-dalisi-uzmanligi
       this.courses[29].isCompanyVisible = true //  [TSSF] tup-doldurma-uzmanligi
-      this.courses[30].isCompanyVisible = true //  [TSSF / SSI] ust-duzey-yuzerlilik-uzmanligi
+      this.courses[30].isCompanyVisible = true //  [SSI] perfect-buoyancy
       this.courses[31].isCompanyVisible = true //  [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = false // [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = false // [SSI] Snorkel Diver
@@ -422,7 +422,7 @@ export default {
       this.courses[27].isCompanyVisible = false // [TSSF] sualti-videocusu-uzmanligi
       this.courses[28].isCompanyVisible = false // [TSSF] tanitim-dalisi-uzmanligi
       this.courses[29].isCompanyVisible = false // [TSSF] tup-doldurma-uzmanligi
-      this.courses[30].isCompanyVisible = false // [TSSF / SSI] ust-duzey-yuzerlilik-uzmanligi
+      this.courses[30].isCompanyVisible = false // [SSI] perfect-buoyancy
       this.courses[31].isCompanyVisible = false // [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = false // [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = false // [SSI] Snorkel Diver
@@ -469,7 +469,7 @@ export default {
       this.courses[27].isCompanyVisible = false // [TSSF] sualti-videocusu-uzmanligi
       this.courses[28].isCompanyVisible = false // [TSSF] tanitim-dalisi-uzmanligi
       this.courses[29].isCompanyVisible = false // [TSSF] tup-doldurma-uzmanligi
-      this.courses[30].isCompanyVisible = false // [TSSF / SSI] ust-duzey-yuzerlilik-uzmanligi
+      this.courses[30].isCompanyVisible = false // [SSI] perfect-buoyancy
       this.courses[31].isCompanyVisible = false // [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = false // [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = true //  [SSI] Snorkel Diver
@@ -516,7 +516,7 @@ export default {
       this.courses[27].isCompanyVisible = false // [TSSF] sualti-videocusu-uzmanligi
       this.courses[28].isCompanyVisible = false // [TSSF] tanitim-dalisi-uzmanligi
       this.courses[29].isCompanyVisible = false // [TSSF] tup-doldurma-uzmanligi
-      this.courses[30].isCompanyVisible = false // [TSSF / SSI] ust-duzey-yuzerlilik-uzmanligi
+      this.courses[30].isCompanyVisible = false // [SSI] perfect-buoyancy
       this.courses[31].isCompanyVisible = false // [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = true //  [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = false // [SSI] Snorkel Diver
@@ -563,7 +563,7 @@ export default {
       this.courses[27].isCompanyVisible = true // [TSSF] sualti-videocusu-uzmanligi
       this.courses[28].isCompanyVisible = true // [TSSF] tanitim-dalisi-uzmanligi
       this.courses[29].isCompanyVisible = true // [TSSF] tup-doldurma-uzmanligi
-      this.courses[30].isCompanyVisible = true // [TSSF / SSI] ust-duzey-yuzerlilik-uzmanligi
+      this.courses[30].isCompanyVisible = true // [SSI] perfect-buoyancy
       this.courses[31].isCompanyVisible = true // [TSSF] yon-bulma-uzmanligi
       this.courses[32].isCompanyVisible = true // [NEV] zero to hero egitimi
       this.courses[33].isCompanyVisible = true // [SSI] Snorkel Diver

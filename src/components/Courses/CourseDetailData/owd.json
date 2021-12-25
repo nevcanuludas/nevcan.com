@@ -3,30 +3,40 @@
   "title": "Open Water Diver Kursu",
   "price": 350,
   "paymentLink": "",
-  "scope": "Kursun amacı, ...",
+  "scope": "Kursun amacı, dilediği yerde istediği kişi ile dalışlar yapabilen otonom dalıcılar yetiştirmektir. SSI Open Water Diver sertifikası uluslararası geçerlidir.",
   "images": [
-    { "src": "/static/img/courses-temp/tssf-front-1.png", "alt": "OWD Sertifikası" },
-    { "src": "/static/img/courses-temp/tssf-back-1.png", "alt": "OWD Sertifikası" }
+    { "src": "/static/img/courses-temp/ssi-org-owd.jpeg", "alt": "OWD Sertifikası" }
   ],
   "subjects": [
-    "M1 Introduction and Overview",
-    "M2 Building a Solid Foundation",
-    "M3 Gas Planning & Gas Management",
-    "M4 Brathing Gas Dynamics - Nitrox Appendix",
-    "M5 Decompression",
-    "M6 Diving Safety & the GUE System"
+    "Giriş",
+    "Bölüm 1: Vücudunuz ve Sualtı Dünyası",
+    "Bölüm 2: Sualında Yaşam Destek Ekipmanınızın kullanılışı",
+    "Bölüm 3: Soluma Gazı ve Vücudunuz Üzerindeki Etkileri",
+    "Bölüm 4: Dalış Eşiniz ve Dalışınızı Planlama",
+    "Bölüm 5: Okyanus ve Dalış Fırsatları",
+    "Bölüm 6: Scuba Dalış Deneyimleriniz ve Ötesi",
+    "Ekler: SSI Dalış Tabloları ile Dalış Planlama"
   ],
   "prerequisites": [
-    "14 yaşını doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",
-    "Yeterli seviyede (su üzerinde kendinizi rahat hissedecek kadar) yüzme bilmek,",
-    "Dalış yapmanıza engel herhangi bir sağlık sorununuzun olmaması"
+    "10 yaşını (Türkiye kanunlarına göre 14 yaşını) doldurmuş olmak (18 yaşını doldurmamış olanların velisinin imzalı onayı gerekmektedir),",
+    "Yüzme bilmek,",
+    "Dalış yapmanıza engel herhangi bir sağlık sorununuzun olmaması,",
+    "Palet ve şnorkel kullanmadan ve hiç durmadan 200m yüzebilmek veya palet ve şnorkel kullanarak ve hiç durmadan 300m yüzebilmek,",
+    "Herhangi bir yüzme veya yüzdürme yardımcısı olmadan on (10) dakika boyu geçen derinlikte su yüzeyinde kalabilme."
   ],
   "includes": [
-    "8 saatlik teorik eğitim",
-    "5 açık deniz dalışı",
-    "Eğitmen giderleri"
+    "Toplam 16-32 saatlik eğitim",
+    "6 teorik eğitim seansı",
+    "6 havuz/sınırlı su seansı",
+    "4 açık deniz dalışı",
+    "Dalışlarda kullanılacak tüm ekipmanlar",
+    "Eğitim materyalleri",
+    "Logbook",
+    "Sertifika ücreti",
+    "Eğitmen giderleri",
+    "Eğitim boyunca çekilen tüm sualtı fotoğrafları (talep etmeniz gerekir)"
   ],
   "notIncluded": "Ulaşım, konaklama, yeme-içme ve kişisel harcamalar kurs ücretine dahil değildir.",
-  "quota": "Teorik eğitimler bir seferde en fazla 8 katılımcı ile, pratik eğitimler ise bir seferde en fazla 4 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
+  "quota": "Teorik ve pratik eğitimler bir seferde en fazla 8 katılımcı ile yapılmaktadır. Sınıfın açılması için en az 2 katılımcı gerekmektedir.",
   "alternativeCourses": []
 }
