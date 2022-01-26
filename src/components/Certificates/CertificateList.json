@@ -2,7 +2,7 @@
   {
     "title": "Global Underwater Explorers (GUE)",
     "scope": "GUE ile ilk kez 2014 yılında tanıştım. Uzun araştırma sürecinin sonunda beklentilerimi en iyi karşılayan sistem olduğuna karar verdim. 2017 yılında ilk kez Türkiye′de bir kurs programı düzenledik ve ben de bu sayede ilk eğitimimi alma şansı yakaladım. Teknik dalış ve mağara dalışı eğitimlerimin yanı sıra Project Baseline üzerindeki projelere aktif olarak devam ediyorum. Aynı zamanda 2015 yılından beri GUE Turkey′in kurucu başkanlığını ve 2019 yılından beri GUE Avrasya temsilciliğini yapıyorum.",
-    "verification": "Belgelerimi https://www.gue.com/verifycard adresinden doğrulayabilirsiniz.",
+    "verification": "Belgelerimi 'https://www.gue.com/verifycard' adresinden doğrulayabilirsiniz.",
     "images": [
       { "src": "/static/img/certificates/gue/tech-1.png", "alt": "GUE Technical Diver 1" },
       { "src": "/static/img/certificates/gue/gas-blender.png", "alt": "GUE Gas Blender" },
@@ -19,7 +19,7 @@
   {
     "title": "Türkiye Sualtı Sporları Federasyonu (TSSF/CMAS)",
     "scope": "2008 yılında başladığım bu serüvene 2011 yılından beri TSSF'nin aktif eğitmeni olarak devam ediyorum. TSSF sportif dalış branşındaki tüm dalıcı kurslarını (1-2-3* dalıcı, 18 farklı uzman dalıcı ve 4 farklı engelli dalıcı) eğitimlerini veriyorum.",
-    "verification": "Belgelerimi https://tssf.gov.tr/dalici-cankurtaran-sorgulama/ adresinden doğrulayabilirsiniz.",
+    "verification": "Belgelerimi 'https://tssf.gov.tr/dalici-cankurtaran-sorgulama/' adresinden doğrulayabilirsiniz.",
     "imagesI": [
       { "src": "/static/img/certificates/tssf-cmas/i/2.png", "alt": "TSSF/CMAS 2* Dalış Eğitmeni" },
       { "src": "/static/img/certificates/tssf/rehber.png", "alt": "TSSF Rehber Dalıcı" },
@@ -49,7 +49,7 @@
   {
     "title": "Scuba Schools International (SSI)",
     "scope": "SSI ile serbest dalışa adım attım. Daha sonra teknik seviyedeki programlara katıldım. Aktif olarak SSI'da devam etmiyorum.",
-    "verification": "Belgelerimi https://www.divessi.com/en/join-ssi/register-free/diver-verification adresinden doğrulayabilirsiniz.",
+    "verification": "Belgelerimi 'https://www.divessi.com/en/join-ssi/register-free/diver-verification' adresinden doğrulayabilirsiniz.",
     "imagesI": [
       { "src": "/static/img/certificates/ssi/i/owi.png", "alt": "SSI Open Water Instructor" },
       { "src": "/static/img/certificates/ssi/i/snorkel.png", "alt": "SSI Snorkel Instructor" },
@@ -81,7 +81,7 @@
   {
     "title": "Technical Diving International (TDI)",
     "scope": "TDI ile 2021 yılında tanıştım. Teknik dalışta oldukça popüler bir sistem olduğu için eğitim programlarını değerlendirmek ve farklı tecrübeler edinmek için bu kursu aldım. Uzun vadede TDI ile ilerlemeyi düşünmüyorum.",
-    "verification": "Belgelerimi https://www.tdisdi.com/cert-search/ adresinden doğrulayabilirsiniz.",
+    "verification": "Belgelerimi 'https://www.tdisdi.com/cert-search/' adresinden doğrulayabilirsiniz.",
     "images": [
       { "src": "/static/img/certificates/tdi/d/advanced-trimix.png", "alt": "TDI Advanced Trimix Diver"},
       { "src": "/static/img/certificates/tdi/d/trimix.png", "alt": "TDI Trimix Diver"},
@@ -91,6 +91,7 @@
   {
     "title": "International Professional Technical & Recreational Diving (ProTec)",
     "scope": "ProTec ile 2015 yılında tanıştım. Türkiye′deki ilk eğitmenlerdenim. ProTec'i tercih etmemin nedeni, TSSF bünyesinde bulunmayan bazı uzmanlık programlarına sahip olmasıydı. Uzun vadede ProTec ile ilerlemeyi düşünmüyorum.",
+    "verification": "Belgelerimi 'https://member.protecdive.com/en-US/ProtecVerification/CardVerification' adresinden doğrulayabilirsiniz.",
     "imagesI": [
       { "src": "/static/img/certificates/protec/i/2.png", "alt": "ProTec 2* Dalış Eğitmeni" },
       { "src": "/static/img/certificates/protec/i/handicap-diver.png", "alt": "ProTec Engelli Dalıcı Uzman Dalış Eğitmeni" }
@@ -102,7 +103,11 @@
       { "src": "/static/img/certificates/protec/i/discover-cave-diving.png", "alt": "ProTec Mağara Keşif Dalışı Uzman Dalış Eğitmeni" },
       { "src": "/static/img/certificates/protec/i/uw-scooter-dpv.png", "alt": "ProTec UW Scooter / DPV Uzman Dalış Eğitmeni" },
       { "src": "/static/img/certificates/protec/i/ice-diving.png", "alt": "ProTec Buz Dalışı Uzman Dalış Eğitmeni" },
-      { "src": "/static/img/certificates/protec/i/wreck-diving.png", "alt": "ProTec Batık Dalışı Uzman Dalış Eğitmeni" }
+      { "src": "/static/img/certificates/protec/i/wreck-diving.png", "alt": "ProTec Batık Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/navigation-diving.png", "alt": "ProTec Yön Bulma Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/night-diving.png", "alt": "ProTec Gece Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/search-recovery-diving.png", "alt": "ProTec Arama ve Kurtarma Dalışı Uzman Dalış Eğitmeni" },
+      { "src": "/static/img/certificates/protec/i/rescue-diving.png", "alt": "ProTec Kurtarma Dalışı Uzman Dalış Eğitmeni" }
     ]
   },
   {
