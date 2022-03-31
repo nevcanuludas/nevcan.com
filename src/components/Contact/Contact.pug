@@ -13,19 +13,30 @@ section#contact
   .pp
     .row
 
-      .col-sm-6.col-lg-5.col-xl-4
+      .col-sm-9.col-lg-9.col-xl-6
         .contact-info
           strong Nevcan Uludaş
           br
           span(v-if='!isVisible' @dblclick='isVisible = !isVisible' v-finger:doubletap='makeVisible').show-info [İletişim bilgilerini görmek için çift tıklayın]
           span(v-else)
+            | [TUR] 
             a(href='tel:+905555435144') +90 (555) 543 5144
+            small &nbsp;(whatsapp)
             br
             a(href='mailto:nevcan@neptunsualti.com') nevcan@neptunsualti.com
+            br
+            br
+            | [UAE] 
+            a(href='tel:+971504715144') +971 (50) 471 5144
+            br
+            a(href='mailto:nevcanuludas@deepdivedubai.com') nevcanuludas@deepdivedubai.com
+            br
           br
           a(href='https://gueturkey.com/', target='_blank') www.gueturkey.com
           br
           a(href='https://neptunsualti.com/', target='_blank') www.neptunsualti.com
+          br
+          a(href='https://deepdivedubai.com/', target='_blank') www.deepdivedubai.com
           br
           a(href='https://teknikdalış.com/', target='_blank') www.teknikdalış.com
         br.hidden-sm-up
