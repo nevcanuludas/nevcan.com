@@ -12,7 +12,7 @@ export default {
       path: this.$route.params.id,
       isVisible: false,
       // EURTRY: null,
-      EURTRY: 10.28,
+      EURTRY: 18.0,
       serviceTitle: '',
       servicePrice: 'Hizmet bedeli belirtilmemiştir. Teklif almak için lütfen iletişime geçin.',
       servicePaymentLink: '',
