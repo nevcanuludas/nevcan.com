@@ -45,3 +45,49 @@ section
       .line-adv
       .label-ins Instructor
       .line-ins
+  
+  h4.section-heading
+    template(v-if= "$t('selectedLang') == 'tr'")
+      | Serbest Dalış Rekorlarım:
+
+    template(v-if= "$t('selectedLang') == 'en'")
+      | My Freediving Records:
+
+  .row.freediving-records 
+    table.table.table-responsive
+      tr 
+        th
+        th(title="Static Apnea (STA)") STA 
+        th(title="Dynamic Without Fins (DNF)") DNF 
+        th(title="Dynamic With Bifins (DYNB)") DYNB 
+        th(title="Dynamic With Fins (DYN) - Monofin") DYN 
+        th(title="Free Immersion (FIM)") FIM 
+        th(title="Constant Weight Without Fins (CNF)") CNF 
+        th(title="Constant Weight With Bifins (CWTB)") CWTB 
+        th(title="Constant Weight (CWT) - Monofin") CWT 
+        th(title="Variable Weight (VWT) - Monofin") VWT 
+        th(title="No Limit (NLT)") NLT
+      tr 
+        th NEV
+        td 4:04 
+        td 40m
+        td 60m
+        td -
+        td 15m
+        td 12m 
+        td 33m 
+        td - 
+        td - 
+        td -
+      tr 
+        th AIDA
+        td(title="World Record by Mifsud Stéphane (FR)") 11:35
+        td(title="World Record by Malina Mateusz (PL)") 250m
+        td(title="World Record by Malina Mateusz (PL)") 290m
+        td(title="World Record by Panagiotakis Giorgos (GR)") 300m
+        td(title="World Record by Molchanov Alexey (RU)") 125m
+        td(title="World Record by Trubridge William (NZ)") 102m
+        td(title="World Record by Molchanov Alexey (RU)") 115m
+        td(title="World Record by Molchanov Alexey (RU)") 130m
+        td(title="World Record by Boudhiaf Walid (CO)") 150m
+        td(title="World Record by Nitsch Herbert (AT)") 214m
